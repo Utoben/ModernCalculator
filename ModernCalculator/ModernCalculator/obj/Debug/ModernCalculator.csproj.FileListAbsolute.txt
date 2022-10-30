@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\bin\Debug\ModernCalculator.exe.config
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\bin\Debug\ModernCalculator.exe
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\bin\Debug\ModernCalculator.pdb
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.Properties.Resources.resources
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.StartForm.resources
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.exe
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.pdb
