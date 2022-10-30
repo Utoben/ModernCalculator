@@ -36,17 +36,20 @@
             this.MainCalculationButton = new System.Windows.Forms.Button();
             this.ProductPriceButton = new System.Windows.Forms.Button();
             this.TonnageButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(140, 281);
+            this.ExitButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ExitButton.Location = new System.Drawing.Point(436, 237);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(102, 32);
             this.ExitButton.TabIndex = 0;
             this.ExitButton.Text = "Выход";
-            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
@@ -55,7 +58,7 @@
             this.справкаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(371, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(564, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -67,46 +70,62 @@
             // 
             // TraseryPriceBaseButton
             // 
-            this.TraseryPriceBaseButton.Location = new System.Drawing.Point(200, 66);
+            this.TraseryPriceBaseButton.BackColor = System.Drawing.Color.Snow;
+            this.TraseryPriceBaseButton.Location = new System.Drawing.Point(198, 145);
             this.TraseryPriceBaseButton.Name = "TraseryPriceBaseButton";
-            this.TraseryPriceBaseButton.Size = new System.Drawing.Size(141, 80);
+            this.TraseryPriceBaseButton.Size = new System.Drawing.Size(175, 80);
             this.TraseryPriceBaseButton.TabIndex = 2;
             this.TraseryPriceBaseButton.Text = "База цен узоров";
-            this.TraseryPriceBaseButton.UseVisualStyleBackColor = true;
+            this.TraseryPriceBaseButton.UseVisualStyleBackColor = false;
+            this.TraseryPriceBaseButton.Click += new System.EventHandler(this.TraseryPriceBaseButton_Click);
             // 
             // MainCalculationButton
             // 
-            this.MainCalculationButton.Location = new System.Drawing.Point(24, 66);
+            this.MainCalculationButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.MainCalculationButton.Location = new System.Drawing.Point(213, 41);
             this.MainCalculationButton.Name = "MainCalculationButton";
-            this.MainCalculationButton.Size = new System.Drawing.Size(157, 80);
+            this.MainCalculationButton.Size = new System.Drawing.Size(339, 73);
             this.MainCalculationButton.TabIndex = 3;
             this.MainCalculationButton.Text = "Основная калькуляция";
-            this.MainCalculationButton.UseVisualStyleBackColor = true;
+            this.MainCalculationButton.UseVisualStyleBackColor = false;
             // 
             // ProductPriceButton
             // 
-            this.ProductPriceButton.Location = new System.Drawing.Point(24, 176);
+            this.ProductPriceButton.BackColor = System.Drawing.Color.Snow;
+            this.ProductPriceButton.Location = new System.Drawing.Point(394, 145);
             this.ProductPriceButton.Name = "ProductPriceButton";
-            this.ProductPriceButton.Size = new System.Drawing.Size(157, 78);
+            this.ProductPriceButton.Size = new System.Drawing.Size(158, 80);
             this.ProductPriceButton.TabIndex = 4;
             this.ProductPriceButton.Text = "Прайс по изделиям";
-            this.ProductPriceButton.UseVisualStyleBackColor = true;
+            this.ProductPriceButton.UseVisualStyleBackColor = false;
             // 
             // TonnageButton
             // 
-            this.TonnageButton.Location = new System.Drawing.Point(200, 176);
+            this.TonnageButton.BackColor = System.Drawing.Color.Snow;
+            this.TonnageButton.Location = new System.Drawing.Point(12, 145);
             this.TonnageButton.Name = "TonnageButton";
-            this.TonnageButton.Size = new System.Drawing.Size(141, 78);
+            this.TonnageButton.Size = new System.Drawing.Size(169, 80);
             this.TonnageButton.TabIndex = 5;
             this.TonnageButton.Text = "Тоннаж";
-            this.TonnageButton.UseVisualStyleBackColor = true;
+            this.TonnageButton.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 87);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(371, 338);
+            this.ClientSize = new System.Drawing.Size(564, 281);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TonnageButton);
             this.Controls.Add(this.ProductPriceButton);
             this.Controls.Add(this.MainCalculationButton);
@@ -121,6 +140,7 @@
             this.Text = "Modern Calculation";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,6 +155,7 @@
         private System.Windows.Forms.Button MainCalculationButton;
         private System.Windows.Forms.Button ProductPriceButton;
         private System.Windows.Forms.Button TonnageButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
