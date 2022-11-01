@@ -31,5 +31,10 @@ namespace ModernCalculator
             Form1 f = new Form1();
             f.ShowDialog();
         }
+
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Приложение предназначено для калькуляции внутри компании 'Modern'.\nРаздел будет дополняться. \n\n Команда разработки");
+        }
     }
 }
