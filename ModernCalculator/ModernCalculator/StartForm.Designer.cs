@@ -43,8 +43,8 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ExitButton.Location = new System.Drawing.Point(436, 237);
+            this.ExitButton.BackColor = System.Drawing.Color.Silver;
+            this.ExitButton.Location = new System.Drawing.Point(462, 27);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(102, 32);
             this.ExitButton.TabIndex = 0;
@@ -71,8 +71,8 @@
             // 
             // TraseryPriceBaseButton
             // 
-            this.TraseryPriceBaseButton.BackColor = System.Drawing.Color.Snow;
-            this.TraseryPriceBaseButton.Location = new System.Drawing.Point(198, 145);
+            this.TraseryPriceBaseButton.BackColor = System.Drawing.Color.DarkGray;
+            this.TraseryPriceBaseButton.Location = new System.Drawing.Point(200, 189);
             this.TraseryPriceBaseButton.Name = "TraseryPriceBaseButton";
             this.TraseryPriceBaseButton.Size = new System.Drawing.Size(175, 80);
             this.TraseryPriceBaseButton.TabIndex = 2;
@@ -82,18 +82,18 @@
             // 
             // MainCalculationButton
             // 
-            this.MainCalculationButton.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.MainCalculationButton.Location = new System.Drawing.Point(213, 41);
+            this.MainCalculationButton.BackColor = System.Drawing.Color.DarkGray;
+            this.MainCalculationButton.Location = new System.Drawing.Point(12, 129);
             this.MainCalculationButton.Name = "MainCalculationButton";
-            this.MainCalculationButton.Size = new System.Drawing.Size(339, 73);
+            this.MainCalculationButton.Size = new System.Drawing.Size(540, 54);
             this.MainCalculationButton.TabIndex = 3;
             this.MainCalculationButton.Text = "Основная калькуляция";
             this.MainCalculationButton.UseVisualStyleBackColor = false;
             // 
             // ProductPriceButton
             // 
-            this.ProductPriceButton.BackColor = System.Drawing.Color.Snow;
-            this.ProductPriceButton.Location = new System.Drawing.Point(394, 145);
+            this.ProductPriceButton.BackColor = System.Drawing.Color.DarkGray;
+            this.ProductPriceButton.Location = new System.Drawing.Point(394, 189);
             this.ProductPriceButton.Name = "ProductPriceButton";
             this.ProductPriceButton.Size = new System.Drawing.Size(158, 80);
             this.ProductPriceButton.TabIndex = 4;
@@ -102,8 +102,8 @@
             // 
             // TonnageButton
             // 
-            this.TonnageButton.BackColor = System.Drawing.Color.Snow;
-            this.TonnageButton.Location = new System.Drawing.Point(12, 145);
+            this.TonnageButton.BackColor = System.Drawing.Color.DarkGray;
+            this.TonnageButton.Location = new System.Drawing.Point(12, 189);
             this.TonnageButton.Name = "TonnageButton";
             this.TonnageButton.Size = new System.Drawing.Size(169, 80);
             this.TonnageButton.TabIndex = 5;
@@ -114,9 +114,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(191, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(194, 96);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGray;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(564, 281);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TonnageButton);

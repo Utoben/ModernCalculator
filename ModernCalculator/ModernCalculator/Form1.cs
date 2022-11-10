@@ -18,7 +18,10 @@ namespace ModernCalculator
             InitializeComponent();
         }
 
-        public int value;
+        public int metallValue;
+        public int bracesValue;
+        public int curlsValue;
+        public int weldPointsValue;
 
         private void ReturnToMainButton_Click(object sender, EventArgs e)
         {
@@ -54,27 +57,79 @@ namespace ModernCalculator
 
         private void TestCalculationButton1_Click(object sender, EventArgs e)
         {
-            if (MetrageTextBox.Text == "")// проверка на отсутствие ввода
+            if (MetrageTextBox.Text != "")// проверка на отсутствие ввода
+            {
+                //парсим все введенные тексты в числа
+
+                Int32.TryParse(MetrageTextBox.Text, out metallValue);
+                Int32.TryParse(BracesTextBox.Text, out bracesValue);
+                Int32.TryParse(CurlsTextBox.Text, out curlsValue);
+                Int32.TryParse(WeldPointsTextBox.Text, out weldPointsValue);
+
+                MetallCountLabel.Text = Convert.ToString(metallValue);// заполнение поле Количество металла
+                                                                      //MetallCountLabel.Text = MetrageTextBox.Text;
+                MetallPriceLabel.Text = MetallCountLabel.Text; //заполнение поле Цена металла TEST
+                                                               //заполнение полей сумма (количество*цена)
+                MetallSumLabel.Text = Convert.ToString(Convert.ToInt32(MetallCountLabel.Text) * Convert.ToInt32(MetallPriceLabel.Text));
+
+                /*if (BracesTextBox.Text == "")// проверка на отсутствие ввода
+                {
+                    MessageBox.Show("Заполните поле 'Оттяжки'");
+                }*/
+
+                // пропан = оттяжки
+
+                PropanLabel.Text = Convert.ToString(bracesValue);
+                PropanLabel.Text = BracesTextBox.Text;
+
+                PropanSumLabel.Text = Convert.ToString(Convert.ToInt32(PropanLabel.Text) * Convert.ToInt32(PropanPriceLabel.Text));
+
+                // электроэнергия, зп, нак.расходы = завитки
+
+                ElEnergyCountLabel.Text = Convert.ToString(curlsValue);
+                ZPCountLabel.Text = Convert.ToString(curlsValue);
+                OverheadsCountLabel.Text = Convert.ToString(curlsValue);
+
+                ElEnergySumLabel.Text = Convert.ToString(Convert.ToInt32(ElEnergyCountLabel.Text) * Convert.ToInt32(ElEnergyPriceLabel.Text));
+                ZPSumLabel.Text = Convert.ToString(Convert.ToInt32(ZPCountLabel.Text) * Convert.ToInt32(ZPPriceLabel.Text));
+                OverheadsSumLabel.Text = Convert.ToString(Convert.ToInt32(OverheadsCountLabel.Text) * Convert.ToInt32(OverheadsPriceLabel.Text));
+               
+                // проволка, углексилота = сварные точки
+
+                WireCountLabel.Text = Convert.ToString(weldPointsValue);
+                CarbonDioxideCountLabel.Text = Convert.ToString(weldPointsValue);
+
+                WireSumLabel.Text = Convert.ToString(Convert.ToInt32(WireCountLabel.Text) * Convert.ToInt32(WirePriceLabel.Text));
+                CarbonDioxideSumLabel.Text = Convert.ToString(Convert.ToInt32(CarbonDioxideCountLabel.Text) * Convert.ToInt32(CarbonDioxidePriceLabel.Text));
+                
+                // заполнение итогового поля
+                TotalSumLabel.Text = Convert.ToString(Convert.ToInt32(MetallSumLabel.Text) + Convert.ToInt32(PropanSumLabel.Text) + Convert.ToInt32(ElEnergySumLabel.Text) + Convert.ToInt32(ZPSumLabel.Text) + Convert.ToInt32(WireSumLabel.Text) + Convert.ToInt32(CarbonDioxideSumLabel.Text) + Convert.ToInt32(OverheadsSumLabel.Text));
+
+                //CostPriceLabel - итог, себестоимость = сумма всего
+                CostPriceLabel.Text = TotalSumLabel.Text;
+
+                // рассчет процентов
+                PercentOut();
+            }
+            else
             {
                 MessageBox.Show("Заполните поле 'Метраж'");
             }
-            Int32.TryParse(MetrageTextBox.Text, out value);
+        }
 
-            MetallCountLabel.Text = Convert.ToString(value);// заполнение поле Количество металла
-            MetallPriceLabel.Text = MetallCountLabel.Text; //заполнение поле Цена металла
-            //заполнение полей сумма (количество*цена)
-            MetallSumLabel.Text = Convert.ToString(Convert.ToInt32(MetallCountLabel.Text) * Convert.ToInt32(MetallPriceLabel.Text));
+        private void BracesTextBox_TextChanged(object sender, EventArgs e)
+        {
 
+        }
 
-            // заполнение итогового поля
-            TotalSumLabel.Text = Convert.ToString(Convert.ToInt32(MetallSumLabel.Text) + Convert.ToInt32(PropanSumLabel.Text) + Convert.ToInt32(ElEnergySumLabel.Text) + Convert.ToInt32(ZPSumLabel.Text) + Convert.ToInt32(WireSumLabel.Text) + Convert.ToInt32(CarbonDioxideSumLabel.Text) + Convert.ToInt32(OverheadsSumLabel.Text));
+        private void PercentOut()
+        {
             //рассчет процентов справа
-            SevenPercentOutLabel.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text)+ (Convert.ToInt32(TotalSumLabel.Text)*7/100));
+            SevenPercentOutLabel.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text) + (Convert.ToInt32(TotalSumLabel.Text) * 7 / 100));
             TenPercentOutLabell63.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text) + (Convert.ToInt32(TotalSumLabel.Text) * 10 / 100));
             FifteenPercentOutLabel.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text) + (Convert.ToInt32(TotalSumLabel.Text) * 15 / 100));
             TwentyPercentOutLabel.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text) + (Convert.ToInt32(TotalSumLabel.Text) * 20 / 100));
             TwentyfivePercentOutLabel.Text = Convert.ToString(Convert.ToInt32(TotalSumLabel.Text) + (Convert.ToInt32(TotalSumLabel.Text) * 25 / 100));
-            
         }
     }
 }

@@ -46,7 +46,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.CostPriceLabel = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -68,19 +68,19 @@
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.ZPCountLabel = new System.Windows.Forms.Label();
+            this.ElEnergyCountLabel = new System.Windows.Forms.Label();
+            this.PropanLabel = new System.Windows.Forms.Label();
             this.MetallCountLabel = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
+            this.OverheadsCountLabel = new System.Windows.Forms.Label();
+            this.CarbonDioxideCountLabel = new System.Windows.Forms.Label();
+            this.WireCountLabel = new System.Windows.Forms.Label();
+            this.OverheadsPriceLabel = new System.Windows.Forms.Label();
+            this.CarbonDioxidePriceLabel = new System.Windows.Forms.Label();
+            this.WirePriceLabel = new System.Windows.Forms.Label();
+            this.ZPPriceLabel = new System.Windows.Forms.Label();
+            this.ElEnergyPriceLabel = new System.Windows.Forms.Label();
+            this.PropanPriceLabel = new System.Windows.Forms.Label();
             this.MetallPriceLabel = new System.Windows.Forms.Label();
             this.OverheadsSumLabel = new System.Windows.Forms.Label();
             this.CarbonDioxideSumLabel = new System.Windows.Forms.Label();
@@ -111,7 +111,7 @@
             // 
             // ReturnToMainButton
             // 
-            this.ReturnToMainButton.BackColor = System.Drawing.SystemColors.Control;
+            this.ReturnToMainButton.BackColor = System.Drawing.Color.DarkGray;
             this.ReturnToMainButton.Location = new System.Drawing.Point(582, 124);
             this.ReturnToMainButton.Name = "ReturnToMainButton";
             this.ReturnToMainButton.Size = new System.Drawing.Size(135, 32);
@@ -294,17 +294,17 @@
             this.label12.Text = "Сварные точки";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // CostPriceLabel
             // 
-            this.label17.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.Location = new System.Drawing.Point(369, 92);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(90, 88);
-            this.label17.TabIndex = 20;
-            this.label17.Text = "0";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CostPriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CostPriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CostPriceLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CostPriceLabel.Location = new System.Drawing.Point(369, 92);
+            this.CostPriceLabel.Name = "CostPriceLabel";
+            this.CostPriceLabel.Size = new System.Drawing.Size(90, 88);
+            this.CostPriceLabel.TabIndex = 20;
+            this.CostPriceLabel.Text = "0";
+            this.CostPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label18
             // 
@@ -537,38 +537,38 @@
             this.label16.Text = "0";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label38
+            // ZPCountLabel
             // 
-            this.label38.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Location = new System.Drawing.Point(292, 309);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(80, 22);
-            this.label38.TabIndex = 44;
-            this.label38.Text = "0";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ZPCountLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ZPCountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ZPCountLabel.Location = new System.Drawing.Point(292, 309);
+            this.ZPCountLabel.Name = "ZPCountLabel";
+            this.ZPCountLabel.Size = new System.Drawing.Size(80, 22);
+            this.ZPCountLabel.TabIndex = 44;
+            this.ZPCountLabel.Text = "0";
+            this.ZPCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label39
+            // ElEnergyCountLabel
             // 
-            this.label39.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label39.Location = new System.Drawing.Point(292, 287);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(80, 22);
-            this.label39.TabIndex = 43;
-            this.label39.Text = "0";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ElEnergyCountLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ElEnergyCountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ElEnergyCountLabel.Location = new System.Drawing.Point(292, 287);
+            this.ElEnergyCountLabel.Name = "ElEnergyCountLabel";
+            this.ElEnergyCountLabel.Size = new System.Drawing.Size(80, 22);
+            this.ElEnergyCountLabel.TabIndex = 43;
+            this.ElEnergyCountLabel.Text = "0";
+            this.ElEnergyCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label40
+            // PropanLabel
             // 
-            this.label40.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label40.Location = new System.Drawing.Point(292, 265);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(80, 22);
-            this.label40.TabIndex = 42;
-            this.label40.Text = "0";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PropanLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.PropanLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PropanLabel.Location = new System.Drawing.Point(292, 265);
+            this.PropanLabel.Name = "PropanLabel";
+            this.PropanLabel.Size = new System.Drawing.Size(80, 22);
+            this.PropanLabel.TabIndex = 42;
+            this.PropanLabel.Text = "0";
+            this.PropanLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MetallCountLabel
             // 
@@ -582,104 +582,104 @@
             this.MetallCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.MetallCountLabel.Click += new System.EventHandler(this.MetallCountLabel_Click);
             // 
-            // label42
+            // OverheadsCountLabel
             // 
-            this.label42.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label42.Location = new System.Drawing.Point(292, 375);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(80, 22);
-            this.label42.TabIndex = 47;
-            this.label42.Text = "0";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OverheadsCountLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.OverheadsCountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.OverheadsCountLabel.Location = new System.Drawing.Point(292, 375);
+            this.OverheadsCountLabel.Name = "OverheadsCountLabel";
+            this.OverheadsCountLabel.Size = new System.Drawing.Size(80, 22);
+            this.OverheadsCountLabel.TabIndex = 47;
+            this.OverheadsCountLabel.Text = "0";
+            this.OverheadsCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label43
+            // CarbonDioxideCountLabel
             // 
-            this.label43.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label43.Location = new System.Drawing.Point(292, 353);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(80, 22);
-            this.label43.TabIndex = 46;
-            this.label43.Text = "0";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CarbonDioxideCountLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CarbonDioxideCountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CarbonDioxideCountLabel.Location = new System.Drawing.Point(292, 353);
+            this.CarbonDioxideCountLabel.Name = "CarbonDioxideCountLabel";
+            this.CarbonDioxideCountLabel.Size = new System.Drawing.Size(80, 22);
+            this.CarbonDioxideCountLabel.TabIndex = 46;
+            this.CarbonDioxideCountLabel.Text = "0";
+            this.CarbonDioxideCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label44
+            // WireCountLabel
             // 
-            this.label44.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label44.Location = new System.Drawing.Point(292, 331);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(80, 22);
-            this.label44.TabIndex = 45;
-            this.label44.Text = "0";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.WireCountLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.WireCountLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WireCountLabel.Location = new System.Drawing.Point(292, 331);
+            this.WireCountLabel.Name = "WireCountLabel";
+            this.WireCountLabel.Size = new System.Drawing.Size(80, 22);
+            this.WireCountLabel.TabIndex = 45;
+            this.WireCountLabel.Text = "0";
+            this.WireCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label45
+            // OverheadsPriceLabel
             // 
-            this.label45.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label45.Location = new System.Drawing.Point(369, 375);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(80, 22);
-            this.label45.TabIndex = 54;
-            this.label45.Text = "0";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OverheadsPriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.OverheadsPriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.OverheadsPriceLabel.Location = new System.Drawing.Point(369, 375);
+            this.OverheadsPriceLabel.Name = "OverheadsPriceLabel";
+            this.OverheadsPriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.OverheadsPriceLabel.TabIndex = 54;
+            this.OverheadsPriceLabel.Text = "16";
+            this.OverheadsPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label46
+            // CarbonDioxidePriceLabel
             // 
-            this.label46.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label46.Location = new System.Drawing.Point(369, 353);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(80, 22);
-            this.label46.TabIndex = 53;
-            this.label46.Text = "0";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CarbonDioxidePriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CarbonDioxidePriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.CarbonDioxidePriceLabel.Location = new System.Drawing.Point(369, 353);
+            this.CarbonDioxidePriceLabel.Name = "CarbonDioxidePriceLabel";
+            this.CarbonDioxidePriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.CarbonDioxidePriceLabel.TabIndex = 53;
+            this.CarbonDioxidePriceLabel.Text = "3";
+            this.CarbonDioxidePriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label47
+            // WirePriceLabel
             // 
-            this.label47.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label47.Location = new System.Drawing.Point(369, 331);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(80, 22);
-            this.label47.TabIndex = 52;
-            this.label47.Text = "0";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.WirePriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.WirePriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.WirePriceLabel.Location = new System.Drawing.Point(369, 331);
+            this.WirePriceLabel.Name = "WirePriceLabel";
+            this.WirePriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.WirePriceLabel.TabIndex = 52;
+            this.WirePriceLabel.Text = "1";
+            this.WirePriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label48
+            // ZPPriceLabel
             // 
-            this.label48.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label48.Location = new System.Drawing.Point(369, 309);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(80, 22);
-            this.label48.TabIndex = 51;
-            this.label48.Text = "0";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ZPPriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ZPPriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ZPPriceLabel.Location = new System.Drawing.Point(369, 309);
+            this.ZPPriceLabel.Name = "ZPPriceLabel";
+            this.ZPPriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.ZPPriceLabel.TabIndex = 51;
+            this.ZPPriceLabel.Text = "11";
+            this.ZPPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label49
+            // ElEnergyPriceLabel
             // 
-            this.label49.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label49.Location = new System.Drawing.Point(369, 287);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(80, 22);
-            this.label49.TabIndex = 50;
-            this.label49.Text = "0";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ElEnergyPriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ElEnergyPriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ElEnergyPriceLabel.Location = new System.Drawing.Point(369, 287);
+            this.ElEnergyPriceLabel.Name = "ElEnergyPriceLabel";
+            this.ElEnergyPriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.ElEnergyPriceLabel.TabIndex = 50;
+            this.ElEnergyPriceLabel.Text = "2";
+            this.ElEnergyPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label50
+            // PropanPriceLabel
             // 
-            this.label50.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label50.Location = new System.Drawing.Point(369, 265);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(80, 22);
-            this.label50.TabIndex = 49;
-            this.label50.Text = "0";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PropanPriceLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.PropanPriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PropanPriceLabel.Location = new System.Drawing.Point(369, 265);
+            this.PropanPriceLabel.Name = "PropanPriceLabel";
+            this.PropanPriceLabel.Size = new System.Drawing.Size(80, 22);
+            this.PropanPriceLabel.TabIndex = 49;
+            this.PropanPriceLabel.Text = "12";
+            this.PropanPriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MetallPriceLabel
             // 
@@ -910,6 +910,7 @@
             this.BracesTextBox.Name = "BracesTextBox";
             this.BracesTextBox.Size = new System.Drawing.Size(80, 22);
             this.BracesTextBox.TabIndex = 74;
+            this.BracesTextBox.TextChanged += new System.EventHandler(this.BracesTextBox_TextChanged);
             // 
             // CurlsTextBox
             // 
@@ -929,12 +930,13 @@
             // 
             // TestCalculationButton1
             // 
+            this.TestCalculationButton1.BackColor = System.Drawing.Color.DarkGray;
             this.TestCalculationButton1.Location = new System.Drawing.Point(465, 124);
             this.TestCalculationButton1.Name = "TestCalculationButton1";
             this.TestCalculationButton1.Size = new System.Drawing.Size(82, 56);
             this.TestCalculationButton1.TabIndex = 77;
             this.TestCalculationButton1.Text = "Тест Расчет";
-            this.TestCalculationButton1.UseVisualStyleBackColor = true;
+            this.TestCalculationButton1.UseVisualStyleBackColor = false;
             this.TestCalculationButton1.Click += new System.EventHandler(this.TestCalculationButton1_Click);
             // 
             // Form1
@@ -942,7 +944,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.LightGray;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(739, 425);
             this.Controls.Add(this.TestCalculationButton1);
             this.Controls.Add(this.WeldPointsTextBox);
@@ -967,19 +969,19 @@
             this.Controls.Add(this.ElEnergySumLabel);
             this.Controls.Add(this.PropanSumLabel);
             this.Controls.Add(this.MetallSumLabel);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label48);
-            this.Controls.Add(this.label49);
-            this.Controls.Add(this.label50);
+            this.Controls.Add(this.OverheadsPriceLabel);
+            this.Controls.Add(this.CarbonDioxidePriceLabel);
+            this.Controls.Add(this.WirePriceLabel);
+            this.Controls.Add(this.ZPPriceLabel);
+            this.Controls.Add(this.ElEnergyPriceLabel);
+            this.Controls.Add(this.PropanPriceLabel);
             this.Controls.Add(this.MetallPriceLabel);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label40);
+            this.Controls.Add(this.OverheadsCountLabel);
+            this.Controls.Add(this.CarbonDioxideCountLabel);
+            this.Controls.Add(this.WireCountLabel);
+            this.Controls.Add(this.ZPCountLabel);
+            this.Controls.Add(this.ElEnergyCountLabel);
+            this.Controls.Add(this.PropanLabel);
             this.Controls.Add(this.MetallCountLabel);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label36);
@@ -1001,7 +1003,7 @@
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.CostPriceLabel);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -1052,7 +1054,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label CostPriceLabel;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
@@ -1074,19 +1076,19 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label ZPCountLabel;
+        private System.Windows.Forms.Label ElEnergyCountLabel;
+        private System.Windows.Forms.Label PropanLabel;
         private System.Windows.Forms.Label MetallCountLabel;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label OverheadsCountLabel;
+        private System.Windows.Forms.Label CarbonDioxideCountLabel;
+        private System.Windows.Forms.Label WireCountLabel;
+        private System.Windows.Forms.Label OverheadsPriceLabel;
+        private System.Windows.Forms.Label CarbonDioxidePriceLabel;
+        private System.Windows.Forms.Label WirePriceLabel;
+        private System.Windows.Forms.Label ZPPriceLabel;
+        private System.Windows.Forms.Label ElEnergyPriceLabel;
+        private System.Windows.Forms.Label PropanPriceLabel;
         private System.Windows.Forms.Label MetallPriceLabel;
         private System.Windows.Forms.Label OverheadsSumLabel;
         private System.Windows.Forms.Label CarbonDioxideSumLabel;
