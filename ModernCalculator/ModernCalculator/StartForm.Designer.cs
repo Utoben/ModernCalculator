@@ -44,7 +44,8 @@
             // ExitButton
             // 
             this.ExitButton.BackColor = System.Drawing.Color.Silver;
-            this.ExitButton.Location = new System.Drawing.Point(462, 27);
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitButton.Location = new System.Drawing.Point(450, 27);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(102, 32);
             this.ExitButton.TabIndex = 0;
@@ -72,6 +73,7 @@
             // TraseryPriceBaseButton
             // 
             this.TraseryPriceBaseButton.BackColor = System.Drawing.Color.DarkGray;
+            this.TraseryPriceBaseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TraseryPriceBaseButton.Location = new System.Drawing.Point(200, 189);
             this.TraseryPriceBaseButton.Name = "TraseryPriceBaseButton";
             this.TraseryPriceBaseButton.Size = new System.Drawing.Size(175, 80);
@@ -83,16 +85,19 @@
             // MainCalculationButton
             // 
             this.MainCalculationButton.BackColor = System.Drawing.Color.DarkGray;
+            this.MainCalculationButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MainCalculationButton.Location = new System.Drawing.Point(12, 129);
             this.MainCalculationButton.Name = "MainCalculationButton";
             this.MainCalculationButton.Size = new System.Drawing.Size(540, 54);
             this.MainCalculationButton.TabIndex = 3;
             this.MainCalculationButton.Text = "Основная калькуляция";
             this.MainCalculationButton.UseVisualStyleBackColor = false;
+            this.MainCalculationButton.Click += new System.EventHandler(this.MainCalculationButton_Click);
             // 
             // ProductPriceButton
             // 
             this.ProductPriceButton.BackColor = System.Drawing.Color.DarkGray;
+            this.ProductPriceButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ProductPriceButton.Location = new System.Drawing.Point(394, 189);
             this.ProductPriceButton.Name = "ProductPriceButton";
             this.ProductPriceButton.Size = new System.Drawing.Size(158, 80);
@@ -103,6 +108,7 @@
             // TonnageButton
             // 
             this.TonnageButton.BackColor = System.Drawing.Color.DarkGray;
+            this.TonnageButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TonnageButton.Location = new System.Drawing.Point(12, 189);
             this.TonnageButton.Name = "TonnageButton";
             this.TonnageButton.Size = new System.Drawing.Size(169, 80);

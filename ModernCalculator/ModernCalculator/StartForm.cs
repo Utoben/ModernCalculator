@@ -36,5 +36,12 @@ namespace ModernCalculator
         {
             MessageBox.Show("Приложение предназначено для калькуляции внутри компании 'Modern'.\nРаздел будет дополняться. \n\n Команда разработки");
         }
+
+        private void MainCalculationButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainCalculationChooseForm m = new MainCalculationChooseForm();
+            m.ShowDialog();
+        }
     }
 }

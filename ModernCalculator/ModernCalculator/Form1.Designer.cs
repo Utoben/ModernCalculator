@@ -112,6 +112,7 @@
             // ReturnToMainButton
             // 
             this.ReturnToMainButton.BackColor = System.Drawing.Color.DarkGray;
+            this.ReturnToMainButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ReturnToMainButton.Location = new System.Drawing.Point(582, 124);
             this.ReturnToMainButton.Name = "ReturnToMainButton";
             this.ReturnToMainButton.Size = new System.Drawing.Size(135, 32);
@@ -367,7 +368,7 @@
             this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label23.Location = new System.Drawing.Point(13, 199);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(512, 24);
+            this.label23.Size = new System.Drawing.Size(512, 22);
             this.label23.TabIndex = 26;
             this.label23.Text = "Подробнее";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -931,6 +932,7 @@
             // TestCalculationButton1
             // 
             this.TestCalculationButton1.BackColor = System.Drawing.Color.DarkGray;
+            this.TestCalculationButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TestCalculationButton1.Location = new System.Drawing.Point(465, 124);
             this.TestCalculationButton1.Name = "TestCalculationButton1";
             this.TestCalculationButton1.Size = new System.Drawing.Size(82, 56);
