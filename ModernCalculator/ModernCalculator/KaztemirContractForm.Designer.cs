@@ -932,6 +932,8 @@
             this.label897 = new System.Windows.Forms.Label();
             this.label898 = new System.Windows.Forms.Label();
             this.label899 = new System.Windows.Forms.Label();
+            this.totalSumLabel = new System.Windows.Forms.Label();
+            this.totalWeightLlabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -946,6 +948,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(195, 95);
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // menuStrip1
             // 
@@ -963,6 +966,7 @@
             this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
             this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 19);
             this.справкаToolStripMenuItem.Text = "Справка";
+            this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click);
             // 
             // label35
             // 
@@ -1087,6 +1091,7 @@
             this.label23.TabIndex = 67;
             this.label23.Text = "Подробнее";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label21
             // 
@@ -12574,6 +12579,32 @@
             this.label899.TabIndex = 1031;
             this.label899.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // totalSumLabel
+            // 
+            this.totalSumLabel.BackColor = System.Drawing.Color.DarkGray;
+            this.totalSumLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.totalSumLabel.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.totalSumLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.totalSumLabel.Location = new System.Drawing.Point(624, 2554);
+            this.totalSumLabel.Name = "totalSumLabel";
+            this.totalSumLabel.Size = new System.Drawing.Size(81, 23);
+            this.totalSumLabel.TabIndex = 1032;
+            this.totalSumLabel.Text = "0";
+            this.totalSumLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // totalWeightLlabel
+            // 
+            this.totalWeightLlabel.BackColor = System.Drawing.Color.DarkGray;
+            this.totalWeightLlabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.totalWeightLlabel.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.totalWeightLlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.totalWeightLlabel.Location = new System.Drawing.Point(435, 2554);
+            this.totalWeightLlabel.Name = "totalWeightLlabel";
+            this.totalWeightLlabel.Size = new System.Drawing.Size(99, 23);
+            this.totalWeightLlabel.TabIndex = 1033;
+            this.totalWeightLlabel.Text = "0";
+            this.totalWeightLlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // KaztemirContractForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
@@ -12581,6 +12612,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(910, 749);
+            this.Controls.Add(this.totalWeightLlabel);
+            this.Controls.Add(this.totalSumLabel);
             this.Controls.Add(this.label899);
             this.Controls.Add(this.label851);
             this.Controls.Add(this.label852);
@@ -14402,5 +14435,7 @@
         private System.Windows.Forms.Label label897;
         private System.Windows.Forms.Label label898;
         private System.Windows.Forms.Label label899;
+        private System.Windows.Forms.Label totalSumLabel;
+        private System.Windows.Forms.Label totalWeightLlabel;
     }
 }

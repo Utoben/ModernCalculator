@@ -34,5 +34,12 @@ namespace ModernCalculator
             StartForm s = new StartForm();
             s.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           // this.Hide();
+            AsiaTemirForm t = new AsiaTemirForm();
+            t.ShowDialog();
+        }
     }
 }

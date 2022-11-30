@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ModernCalculator
 {
-    public partial class KaztemirContractForm : Form
+    public partial class AsiaTemirForm : Form
     {
-        public KaztemirContractForm()
+        public AsiaTemirForm()
         {
             InitializeComponent();
-        }
-
-        private void label21_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void ToChooseButton_Click(object sender, EventArgs e)
@@ -27,26 +22,6 @@ namespace ModernCalculator
             this.Hide();
             MainCalculationChooseForm s = new MainCalculationChooseForm();
             s.ShowDialog();
-        }
-
-        private void label167_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label145_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
