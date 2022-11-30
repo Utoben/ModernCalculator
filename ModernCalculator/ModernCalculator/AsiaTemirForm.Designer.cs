@@ -566,7 +566,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(513, 23);
             this.label23.TabIndex = 144;
-            this.label23.Text = "Подробнее";
+            this.label23.Text = "Азия Темир Центр";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox2
@@ -729,7 +729,7 @@
             // 
             // label700
             // 
-            this.label700.BackColor = System.Drawing.Color.DarkGray;
+            this.label700.BackColor = System.Drawing.Color.Gray;
             this.label700.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label700.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label700.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -755,7 +755,7 @@
             // 
             // label702
             // 
-            this.label702.BackColor = System.Drawing.Color.DarkGray;
+            this.label702.BackColor = System.Drawing.Color.DimGray;
             this.label702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label702.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label702.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -781,7 +781,7 @@
             // 
             // label704
             // 
-            this.label704.BackColor = System.Drawing.Color.DarkGray;
+            this.label704.BackColor = System.Drawing.Color.Gray;
             this.label704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label704.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label704.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -833,7 +833,7 @@
             // 
             // label683
             // 
-            this.label683.BackColor = System.Drawing.Color.DarkGray;
+            this.label683.BackColor = System.Drawing.Color.Gray;
             this.label683.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label683.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label683.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -859,7 +859,7 @@
             // 
             // label685
             // 
-            this.label685.BackColor = System.Drawing.Color.DarkGray;
+            this.label685.BackColor = System.Drawing.Color.DimGray;
             this.label685.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label685.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label685.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -885,7 +885,7 @@
             // 
             // label687
             // 
-            this.label687.BackColor = System.Drawing.Color.DarkGray;
+            this.label687.BackColor = System.Drawing.Color.Gray;
             this.label687.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label687.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label687.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -937,7 +937,7 @@
             // 
             // label691
             // 
-            this.label691.BackColor = System.Drawing.Color.DarkGray;
+            this.label691.BackColor = System.Drawing.Color.Gray;
             this.label691.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label691.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label691.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -963,7 +963,7 @@
             // 
             // label693
             // 
-            this.label693.BackColor = System.Drawing.Color.DarkGray;
+            this.label693.BackColor = System.Drawing.Color.DimGray;
             this.label693.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label693.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label693.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -989,7 +989,7 @@
             // 
             // label695
             // 
-            this.label695.BackColor = System.Drawing.Color.DarkGray;
+            this.label695.BackColor = System.Drawing.Color.Gray;
             this.label695.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label695.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label695.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1124,7 +1124,7 @@
             // 
             // label873
             // 
-            this.label873.BackColor = System.Drawing.Color.DarkGray;
+            this.label873.BackColor = System.Drawing.Color.Gray;
             this.label873.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label873.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label873.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1137,7 +1137,7 @@
             // 
             // label874
             // 
-            this.label874.BackColor = System.Drawing.Color.DarkGray;
+            this.label874.BackColor = System.Drawing.Color.Gray;
             this.label874.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label874.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label874.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1176,7 +1176,7 @@
             // 
             // label877
             // 
-            this.label877.BackColor = System.Drawing.Color.DarkGray;
+            this.label877.BackColor = System.Drawing.Color.DimGray;
             this.label877.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label877.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label877.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1189,7 +1189,7 @@
             // 
             // label878
             // 
-            this.label878.BackColor = System.Drawing.Color.DarkGray;
+            this.label878.BackColor = System.Drawing.Color.DimGray;
             this.label878.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label878.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label878.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1228,7 +1228,7 @@
             // 
             // label881
             // 
-            this.label881.BackColor = System.Drawing.Color.DarkGray;
+            this.label881.BackColor = System.Drawing.Color.Gray;
             this.label881.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label881.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label881.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1241,7 +1241,7 @@
             // 
             // label882
             // 
-            this.label882.BackColor = System.Drawing.Color.DarkGray;
+            this.label882.BackColor = System.Drawing.Color.Gray;
             this.label882.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label882.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label882.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1341,7 +1341,7 @@
             // 
             // label890
             // 
-            this.label890.BackColor = System.Drawing.Color.DarkGray;
+            this.label890.BackColor = System.Drawing.Color.Gray;
             this.label890.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label890.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label890.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1391,7 +1391,7 @@
             // 
             // label894
             // 
-            this.label894.BackColor = System.Drawing.Color.DarkGray;
+            this.label894.BackColor = System.Drawing.Color.DimGray;
             this.label894.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label894.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label894.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1441,7 +1441,7 @@
             // 
             // label898
             // 
-            this.label898.BackColor = System.Drawing.Color.DarkGray;
+            this.label898.BackColor = System.Drawing.Color.Gray;
             this.label898.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label898.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label898.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1493,7 +1493,7 @@
             // 
             // label709
             // 
-            this.label709.BackColor = System.Drawing.Color.DarkGray;
+            this.label709.BackColor = System.Drawing.Color.Gray;
             this.label709.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label709.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label709.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1519,7 +1519,7 @@
             // 
             // label711
             // 
-            this.label711.BackColor = System.Drawing.Color.DarkGray;
+            this.label711.BackColor = System.Drawing.Color.DimGray;
             this.label711.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label711.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label711.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1545,7 +1545,7 @@
             // 
             // label713
             // 
-            this.label713.BackColor = System.Drawing.Color.DarkGray;
+            this.label713.BackColor = System.Drawing.Color.Gray;
             this.label713.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label713.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label713.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1597,7 +1597,7 @@
             // 
             // label717
             // 
-            this.label717.BackColor = System.Drawing.Color.DarkGray;
+            this.label717.BackColor = System.Drawing.Color.Gray;
             this.label717.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label717.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label717.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1623,7 +1623,7 @@
             // 
             // label719
             // 
-            this.label719.BackColor = System.Drawing.Color.DarkGray;
+            this.label719.BackColor = System.Drawing.Color.DimGray;
             this.label719.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label719.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label719.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1649,7 +1649,7 @@
             // 
             // label721
             // 
-            this.label721.BackColor = System.Drawing.Color.DarkGray;
+            this.label721.BackColor = System.Drawing.Color.Gray;
             this.label721.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label721.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label721.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1740,7 +1740,7 @@
             // 
             // label728
             // 
-            this.label728.BackColor = System.Drawing.Color.DarkGray;
+            this.label728.BackColor = System.Drawing.Color.Gray;
             this.label728.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label728.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label728.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1753,7 +1753,7 @@
             // 
             // label729
             // 
-            this.label729.BackColor = System.Drawing.Color.DarkGray;
+            this.label729.BackColor = System.Drawing.Color.Gray;
             this.label729.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label729.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label729.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1792,7 +1792,7 @@
             // 
             // label732
             // 
-            this.label732.BackColor = System.Drawing.Color.DarkGray;
+            this.label732.BackColor = System.Drawing.Color.DimGray;
             this.label732.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label732.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label732.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1805,7 +1805,7 @@
             // 
             // label733
             // 
-            this.label733.BackColor = System.Drawing.Color.DarkGray;
+            this.label733.BackColor = System.Drawing.Color.DimGray;
             this.label733.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label733.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label733.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1844,7 +1844,7 @@
             // 
             // label736
             // 
-            this.label736.BackColor = System.Drawing.Color.DarkGray;
+            this.label736.BackColor = System.Drawing.Color.Gray;
             this.label736.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label736.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label736.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1857,7 +1857,7 @@
             // 
             // label737
             // 
-            this.label737.BackColor = System.Drawing.Color.DarkGray;
+            this.label737.BackColor = System.Drawing.Color.Gray;
             this.label737.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label737.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label737.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1996,7 +1996,7 @@
             // 
             // label748
             // 
-            this.label748.BackColor = System.Drawing.Color.DarkGray;
+            this.label748.BackColor = System.Drawing.Color.Gray;
             this.label748.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label748.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label748.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2009,7 +2009,7 @@
             // 
             // label749
             // 
-            this.label749.BackColor = System.Drawing.Color.DarkGray;
+            this.label749.BackColor = System.Drawing.Color.Gray;
             this.label749.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label749.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label749.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2072,7 +2072,7 @@
             // 
             // label754
             // 
-            this.label754.BackColor = System.Drawing.Color.DarkGray;
+            this.label754.BackColor = System.Drawing.Color.DimGray;
             this.label754.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label754.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label754.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2085,7 +2085,7 @@
             // 
             // label755
             // 
-            this.label755.BackColor = System.Drawing.Color.DarkGray;
+            this.label755.BackColor = System.Drawing.Color.DimGray;
             this.label755.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label755.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label755.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2148,7 +2148,7 @@
             // 
             // label760
             // 
-            this.label760.BackColor = System.Drawing.Color.DarkGray;
+            this.label760.BackColor = System.Drawing.Color.Gray;
             this.label760.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label760.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label760.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2161,7 +2161,7 @@
             // 
             // label761
             // 
-            this.label761.BackColor = System.Drawing.Color.DarkGray;
+            this.label761.BackColor = System.Drawing.Color.Gray;
             this.label761.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label761.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label761.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2213,7 +2213,7 @@
             // 
             // label765
             // 
-            this.label765.BackColor = System.Drawing.Color.DarkGray;
+            this.label765.BackColor = System.Drawing.Color.Gray;
             this.label765.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label765.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label765.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2239,7 +2239,7 @@
             // 
             // label767
             // 
-            this.label767.BackColor = System.Drawing.Color.DarkGray;
+            this.label767.BackColor = System.Drawing.Color.DimGray;
             this.label767.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label767.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label767.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2265,7 +2265,7 @@
             // 
             // label769
             // 
-            this.label769.BackColor = System.Drawing.Color.DarkGray;
+            this.label769.BackColor = System.Drawing.Color.Gray;
             this.label769.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label769.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label769.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2356,7 +2356,7 @@
             // 
             // label776
             // 
-            this.label776.BackColor = System.Drawing.Color.DarkGray;
+            this.label776.BackColor = System.Drawing.Color.Gray;
             this.label776.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label776.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label776.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2369,7 +2369,7 @@
             // 
             // label777
             // 
-            this.label777.BackColor = System.Drawing.Color.DarkGray;
+            this.label777.BackColor = System.Drawing.Color.Gray;
             this.label777.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label777.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label777.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2408,7 +2408,7 @@
             // 
             // label780
             // 
-            this.label780.BackColor = System.Drawing.Color.DarkGray;
+            this.label780.BackColor = System.Drawing.Color.DimGray;
             this.label780.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label780.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label780.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2421,7 +2421,7 @@
             // 
             // label781
             // 
-            this.label781.BackColor = System.Drawing.Color.DarkGray;
+            this.label781.BackColor = System.Drawing.Color.DimGray;
             this.label781.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label781.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label781.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2460,7 +2460,7 @@
             // 
             // label784
             // 
-            this.label784.BackColor = System.Drawing.Color.DarkGray;
+            this.label784.BackColor = System.Drawing.Color.Gray;
             this.label784.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label784.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label784.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2473,7 +2473,7 @@
             // 
             // label785
             // 
-            this.label785.BackColor = System.Drawing.Color.DarkGray;
+            this.label785.BackColor = System.Drawing.Color.Gray;
             this.label785.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label785.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label785.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2651,7 +2651,7 @@
             // 
             // label799
             // 
-            this.label799.BackColor = System.Drawing.Color.DarkGray;
+            this.label799.BackColor = System.Drawing.Color.Gray;
             this.label799.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label799.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label799.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2664,7 +2664,7 @@
             // 
             // label800
             // 
-            this.label800.BackColor = System.Drawing.Color.DarkGray;
+            this.label800.BackColor = System.Drawing.Color.Gray;
             this.label800.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label800.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label800.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2677,7 +2677,7 @@
             // 
             // label801
             // 
-            this.label801.BackColor = System.Drawing.Color.DarkGray;
+            this.label801.BackColor = System.Drawing.Color.Gray;
             this.label801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label801.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label801.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2753,7 +2753,7 @@
             // 
             // label807
             // 
-            this.label807.BackColor = System.Drawing.Color.DarkGray;
+            this.label807.BackColor = System.Drawing.Color.DimGray;
             this.label807.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label807.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label807.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2766,7 +2766,7 @@
             // 
             // label808
             // 
-            this.label808.BackColor = System.Drawing.Color.DarkGray;
+            this.label808.BackColor = System.Drawing.Color.DimGray;
             this.label808.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label808.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label808.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2779,7 +2779,7 @@
             // 
             // label809
             // 
-            this.label809.BackColor = System.Drawing.Color.DarkGray;
+            this.label809.BackColor = System.Drawing.Color.DimGray;
             this.label809.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label809.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label809.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2855,7 +2855,7 @@
             // 
             // label815
             // 
-            this.label815.BackColor = System.Drawing.Color.DarkGray;
+            this.label815.BackColor = System.Drawing.Color.Gray;
             this.label815.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label815.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label815.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2868,7 +2868,7 @@
             // 
             // label816
             // 
-            this.label816.BackColor = System.Drawing.Color.DarkGray;
+            this.label816.BackColor = System.Drawing.Color.Gray;
             this.label816.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label816.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label816.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -2881,7 +2881,7 @@
             // 
             // label817
             // 
-            this.label817.BackColor = System.Drawing.Color.DarkGray;
+            this.label817.BackColor = System.Drawing.Color.Gray;
             this.label817.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label817.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label817.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3050,7 +3050,7 @@
             // 
             // label830
             // 
-            this.label830.BackColor = System.Drawing.Color.DarkGray;
+            this.label830.BackColor = System.Drawing.Color.Gray;
             this.label830.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label830.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label830.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3063,7 +3063,7 @@
             // 
             // label831
             // 
-            this.label831.BackColor = System.Drawing.Color.DarkGray;
+            this.label831.BackColor = System.Drawing.Color.Gray;
             this.label831.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label831.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label831.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3076,7 +3076,7 @@
             // 
             // label832
             // 
-            this.label832.BackColor = System.Drawing.Color.DarkGray;
+            this.label832.BackColor = System.Drawing.Color.Gray;
             this.label832.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label832.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label832.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3089,7 +3089,7 @@
             // 
             // label833
             // 
-            this.label833.BackColor = System.Drawing.Color.DarkGray;
+            this.label833.BackColor = System.Drawing.Color.Gray;
             this.label833.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label833.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label833.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3154,7 +3154,7 @@
             // 
             // label838
             // 
-            this.label838.BackColor = System.Drawing.Color.DarkGray;
+            this.label838.BackColor = System.Drawing.Color.DimGray;
             this.label838.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label838.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label838.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3167,7 +3167,7 @@
             // 
             // label839
             // 
-            this.label839.BackColor = System.Drawing.Color.DarkGray;
+            this.label839.BackColor = System.Drawing.Color.DimGray;
             this.label839.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label839.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label839.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3180,7 +3180,7 @@
             // 
             // label840
             // 
-            this.label840.BackColor = System.Drawing.Color.DarkGray;
+            this.label840.BackColor = System.Drawing.Color.DimGray;
             this.label840.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label840.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label840.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3193,7 +3193,7 @@
             // 
             // label841
             // 
-            this.label841.BackColor = System.Drawing.Color.DarkGray;
+            this.label841.BackColor = System.Drawing.Color.DimGray;
             this.label841.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label841.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label841.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3258,7 +3258,7 @@
             // 
             // label846
             // 
-            this.label846.BackColor = System.Drawing.Color.DarkGray;
+            this.label846.BackColor = System.Drawing.Color.Gray;
             this.label846.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label846.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label846.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3271,7 +3271,7 @@
             // 
             // label847
             // 
-            this.label847.BackColor = System.Drawing.Color.DarkGray;
+            this.label847.BackColor = System.Drawing.Color.Gray;
             this.label847.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label847.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label847.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3284,7 +3284,7 @@
             // 
             // label848
             // 
-            this.label848.BackColor = System.Drawing.Color.DarkGray;
+            this.label848.BackColor = System.Drawing.Color.Gray;
             this.label848.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label848.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label848.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3297,7 +3297,7 @@
             // 
             // label849
             // 
-            this.label849.BackColor = System.Drawing.Color.DarkGray;
+            this.label849.BackColor = System.Drawing.Color.Gray;
             this.label849.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label849.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label849.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3401,7 +3401,7 @@
             // 
             // label10
             // 
-            this.label10.BackColor = System.Drawing.Color.DarkGray;
+            this.label10.BackColor = System.Drawing.Color.Gray;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3414,7 +3414,7 @@
             // 
             // label11
             // 
-            this.label11.BackColor = System.Drawing.Color.DarkGray;
+            this.label11.BackColor = System.Drawing.Color.Gray;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3453,7 +3453,7 @@
             // 
             // label14
             // 
-            this.label14.BackColor = System.Drawing.Color.DarkGray;
+            this.label14.BackColor = System.Drawing.Color.DimGray;
             this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3466,7 +3466,7 @@
             // 
             // label15
             // 
-            this.label15.BackColor = System.Drawing.Color.DarkGray;
+            this.label15.BackColor = System.Drawing.Color.DimGray;
             this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3505,7 +3505,7 @@
             // 
             // label18
             // 
-            this.label18.BackColor = System.Drawing.Color.DarkGray;
+            this.label18.BackColor = System.Drawing.Color.Gray;
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3518,7 +3518,7 @@
             // 
             // label19
             // 
-            this.label19.BackColor = System.Drawing.Color.DarkGray;
+            this.label19.BackColor = System.Drawing.Color.Gray;
             this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3618,7 +3618,7 @@
             // 
             // label33
             // 
-            this.label33.BackColor = System.Drawing.Color.DarkGray;
+            this.label33.BackColor = System.Drawing.Color.Gray;
             this.label33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label33.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label33.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3668,7 +3668,7 @@
             // 
             // label37
             // 
-            this.label37.BackColor = System.Drawing.Color.DarkGray;
+            this.label37.BackColor = System.Drawing.Color.DimGray;
             this.label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label37.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label37.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3718,7 +3718,7 @@
             // 
             // label41
             // 
-            this.label41.BackColor = System.Drawing.Color.DarkGray;
+            this.label41.BackColor = System.Drawing.Color.Gray;
             this.label41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label41.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label41.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3770,7 +3770,7 @@
             // 
             // label45
             // 
-            this.label45.BackColor = System.Drawing.Color.DarkGray;
+            this.label45.BackColor = System.Drawing.Color.Gray;
             this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label45.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3796,7 +3796,7 @@
             // 
             // label47
             // 
-            this.label47.BackColor = System.Drawing.Color.DarkGray;
+            this.label47.BackColor = System.Drawing.Color.DimGray;
             this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label47.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3822,7 +3822,7 @@
             // 
             // label49
             // 
-            this.label49.BackColor = System.Drawing.Color.DarkGray;
+            this.label49.BackColor = System.Drawing.Color.Gray;
             this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label49.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label49.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3874,7 +3874,7 @@
             // 
             // label53
             // 
-            this.label53.BackColor = System.Drawing.Color.DarkGray;
+            this.label53.BackColor = System.Drawing.Color.Gray;
             this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label53.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label53.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3900,7 +3900,7 @@
             // 
             // label55
             // 
-            this.label55.BackColor = System.Drawing.Color.DarkGray;
+            this.label55.BackColor = System.Drawing.Color.DimGray;
             this.label55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label55.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -3926,7 +3926,7 @@
             // 
             // label57
             // 
-            this.label57.BackColor = System.Drawing.Color.DarkGray;
+            this.label57.BackColor = System.Drawing.Color.Gray;
             this.label57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label57.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label57.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4017,7 +4017,7 @@
             // 
             // label64
             // 
-            this.label64.BackColor = System.Drawing.Color.DarkGray;
+            this.label64.BackColor = System.Drawing.Color.Gray;
             this.label64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label64.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label64.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4030,7 +4030,7 @@
             // 
             // label65
             // 
-            this.label65.BackColor = System.Drawing.Color.DarkGray;
+            this.label65.BackColor = System.Drawing.Color.Gray;
             this.label65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label65.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label65.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4069,7 +4069,7 @@
             // 
             // label68
             // 
-            this.label68.BackColor = System.Drawing.Color.DarkGray;
+            this.label68.BackColor = System.Drawing.Color.DimGray;
             this.label68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label68.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label68.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4082,7 +4082,7 @@
             // 
             // label69
             // 
-            this.label69.BackColor = System.Drawing.Color.DarkGray;
+            this.label69.BackColor = System.Drawing.Color.DimGray;
             this.label69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label69.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label69.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4121,7 +4121,7 @@
             // 
             // label72
             // 
-            this.label72.BackColor = System.Drawing.Color.DarkGray;
+            this.label72.BackColor = System.Drawing.Color.Gray;
             this.label72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label72.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label72.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4134,7 +4134,7 @@
             // 
             // label73
             // 
-            this.label73.BackColor = System.Drawing.Color.DarkGray;
+            this.label73.BackColor = System.Drawing.Color.Gray;
             this.label73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label73.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label73.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4273,7 +4273,7 @@
             // 
             // label84
             // 
-            this.label84.BackColor = System.Drawing.Color.DarkGray;
+            this.label84.BackColor = System.Drawing.Color.Gray;
             this.label84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label84.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label84.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4286,7 +4286,7 @@
             // 
             // label85
             // 
-            this.label85.BackColor = System.Drawing.Color.DarkGray;
+            this.label85.BackColor = System.Drawing.Color.Gray;
             this.label85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label85.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label85.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4349,7 +4349,7 @@
             // 
             // label90
             // 
-            this.label90.BackColor = System.Drawing.Color.DarkGray;
+            this.label90.BackColor = System.Drawing.Color.DimGray;
             this.label90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label90.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label90.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4362,7 +4362,7 @@
             // 
             // label91
             // 
-            this.label91.BackColor = System.Drawing.Color.DarkGray;
+            this.label91.BackColor = System.Drawing.Color.DimGray;
             this.label91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label91.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label91.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4425,7 +4425,7 @@
             // 
             // label96
             // 
-            this.label96.BackColor = System.Drawing.Color.DarkGray;
+            this.label96.BackColor = System.Drawing.Color.Gray;
             this.label96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label96.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label96.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4438,7 +4438,7 @@
             // 
             // label97
             // 
-            this.label97.BackColor = System.Drawing.Color.DarkGray;
+            this.label97.BackColor = System.Drawing.Color.Gray;
             this.label97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label97.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label97.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4490,7 +4490,7 @@
             // 
             // label101
             // 
-            this.label101.BackColor = System.Drawing.Color.DarkGray;
+            this.label101.BackColor = System.Drawing.Color.Gray;
             this.label101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label101.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label101.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4516,7 +4516,7 @@
             // 
             // label103
             // 
-            this.label103.BackColor = System.Drawing.Color.DarkGray;
+            this.label103.BackColor = System.Drawing.Color.DimGray;
             this.label103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label103.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label103.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4542,7 +4542,7 @@
             // 
             // label105
             // 
-            this.label105.BackColor = System.Drawing.Color.DarkGray;
+            this.label105.BackColor = System.Drawing.Color.Gray;
             this.label105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label105.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label105.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4633,7 +4633,7 @@
             // 
             // label112
             // 
-            this.label112.BackColor = System.Drawing.Color.DarkGray;
+            this.label112.BackColor = System.Drawing.Color.Gray;
             this.label112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label112.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label112.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4646,7 +4646,7 @@
             // 
             // label113
             // 
-            this.label113.BackColor = System.Drawing.Color.DarkGray;
+            this.label113.BackColor = System.Drawing.Color.Gray;
             this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label113.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label113.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4685,7 +4685,7 @@
             // 
             // label116
             // 
-            this.label116.BackColor = System.Drawing.Color.DarkGray;
+            this.label116.BackColor = System.Drawing.Color.DimGray;
             this.label116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label116.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label116.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4698,7 +4698,7 @@
             // 
             // label117
             // 
-            this.label117.BackColor = System.Drawing.Color.DarkGray;
+            this.label117.BackColor = System.Drawing.Color.DimGray;
             this.label117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label117.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label117.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4737,7 +4737,7 @@
             // 
             // label120
             // 
-            this.label120.BackColor = System.Drawing.Color.DarkGray;
+            this.label120.BackColor = System.Drawing.Color.Gray;
             this.label120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label120.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label120.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4750,7 +4750,7 @@
             // 
             // label121
             // 
-            this.label121.BackColor = System.Drawing.Color.DarkGray;
+            this.label121.BackColor = System.Drawing.Color.Gray;
             this.label121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label121.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label121.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4928,7 +4928,7 @@
             // 
             // label135
             // 
-            this.label135.BackColor = System.Drawing.Color.DarkGray;
+            this.label135.BackColor = System.Drawing.Color.Gray;
             this.label135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label135.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label135.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4941,7 +4941,7 @@
             // 
             // label136
             // 
-            this.label136.BackColor = System.Drawing.Color.DarkGray;
+            this.label136.BackColor = System.Drawing.Color.Gray;
             this.label136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label136.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label136.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -4954,7 +4954,7 @@
             // 
             // label137
             // 
-            this.label137.BackColor = System.Drawing.Color.DarkGray;
+            this.label137.BackColor = System.Drawing.Color.Gray;
             this.label137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label137.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label137.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5030,7 +5030,7 @@
             // 
             // label143
             // 
-            this.label143.BackColor = System.Drawing.Color.DarkGray;
+            this.label143.BackColor = System.Drawing.Color.DimGray;
             this.label143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label143.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label143.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5043,7 +5043,7 @@
             // 
             // label144
             // 
-            this.label144.BackColor = System.Drawing.Color.DarkGray;
+            this.label144.BackColor = System.Drawing.Color.DimGray;
             this.label144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label144.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label144.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5056,7 +5056,7 @@
             // 
             // label145
             // 
-            this.label145.BackColor = System.Drawing.Color.DarkGray;
+            this.label145.BackColor = System.Drawing.Color.DimGray;
             this.label145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label145.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label145.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5132,7 +5132,7 @@
             // 
             // label151
             // 
-            this.label151.BackColor = System.Drawing.Color.DarkGray;
+            this.label151.BackColor = System.Drawing.Color.Gray;
             this.label151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label151.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label151.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5145,7 +5145,7 @@
             // 
             // label152
             // 
-            this.label152.BackColor = System.Drawing.Color.DarkGray;
+            this.label152.BackColor = System.Drawing.Color.Gray;
             this.label152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label152.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label152.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5158,7 +5158,7 @@
             // 
             // label153
             // 
-            this.label153.BackColor = System.Drawing.Color.DarkGray;
+            this.label153.BackColor = System.Drawing.Color.Gray;
             this.label153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label153.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label153.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5249,7 +5249,7 @@
             // 
             // label160
             // 
-            this.label160.BackColor = System.Drawing.Color.DarkGray;
+            this.label160.BackColor = System.Drawing.Color.Gray;
             this.label160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label160.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label160.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5262,7 +5262,7 @@
             // 
             // label161
             // 
-            this.label161.BackColor = System.Drawing.Color.DarkGray;
+            this.label161.BackColor = System.Drawing.Color.Gray;
             this.label161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label161.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label161.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5301,7 +5301,7 @@
             // 
             // label164
             // 
-            this.label164.BackColor = System.Drawing.Color.DarkGray;
+            this.label164.BackColor = System.Drawing.Color.DimGray;
             this.label164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label164.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label164.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5314,7 +5314,7 @@
             // 
             // label165
             // 
-            this.label165.BackColor = System.Drawing.Color.DarkGray;
+            this.label165.BackColor = System.Drawing.Color.DimGray;
             this.label165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label165.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label165.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5353,7 +5353,7 @@
             // 
             // label168
             // 
-            this.label168.BackColor = System.Drawing.Color.DarkGray;
+            this.label168.BackColor = System.Drawing.Color.Gray;
             this.label168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label168.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label168.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5366,7 +5366,7 @@
             // 
             // label169
             // 
-            this.label169.BackColor = System.Drawing.Color.DarkGray;
+            this.label169.BackColor = System.Drawing.Color.Gray;
             this.label169.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label169.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label169.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5430,7 +5430,7 @@
             // 
             // label510
             // 
-            this.label510.BackColor = System.Drawing.Color.DarkGray;
+            this.label510.BackColor = System.Drawing.Color.Gray;
             this.label510.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label510.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label510.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5456,7 +5456,7 @@
             // 
             // label512
             // 
-            this.label512.BackColor = System.Drawing.Color.DarkGray;
+            this.label512.BackColor = System.Drawing.Color.DimGray;
             this.label512.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label512.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label512.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5482,7 +5482,7 @@
             // 
             // label514
             // 
-            this.label514.BackColor = System.Drawing.Color.DarkGray;
+            this.label514.BackColor = System.Drawing.Color.Gray;
             this.label514.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label514.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label514.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5573,7 +5573,7 @@
             // 
             // label456
             // 
-            this.label456.BackColor = System.Drawing.Color.DarkGray;
+            this.label456.BackColor = System.Drawing.Color.Gray;
             this.label456.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label456.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label456.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5586,7 +5586,7 @@
             // 
             // label457
             // 
-            this.label457.BackColor = System.Drawing.Color.DarkGray;
+            this.label457.BackColor = System.Drawing.Color.Gray;
             this.label457.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label457.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label457.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5625,7 +5625,7 @@
             // 
             // label460
             // 
-            this.label460.BackColor = System.Drawing.Color.DarkGray;
+            this.label460.BackColor = System.Drawing.Color.DimGray;
             this.label460.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label460.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label460.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5638,7 +5638,7 @@
             // 
             // label461
             // 
-            this.label461.BackColor = System.Drawing.Color.DarkGray;
+            this.label461.BackColor = System.Drawing.Color.DimGray;
             this.label461.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label461.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label461.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5677,7 +5677,7 @@
             // 
             // label464
             // 
-            this.label464.BackColor = System.Drawing.Color.DarkGray;
+            this.label464.BackColor = System.Drawing.Color.Gray;
             this.label464.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label464.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label464.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5690,7 +5690,7 @@
             // 
             // label465
             // 
-            this.label465.BackColor = System.Drawing.Color.DarkGray;
+            this.label465.BackColor = System.Drawing.Color.Gray;
             this.label465.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label465.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label465.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5898,7 +5898,7 @@
             // 
             // label481
             // 
-            this.label481.BackColor = System.Drawing.Color.DarkGray;
+            this.label481.BackColor = System.Drawing.Color.Gray;
             this.label481.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label481.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label481.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5911,7 +5911,7 @@
             // 
             // label482
             // 
-            this.label482.BackColor = System.Drawing.Color.DarkGray;
+            this.label482.BackColor = System.Drawing.Color.Gray;
             this.label482.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label482.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label482.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5924,7 +5924,7 @@
             // 
             // label483
             // 
-            this.label483.BackColor = System.Drawing.Color.DarkGray;
+            this.label483.BackColor = System.Drawing.Color.Gray;
             this.label483.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label483.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label483.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5937,7 +5937,7 @@
             // 
             // label484
             // 
-            this.label484.BackColor = System.Drawing.Color.DarkGray;
+            this.label484.BackColor = System.Drawing.Color.Gray;
             this.label484.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label484.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label484.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -5950,7 +5950,7 @@
             // 
             // label485
             // 
-            this.label485.BackColor = System.Drawing.Color.DarkGray;
+            this.label485.BackColor = System.Drawing.Color.Gray;
             this.label485.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label485.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label485.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6028,7 +6028,7 @@
             // 
             // label491
             // 
-            this.label491.BackColor = System.Drawing.Color.DarkGray;
+            this.label491.BackColor = System.Drawing.Color.DimGray;
             this.label491.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label491.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label491.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6041,7 +6041,7 @@
             // 
             // label492
             // 
-            this.label492.BackColor = System.Drawing.Color.DarkGray;
+            this.label492.BackColor = System.Drawing.Color.DimGray;
             this.label492.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label492.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label492.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6054,7 +6054,7 @@
             // 
             // label493
             // 
-            this.label493.BackColor = System.Drawing.Color.DarkGray;
+            this.label493.BackColor = System.Drawing.Color.DimGray;
             this.label493.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label493.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label493.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6067,7 +6067,7 @@
             // 
             // label494
             // 
-            this.label494.BackColor = System.Drawing.Color.DarkGray;
+            this.label494.BackColor = System.Drawing.Color.DimGray;
             this.label494.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label494.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label494.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6080,7 +6080,7 @@
             // 
             // label495
             // 
-            this.label495.BackColor = System.Drawing.Color.DarkGray;
+            this.label495.BackColor = System.Drawing.Color.DimGray;
             this.label495.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label495.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label495.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6158,7 +6158,7 @@
             // 
             // label501
             // 
-            this.label501.BackColor = System.Drawing.Color.DarkGray;
+            this.label501.BackColor = System.Drawing.Color.Gray;
             this.label501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label501.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label501.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6171,7 +6171,7 @@
             // 
             // label502
             // 
-            this.label502.BackColor = System.Drawing.Color.DarkGray;
+            this.label502.BackColor = System.Drawing.Color.Gray;
             this.label502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label502.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label502.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6184,7 +6184,7 @@
             // 
             // label503
             // 
-            this.label503.BackColor = System.Drawing.Color.DarkGray;
+            this.label503.BackColor = System.Drawing.Color.Gray;
             this.label503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label503.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label503.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6197,7 +6197,7 @@
             // 
             // label504
             // 
-            this.label504.BackColor = System.Drawing.Color.DarkGray;
+            this.label504.BackColor = System.Drawing.Color.Gray;
             this.label504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label504.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label504.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6210,7 +6210,7 @@
             // 
             // label505
             // 
-            this.label505.BackColor = System.Drawing.Color.DarkGray;
+            this.label505.BackColor = System.Drawing.Color.Gray;
             this.label505.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label505.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label505.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6275,7 +6275,7 @@
             // 
             // label174
             // 
-            this.label174.BackColor = System.Drawing.Color.DarkGray;
+            this.label174.BackColor = System.Drawing.Color.Gray;
             this.label174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label174.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label174.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6301,7 +6301,7 @@
             // 
             // label176
             // 
-            this.label176.BackColor = System.Drawing.Color.DarkGray;
+            this.label176.BackColor = System.Drawing.Color.DimGray;
             this.label176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label176.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label176.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6327,7 +6327,7 @@
             // 
             // label178
             // 
-            this.label178.BackColor = System.Drawing.Color.DarkGray;
+            this.label178.BackColor = System.Drawing.Color.Gray;
             this.label178.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label178.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label178.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6379,7 +6379,7 @@
             // 
             // label182
             // 
-            this.label182.BackColor = System.Drawing.Color.DarkGray;
+            this.label182.BackColor = System.Drawing.Color.Gray;
             this.label182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label182.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label182.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6405,7 +6405,7 @@
             // 
             // label184
             // 
-            this.label184.BackColor = System.Drawing.Color.DarkGray;
+            this.label184.BackColor = System.Drawing.Color.DimGray;
             this.label184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label184.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label184.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6431,7 +6431,7 @@
             // 
             // label186
             // 
-            this.label186.BackColor = System.Drawing.Color.DarkGray;
+            this.label186.BackColor = System.Drawing.Color.Gray;
             this.label186.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label186.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label186.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6507,7 +6507,7 @@
             // 
             // label192
             // 
-            this.label192.BackColor = System.Drawing.Color.DarkGray;
+            this.label192.BackColor = System.Drawing.Color.Gray;
             this.label192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label192.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label192.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6533,7 +6533,7 @@
             // 
             // label194
             // 
-            this.label194.BackColor = System.Drawing.Color.DarkGray;
+            this.label194.BackColor = System.Drawing.Color.DimGray;
             this.label194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label194.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label194.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6559,7 +6559,7 @@
             // 
             // label196
             // 
-            this.label196.BackColor = System.Drawing.Color.DarkGray;
+            this.label196.BackColor = System.Drawing.Color.Gray;
             this.label196.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label196.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label196.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6611,7 +6611,7 @@
             // 
             // label200
             // 
-            this.label200.BackColor = System.Drawing.Color.DarkGray;
+            this.label200.BackColor = System.Drawing.Color.Gray;
             this.label200.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label200.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label200.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6637,7 +6637,7 @@
             // 
             // label202
             // 
-            this.label202.BackColor = System.Drawing.Color.DarkGray;
+            this.label202.BackColor = System.Drawing.Color.DimGray;
             this.label202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label202.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label202.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6663,7 +6663,7 @@
             // 
             // label204
             // 
-            this.label204.BackColor = System.Drawing.Color.DarkGray;
+            this.label204.BackColor = System.Drawing.Color.Gray;
             this.label204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label204.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label204.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6715,7 +6715,7 @@
             // 
             // label208
             // 
-            this.label208.BackColor = System.Drawing.Color.DarkGray;
+            this.label208.BackColor = System.Drawing.Color.Gray;
             this.label208.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label208.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label208.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6741,7 +6741,7 @@
             // 
             // label210
             // 
-            this.label210.BackColor = System.Drawing.Color.DarkGray;
+            this.label210.BackColor = System.Drawing.Color.DimGray;
             this.label210.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label210.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label210.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6767,7 +6767,7 @@
             // 
             // label212
             // 
-            this.label212.BackColor = System.Drawing.Color.DarkGray;
+            this.label212.BackColor = System.Drawing.Color.Gray;
             this.label212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label212.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label212.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6844,7 +6844,7 @@
             // 
             // label218
             // 
-            this.label218.BackColor = System.Drawing.Color.DarkGray;
+            this.label218.BackColor = System.Drawing.Color.Gray;
             this.label218.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label218.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label218.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6870,7 +6870,7 @@
             // 
             // label220
             // 
-            this.label220.BackColor = System.Drawing.Color.DarkGray;
+            this.label220.BackColor = System.Drawing.Color.DimGray;
             this.label220.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label220.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label220.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6896,7 +6896,7 @@
             // 
             // label222
             // 
-            this.label222.BackColor = System.Drawing.Color.DarkGray;
+            this.label222.BackColor = System.Drawing.Color.Gray;
             this.label222.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label222.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label222.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6948,7 +6948,7 @@
             // 
             // label226
             // 
-            this.label226.BackColor = System.Drawing.Color.DarkGray;
+            this.label226.BackColor = System.Drawing.Color.Gray;
             this.label226.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label226.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label226.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -6974,7 +6974,7 @@
             // 
             // label228
             // 
-            this.label228.BackColor = System.Drawing.Color.DarkGray;
+            this.label228.BackColor = System.Drawing.Color.DimGray;
             this.label228.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label228.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label228.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -7000,7 +7000,7 @@
             // 
             // label230
             // 
-            this.label230.BackColor = System.Drawing.Color.DarkGray;
+            this.label230.BackColor = System.Drawing.Color.Gray;
             this.label230.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label230.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label230.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -7052,7 +7052,7 @@
             // 
             // label234
             // 
-            this.label234.BackColor = System.Drawing.Color.DarkGray;
+            this.label234.BackColor = System.Drawing.Color.Gray;
             this.label234.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label234.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label234.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -7078,7 +7078,7 @@
             // 
             // label236
             // 
-            this.label236.BackColor = System.Drawing.Color.DarkGray;
+            this.label236.BackColor = System.Drawing.Color.DimGray;
             this.label236.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label236.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label236.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -7104,7 +7104,7 @@
             // 
             // label238
             // 
-            this.label238.BackColor = System.Drawing.Color.DarkGray;
+            this.label238.BackColor = System.Drawing.Color.Gray;
             this.label238.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label238.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label238.ForeColor = System.Drawing.SystemColors.ControlLightLight;

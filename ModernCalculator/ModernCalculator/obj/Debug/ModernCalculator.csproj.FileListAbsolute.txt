@@ -13,3 +13,4 @@ C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\ob
 C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.KaztemirContractForm.resources
 C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.MainCalculationChooseForm.resources
 C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.AsiaTemirForm.resources
+C:\Users\User\source\repos\ModernCalculator\ModernCalculator\ModernCalculator\obj\Debug\ModernCalculator.MetallServiseForm.resources

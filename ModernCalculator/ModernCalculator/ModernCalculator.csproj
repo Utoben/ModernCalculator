@@ -88,6 +88,12 @@
     <Compile Include="MainCalculationChooseForm.Designer.cs">
       <DependentUpon>MainCalculationChooseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetallServiseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetallServiseForm.Designer.cs">
+      <DependentUpon>MetallServiseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainCalculationChooseForm.resx">
       <DependentUpon>MainCalculationChooseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MetallServiseForm.resx">
+      <DependentUpon>MetallServiseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

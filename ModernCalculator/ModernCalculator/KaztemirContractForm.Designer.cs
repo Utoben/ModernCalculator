@@ -1089,7 +1089,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(513, 23);
             this.label23.TabIndex = 67;
-            this.label23.Text = "Подробнее";
+            this.label23.Text = "Казтемир Контракт";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
