@@ -61,10 +61,10 @@ namespace ModernCalculator
             {
                 //парсим все введенные тексты в числа
 
-                Int32.TryParse(MetrageTextBox.Text, out metallValue);
-                Int32.TryParse(BracesTextBox.Text, out bracesValue);
-                Int32.TryParse(CurlsTextBox.Text, out curlsValue);
-                Int32.TryParse(WeldPointsTextBox.Text, out weldPointsValue);
+                int.TryParse(MetrageTextBox.Text, out metallValue);
+                int.TryParse(BracesTextBox.Text, out bracesValue);
+                int.TryParse(CurlsTextBox.Text, out curlsValue);
+                int.TryParse(WeldPointsTextBox.Text, out weldPointsValue);
 
                 MetallCountLabel.Text = Convert.ToString(metallValue);// заполнение поле Количество металла
                                                                       //MetallCountLabel.Text = MetrageTextBox.Text;

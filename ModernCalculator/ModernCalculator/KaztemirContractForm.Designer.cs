@@ -47,41 +47,36 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.TotalCount_Arm18Label = new System.Windows.Forms.Label();
+            this.TotalCount_Arm16Label = new System.Windows.Forms.Label();
+            this.TotalCount_Arm14Label = new System.Windows.Forms.Label();
+            this.TotalCount_Arm12Label = new System.Windows.Forms.Label();
+            this.TotalCount_Arm10Label = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
+            this.TotalSum_Arm18Label = new System.Windows.Forms.Label();
+            this.TotalSum_Arm16Label = new System.Windows.Forms.Label();
+            this.TotalSum_Arm14Label = new System.Windows.Forms.Label();
+            this.TotalSum_Arm12Label = new System.Windows.Forms.Label();
+            this.TotalSum_Arm10Label = new System.Windows.Forms.Label();
+            this.Whip_Arm18Label = new System.Windows.Forms.Label();
+            this.Whip_Arm16Label = new System.Windows.Forms.Label();
+            this.Whip_Arm14Label = new System.Windows.Forms.Label();
+            this.Whip_Arm12Label = new System.Windows.Forms.Label();
+            this.Whip_Arm10Label = new System.Windows.Forms.Label();
+            this.Perc20_Arm18Label = new System.Windows.Forms.Label();
+            this.Perc20_Arm16Label = new System.Windows.Forms.Label();
+            this.Perc20_Arm14Label = new System.Windows.Forms.Label();
+            this.Perc20_Arm12Label = new System.Windows.Forms.Label();
+            this.Perc20_Arm10Label = new System.Windows.Forms.Label();
             this.ToChooseButton = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -113,11 +108,6 @@
             this.label79 = new System.Windows.Forms.Label();
             this.label80 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
             this.label88 = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
@@ -136,8 +126,6 @@
             this.label102 = new System.Windows.Forms.Label();
             this.label103 = new System.Windows.Forms.Label();
             this.label104 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.label106 = new System.Windows.Forms.Label();
             this.label107 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
             this.label109 = new System.Windows.Forms.Label();
@@ -934,6 +922,19 @@
             this.label899 = new System.Windows.Forms.Label();
             this.totalSumLabel = new System.Windows.Forms.Label();
             this.totalWeightLlabel = new System.Windows.Forms.Label();
+            this.Arm14TB = new System.Windows.Forms.TextBox();
+            this.Arm16TB = new System.Windows.Forms.TextBox();
+            this.Arm18TB = new System.Windows.Forms.TextBox();
+            this.Arm10TB = new System.Windows.Forms.TextBox();
+            this.Arm12TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle10TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle8TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle16TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle14TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle12TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle20TB = new System.Windows.Forms.TextBox();
+            this.SteelCircle18TB = new System.Windows.Forms.TextBox();
+            this.RezultButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -1155,71 +1156,6 @@
             this.label3.Text = "20%(Кол)";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.DarkGray;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(229, 290);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 23);
-            this.label4.TabIndex = 110;
-            this.label4.Text = "0";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.DarkGray;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(229, 268);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 23);
-            this.label5.TabIndex = 109;
-            this.label5.Text = "0";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.DarkGray;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(229, 246);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(114, 23);
-            this.label6.TabIndex = 108;
-            this.label6.Text = "0";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.DarkGray;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(229, 224);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(114, 23);
-            this.label7.TabIndex = 107;
-            this.label7.Text = "0";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.DarkGray;
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(229, 202);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 23);
-            this.label8.TabIndex = 106;
-            this.label8.Text = "0";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label9
             // 
             this.label9.BackColor = System.Drawing.Color.DarkGray;
@@ -1230,7 +1166,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(99, 23);
             this.label9.TabIndex = 115;
-            this.label9.Text = "2.05";
+            this.label9.Text = "2,05";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -1243,7 +1179,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(99, 23);
             this.label10.TabIndex = 114;
-            this.label10.Text = "1.6";
+            this.label10.Text = "1,6";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -1256,7 +1192,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(99, 23);
             this.label11.TabIndex = 113;
-            this.label11.Text = "1.21";
+            this.label11.Text = "1,21";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -1269,7 +1205,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(99, 23);
             this.label12.TabIndex = 112;
-            this.label12.Text = "0.91";
+            this.label12.Text = "0,91";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
@@ -1282,73 +1218,73 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 23);
             this.label13.TabIndex = 111;
-            this.label13.Text = "0.64";
+            this.label13.Text = "0,64";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // TotalCount_Arm18Label
             // 
-            this.label14.BackColor = System.Drawing.Color.DarkGray;
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label14.Location = new System.Drawing.Point(435, 290);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(99, 23);
-            this.label14.TabIndex = 120;
-            this.label14.Text = "0";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalCount_Arm18Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalCount_Arm18Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalCount_Arm18Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalCount_Arm18Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalCount_Arm18Label.Location = new System.Drawing.Point(435, 290);
+            this.TotalCount_Arm18Label.Name = "TotalCount_Arm18Label";
+            this.TotalCount_Arm18Label.Size = new System.Drawing.Size(99, 23);
+            this.TotalCount_Arm18Label.TabIndex = 120;
+            this.TotalCount_Arm18Label.Text = "0";
+            this.TotalCount_Arm18Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // TotalCount_Arm16Label
             // 
-            this.label15.BackColor = System.Drawing.Color.DarkGray;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label15.Location = new System.Drawing.Point(435, 268);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(99, 23);
-            this.label15.TabIndex = 119;
-            this.label15.Text = "0";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalCount_Arm16Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalCount_Arm16Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalCount_Arm16Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalCount_Arm16Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalCount_Arm16Label.Location = new System.Drawing.Point(435, 268);
+            this.TotalCount_Arm16Label.Name = "TotalCount_Arm16Label";
+            this.TotalCount_Arm16Label.Size = new System.Drawing.Size(99, 23);
+            this.TotalCount_Arm16Label.TabIndex = 119;
+            this.TotalCount_Arm16Label.Text = "0";
+            this.TotalCount_Arm16Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // TotalCount_Arm14Label
             // 
-            this.label16.BackColor = System.Drawing.Color.DarkGray;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label16.Location = new System.Drawing.Point(435, 246);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(99, 23);
-            this.label16.TabIndex = 118;
-            this.label16.Text = "0";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalCount_Arm14Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalCount_Arm14Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalCount_Arm14Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalCount_Arm14Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalCount_Arm14Label.Location = new System.Drawing.Point(435, 246);
+            this.TotalCount_Arm14Label.Name = "TotalCount_Arm14Label";
+            this.TotalCount_Arm14Label.Size = new System.Drawing.Size(99, 23);
+            this.TotalCount_Arm14Label.TabIndex = 118;
+            this.TotalCount_Arm14Label.Text = "0";
+            this.TotalCount_Arm14Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // TotalCount_Arm12Label
             // 
-            this.label17.BackColor = System.Drawing.Color.DarkGray;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label17.Location = new System.Drawing.Point(435, 224);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(99, 23);
-            this.label17.TabIndex = 117;
-            this.label17.Text = "0";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalCount_Arm12Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalCount_Arm12Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalCount_Arm12Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalCount_Arm12Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalCount_Arm12Label.Location = new System.Drawing.Point(435, 224);
+            this.TotalCount_Arm12Label.Name = "TotalCount_Arm12Label";
+            this.TotalCount_Arm12Label.Size = new System.Drawing.Size(99, 23);
+            this.TotalCount_Arm12Label.TabIndex = 117;
+            this.TotalCount_Arm12Label.Text = "0";
+            this.TotalCount_Arm12Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label38
+            // TotalCount_Arm10Label
             // 
-            this.label38.BackColor = System.Drawing.Color.DarkGray;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label38.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label38.Location = new System.Drawing.Point(435, 202);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(99, 23);
-            this.label38.TabIndex = 116;
-            this.label38.Text = "0";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalCount_Arm10Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalCount_Arm10Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalCount_Arm10Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalCount_Arm10Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalCount_Arm10Label.Location = new System.Drawing.Point(435, 202);
+            this.TotalCount_Arm10Label.Name = "TotalCount_Arm10Label";
+            this.TotalCount_Arm10Label.Size = new System.Drawing.Size(99, 23);
+            this.TotalCount_Arm10Label.TabIndex = 116;
+            this.TotalCount_Arm10Label.Text = "0";
+            this.TotalCount_Arm10Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label39
             // 
@@ -1415,204 +1351,205 @@
             this.label43.Text = "272";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label36
+            // TotalSum_Arm18Label
             // 
-            this.label36.BackColor = System.Drawing.Color.DarkGray;
-            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label36.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label36.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label36.Location = new System.Drawing.Point(624, 290);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(81, 23);
-            this.label36.TabIndex = 130;
-            this.label36.Text = "0";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalSum_Arm18Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalSum_Arm18Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalSum_Arm18Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalSum_Arm18Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalSum_Arm18Label.Location = new System.Drawing.Point(624, 290);
+            this.TotalSum_Arm18Label.Name = "TotalSum_Arm18Label";
+            this.TotalSum_Arm18Label.Size = new System.Drawing.Size(81, 23);
+            this.TotalSum_Arm18Label.TabIndex = 130;
+            this.TotalSum_Arm18Label.Text = "0";
+            this.TotalSum_Arm18Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label44
+            // TotalSum_Arm16Label
             // 
-            this.label44.BackColor = System.Drawing.Color.DarkGray;
-            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label44.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label44.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label44.Location = new System.Drawing.Point(624, 268);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(81, 23);
-            this.label44.TabIndex = 129;
-            this.label44.Text = "0";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalSum_Arm16Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalSum_Arm16Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalSum_Arm16Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalSum_Arm16Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalSum_Arm16Label.Location = new System.Drawing.Point(624, 268);
+            this.TotalSum_Arm16Label.Name = "TotalSum_Arm16Label";
+            this.TotalSum_Arm16Label.Size = new System.Drawing.Size(81, 23);
+            this.TotalSum_Arm16Label.TabIndex = 129;
+            this.TotalSum_Arm16Label.Text = "0";
+            this.TotalSum_Arm16Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label45
+            // TotalSum_Arm14Label
             // 
-            this.label45.BackColor = System.Drawing.Color.DarkGray;
-            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label45.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label45.Location = new System.Drawing.Point(624, 246);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(81, 23);
-            this.label45.TabIndex = 128;
-            this.label45.Text = "0";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalSum_Arm14Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalSum_Arm14Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalSum_Arm14Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalSum_Arm14Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalSum_Arm14Label.Location = new System.Drawing.Point(624, 246);
+            this.TotalSum_Arm14Label.Name = "TotalSum_Arm14Label";
+            this.TotalSum_Arm14Label.Size = new System.Drawing.Size(81, 23);
+            this.TotalSum_Arm14Label.TabIndex = 128;
+            this.TotalSum_Arm14Label.Text = "0";
+            this.TotalSum_Arm14Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label46
+            // TotalSum_Arm12Label
             // 
-            this.label46.BackColor = System.Drawing.Color.DarkGray;
-            this.label46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label46.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label46.Location = new System.Drawing.Point(624, 224);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(81, 23);
-            this.label46.TabIndex = 127;
-            this.label46.Text = "0";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalSum_Arm12Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalSum_Arm12Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalSum_Arm12Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalSum_Arm12Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalSum_Arm12Label.Location = new System.Drawing.Point(624, 224);
+            this.TotalSum_Arm12Label.Name = "TotalSum_Arm12Label";
+            this.TotalSum_Arm12Label.Size = new System.Drawing.Size(81, 23);
+            this.TotalSum_Arm12Label.TabIndex = 127;
+            this.TotalSum_Arm12Label.Text = "0";
+            this.TotalSum_Arm12Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label47
+            // TotalSum_Arm10Label
             // 
-            this.label47.BackColor = System.Drawing.Color.DarkGray;
-            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label47.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label47.Location = new System.Drawing.Point(624, 202);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(81, 23);
-            this.label47.TabIndex = 126;
-            this.label47.Text = "0";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.TotalSum_Arm10Label.BackColor = System.Drawing.Color.DarkGray;
+            this.TotalSum_Arm10Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalSum_Arm10Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalSum_Arm10Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TotalSum_Arm10Label.Location = new System.Drawing.Point(624, 202);
+            this.TotalSum_Arm10Label.Name = "TotalSum_Arm10Label";
+            this.TotalSum_Arm10Label.Size = new System.Drawing.Size(81, 23);
+            this.TotalSum_Arm10Label.TabIndex = 126;
+            this.TotalSum_Arm10Label.Text = "0";
+            this.TotalSum_Arm10Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label49
+            // Whip_Arm18Label
             // 
-            this.label49.BackColor = System.Drawing.Color.DarkGray;
-            this.label49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label49.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label49.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label49.Location = new System.Drawing.Point(794, 290);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(85, 23);
-            this.label49.TabIndex = 136;
-            this.label49.Text = "0";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whip_Arm18Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Whip_Arm18Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whip_Arm18Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whip_Arm18Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whip_Arm18Label.Location = new System.Drawing.Point(794, 290);
+            this.Whip_Arm18Label.Name = "Whip_Arm18Label";
+            this.Whip_Arm18Label.Size = new System.Drawing.Size(85, 23);
+            this.Whip_Arm18Label.TabIndex = 136;
+            this.Whip_Arm18Label.Text = "0";
+            this.Whip_Arm18Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label50
+            // Whip_Arm16Label
             // 
-            this.label50.BackColor = System.Drawing.Color.DarkGray;
-            this.label50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label50.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label50.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label50.Location = new System.Drawing.Point(794, 268);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(85, 23);
-            this.label50.TabIndex = 135;
-            this.label50.Text = "0";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whip_Arm16Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Whip_Arm16Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whip_Arm16Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whip_Arm16Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whip_Arm16Label.Location = new System.Drawing.Point(794, 268);
+            this.Whip_Arm16Label.Name = "Whip_Arm16Label";
+            this.Whip_Arm16Label.Size = new System.Drawing.Size(85, 23);
+            this.Whip_Arm16Label.TabIndex = 135;
+            this.Whip_Arm16Label.Text = "0";
+            this.Whip_Arm16Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label51
+            // Whip_Arm14Label
             // 
-            this.label51.BackColor = System.Drawing.Color.DarkGray;
-            this.label51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label51.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label51.Location = new System.Drawing.Point(794, 246);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(85, 23);
-            this.label51.TabIndex = 134;
-            this.label51.Text = "0";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whip_Arm14Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Whip_Arm14Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whip_Arm14Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whip_Arm14Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whip_Arm14Label.Location = new System.Drawing.Point(794, 246);
+            this.Whip_Arm14Label.Name = "Whip_Arm14Label";
+            this.Whip_Arm14Label.Size = new System.Drawing.Size(85, 23);
+            this.Whip_Arm14Label.TabIndex = 134;
+            this.Whip_Arm14Label.Text = "0";
+            this.Whip_Arm14Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label52
+            // Whip_Arm12Label
             // 
-            this.label52.BackColor = System.Drawing.Color.DarkGray;
-            this.label52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label52.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label52.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label52.Location = new System.Drawing.Point(794, 224);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(85, 23);
-            this.label52.TabIndex = 133;
-            this.label52.Text = "0";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whip_Arm12Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Whip_Arm12Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whip_Arm12Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whip_Arm12Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whip_Arm12Label.Location = new System.Drawing.Point(794, 224);
+            this.Whip_Arm12Label.Name = "Whip_Arm12Label";
+            this.Whip_Arm12Label.Size = new System.Drawing.Size(85, 23);
+            this.Whip_Arm12Label.TabIndex = 133;
+            this.Whip_Arm12Label.Text = "0";
+            this.Whip_Arm12Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label53
+            // Whip_Arm10Label
             // 
-            this.label53.BackColor = System.Drawing.Color.DarkGray;
-            this.label53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label53.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label53.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label53.Location = new System.Drawing.Point(794, 202);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(85, 23);
-            this.label53.TabIndex = 132;
-            this.label53.Text = "0";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whip_Arm10Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Whip_Arm10Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whip_Arm10Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whip_Arm10Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whip_Arm10Label.Location = new System.Drawing.Point(794, 202);
+            this.Whip_Arm10Label.Name = "Whip_Arm10Label";
+            this.Whip_Arm10Label.Size = new System.Drawing.Size(85, 23);
+            this.Whip_Arm10Label.TabIndex = 132;
+            this.Whip_Arm10Label.Text = "0";
+            this.Whip_Arm10Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label54
+            // Perc20_Arm18Label
             // 
-            this.label54.BackColor = System.Drawing.Color.DarkGray;
-            this.label54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label54.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label54.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label54.Location = new System.Drawing.Point(702, 290);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(93, 23);
-            this.label54.TabIndex = 141;
-            this.label54.Text = "0";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc20_Arm18Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc20_Arm18Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc20_Arm18Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc20_Arm18Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc20_Arm18Label.Location = new System.Drawing.Point(702, 290);
+            this.Perc20_Arm18Label.Name = "Perc20_Arm18Label";
+            this.Perc20_Arm18Label.Size = new System.Drawing.Size(93, 23);
+            this.Perc20_Arm18Label.TabIndex = 141;
+            this.Perc20_Arm18Label.Text = "0";
+            this.Perc20_Arm18Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label55
+            // Perc20_Arm16Label
             // 
-            this.label55.BackColor = System.Drawing.Color.DarkGray;
-            this.label55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label55.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label55.Location = new System.Drawing.Point(702, 268);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(93, 23);
-            this.label55.TabIndex = 140;
-            this.label55.Text = "0";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc20_Arm16Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc20_Arm16Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc20_Arm16Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc20_Arm16Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc20_Arm16Label.Location = new System.Drawing.Point(702, 268);
+            this.Perc20_Arm16Label.Name = "Perc20_Arm16Label";
+            this.Perc20_Arm16Label.Size = new System.Drawing.Size(93, 23);
+            this.Perc20_Arm16Label.TabIndex = 140;
+            this.Perc20_Arm16Label.Text = "0";
+            this.Perc20_Arm16Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label56
+            // Perc20_Arm14Label
             // 
-            this.label56.BackColor = System.Drawing.Color.DarkGray;
-            this.label56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label56.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label56.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label56.Location = new System.Drawing.Point(702, 246);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(93, 23);
-            this.label56.TabIndex = 139;
-            this.label56.Text = "0";
-            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc20_Arm14Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc20_Arm14Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc20_Arm14Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc20_Arm14Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc20_Arm14Label.Location = new System.Drawing.Point(702, 246);
+            this.Perc20_Arm14Label.Name = "Perc20_Arm14Label";
+            this.Perc20_Arm14Label.Size = new System.Drawing.Size(93, 23);
+            this.Perc20_Arm14Label.TabIndex = 139;
+            this.Perc20_Arm14Label.Text = "0";
+            this.Perc20_Arm14Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label57
+            // Perc20_Arm12Label
             // 
-            this.label57.BackColor = System.Drawing.Color.DarkGray;
-            this.label57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label57.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label57.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label57.Location = new System.Drawing.Point(702, 224);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(93, 23);
-            this.label57.TabIndex = 138;
-            this.label57.Text = "0";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc20_Arm12Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc20_Arm12Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc20_Arm12Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc20_Arm12Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc20_Arm12Label.Location = new System.Drawing.Point(702, 224);
+            this.Perc20_Arm12Label.Name = "Perc20_Arm12Label";
+            this.Perc20_Arm12Label.Size = new System.Drawing.Size(93, 23);
+            this.Perc20_Arm12Label.TabIndex = 138;
+            this.Perc20_Arm12Label.Text = "0";
+            this.Perc20_Arm12Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label58
+            // Perc20_Arm10Label
             // 
-            this.label58.BackColor = System.Drawing.Color.DarkGray;
-            this.label58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label58.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label58.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label58.Location = new System.Drawing.Point(702, 202);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(93, 23);
-            this.label58.TabIndex = 137;
-            this.label58.Text = "0";
-            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc20_Arm10Label.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc20_Arm10Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc20_Arm10Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc20_Arm10Label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc20_Arm10Label.Location = new System.Drawing.Point(702, 202);
+            this.Perc20_Arm10Label.Name = "Perc20_Arm10Label";
+            this.Perc20_Arm10Label.Size = new System.Drawing.Size(93, 23);
+            this.Perc20_Arm10Label.TabIndex = 137;
+            this.Perc20_Arm10Label.Text = "0";
+            this.Perc20_Arm10Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ToChooseButton
             // 
-            this.ToChooseButton.Location = new System.Drawing.Point(794, 47);
+            this.ToChooseButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ToChooseButton.Location = new System.Drawing.Point(792, 47);
             this.ToChooseButton.Name = "ToChooseButton";
             this.ToChooseButton.Size = new System.Drawing.Size(85, 38);
             this.ToChooseButton.TabIndex = 142;
@@ -2010,71 +1947,6 @@
             this.label81.Text = "0.41";
             this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label82
-            // 
-            this.label82.BackColor = System.Drawing.Color.DarkGray;
-            this.label82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label82.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label82.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label82.Location = new System.Drawing.Point(229, 412);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(114, 23);
-            this.label82.TabIndex = 153;
-            this.label82.Text = "0";
-            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label83
-            // 
-            this.label83.BackColor = System.Drawing.Color.DarkGray;
-            this.label83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label83.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label83.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label83.Location = new System.Drawing.Point(229, 390);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(114, 23);
-            this.label83.TabIndex = 152;
-            this.label83.Text = "0";
-            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label84
-            // 
-            this.label84.BackColor = System.Drawing.Color.DarkGray;
-            this.label84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label84.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label84.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label84.Location = new System.Drawing.Point(229, 368);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(114, 23);
-            this.label84.TabIndex = 151;
-            this.label84.Text = "0";
-            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label85
-            // 
-            this.label85.BackColor = System.Drawing.Color.DarkGray;
-            this.label85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label85.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label85.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label85.Location = new System.Drawing.Point(229, 346);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(114, 23);
-            this.label85.TabIndex = 150;
-            this.label85.Text = "0";
-            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label86
-            // 
-            this.label86.BackColor = System.Drawing.Color.DarkGray;
-            this.label86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label86.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label86.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label86.Location = new System.Drawing.Point(229, 324);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(114, 23);
-            this.label86.TabIndex = 149;
-            this.label86.Text = "0";
-            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label87
             // 
             this.label87.BackColor = System.Drawing.Color.DarkGray;
@@ -2308,32 +2180,6 @@
             this.label104.TabIndex = 188;
             this.label104.Text = "2.04";
             this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label105
-            // 
-            this.label105.BackColor = System.Drawing.Color.DarkGray;
-            this.label105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label105.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label105.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label105.Location = new System.Drawing.Point(229, 456);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(114, 23);
-            this.label105.TabIndex = 187;
-            this.label105.Text = "0";
-            this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label106
-            // 
-            this.label106.BackColor = System.Drawing.Color.DarkGray;
-            this.label106.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label106.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label106.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label106.Location = new System.Drawing.Point(229, 434);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(114, 23);
-            this.label106.TabIndex = 186;
-            this.label106.Text = "0";
-            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label107
             // 
@@ -12605,13 +12451,189 @@
             this.totalWeightLlabel.Text = "0";
             this.totalWeightLlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Arm14TB
+            // 
+            this.Arm14TB.BackColor = System.Drawing.Color.LightGray;
+            this.Arm14TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Arm14TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Arm14TB.Location = new System.Drawing.Point(229, 246);
+            this.Arm14TB.Multiline = true;
+            this.Arm14TB.Name = "Arm14TB";
+            this.Arm14TB.Size = new System.Drawing.Size(107, 23);
+            this.Arm14TB.TabIndex = 1035;
+            this.Arm14TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Arm16TB
+            // 
+            this.Arm16TB.BackColor = System.Drawing.Color.LightGray;
+            this.Arm16TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Arm16TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Arm16TB.Location = new System.Drawing.Point(229, 268);
+            this.Arm16TB.Multiline = true;
+            this.Arm16TB.Name = "Arm16TB";
+            this.Arm16TB.Size = new System.Drawing.Size(107, 23);
+            this.Arm16TB.TabIndex = 1036;
+            this.Arm16TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Arm18TB
+            // 
+            this.Arm18TB.BackColor = System.Drawing.Color.LightGray;
+            this.Arm18TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Arm18TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Arm18TB.Location = new System.Drawing.Point(229, 290);
+            this.Arm18TB.Multiline = true;
+            this.Arm18TB.Name = "Arm18TB";
+            this.Arm18TB.Size = new System.Drawing.Size(107, 23);
+            this.Arm18TB.TabIndex = 1037;
+            this.Arm18TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Arm10TB
+            // 
+            this.Arm10TB.BackColor = System.Drawing.Color.LightGray;
+            this.Arm10TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Arm10TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Arm10TB.Location = new System.Drawing.Point(229, 202);
+            this.Arm10TB.Multiline = true;
+            this.Arm10TB.Name = "Arm10TB";
+            this.Arm10TB.Size = new System.Drawing.Size(107, 23);
+            this.Arm10TB.TabIndex = 1038;
+            this.Arm10TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Arm12TB
+            // 
+            this.Arm12TB.BackColor = System.Drawing.Color.LightGray;
+            this.Arm12TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Arm12TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Arm12TB.Location = new System.Drawing.Point(229, 224);
+            this.Arm12TB.Multiline = true;
+            this.Arm12TB.Name = "Arm12TB";
+            this.Arm12TB.Size = new System.Drawing.Size(107, 23);
+            this.Arm12TB.TabIndex = 1039;
+            this.Arm12TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle10TB
+            // 
+            this.SteelCircle10TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle10TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle10TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle10TB.Location = new System.Drawing.Point(229, 346);
+            this.SteelCircle10TB.Multiline = true;
+            this.SteelCircle10TB.Name = "SteelCircle10TB";
+            this.SteelCircle10TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle10TB.TabIndex = 1044;
+            this.SteelCircle10TB.Text = "0";
+            this.SteelCircle10TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle8TB
+            // 
+            this.SteelCircle8TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle8TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle8TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle8TB.Location = new System.Drawing.Point(229, 324);
+            this.SteelCircle8TB.Multiline = true;
+            this.SteelCircle8TB.Name = "SteelCircle8TB";
+            this.SteelCircle8TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle8TB.TabIndex = 1043;
+            this.SteelCircle8TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle16TB
+            // 
+            this.SteelCircle16TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle16TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle16TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle16TB.Location = new System.Drawing.Point(229, 412);
+            this.SteelCircle16TB.Multiline = true;
+            this.SteelCircle16TB.Name = "SteelCircle16TB";
+            this.SteelCircle16TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle16TB.TabIndex = 1042;
+            this.SteelCircle16TB.Text = "0";
+            this.SteelCircle16TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle14TB
+            // 
+            this.SteelCircle14TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle14TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle14TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle14TB.Location = new System.Drawing.Point(229, 390);
+            this.SteelCircle14TB.Multiline = true;
+            this.SteelCircle14TB.Name = "SteelCircle14TB";
+            this.SteelCircle14TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle14TB.TabIndex = 1041;
+            this.SteelCircle14TB.Text = "0";
+            this.SteelCircle14TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle12TB
+            // 
+            this.SteelCircle12TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle12TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle12TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle12TB.Location = new System.Drawing.Point(229, 368);
+            this.SteelCircle12TB.Multiline = true;
+            this.SteelCircle12TB.Name = "SteelCircle12TB";
+            this.SteelCircle12TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle12TB.TabIndex = 1040;
+            this.SteelCircle12TB.Text = "0";
+            this.SteelCircle12TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle20TB
+            // 
+            this.SteelCircle20TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle20TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle20TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle20TB.Location = new System.Drawing.Point(229, 456);
+            this.SteelCircle20TB.Multiline = true;
+            this.SteelCircle20TB.Name = "SteelCircle20TB";
+            this.SteelCircle20TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle20TB.TabIndex = 1046;
+            this.SteelCircle20TB.Text = "0";
+            this.SteelCircle20TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SteelCircle18TB
+            // 
+            this.SteelCircle18TB.BackColor = System.Drawing.Color.LightGray;
+            this.SteelCircle18TB.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SteelCircle18TB.ForeColor = System.Drawing.SystemColors.Menu;
+            this.SteelCircle18TB.Location = new System.Drawing.Point(229, 434);
+            this.SteelCircle18TB.Multiline = true;
+            this.SteelCircle18TB.Name = "SteelCircle18TB";
+            this.SteelCircle18TB.Size = new System.Drawing.Size(107, 23);
+            this.SteelCircle18TB.TabIndex = 1045;
+            this.SteelCircle18TB.Text = "0";
+            this.SteelCircle18TB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // RezultButton
+            // 
+            this.RezultButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RezultButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RezultButton.Location = new System.Drawing.Point(792, 104);
+            this.RezultButton.Name = "RezultButton";
+            this.RezultButton.Size = new System.Drawing.Size(85, 38);
+            this.RezultButton.TabIndex = 1047;
+            this.RezultButton.Text = "Рассчет";
+            this.RezultButton.UseVisualStyleBackColor = true;
+            this.RezultButton.Click += new System.EventHandler(this.RezultButton_Click);
+            // 
             // KaztemirContractForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(910, 749);
+            this.Controls.Add(this.RezultButton);
+            this.Controls.Add(this.SteelCircle20TB);
+            this.Controls.Add(this.SteelCircle18TB);
+            this.Controls.Add(this.SteelCircle10TB);
+            this.Controls.Add(this.SteelCircle8TB);
+            this.Controls.Add(this.SteelCircle16TB);
+            this.Controls.Add(this.SteelCircle14TB);
+            this.Controls.Add(this.SteelCircle12TB);
+            this.Controls.Add(this.Arm12TB);
+            this.Controls.Add(this.Arm10TB);
+            this.Controls.Add(this.Arm18TB);
+            this.Controls.Add(this.Arm16TB);
+            this.Controls.Add(this.Arm14TB);
             this.Controls.Add(this.totalWeightLlabel);
             this.Controls.Add(this.totalSumLabel);
             this.Controls.Add(this.label899);
@@ -13418,8 +13440,6 @@
             this.Controls.Add(this.label102);
             this.Controls.Add(this.label103);
             this.Controls.Add(this.label104);
-            this.Controls.Add(this.label105);
-            this.Controls.Add(this.label106);
             this.Controls.Add(this.label107);
             this.Controls.Add(this.label108);
             this.Controls.Add(this.label18);
@@ -13452,11 +13472,6 @@
             this.Controls.Add(this.label79);
             this.Controls.Add(this.label80);
             this.Controls.Add(this.label81);
-            this.Controls.Add(this.label82);
-            this.Controls.Add(this.label83);
-            this.Controls.Add(this.label84);
-            this.Controls.Add(this.label85);
-            this.Controls.Add(this.label86);
             this.Controls.Add(this.label87);
             this.Controls.Add(this.label88);
             this.Controls.Add(this.label89);
@@ -13464,41 +13479,36 @@
             this.Controls.Add(this.label91);
             this.Controls.Add(this.label92);
             this.Controls.Add(this.ToChooseButton);
-            this.Controls.Add(this.label54);
-            this.Controls.Add(this.label55);
-            this.Controls.Add(this.label56);
-            this.Controls.Add(this.label57);
-            this.Controls.Add(this.label58);
-            this.Controls.Add(this.label49);
-            this.Controls.Add(this.label50);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label47);
+            this.Controls.Add(this.Perc20_Arm18Label);
+            this.Controls.Add(this.Perc20_Arm16Label);
+            this.Controls.Add(this.Perc20_Arm14Label);
+            this.Controls.Add(this.Perc20_Arm12Label);
+            this.Controls.Add(this.Perc20_Arm10Label);
+            this.Controls.Add(this.Whip_Arm18Label);
+            this.Controls.Add(this.Whip_Arm16Label);
+            this.Controls.Add(this.Whip_Arm14Label);
+            this.Controls.Add(this.Whip_Arm12Label);
+            this.Controls.Add(this.Whip_Arm10Label);
+            this.Controls.Add(this.TotalSum_Arm18Label);
+            this.Controls.Add(this.TotalSum_Arm16Label);
+            this.Controls.Add(this.TotalSum_Arm14Label);
+            this.Controls.Add(this.TotalSum_Arm12Label);
+            this.Controls.Add(this.TotalSum_Arm10Label);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.label43);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label38);
+            this.Controls.Add(this.TotalCount_Arm18Label);
+            this.Controls.Add(this.TotalCount_Arm16Label);
+            this.Controls.Add(this.TotalCount_Arm14Label);
+            this.Controls.Add(this.TotalCount_Arm12Label);
+            this.Controls.Add(this.TotalCount_Arm10Label);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -13550,41 +13560,36 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label TotalCount_Arm18Label;
+        private System.Windows.Forms.Label TotalCount_Arm16Label;
+        private System.Windows.Forms.Label TotalCount_Arm14Label;
+        private System.Windows.Forms.Label TotalCount_Arm12Label;
+        private System.Windows.Forms.Label TotalCount_Arm10Label;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label TotalSum_Arm18Label;
+        private System.Windows.Forms.Label TotalSum_Arm16Label;
+        private System.Windows.Forms.Label TotalSum_Arm14Label;
+        private System.Windows.Forms.Label TotalSum_Arm12Label;
+        private System.Windows.Forms.Label TotalSum_Arm10Label;
+        private System.Windows.Forms.Label Whip_Arm18Label;
+        private System.Windows.Forms.Label Whip_Arm16Label;
+        private System.Windows.Forms.Label Whip_Arm14Label;
+        private System.Windows.Forms.Label Whip_Arm12Label;
+        private System.Windows.Forms.Label Whip_Arm10Label;
+        private System.Windows.Forms.Label Perc20_Arm18Label;
+        private System.Windows.Forms.Label Perc20_Arm16Label;
+        private System.Windows.Forms.Label Perc20_Arm14Label;
+        private System.Windows.Forms.Label Perc20_Arm12Label;
+        private System.Windows.Forms.Label Perc20_Arm10Label;
         private System.Windows.Forms.Button ToChooseButton;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -13616,11 +13621,6 @@
         private System.Windows.Forms.Label label79;
         private System.Windows.Forms.Label label80;
         private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.Label label83;
-        private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.Label label86;
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.Label label88;
         private System.Windows.Forms.Label label89;
@@ -13639,8 +13639,6 @@
         private System.Windows.Forms.Label label102;
         private System.Windows.Forms.Label label103;
         private System.Windows.Forms.Label label104;
-        private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.Label label106;
         private System.Windows.Forms.Label label107;
         private System.Windows.Forms.Label label108;
         private System.Windows.Forms.Label label109;
@@ -14437,5 +14435,18 @@
         private System.Windows.Forms.Label label899;
         private System.Windows.Forms.Label totalSumLabel;
         private System.Windows.Forms.Label totalWeightLlabel;
+        private System.Windows.Forms.TextBox Arm14TB;
+        private System.Windows.Forms.TextBox Arm16TB;
+        private System.Windows.Forms.TextBox Arm18TB;
+        private System.Windows.Forms.TextBox Arm10TB;
+        private System.Windows.Forms.TextBox Arm12TB;
+        private System.Windows.Forms.TextBox SteelCircle10TB;
+        private System.Windows.Forms.TextBox SteelCircle8TB;
+        private System.Windows.Forms.TextBox SteelCircle16TB;
+        private System.Windows.Forms.TextBox SteelCircle14TB;
+        private System.Windows.Forms.TextBox SteelCircle12TB;
+        private System.Windows.Forms.TextBox SteelCircle20TB;
+        private System.Windows.Forms.TextBox SteelCircle18TB;
+        private System.Windows.Forms.Button RezultButton;
     }
 }
