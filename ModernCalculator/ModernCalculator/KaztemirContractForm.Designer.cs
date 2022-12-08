@@ -78,16 +78,16 @@
             this.Perc20_Arm12Label = new System.Windows.Forms.Label();
             this.Perc20_Arm10Label = new System.Windows.Forms.Label();
             this.ToChooseButton = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_16 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_14 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_12 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_10 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_16 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_14 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_12 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_10 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_SteelCircle_Lbl_16 = new System.Windows.Forms.Label();
             this.Sum_SteelCircle_Lbl_14 = new System.Windows.Forms.Label();
             this.Sum_SteelCircle_Lbl_12 = new System.Windows.Forms.Label();
@@ -114,10 +114,10 @@
             this.label90 = new System.Windows.Forms.Label();
             this.label91 = new System.Windows.Forms.Label();
             this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_20 = new System.Windows.Forms.Label();
+            this.Perc_SteelCircle_Lbl_18 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_20 = new System.Windows.Forms.Label();
+            this.Whil_SteelCircle_Lbl_18 = new System.Windows.Forms.Label();
             this.Sum_SteelCircle_Lbl_20 = new System.Windows.Forms.Label();
             this.Sum_SteelCircle_Lbl_18 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
@@ -131,14 +131,14 @@
             this.label109 = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
             this.label111 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label130 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.label134 = new System.Windows.Forms.Label();
-            this.label135 = new System.Windows.Forms.Label();
-            this.label136 = new System.Windows.Forms.Label();
+            this.Perc_Sq_Lbl_14 = new System.Windows.Forms.Label();
+            this.Perc_Sq_Lbl_12 = new System.Windows.Forms.Label();
+            this.Perc_Sq_Lbl_10 = new System.Windows.Forms.Label();
+            this.Perc_Sq_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_Sq_Lbl_14 = new System.Windows.Forms.Label();
+            this.Whil_Sq_Lbl_12 = new System.Windows.Forms.Label();
+            this.Whil_Sq_Lbl_10 = new System.Windows.Forms.Label();
+            this.Whil_Sq_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_Rect_Lbl_14 = new System.Windows.Forms.Label();
             this.Sum_Rect_Lbl_12 = new System.Windows.Forms.Label();
             this.Sum_Rect_Lbl_10 = new System.Windows.Forms.Label();
@@ -161,14 +161,14 @@
             this.label166 = new System.Windows.Forms.Label();
             this.label167 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.label112 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label114 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
-            this.label117 = new System.Windows.Forms.Label();
-            this.label118 = new System.Windows.Forms.Label();
-            this.label119 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_4 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_2 = new System.Windows.Forms.Label();
@@ -191,13 +191,13 @@
             this.label176 = new System.Windows.Forms.Label();
             this.label177 = new System.Windows.Forms.Label();
             this.label178 = new System.Windows.Forms.Label();
-            this.label179 = new System.Windows.Forms.Label();
-            this.label180 = new System.Windows.Forms.Label();
-            this.label181 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_7 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_6 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_5 = new System.Windows.Forms.Label();
             this.label182 = new System.Windows.Forms.Label();
-            this.label183 = new System.Windows.Forms.Label();
-            this.label184 = new System.Windows.Forms.Label();
-            this.label185 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_7 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_6 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_5 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_7 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_6 = new System.Windows.Forms.Label();
@@ -218,10 +218,10 @@
             this.label207 = new System.Windows.Forms.Label();
             this.label208 = new System.Windows.Forms.Label();
             this.label209 = new System.Windows.Forms.Label();
-            this.label210 = new System.Windows.Forms.Label();
-            this.label211 = new System.Windows.Forms.Label();
-            this.label212 = new System.Windows.Forms.Label();
-            this.label213 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_9 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_9 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_9 = new System.Windows.Forms.Label();
             this.Sum_Corner_Lbl_8 = new System.Windows.Forms.Label();
             this.label216 = new System.Windows.Forms.Label();
@@ -232,10 +232,10 @@
             this.label221 = new System.Windows.Forms.Label();
             this.label224 = new System.Windows.Forms.Label();
             this.label225 = new System.Windows.Forms.Label();
-            this.label244 = new System.Windows.Forms.Label();
-            this.label245 = new System.Windows.Forms.Label();
-            this.label248 = new System.Windows.Forms.Label();
-            this.label249 = new System.Windows.Forms.Label();
+            this.Perc_Shv_Lbl_5 = new System.Windows.Forms.Label();
+            this.Perc_Shv_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_Shv_Lbl_5 = new System.Windows.Forms.Label();
+            this.Whil_Shv_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_Shv_Lbl_5 = new System.Windows.Forms.Label();
             this.Sum_Shv_Lbl_4 = new System.Windows.Forms.Label();
             this.label256 = new System.Windows.Forms.Label();
@@ -246,14 +246,14 @@
             this.label265 = new System.Windows.Forms.Label();
             this.label272 = new System.Windows.Forms.Label();
             this.label273 = new System.Windows.Forms.Label();
-            this.label274 = new System.Windows.Forms.Label();
-            this.label275 = new System.Windows.Forms.Label();
-            this.label276 = new System.Windows.Forms.Label();
-            this.label277 = new System.Windows.Forms.Label();
-            this.label278 = new System.Windows.Forms.Label();
-            this.label279 = new System.Windows.Forms.Label();
-            this.label280 = new System.Windows.Forms.Label();
-            this.label281 = new System.Windows.Forms.Label();
+            this.Perc_Shv_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_Shv_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_Shv_Lbl_1 = new System.Windows.Forms.Label();
+            this.Perc_Corner_Lbl_10 = new System.Windows.Forms.Label();
+            this.Whil_Shv_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_Shv_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Shv_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Corner_Lbl_10 = new System.Windows.Forms.Label();
             this.Sum_Shv_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_Shv_Lbl_2 = new System.Windows.Forms.Label();
             this.Sum_Shv_Lbl_1 = new System.Windows.Forms.Label();
@@ -279,19 +279,19 @@
             this.label226 = new System.Windows.Forms.Label();
             this.label227 = new System.Windows.Forms.Label();
             this.label228 = new System.Windows.Forms.Label();
-            this.label229 = new System.Windows.Forms.Label();
-            this.label230 = new System.Windows.Forms.Label();
+            this.Perc_Stripe_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_Stripe_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_Stripe_Lbl_4 = new System.Windows.Forms.Label();
             this.label232 = new System.Windows.Forms.Label();
             this.Count_Stripe4Lbl = new System.Windows.Forms.Label();
             this.label234 = new System.Windows.Forms.Label();
             this.label236 = new System.Windows.Forms.Label();
-            this.label237 = new System.Windows.Forms.Label();
-            this.label238 = new System.Windows.Forms.Label();
-            this.label239 = new System.Windows.Forms.Label();
-            this.label240 = new System.Windows.Forms.Label();
-            this.label241 = new System.Windows.Forms.Label();
-            this.label242 = new System.Windows.Forms.Label();
+            this.Perc_Stripe_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_Stripe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_Stripe_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Stripe_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_Stripe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Stripe_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_Stripe_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_Stripe_Lbl_2 = new System.Windows.Forms.Label();
             this.Sum_Stripe_Lbl_1 = new System.Windows.Forms.Label();
@@ -307,17 +307,17 @@
             this.label308 = new System.Windows.Forms.Label();
             this.label309 = new System.Windows.Forms.Label();
             this.label310 = new System.Windows.Forms.Label();
-            this.label311 = new System.Windows.Forms.Label();
-            this.label312 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_10 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_10 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_10 = new System.Windows.Forms.Label();
             this.label314 = new System.Windows.Forms.Label();
             this.Count_Pipe_Rect10Lbl = new System.Windows.Forms.Label();
             this.label316 = new System.Windows.Forms.Label();
             this.label318 = new System.Windows.Forms.Label();
-            this.label319 = new System.Windows.Forms.Label();
-            this.label320 = new System.Windows.Forms.Label();
-            this.label321 = new System.Windows.Forms.Label();
-            this.label322 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_9 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_9 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_9 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_8 = new System.Windows.Forms.Label();
             this.label325 = new System.Windows.Forms.Label();
@@ -329,13 +329,13 @@
             this.label333 = new System.Windows.Forms.Label();
             this.label334 = new System.Windows.Forms.Label();
             this.label335 = new System.Windows.Forms.Label();
-            this.label336 = new System.Windows.Forms.Label();
-            this.label337 = new System.Windows.Forms.Label();
-            this.label338 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_7 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_6 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_5 = new System.Windows.Forms.Label();
             this.label339 = new System.Windows.Forms.Label();
-            this.label340 = new System.Windows.Forms.Label();
-            this.label341 = new System.Windows.Forms.Label();
-            this.label342 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_7 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_6 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_5 = new System.Windows.Forms.Label();
             this.label343 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_7 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_6 = new System.Windows.Forms.Label();
@@ -356,14 +356,14 @@
             this.label364 = new System.Windows.Forms.Label();
             this.label365 = new System.Windows.Forms.Label();
             this.label366 = new System.Windows.Forms.Label();
-            this.label367 = new System.Windows.Forms.Label();
-            this.label368 = new System.Windows.Forms.Label();
-            this.label369 = new System.Windows.Forms.Label();
-            this.label370 = new System.Windows.Forms.Label();
-            this.label371 = new System.Windows.Forms.Label();
-            this.label372 = new System.Windows.Forms.Label();
-            this.label373 = new System.Windows.Forms.Label();
-            this.label374 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_4 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_2 = new System.Windows.Forms.Label();
@@ -386,17 +386,17 @@
             this.label398 = new System.Windows.Forms.Label();
             this.label399 = new System.Windows.Forms.Label();
             this.label400 = new System.Windows.Forms.Label();
-            this.label401 = new System.Windows.Forms.Label();
-            this.label402 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_15 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_15 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_15 = new System.Windows.Forms.Label();
             this.label404 = new System.Windows.Forms.Label();
             this.Count_Pipe_Rect15Lbl = new System.Windows.Forms.Label();
             this.label406 = new System.Windows.Forms.Label();
             this.label408 = new System.Windows.Forms.Label();
-            this.label409 = new System.Windows.Forms.Label();
-            this.label410 = new System.Windows.Forms.Label();
-            this.label411 = new System.Windows.Forms.Label();
-            this.label412 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_114 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_13 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_14 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_13 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_14 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_13 = new System.Windows.Forms.Label();
             this.label415 = new System.Windows.Forms.Label();
@@ -408,11 +408,11 @@
             this.label423 = new System.Windows.Forms.Label();
             this.label424 = new System.Windows.Forms.Label();
             this.label425 = new System.Windows.Forms.Label();
-            this.label426 = new System.Windows.Forms.Label();
-            this.label427 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_12 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_11 = new System.Windows.Forms.Label();
             this.label428 = new System.Windows.Forms.Label();
-            this.label429 = new System.Windows.Forms.Label();
-            this.label430 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_12 = new System.Windows.Forms.Label();
+            this.Whil_Pipe_Rect_Lbl_11 = new System.Windows.Forms.Label();
             this.label431 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_12 = new System.Windows.Forms.Label();
             this.Sum_Pipe_Rect_Lbl_11 = new System.Windows.Forms.Label();
@@ -429,10 +429,10 @@
             this.label447 = new System.Windows.Forms.Label();
             this.label448 = new System.Windows.Forms.Label();
             this.label449 = new System.Windows.Forms.Label();
-            this.label450 = new System.Windows.Forms.Label();
-            this.label451 = new System.Windows.Forms.Label();
-            this.label452 = new System.Windows.Forms.Label();
-            this.label453 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_7 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_6 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_7 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_6 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_7 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_6 = new System.Windows.Forms.Label();
             this.label456 = new System.Windows.Forms.Label();
@@ -443,16 +443,16 @@
             this.label461 = new System.Windows.Forms.Label();
             this.label464 = new System.Windows.Forms.Label();
             this.label465 = new System.Windows.Forms.Label();
-            this.label466 = new System.Windows.Forms.Label();
-            this.label467 = new System.Windows.Forms.Label();
-            this.label468 = new System.Windows.Forms.Label();
-            this.label469 = new System.Windows.Forms.Label();
-            this.label470 = new System.Windows.Forms.Label();
-            this.label471 = new System.Windows.Forms.Label();
-            this.label472 = new System.Windows.Forms.Label();
-            this.label473 = new System.Windows.Forms.Label();
-            this.label474 = new System.Windows.Forms.Label();
-            this.label475 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_5 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_4 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_5 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_5 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_3 = new System.Windows.Forms.Label();
@@ -479,23 +479,23 @@
             this.label504 = new System.Windows.Forms.Label();
             this.label505 = new System.Windows.Forms.Label();
             this.label506 = new System.Windows.Forms.Label();
-            this.label507 = new System.Windows.Forms.Label();
-            this.label508 = new System.Windows.Forms.Label();
+            this.Perc_Shet_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_Shet_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_Shet_Lbl_8 = new System.Windows.Forms.Label();
             this.label510 = new System.Windows.Forms.Label();
             this.Count_Shet_8Lbl = new System.Windows.Forms.Label();
             this.label512 = new System.Windows.Forms.Label();
             this.label514 = new System.Windows.Forms.Label();
             this.label515 = new System.Windows.Forms.Label();
-            this.label516 = new System.Windows.Forms.Label();
-            this.label517 = new System.Windows.Forms.Label();
+            this.Perc_Seamless_Pipe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_Seamless_Pipe_Lbl_2 = new System.Windows.Forms.Label();
             this.Sum_Seamless_Pipe_Lbl_2 = new System.Windows.Forms.Label();
             this.label519 = new System.Windows.Forms.Label();
             this.Count_Seamless_Pipe_2Lbl = new System.Windows.Forms.Label();
             this.label521 = new System.Windows.Forms.Label();
             this.label523 = new System.Windows.Forms.Label();
-            this.label524 = new System.Windows.Forms.Label();
-            this.label525 = new System.Windows.Forms.Label();
+            this.Perc_Seamless_Pipe_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_Seamless_Pipe_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_Seamless_Pipe_Lbl_1 = new System.Windows.Forms.Label();
             this.label527 = new System.Windows.Forms.Label();
             this.Count_Seamless_Pipe_1Lbl = new System.Windows.Forms.Label();
@@ -503,17 +503,17 @@
             this.label531 = new System.Windows.Forms.Label();
             this.label532 = new System.Windows.Forms.Label();
             this.label533 = new System.Windows.Forms.Label();
-            this.label534 = new System.Windows.Forms.Label();
-            this.label535 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_15 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_15 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_15 = new System.Windows.Forms.Label();
             this.label537 = new System.Windows.Forms.Label();
             this.Count_VGP_Pipe_15Lbl = new System.Windows.Forms.Label();
             this.label539 = new System.Windows.Forms.Label();
             this.label541 = new System.Windows.Forms.Label();
-            this.label542 = new System.Windows.Forms.Label();
-            this.label543 = new System.Windows.Forms.Label();
-            this.label544 = new System.Windows.Forms.Label();
-            this.label545 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_14 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_13 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_14 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_13 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_14 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_13 = new System.Windows.Forms.Label();
             this.label548 = new System.Windows.Forms.Label();
@@ -525,11 +525,11 @@
             this.label556 = new System.Windows.Forms.Label();
             this.label557 = new System.Windows.Forms.Label();
             this.label558 = new System.Windows.Forms.Label();
-            this.label559 = new System.Windows.Forms.Label();
-            this.label560 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_12 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_11 = new System.Windows.Forms.Label();
             this.label561 = new System.Windows.Forms.Label();
-            this.label562 = new System.Windows.Forms.Label();
-            this.label563 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_12 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_11 = new System.Windows.Forms.Label();
             this.label564 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_12 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_11 = new System.Windows.Forms.Label();
@@ -545,17 +545,17 @@
             this.label579 = new System.Windows.Forms.Label();
             this.label580 = new System.Windows.Forms.Label();
             this.label581 = new System.Windows.Forms.Label();
-            this.label582 = new System.Windows.Forms.Label();
-            this.label583 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_10 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_10 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_10 = new System.Windows.Forms.Label();
             this.label585 = new System.Windows.Forms.Label();
             this.Count_VGP_Pipe_10Lbl = new System.Windows.Forms.Label();
             this.label587 = new System.Windows.Forms.Label();
             this.label589 = new System.Windows.Forms.Label();
-            this.label590 = new System.Windows.Forms.Label();
-            this.label591 = new System.Windows.Forms.Label();
-            this.label592 = new System.Windows.Forms.Label();
-            this.label593 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_9 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_8 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_9 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_8 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_9 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_8 = new System.Windows.Forms.Label();
             this.label596 = new System.Windows.Forms.Label();
@@ -567,13 +567,13 @@
             this.label604 = new System.Windows.Forms.Label();
             this.label605 = new System.Windows.Forms.Label();
             this.label606 = new System.Windows.Forms.Label();
-            this.label607 = new System.Windows.Forms.Label();
-            this.label608 = new System.Windows.Forms.Label();
-            this.label609 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_7 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_6 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_5 = new System.Windows.Forms.Label();
             this.label610 = new System.Windows.Forms.Label();
-            this.label611 = new System.Windows.Forms.Label();
-            this.label612 = new System.Windows.Forms.Label();
-            this.label613 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_7 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_6 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_5 = new System.Windows.Forms.Label();
             this.label614 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_7 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_6 = new System.Windows.Forms.Label();
@@ -594,14 +594,14 @@
             this.label635 = new System.Windows.Forms.Label();
             this.label636 = new System.Windows.Forms.Label();
             this.label637 = new System.Windows.Forms.Label();
-            this.label638 = new System.Windows.Forms.Label();
-            this.label639 = new System.Windows.Forms.Label();
-            this.label640 = new System.Windows.Forms.Label();
-            this.label641 = new System.Windows.Forms.Label();
-            this.label642 = new System.Windows.Forms.Label();
-            this.label643 = new System.Windows.Forms.Label();
-            this.label644 = new System.Windows.Forms.Label();
-            this.label645 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_4 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_3 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_4 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_3 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_4 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_2 = new System.Windows.Forms.Label();
@@ -623,23 +623,23 @@
             this.label668 = new System.Windows.Forms.Label();
             this.label669 = new System.Windows.Forms.Label();
             this.label670 = new System.Windows.Forms.Label();
-            this.label671 = new System.Windows.Forms.Label();
-            this.label672 = new System.Windows.Forms.Label();
+            this.Perc_VGP_Pipe_Lbl_16 = new System.Windows.Forms.Label();
+            this.Whil_VGP_Pipe_Lbl_16 = new System.Windows.Forms.Label();
             this.Sum_VGP_Pipe_Lbl_16 = new System.Windows.Forms.Label();
             this.label674 = new System.Windows.Forms.Label();
             this.Count_VGP_Pipe_16Lbl = new System.Windows.Forms.Label();
             this.label676 = new System.Windows.Forms.Label();
             this.label678 = new System.Windows.Forms.Label();
             this.label679 = new System.Windows.Forms.Label();
-            this.label680 = new System.Windows.Forms.Label();
-            this.label681 = new System.Windows.Forms.Label();
+            this.Perc_El_Weld_Pipe_Lbl_2 = new System.Windows.Forms.Label();
+            this.Whil_El_Weld_Pipe_Lbl_2 = new System.Windows.Forms.Label();
             this.Sum_El_Weld_Pipe_Lbl_2 = new System.Windows.Forms.Label();
             this.label683 = new System.Windows.Forms.Label();
             this.Count_El_Weld_Pipe_2Lbl = new System.Windows.Forms.Label();
             this.label685 = new System.Windows.Forms.Label();
             this.label687 = new System.Windows.Forms.Label();
-            this.label688 = new System.Windows.Forms.Label();
-            this.label689 = new System.Windows.Forms.Label();
+            this.Perc_El_Weld_Pipe_Lbl_1 = new System.Windows.Forms.Label();
+            this.Whil_El_Weld_Pipe_Lbl_1 = new System.Windows.Forms.Label();
             this.Sum_El_Weld_Pipe_Lbl_1 = new System.Windows.Forms.Label();
             this.label691 = new System.Windows.Forms.Label();
             this.Count_El_Weld_Pipe_1Lbl = new System.Windows.Forms.Label();
@@ -647,31 +647,31 @@
             this.label695 = new System.Windows.Forms.Label();
             this.label696 = new System.Windows.Forms.Label();
             this.label697 = new System.Windows.Forms.Label();
-            this.label698 = new System.Windows.Forms.Label();
+            this.Whil_El_Weld_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_El_Weld_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.label700 = new System.Windows.Forms.Label();
             this.Count_El_Weld_Pipe_3Lbl = new System.Windows.Forms.Label();
             this.label702 = new System.Windows.Forms.Label();
             this.label704 = new System.Windows.Forms.Label();
             this.label705 = new System.Windows.Forms.Label();
-            this.label706 = new System.Windows.Forms.Label();
-            this.label707 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_16 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_16 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_16 = new System.Windows.Forms.Label();
             this.label709 = new System.Windows.Forms.Label();
             this.Count_Rect_Pipe_16Lbl = new System.Windows.Forms.Label();
             this.label711 = new System.Windows.Forms.Label();
             this.label713 = new System.Windows.Forms.Label();
-            this.label714 = new System.Windows.Forms.Label();
-            this.label715 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_15 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_15 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_15 = new System.Windows.Forms.Label();
             this.label717 = new System.Windows.Forms.Label();
             this.Count_Rect_Pipe_15Lbl = new System.Windows.Forms.Label();
             this.label719 = new System.Windows.Forms.Label();
             this.label721 = new System.Windows.Forms.Label();
-            this.label722 = new System.Windows.Forms.Label();
-            this.label723 = new System.Windows.Forms.Label();
-            this.label724 = new System.Windows.Forms.Label();
-            this.label725 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_14 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_13 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_14 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_13 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_14 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_13 = new System.Windows.Forms.Label();
             this.label728 = new System.Windows.Forms.Label();
@@ -683,11 +683,11 @@
             this.label736 = new System.Windows.Forms.Label();
             this.label737 = new System.Windows.Forms.Label();
             this.label738 = new System.Windows.Forms.Label();
-            this.label739 = new System.Windows.Forms.Label();
-            this.label740 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_12 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_11 = new System.Windows.Forms.Label();
             this.label741 = new System.Windows.Forms.Label();
-            this.label742 = new System.Windows.Forms.Label();
-            this.label743 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_12 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_11 = new System.Windows.Forms.Label();
             this.label744 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_12 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_11 = new System.Windows.Forms.Label();
@@ -703,17 +703,17 @@
             this.label759 = new System.Windows.Forms.Label();
             this.label760 = new System.Windows.Forms.Label();
             this.label761 = new System.Windows.Forms.Label();
-            this.label762 = new System.Windows.Forms.Label();
-            this.label763 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_10 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_10 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_10 = new System.Windows.Forms.Label();
             this.label765 = new System.Windows.Forms.Label();
             this.Count_Rect_Pipe_10Lbl = new System.Windows.Forms.Label();
             this.label767 = new System.Windows.Forms.Label();
             this.label769 = new System.Windows.Forms.Label();
-            this.label770 = new System.Windows.Forms.Label();
-            this.label771 = new System.Windows.Forms.Label();
-            this.label772 = new System.Windows.Forms.Label();
-            this.label773 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_9 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_8 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_9 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_8 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_9 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_8 = new System.Windows.Forms.Label();
             this.label776 = new System.Windows.Forms.Label();
@@ -725,13 +725,13 @@
             this.label784 = new System.Windows.Forms.Label();
             this.label785 = new System.Windows.Forms.Label();
             this.label786 = new System.Windows.Forms.Label();
-            this.label787 = new System.Windows.Forms.Label();
-            this.label788 = new System.Windows.Forms.Label();
-            this.label789 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_7 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_6 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_5 = new System.Windows.Forms.Label();
             this.label790 = new System.Windows.Forms.Label();
-            this.label791 = new System.Windows.Forms.Label();
-            this.label792 = new System.Windows.Forms.Label();
-            this.label793 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_7 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_6 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_5 = new System.Windows.Forms.Label();
             this.label794 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_7 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_6 = new System.Windows.Forms.Label();
@@ -752,14 +752,14 @@
             this.label815 = new System.Windows.Forms.Label();
             this.label816 = new System.Windows.Forms.Label();
             this.label817 = new System.Windows.Forms.Label();
-            this.label818 = new System.Windows.Forms.Label();
-            this.label819 = new System.Windows.Forms.Label();
-            this.label820 = new System.Windows.Forms.Label();
-            this.label821 = new System.Windows.Forms.Label();
-            this.label822 = new System.Windows.Forms.Label();
-            this.label823 = new System.Windows.Forms.Label();
-            this.label824 = new System.Windows.Forms.Label();
-            this.label825 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_4 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_3 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_2 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_1 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_4 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_3 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_2 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_1 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_4 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_3 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_2 = new System.Windows.Forms.Label();
@@ -781,24 +781,24 @@
             this.label848 = new System.Windows.Forms.Label();
             this.label849 = new System.Windows.Forms.Label();
             this.label850 = new System.Windows.Forms.Label();
-            this.label851 = new System.Windows.Forms.Label();
-            this.label852 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_21 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_21 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_21 = new System.Windows.Forms.Label();
             this.label854 = new System.Windows.Forms.Label();
             this.Count_Rect_Pipe_21Lbl = new System.Windows.Forms.Label();
             this.label856 = new System.Windows.Forms.Label();
             this.label858 = new System.Windows.Forms.Label();
-            this.label859 = new System.Windows.Forms.Label();
-            this.label860 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_20 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_20 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_20 = new System.Windows.Forms.Label();
             this.label862 = new System.Windows.Forms.Label();
             this.Count_Rect_Pipe_20Lbl = new System.Windows.Forms.Label();
             this.label864 = new System.Windows.Forms.Label();
             this.label866 = new System.Windows.Forms.Label();
-            this.label867 = new System.Windows.Forms.Label();
-            this.label868 = new System.Windows.Forms.Label();
-            this.label869 = new System.Windows.Forms.Label();
-            this.label870 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_19 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_18 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_19 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_18 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_19 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_18 = new System.Windows.Forms.Label();
             this.label873 = new System.Windows.Forms.Label();
@@ -810,9 +810,9 @@
             this.label881 = new System.Windows.Forms.Label();
             this.label882 = new System.Windows.Forms.Label();
             this.label883 = new System.Windows.Forms.Label();
-            this.label884 = new System.Windows.Forms.Label();
+            this.Perc_Rect_Steel_Pipe_17 = new System.Windows.Forms.Label();
             this.label885 = new System.Windows.Forms.Label();
-            this.label886 = new System.Windows.Forms.Label();
+            this.Whil_Rect_Steel_Pipe_17 = new System.Windows.Forms.Label();
             this.label887 = new System.Windows.Forms.Label();
             this.Sum_Rect_Steel_Pipe_17 = new System.Windows.Forms.Label();
             this.label889 = new System.Windows.Forms.Label();
@@ -914,19 +914,19 @@
             this.Rect_Steel_Pipe_TB_7 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_6 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_5 = new System.Windows.Forms.TextBox();
-            this.Rect_Steel_Pipe_TB_13 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_12 = new System.Windows.Forms.TextBox();
+            this.Rect_Steel_Pipe_TB_11 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_10 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_9 = new System.Windows.Forms.TextBox();
-            this.Rect_Steel_Pipe_TB_17 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_16 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_15 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_14 = new System.Windows.Forms.TextBox();
-            this.Rect_Steel_Pipe_TB_22 = new System.Windows.Forms.TextBox();
+            this.Rect_Steel_Pipe_TB_13 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_20 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_19 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_18 = new System.Windows.Forms.TextBox();
-            this.Rect_Steel_Pipe_TB_23 = new System.Windows.Forms.TextBox();
+            this.Rect_Steel_Pipe_TB_17 = new System.Windows.Forms.TextBox();
+            this.Rect_Steel_Pipe_TB_21 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -950,7 +950,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(893, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(910, 25);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1549,135 +1549,135 @@
             this.ToChooseButton.UseVisualStyleBackColor = true;
             this.ToChooseButton.Click += new System.EventHandler(this.ToChooseButton_Click);
             // 
-            // label18
+            // Perc_SteelCircle_Lbl_16
             // 
-            this.label18.BackColor = System.Drawing.Color.DarkGray;
-            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label18.Location = new System.Drawing.Point(702, 412);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(93, 23);
-            this.label18.TabIndex = 183;
-            this.label18.Text = "0";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_16.Location = new System.Drawing.Point(702, 412);
+            this.Perc_SteelCircle_Lbl_16.Name = "Perc_SteelCircle_Lbl_16";
+            this.Perc_SteelCircle_Lbl_16.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_16.TabIndex = 183;
+            this.Perc_SteelCircle_Lbl_16.Text = "0";
+            this.Perc_SteelCircle_Lbl_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // Perc_SteelCircle_Lbl_14
             // 
-            this.label19.BackColor = System.Drawing.Color.DarkGray;
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label19.Location = new System.Drawing.Point(702, 390);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(93, 23);
-            this.label19.TabIndex = 182;
-            this.label19.Text = "0";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_14.Location = new System.Drawing.Point(702, 390);
+            this.Perc_SteelCircle_Lbl_14.Name = "Perc_SteelCircle_Lbl_14";
+            this.Perc_SteelCircle_Lbl_14.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_14.TabIndex = 182;
+            this.Perc_SteelCircle_Lbl_14.Text = "0";
+            this.Perc_SteelCircle_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label20
+            // Perc_SteelCircle_Lbl_12
             // 
-            this.label20.BackColor = System.Drawing.Color.DarkGray;
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label20.Location = new System.Drawing.Point(702, 368);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(93, 23);
-            this.label20.TabIndex = 181;
-            this.label20.Text = "0";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_12.Location = new System.Drawing.Point(702, 368);
+            this.Perc_SteelCircle_Lbl_12.Name = "Perc_SteelCircle_Lbl_12";
+            this.Perc_SteelCircle_Lbl_12.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_12.TabIndex = 181;
+            this.Perc_SteelCircle_Lbl_12.Text = "0";
+            this.Perc_SteelCircle_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label24
+            // Perc_SteelCircle_Lbl_10
             // 
-            this.label24.BackColor = System.Drawing.Color.DarkGray;
-            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label24.Location = new System.Drawing.Point(702, 346);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(93, 23);
-            this.label24.TabIndex = 180;
-            this.label24.Text = "0";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_10.Location = new System.Drawing.Point(702, 346);
+            this.Perc_SteelCircle_Lbl_10.Name = "Perc_SteelCircle_Lbl_10";
+            this.Perc_SteelCircle_Lbl_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_10.TabIndex = 180;
+            this.Perc_SteelCircle_Lbl_10.Text = "0";
+            this.Perc_SteelCircle_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label25
+            // Perc_SteelCircle_Lbl_8
             // 
-            this.label25.BackColor = System.Drawing.Color.DarkGray;
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label25.Location = new System.Drawing.Point(702, 324);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(93, 23);
-            this.label25.TabIndex = 179;
-            this.label25.Text = "0";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_8.Location = new System.Drawing.Point(702, 324);
+            this.Perc_SteelCircle_Lbl_8.Name = "Perc_SteelCircle_Lbl_8";
+            this.Perc_SteelCircle_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_8.TabIndex = 179;
+            this.Perc_SteelCircle_Lbl_8.Text = "0";
+            this.Perc_SteelCircle_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label26
+            // Whil_SteelCircle_Lbl_16
             // 
-            this.label26.BackColor = System.Drawing.Color.DarkGray;
-            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label26.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label26.Location = new System.Drawing.Point(794, 412);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(85, 23);
-            this.label26.TabIndex = 178;
-            this.label26.Text = "0";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_16.Location = new System.Drawing.Point(794, 412);
+            this.Whil_SteelCircle_Lbl_16.Name = "Whil_SteelCircle_Lbl_16";
+            this.Whil_SteelCircle_Lbl_16.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_16.TabIndex = 178;
+            this.Whil_SteelCircle_Lbl_16.Text = "0";
+            this.Whil_SteelCircle_Lbl_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label37
+            // Whil_SteelCircle_Lbl_14
             // 
-            this.label37.BackColor = System.Drawing.Color.DarkGray;
-            this.label37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label37.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label37.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label37.Location = new System.Drawing.Point(794, 390);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(85, 23);
-            this.label37.TabIndex = 177;
-            this.label37.Text = "0";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_14.Location = new System.Drawing.Point(794, 390);
+            this.Whil_SteelCircle_Lbl_14.Name = "Whil_SteelCircle_Lbl_14";
+            this.Whil_SteelCircle_Lbl_14.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_14.TabIndex = 177;
+            this.Whil_SteelCircle_Lbl_14.Text = "0";
+            this.Whil_SteelCircle_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label59
+            // Whil_SteelCircle_Lbl_12
             // 
-            this.label59.BackColor = System.Drawing.Color.DarkGray;
-            this.label59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label59.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label59.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label59.Location = new System.Drawing.Point(794, 368);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(85, 23);
-            this.label59.TabIndex = 176;
-            this.label59.Text = "0";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_12.Location = new System.Drawing.Point(794, 368);
+            this.Whil_SteelCircle_Lbl_12.Name = "Whil_SteelCircle_Lbl_12";
+            this.Whil_SteelCircle_Lbl_12.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_12.TabIndex = 176;
+            this.Whil_SteelCircle_Lbl_12.Text = "0";
+            this.Whil_SteelCircle_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label60
+            // Whil_SteelCircle_Lbl_10
             // 
-            this.label60.BackColor = System.Drawing.Color.DarkGray;
-            this.label60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label60.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label60.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label60.Location = new System.Drawing.Point(794, 346);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(85, 23);
-            this.label60.TabIndex = 175;
-            this.label60.Text = "0";
-            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_10.Location = new System.Drawing.Point(794, 346);
+            this.Whil_SteelCircle_Lbl_10.Name = "Whil_SteelCircle_Lbl_10";
+            this.Whil_SteelCircle_Lbl_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_10.TabIndex = 175;
+            this.Whil_SteelCircle_Lbl_10.Text = "0";
+            this.Whil_SteelCircle_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label61
+            // Whil_SteelCircle_Lbl_8
             // 
-            this.label61.BackColor = System.Drawing.Color.DarkGray;
-            this.label61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label61.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label61.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label61.Location = new System.Drawing.Point(794, 324);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(85, 23);
-            this.label61.TabIndex = 174;
-            this.label61.Text = "0";
-            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_8.Location = new System.Drawing.Point(794, 324);
+            this.Whil_SteelCircle_Lbl_8.Name = "Whil_SteelCircle_Lbl_8";
+            this.Whil_SteelCircle_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_8.TabIndex = 174;
+            this.Whil_SteelCircle_Lbl_8.Text = "0";
+            this.Whil_SteelCircle_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_SteelCircle_Lbl_16
             // 
@@ -2017,57 +2017,57 @@
             this.label92.Text = "Круг стальной";
             this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label93
+            // Perc_SteelCircle_Lbl_20
             // 
-            this.label93.BackColor = System.Drawing.Color.DarkGray;
-            this.label93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label93.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label93.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label93.Location = new System.Drawing.Point(702, 456);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(93, 23);
-            this.label93.TabIndex = 199;
-            this.label93.Text = "0";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_20.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_20.Location = new System.Drawing.Point(702, 456);
+            this.Perc_SteelCircle_Lbl_20.Name = "Perc_SteelCircle_Lbl_20";
+            this.Perc_SteelCircle_Lbl_20.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_20.TabIndex = 199;
+            this.Perc_SteelCircle_Lbl_20.Text = "0";
+            this.Perc_SteelCircle_Lbl_20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label94
+            // Perc_SteelCircle_Lbl_18
             // 
-            this.label94.BackColor = System.Drawing.Color.DarkGray;
-            this.label94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label94.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label94.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label94.Location = new System.Drawing.Point(702, 434);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(93, 23);
-            this.label94.TabIndex = 198;
-            this.label94.Text = "0";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_SteelCircle_Lbl_18.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_SteelCircle_Lbl_18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_SteelCircle_Lbl_18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_SteelCircle_Lbl_18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_SteelCircle_Lbl_18.Location = new System.Drawing.Point(702, 434);
+            this.Perc_SteelCircle_Lbl_18.Name = "Perc_SteelCircle_Lbl_18";
+            this.Perc_SteelCircle_Lbl_18.Size = new System.Drawing.Size(93, 23);
+            this.Perc_SteelCircle_Lbl_18.TabIndex = 198;
+            this.Perc_SteelCircle_Lbl_18.Text = "0";
+            this.Perc_SteelCircle_Lbl_18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label95
+            // Whil_SteelCircle_Lbl_20
             // 
-            this.label95.BackColor = System.Drawing.Color.DarkGray;
-            this.label95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label95.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label95.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label95.Location = new System.Drawing.Point(794, 456);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(85, 23);
-            this.label95.TabIndex = 197;
-            this.label95.Text = "0";
-            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_20.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_20.Location = new System.Drawing.Point(794, 456);
+            this.Whil_SteelCircle_Lbl_20.Name = "Whil_SteelCircle_Lbl_20";
+            this.Whil_SteelCircle_Lbl_20.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_20.TabIndex = 197;
+            this.Whil_SteelCircle_Lbl_20.Text = "0";
+            this.Whil_SteelCircle_Lbl_20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label96
+            // Whil_SteelCircle_Lbl_18
             // 
-            this.label96.BackColor = System.Drawing.Color.DarkGray;
-            this.label96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label96.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label96.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label96.Location = new System.Drawing.Point(794, 434);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(85, 23);
-            this.label96.TabIndex = 196;
-            this.label96.Text = "0";
-            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_SteelCircle_Lbl_18.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_SteelCircle_Lbl_18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_SteelCircle_Lbl_18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_SteelCircle_Lbl_18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_SteelCircle_Lbl_18.Location = new System.Drawing.Point(794, 434);
+            this.Whil_SteelCircle_Lbl_18.Name = "Whil_SteelCircle_Lbl_18";
+            this.Whil_SteelCircle_Lbl_18.Size = new System.Drawing.Size(85, 23);
+            this.Whil_SteelCircle_Lbl_18.TabIndex = 196;
+            this.Whil_SteelCircle_Lbl_18.Text = "0";
+            this.Whil_SteelCircle_Lbl_18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_SteelCircle_Lbl_20
             // 
@@ -2235,109 +2235,109 @@
             this.label111.TabIndex = 202;
             this.label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label128
+            // Perc_Sq_Lbl_14
             // 
-            this.label128.BackColor = System.Drawing.Color.DarkGray;
-            this.label128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label128.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label128.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label128.Location = new System.Drawing.Point(702, 556);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(93, 23);
-            this.label128.TabIndex = 242;
-            this.label128.Text = "0";
-            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Sq_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Sq_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Sq_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Sq_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Sq_Lbl_14.Location = new System.Drawing.Point(702, 556);
+            this.Perc_Sq_Lbl_14.Name = "Perc_Sq_Lbl_14";
+            this.Perc_Sq_Lbl_14.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Sq_Lbl_14.TabIndex = 242;
+            this.Perc_Sq_Lbl_14.Text = "0";
+            this.Perc_Sq_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label129
+            // Perc_Sq_Lbl_12
             // 
-            this.label129.BackColor = System.Drawing.Color.DarkGray;
-            this.label129.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label129.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label129.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label129.Location = new System.Drawing.Point(702, 534);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(93, 23);
-            this.label129.TabIndex = 241;
-            this.label129.Text = "0";
-            this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Sq_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Sq_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Sq_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Sq_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Sq_Lbl_12.Location = new System.Drawing.Point(702, 534);
+            this.Perc_Sq_Lbl_12.Name = "Perc_Sq_Lbl_12";
+            this.Perc_Sq_Lbl_12.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Sq_Lbl_12.TabIndex = 241;
+            this.Perc_Sq_Lbl_12.Text = "0";
+            this.Perc_Sq_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label130
+            // Perc_Sq_Lbl_10
             // 
-            this.label130.BackColor = System.Drawing.Color.DarkGray;
-            this.label130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label130.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label130.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label130.Location = new System.Drawing.Point(702, 512);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(93, 23);
-            this.label130.TabIndex = 240;
-            this.label130.Text = "0";
-            this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Sq_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Sq_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Sq_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Sq_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Sq_Lbl_10.Location = new System.Drawing.Point(702, 512);
+            this.Perc_Sq_Lbl_10.Name = "Perc_Sq_Lbl_10";
+            this.Perc_Sq_Lbl_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Sq_Lbl_10.TabIndex = 240;
+            this.Perc_Sq_Lbl_10.Text = "0";
+            this.Perc_Sq_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label131
+            // Perc_Sq_Lbl_8
             // 
-            this.label131.BackColor = System.Drawing.Color.DarkGray;
-            this.label131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label131.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label131.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label131.Location = new System.Drawing.Point(702, 490);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(93, 23);
-            this.label131.TabIndex = 239;
-            this.label131.Text = "0";
-            this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Sq_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Sq_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Sq_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Sq_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Sq_Lbl_8.Location = new System.Drawing.Point(702, 490);
+            this.Perc_Sq_Lbl_8.Name = "Perc_Sq_Lbl_8";
+            this.Perc_Sq_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Sq_Lbl_8.TabIndex = 239;
+            this.Perc_Sq_Lbl_8.Text = "0";
+            this.Perc_Sq_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label133
+            // Whil_Sq_Lbl_14
             // 
-            this.label133.BackColor = System.Drawing.Color.DarkGray;
-            this.label133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label133.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label133.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label133.Location = new System.Drawing.Point(794, 556);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(85, 23);
-            this.label133.TabIndex = 237;
-            this.label133.Text = "0";
-            this.label133.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Sq_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Sq_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Sq_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Sq_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Sq_Lbl_14.Location = new System.Drawing.Point(794, 556);
+            this.Whil_Sq_Lbl_14.Name = "Whil_Sq_Lbl_14";
+            this.Whil_Sq_Lbl_14.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Sq_Lbl_14.TabIndex = 237;
+            this.Whil_Sq_Lbl_14.Text = "0";
+            this.Whil_Sq_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label134
+            // Whil_Sq_Lbl_12
             // 
-            this.label134.BackColor = System.Drawing.Color.DarkGray;
-            this.label134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label134.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label134.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label134.Location = new System.Drawing.Point(794, 534);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(85, 23);
-            this.label134.TabIndex = 236;
-            this.label134.Text = "0";
-            this.label134.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Sq_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Sq_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Sq_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Sq_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Sq_Lbl_12.Location = new System.Drawing.Point(794, 534);
+            this.Whil_Sq_Lbl_12.Name = "Whil_Sq_Lbl_12";
+            this.Whil_Sq_Lbl_12.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Sq_Lbl_12.TabIndex = 236;
+            this.Whil_Sq_Lbl_12.Text = "0";
+            this.Whil_Sq_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label135
+            // Whil_Sq_Lbl_10
             // 
-            this.label135.BackColor = System.Drawing.Color.DarkGray;
-            this.label135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label135.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label135.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label135.Location = new System.Drawing.Point(794, 512);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(85, 23);
-            this.label135.TabIndex = 235;
-            this.label135.Text = "0";
-            this.label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Sq_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Sq_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Sq_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Sq_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Sq_Lbl_10.Location = new System.Drawing.Point(794, 512);
+            this.Whil_Sq_Lbl_10.Name = "Whil_Sq_Lbl_10";
+            this.Whil_Sq_Lbl_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Sq_Lbl_10.TabIndex = 235;
+            this.Whil_Sq_Lbl_10.Text = "0";
+            this.Whil_Sq_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label136
+            // Whil_Sq_Lbl_8
             // 
-            this.label136.BackColor = System.Drawing.Color.DarkGray;
-            this.label136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label136.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label136.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label136.Location = new System.Drawing.Point(794, 490);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(85, 23);
-            this.label136.TabIndex = 234;
-            this.label136.Text = "0";
-            this.label136.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Sq_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Sq_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Sq_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Sq_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Sq_Lbl_8.Location = new System.Drawing.Point(794, 490);
+            this.Whil_Sq_Lbl_8.Name = "Whil_Sq_Lbl_8";
+            this.Whil_Sq_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Sq_Lbl_8.TabIndex = 234;
+            this.Whil_Sq_Lbl_8.Text = "0";
+            this.Whil_Sq_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Lbl_14
             // 
@@ -2626,109 +2626,109 @@
             this.label48.TabIndex = 243;
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label112
+            // Perc_Corner_Lbl_4
             // 
-            this.label112.BackColor = System.Drawing.Color.DarkGray;
-            this.label112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label112.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label112.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label112.Location = new System.Drawing.Point(702, 655);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(93, 23);
-            this.label112.TabIndex = 276;
-            this.label112.Text = "0";
-            this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_4.Location = new System.Drawing.Point(702, 655);
+            this.Perc_Corner_Lbl_4.Name = "Perc_Corner_Lbl_4";
+            this.Perc_Corner_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_4.TabIndex = 276;
+            this.Perc_Corner_Lbl_4.Text = "0";
+            this.Perc_Corner_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label113
+            // Perc_Corner_Lbl_3
             // 
-            this.label113.BackColor = System.Drawing.Color.DarkGray;
-            this.label113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label113.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label113.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label113.Location = new System.Drawing.Point(702, 635);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(93, 23);
-            this.label113.TabIndex = 275;
-            this.label113.Text = "0";
-            this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_3.Location = new System.Drawing.Point(702, 635);
+            this.Perc_Corner_Lbl_3.Name = "Perc_Corner_Lbl_3";
+            this.Perc_Corner_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_3.TabIndex = 275;
+            this.Perc_Corner_Lbl_3.Text = "0";
+            this.Perc_Corner_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label114
+            // Perc_Corner_Lbl_2
             // 
-            this.label114.BackColor = System.Drawing.Color.DarkGray;
-            this.label114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label114.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label114.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label114.Location = new System.Drawing.Point(702, 611);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(93, 23);
-            this.label114.TabIndex = 274;
-            this.label114.Text = "0";
-            this.label114.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_2.Location = new System.Drawing.Point(702, 611);
+            this.Perc_Corner_Lbl_2.Name = "Perc_Corner_Lbl_2";
+            this.Perc_Corner_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_2.TabIndex = 274;
+            this.Perc_Corner_Lbl_2.Text = "0";
+            this.Perc_Corner_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label115
+            // Perc_Corner_Lbl_1
             // 
-            this.label115.BackColor = System.Drawing.Color.DarkGray;
-            this.label115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label115.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label115.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label115.Location = new System.Drawing.Point(702, 590);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(93, 24);
-            this.label115.TabIndex = 273;
-            this.label115.Text = "0";
-            this.label115.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_1.Location = new System.Drawing.Point(702, 590);
+            this.Perc_Corner_Lbl_1.Name = "Perc_Corner_Lbl_1";
+            this.Perc_Corner_Lbl_1.Size = new System.Drawing.Size(93, 24);
+            this.Perc_Corner_Lbl_1.TabIndex = 273;
+            this.Perc_Corner_Lbl_1.Text = "0";
+            this.Perc_Corner_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label116
+            // Whil_Corner_Lbl_4
             // 
-            this.label116.BackColor = System.Drawing.Color.DarkGray;
-            this.label116.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label116.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label116.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label116.Location = new System.Drawing.Point(794, 655);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(85, 23);
-            this.label116.TabIndex = 272;
-            this.label116.Text = "0";
-            this.label116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_4.Location = new System.Drawing.Point(794, 655);
+            this.Whil_Corner_Lbl_4.Name = "Whil_Corner_Lbl_4";
+            this.Whil_Corner_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_4.TabIndex = 272;
+            this.Whil_Corner_Lbl_4.Text = "0";
+            this.Whil_Corner_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label117
+            // Whil_Corner_Lbl_3
             // 
-            this.label117.BackColor = System.Drawing.Color.DarkGray;
-            this.label117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label117.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label117.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label117.Location = new System.Drawing.Point(794, 635);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(85, 23);
-            this.label117.TabIndex = 271;
-            this.label117.Text = "0";
-            this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_3.Location = new System.Drawing.Point(794, 635);
+            this.Whil_Corner_Lbl_3.Name = "Whil_Corner_Lbl_3";
+            this.Whil_Corner_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_3.TabIndex = 271;
+            this.Whil_Corner_Lbl_3.Text = "0";
+            this.Whil_Corner_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label118
+            // Whil_Corner_Lbl_2
             // 
-            this.label118.BackColor = System.Drawing.Color.DarkGray;
-            this.label118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label118.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label118.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label118.Location = new System.Drawing.Point(794, 611);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(85, 23);
-            this.label118.TabIndex = 270;
-            this.label118.Text = "0";
-            this.label118.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_2.Location = new System.Drawing.Point(794, 611);
+            this.Whil_Corner_Lbl_2.Name = "Whil_Corner_Lbl_2";
+            this.Whil_Corner_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_2.TabIndex = 270;
+            this.Whil_Corner_Lbl_2.Text = "0";
+            this.Whil_Corner_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label119
+            // Whil_Corner_Lbl_1
             // 
-            this.label119.BackColor = System.Drawing.Color.DarkGray;
-            this.label119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label119.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label119.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label119.Location = new System.Drawing.Point(794, 590);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(85, 24);
-            this.label119.TabIndex = 269;
-            this.label119.Text = "0";
-            this.label119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_1.Location = new System.Drawing.Point(794, 590);
+            this.Whil_Corner_Lbl_1.Name = "Whil_Corner_Lbl_1";
+            this.Whil_Corner_Lbl_1.Size = new System.Drawing.Size(85, 24);
+            this.Whil_Corner_Lbl_1.TabIndex = 269;
+            this.Whil_Corner_Lbl_1.Text = "0";
+            this.Whil_Corner_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Corner_Lbl_4
             // 
@@ -3014,44 +3014,44 @@
             this.label178.Text = "0";
             this.label178.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label179
+            // Perc_Corner_Lbl_7
             // 
-            this.label179.BackColor = System.Drawing.Color.DarkGray;
-            this.label179.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label179.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label179.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label179.Location = new System.Drawing.Point(702, 723);
-            this.label179.Name = "label179";
-            this.label179.Size = new System.Drawing.Size(93, 23);
-            this.label179.TabIndex = 307;
-            this.label179.Text = "0";
-            this.label179.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_7.Location = new System.Drawing.Point(702, 723);
+            this.Perc_Corner_Lbl_7.Name = "Perc_Corner_Lbl_7";
+            this.Perc_Corner_Lbl_7.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_7.TabIndex = 307;
+            this.Perc_Corner_Lbl_7.Text = "0";
+            this.Perc_Corner_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label180
+            // Perc_Corner_Lbl_6
             // 
-            this.label180.BackColor = System.Drawing.Color.DarkGray;
-            this.label180.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label180.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label180.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label180.Location = new System.Drawing.Point(702, 699);
-            this.label180.Name = "label180";
-            this.label180.Size = new System.Drawing.Size(93, 23);
-            this.label180.TabIndex = 306;
-            this.label180.Text = "0";
-            this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_6.Location = new System.Drawing.Point(702, 699);
+            this.Perc_Corner_Lbl_6.Name = "Perc_Corner_Lbl_6";
+            this.Perc_Corner_Lbl_6.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_6.TabIndex = 306;
+            this.Perc_Corner_Lbl_6.Text = "0";
+            this.Perc_Corner_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label181
+            // Perc_Corner_Lbl_5
             // 
-            this.label181.BackColor = System.Drawing.Color.DarkGray;
-            this.label181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label181.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label181.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label181.Location = new System.Drawing.Point(702, 679);
-            this.label181.Name = "label181";
-            this.label181.Size = new System.Drawing.Size(93, 23);
-            this.label181.TabIndex = 305;
-            this.label181.Text = "0";
-            this.label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_5.Location = new System.Drawing.Point(702, 679);
+            this.Perc_Corner_Lbl_5.Name = "Perc_Corner_Lbl_5";
+            this.Perc_Corner_Lbl_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_5.TabIndex = 305;
+            this.Perc_Corner_Lbl_5.Text = "0";
+            this.Perc_Corner_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label182
             // 
@@ -3065,44 +3065,44 @@
             this.label182.Text = "0";
             this.label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label183
+            // Whil_Corner_Lbl_7
             // 
-            this.label183.BackColor = System.Drawing.Color.DarkGray;
-            this.label183.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label183.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label183.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label183.Location = new System.Drawing.Point(794, 723);
-            this.label183.Name = "label183";
-            this.label183.Size = new System.Drawing.Size(85, 23);
-            this.label183.TabIndex = 303;
-            this.label183.Text = "0";
-            this.label183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_7.Location = new System.Drawing.Point(794, 723);
+            this.Whil_Corner_Lbl_7.Name = "Whil_Corner_Lbl_7";
+            this.Whil_Corner_Lbl_7.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_7.TabIndex = 303;
+            this.Whil_Corner_Lbl_7.Text = "0";
+            this.Whil_Corner_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label184
+            // Whil_Corner_Lbl_6
             // 
-            this.label184.BackColor = System.Drawing.Color.DarkGray;
-            this.label184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label184.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label184.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label184.Location = new System.Drawing.Point(794, 699);
-            this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(85, 23);
-            this.label184.TabIndex = 302;
-            this.label184.Text = "0";
-            this.label184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_6.Location = new System.Drawing.Point(794, 699);
+            this.Whil_Corner_Lbl_6.Name = "Whil_Corner_Lbl_6";
+            this.Whil_Corner_Lbl_6.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_6.TabIndex = 302;
+            this.Whil_Corner_Lbl_6.Text = "0";
+            this.Whil_Corner_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label185
+            // Whil_Corner_Lbl_5
             // 
-            this.label185.BackColor = System.Drawing.Color.DarkGray;
-            this.label185.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label185.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label185.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label185.Location = new System.Drawing.Point(794, 679);
-            this.label185.Name = "label185";
-            this.label185.Size = new System.Drawing.Size(85, 23);
-            this.label185.TabIndex = 301;
-            this.label185.Text = "0";
-            this.label185.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_5.Location = new System.Drawing.Point(794, 679);
+            this.Whil_Corner_Lbl_5.Name = "Whil_Corner_Lbl_5";
+            this.Whil_Corner_Lbl_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_5.TabIndex = 301;
+            this.Whil_Corner_Lbl_5.Text = "0";
+            this.Whil_Corner_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label186
             // 
@@ -3359,57 +3359,57 @@
             this.label209.Text = "45*45*4,0";
             this.label209.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label210
+            // Perc_Corner_Lbl_9
             // 
-            this.label210.BackColor = System.Drawing.Color.DarkGray;
-            this.label210.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label210.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label210.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label210.Location = new System.Drawing.Point(702, 767);
-            this.label210.Name = "label210";
-            this.label210.Size = new System.Drawing.Size(93, 23);
-            this.label210.TabIndex = 324;
-            this.label210.Text = "0";
-            this.label210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_9.Location = new System.Drawing.Point(702, 767);
+            this.Perc_Corner_Lbl_9.Name = "Perc_Corner_Lbl_9";
+            this.Perc_Corner_Lbl_9.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_9.TabIndex = 324;
+            this.Perc_Corner_Lbl_9.Text = "0";
+            this.Perc_Corner_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label211
+            // Perc_Corner_Lbl_8
             // 
-            this.label211.BackColor = System.Drawing.Color.DarkGray;
-            this.label211.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label211.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label211.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label211.Location = new System.Drawing.Point(702, 743);
-            this.label211.Name = "label211";
-            this.label211.Size = new System.Drawing.Size(93, 23);
-            this.label211.TabIndex = 323;
-            this.label211.Text = "0";
-            this.label211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_8.Location = new System.Drawing.Point(702, 743);
+            this.Perc_Corner_Lbl_8.Name = "Perc_Corner_Lbl_8";
+            this.Perc_Corner_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_8.TabIndex = 323;
+            this.Perc_Corner_Lbl_8.Text = "0";
+            this.Perc_Corner_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label212
+            // Whil_Corner_Lbl_9
             // 
-            this.label212.BackColor = System.Drawing.Color.DarkGray;
-            this.label212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label212.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label212.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label212.Location = new System.Drawing.Point(794, 767);
-            this.label212.Name = "label212";
-            this.label212.Size = new System.Drawing.Size(85, 23);
-            this.label212.TabIndex = 322;
-            this.label212.Text = "0";
-            this.label212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_9.Location = new System.Drawing.Point(794, 767);
+            this.Whil_Corner_Lbl_9.Name = "Whil_Corner_Lbl_9";
+            this.Whil_Corner_Lbl_9.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_9.TabIndex = 322;
+            this.Whil_Corner_Lbl_9.Text = "0";
+            this.Whil_Corner_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label213
+            // Whil_Corner_Lbl_8
             // 
-            this.label213.BackColor = System.Drawing.Color.DarkGray;
-            this.label213.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label213.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label213.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label213.Location = new System.Drawing.Point(794, 743);
-            this.label213.Name = "label213";
-            this.label213.Size = new System.Drawing.Size(85, 23);
-            this.label213.TabIndex = 321;
-            this.label213.Text = "0";
-            this.label213.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_8.Location = new System.Drawing.Point(794, 743);
+            this.Whil_Corner_Lbl_8.Name = "Whil_Corner_Lbl_8";
+            this.Whil_Corner_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_8.TabIndex = 321;
+            this.Whil_Corner_Lbl_8.Text = "0";
+            this.Whil_Corner_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Corner_Lbl_9
             // 
@@ -3541,57 +3541,57 @@
             this.label225.Text = "50*50*5,0";
             this.label225.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label244
+            // Perc_Shv_Lbl_5
             // 
-            this.label244.BackColor = System.Drawing.Color.DarkGray;
-            this.label244.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label244.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label244.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label244.Location = new System.Drawing.Point(702, 910);
-            this.label244.Name = "label244";
-            this.label244.Size = new System.Drawing.Size(93, 23);
-            this.label244.TabIndex = 387;
-            this.label244.Text = "0";
-            this.label244.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shv_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shv_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shv_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shv_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shv_Lbl_5.Location = new System.Drawing.Point(702, 910);
+            this.Perc_Shv_Lbl_5.Name = "Perc_Shv_Lbl_5";
+            this.Perc_Shv_Lbl_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shv_Lbl_5.TabIndex = 387;
+            this.Perc_Shv_Lbl_5.Text = "0";
+            this.Perc_Shv_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label245
+            // Perc_Shv_Lbl_4
             // 
-            this.label245.BackColor = System.Drawing.Color.DarkGray;
-            this.label245.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label245.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label245.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label245.Location = new System.Drawing.Point(702, 888);
-            this.label245.Name = "label245";
-            this.label245.Size = new System.Drawing.Size(93, 23);
-            this.label245.TabIndex = 386;
-            this.label245.Text = "0";
-            this.label245.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shv_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shv_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shv_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shv_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shv_Lbl_4.Location = new System.Drawing.Point(702, 888);
+            this.Perc_Shv_Lbl_4.Name = "Perc_Shv_Lbl_4";
+            this.Perc_Shv_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shv_Lbl_4.TabIndex = 386;
+            this.Perc_Shv_Lbl_4.Text = "0";
+            this.Perc_Shv_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label248
+            // Whil_Shv_Lbl_5
             // 
-            this.label248.BackColor = System.Drawing.Color.DarkGray;
-            this.label248.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label248.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label248.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label248.Location = new System.Drawing.Point(794, 910);
-            this.label248.Name = "label248";
-            this.label248.Size = new System.Drawing.Size(85, 23);
-            this.label248.TabIndex = 383;
-            this.label248.Text = "0";
-            this.label248.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shv_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shv_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shv_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shv_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shv_Lbl_5.Location = new System.Drawing.Point(794, 910);
+            this.Whil_Shv_Lbl_5.Name = "Whil_Shv_Lbl_5";
+            this.Whil_Shv_Lbl_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shv_Lbl_5.TabIndex = 383;
+            this.Whil_Shv_Lbl_5.Text = "0";
+            this.Whil_Shv_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label249
+            // Whil_Shv_Lbl_4
             // 
-            this.label249.BackColor = System.Drawing.Color.DarkGray;
-            this.label249.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label249.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label249.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label249.Location = new System.Drawing.Point(794, 888);
-            this.label249.Name = "label249";
-            this.label249.Size = new System.Drawing.Size(85, 23);
-            this.label249.TabIndex = 382;
-            this.label249.Text = "0";
-            this.label249.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shv_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shv_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shv_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shv_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shv_Lbl_4.Location = new System.Drawing.Point(794, 888);
+            this.Whil_Shv_Lbl_4.Name = "Whil_Shv_Lbl_4";
+            this.Whil_Shv_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shv_Lbl_4.TabIndex = 382;
+            this.Whil_Shv_Lbl_4.Text = "0";
+            this.Whil_Shv_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Shv_Lbl_5
             // 
@@ -3723,109 +3723,109 @@
             this.label273.Text = "16";
             this.label273.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label274
+            // Perc_Shv_Lbl_3
             // 
-            this.label274.BackColor = System.Drawing.Color.DarkGray;
-            this.label274.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label274.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label274.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label274.Location = new System.Drawing.Point(702, 866);
-            this.label274.Name = "label274";
-            this.label274.Size = new System.Drawing.Size(93, 23);
-            this.label274.TabIndex = 357;
-            this.label274.Text = "0";
-            this.label274.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shv_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shv_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shv_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shv_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shv_Lbl_3.Location = new System.Drawing.Point(702, 866);
+            this.Perc_Shv_Lbl_3.Name = "Perc_Shv_Lbl_3";
+            this.Perc_Shv_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shv_Lbl_3.TabIndex = 357;
+            this.Perc_Shv_Lbl_3.Text = "0";
+            this.Perc_Shv_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label275
+            // Perc_Shv_Lbl_2
             // 
-            this.label275.BackColor = System.Drawing.Color.DarkGray;
-            this.label275.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label275.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label275.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label275.Location = new System.Drawing.Point(702, 844);
-            this.label275.Name = "label275";
-            this.label275.Size = new System.Drawing.Size(93, 23);
-            this.label275.TabIndex = 356;
-            this.label275.Text = "0";
-            this.label275.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shv_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shv_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shv_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shv_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shv_Lbl_2.Location = new System.Drawing.Point(702, 844);
+            this.Perc_Shv_Lbl_2.Name = "Perc_Shv_Lbl_2";
+            this.Perc_Shv_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shv_Lbl_2.TabIndex = 356;
+            this.Perc_Shv_Lbl_2.Text = "0";
+            this.Perc_Shv_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label276
+            // Perc_Shv_Lbl_1
             // 
-            this.label276.BackColor = System.Drawing.Color.DarkGray;
-            this.label276.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label276.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label276.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label276.Location = new System.Drawing.Point(702, 822);
-            this.label276.Name = "label276";
-            this.label276.Size = new System.Drawing.Size(93, 23);
-            this.label276.TabIndex = 355;
-            this.label276.Text = "0";
-            this.label276.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shv_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shv_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shv_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shv_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shv_Lbl_1.Location = new System.Drawing.Point(702, 822);
+            this.Perc_Shv_Lbl_1.Name = "Perc_Shv_Lbl_1";
+            this.Perc_Shv_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shv_Lbl_1.TabIndex = 355;
+            this.Perc_Shv_Lbl_1.Text = "0";
+            this.Perc_Shv_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label277
+            // Perc_Corner_Lbl_10
             // 
-            this.label277.BackColor = System.Drawing.Color.DarkGray;
-            this.label277.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label277.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label277.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label277.Location = new System.Drawing.Point(702, 787);
-            this.label277.Name = "label277";
-            this.label277.Size = new System.Drawing.Size(93, 23);
-            this.label277.TabIndex = 354;
-            this.label277.Text = "0";
-            this.label277.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Corner_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Corner_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Corner_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Corner_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Corner_Lbl_10.Location = new System.Drawing.Point(702, 787);
+            this.Perc_Corner_Lbl_10.Name = "Perc_Corner_Lbl_10";
+            this.Perc_Corner_Lbl_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Corner_Lbl_10.TabIndex = 354;
+            this.Perc_Corner_Lbl_10.Text = "0";
+            this.Perc_Corner_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label278
+            // Whil_Shv_Lbl_3
             // 
-            this.label278.BackColor = System.Drawing.Color.DarkGray;
-            this.label278.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label278.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label278.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label278.Location = new System.Drawing.Point(794, 866);
-            this.label278.Name = "label278";
-            this.label278.Size = new System.Drawing.Size(85, 23);
-            this.label278.TabIndex = 353;
-            this.label278.Text = "0";
-            this.label278.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shv_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shv_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shv_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shv_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shv_Lbl_3.Location = new System.Drawing.Point(794, 866);
+            this.Whil_Shv_Lbl_3.Name = "Whil_Shv_Lbl_3";
+            this.Whil_Shv_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shv_Lbl_3.TabIndex = 353;
+            this.Whil_Shv_Lbl_3.Text = "0";
+            this.Whil_Shv_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label279
+            // Whil_Shv_Lbl_2
             // 
-            this.label279.BackColor = System.Drawing.Color.DarkGray;
-            this.label279.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label279.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label279.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label279.Location = new System.Drawing.Point(794, 844);
-            this.label279.Name = "label279";
-            this.label279.Size = new System.Drawing.Size(85, 23);
-            this.label279.TabIndex = 352;
-            this.label279.Text = "0";
-            this.label279.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shv_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shv_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shv_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shv_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shv_Lbl_2.Location = new System.Drawing.Point(794, 844);
+            this.Whil_Shv_Lbl_2.Name = "Whil_Shv_Lbl_2";
+            this.Whil_Shv_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shv_Lbl_2.TabIndex = 352;
+            this.Whil_Shv_Lbl_2.Text = "0";
+            this.Whil_Shv_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label280
+            // Whil_Shv_Lbl_1
             // 
-            this.label280.BackColor = System.Drawing.Color.DarkGray;
-            this.label280.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label280.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label280.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label280.Location = new System.Drawing.Point(794, 822);
-            this.label280.Name = "label280";
-            this.label280.Size = new System.Drawing.Size(85, 23);
-            this.label280.TabIndex = 351;
-            this.label280.Text = "0";
-            this.label280.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shv_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shv_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shv_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shv_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shv_Lbl_1.Location = new System.Drawing.Point(794, 822);
+            this.Whil_Shv_Lbl_1.Name = "Whil_Shv_Lbl_1";
+            this.Whil_Shv_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shv_Lbl_1.TabIndex = 351;
+            this.Whil_Shv_Lbl_1.Text = "0";
+            this.Whil_Shv_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label281
+            // Whil_Corner_Lbl_10
             // 
-            this.label281.BackColor = System.Drawing.Color.DarkGray;
-            this.label281.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label281.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label281.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label281.Location = new System.Drawing.Point(794, 787);
-            this.label281.Name = "label281";
-            this.label281.Size = new System.Drawing.Size(85, 23);
-            this.label281.TabIndex = 350;
-            this.label281.Text = "0";
-            this.label281.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Corner_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Corner_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Corner_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Corner_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Corner_Lbl_10.Location = new System.Drawing.Point(794, 787);
+            this.Whil_Corner_Lbl_10.Name = "Whil_Corner_Lbl_10";
+            this.Whil_Corner_Lbl_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Corner_Lbl_10.TabIndex = 350;
+            this.Whil_Corner_Lbl_10.Text = "0";
+            this.Whil_Corner_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Shv_Lbl_3
             // 
@@ -4148,31 +4148,32 @@
             this.label228.Text = "Полоса стальная";
             this.label228.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label229
+            // Perc_Stripe_Lbl_4
             // 
-            this.label229.BackColor = System.Drawing.Color.DarkGray;
-            this.label229.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label229.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label229.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label229.Location = new System.Drawing.Point(702, 1010);
-            this.label229.Name = "label229";
-            this.label229.Size = new System.Drawing.Size(93, 23);
-            this.label229.TabIndex = 440;
-            this.label229.Text = "0";
-            this.label229.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Stripe_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Stripe_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Stripe_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Stripe_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Stripe_Lbl_4.Location = new System.Drawing.Point(702, 1010);
+            this.Perc_Stripe_Lbl_4.Name = "Perc_Stripe_Lbl_4";
+            this.Perc_Stripe_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Stripe_Lbl_4.TabIndex = 440;
+            this.Perc_Stripe_Lbl_4.Text = "0";
+            this.Perc_Stripe_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Stripe_Lbl_4.Click += new System.EventHandler(this.label229_Click);
             // 
-            // label230
+            // Whil_Stripe_Lbl_4
             // 
-            this.label230.BackColor = System.Drawing.Color.DarkGray;
-            this.label230.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label230.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label230.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label230.Location = new System.Drawing.Point(794, 1010);
-            this.label230.Name = "label230";
-            this.label230.Size = new System.Drawing.Size(85, 23);
-            this.label230.TabIndex = 439;
-            this.label230.Text = "0";
-            this.label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Stripe_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Stripe_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Stripe_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Stripe_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Stripe_Lbl_4.Location = new System.Drawing.Point(794, 1010);
+            this.Whil_Stripe_Lbl_4.Name = "Whil_Stripe_Lbl_4";
+            this.Whil_Stripe_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Stripe_Lbl_4.TabIndex = 439;
+            this.Whil_Stripe_Lbl_4.Text = "0";
+            this.Whil_Stripe_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Stripe_Lbl_4
             // 
@@ -4239,83 +4240,83 @@
             this.label236.Text = "50*5,0";
             this.label236.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label237
+            // Perc_Stripe_Lbl_3
             // 
-            this.label237.BackColor = System.Drawing.Color.DarkGray;
-            this.label237.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label237.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label237.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label237.Location = new System.Drawing.Point(702, 988);
-            this.label237.Name = "label237";
-            this.label237.Size = new System.Drawing.Size(93, 23);
-            this.label237.TabIndex = 432;
-            this.label237.Text = "0";
-            this.label237.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Stripe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Stripe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Stripe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Stripe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Stripe_Lbl_3.Location = new System.Drawing.Point(702, 988);
+            this.Perc_Stripe_Lbl_3.Name = "Perc_Stripe_Lbl_3";
+            this.Perc_Stripe_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Stripe_Lbl_3.TabIndex = 432;
+            this.Perc_Stripe_Lbl_3.Text = "0";
+            this.Perc_Stripe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label238
+            // Perc_Stripe_Lbl_2
             // 
-            this.label238.BackColor = System.Drawing.Color.DarkGray;
-            this.label238.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label238.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label238.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label238.Location = new System.Drawing.Point(702, 966);
-            this.label238.Name = "label238";
-            this.label238.Size = new System.Drawing.Size(93, 23);
-            this.label238.TabIndex = 431;
-            this.label238.Text = "0";
-            this.label238.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Stripe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Stripe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Stripe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Stripe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Stripe_Lbl_2.Location = new System.Drawing.Point(702, 966);
+            this.Perc_Stripe_Lbl_2.Name = "Perc_Stripe_Lbl_2";
+            this.Perc_Stripe_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Stripe_Lbl_2.TabIndex = 431;
+            this.Perc_Stripe_Lbl_2.Text = "0";
+            this.Perc_Stripe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label239
+            // Perc_Stripe_Lbl_1
             // 
-            this.label239.BackColor = System.Drawing.Color.DarkGray;
-            this.label239.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label239.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label239.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label239.Location = new System.Drawing.Point(702, 944);
-            this.label239.Name = "label239";
-            this.label239.Size = new System.Drawing.Size(93, 23);
-            this.label239.TabIndex = 430;
-            this.label239.Text = "0";
-            this.label239.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Stripe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Stripe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Stripe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Stripe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Stripe_Lbl_1.Location = new System.Drawing.Point(702, 944);
+            this.Perc_Stripe_Lbl_1.Name = "Perc_Stripe_Lbl_1";
+            this.Perc_Stripe_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Stripe_Lbl_1.TabIndex = 430;
+            this.Perc_Stripe_Lbl_1.Text = "0";
+            this.Perc_Stripe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label240
+            // Whil_Stripe_Lbl_3
             // 
-            this.label240.BackColor = System.Drawing.Color.DarkGray;
-            this.label240.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label240.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label240.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label240.Location = new System.Drawing.Point(794, 988);
-            this.label240.Name = "label240";
-            this.label240.Size = new System.Drawing.Size(85, 23);
-            this.label240.TabIndex = 429;
-            this.label240.Text = "0";
-            this.label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Stripe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Stripe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Stripe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Stripe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Stripe_Lbl_3.Location = new System.Drawing.Point(794, 988);
+            this.Whil_Stripe_Lbl_3.Name = "Whil_Stripe_Lbl_3";
+            this.Whil_Stripe_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Stripe_Lbl_3.TabIndex = 429;
+            this.Whil_Stripe_Lbl_3.Text = "0";
+            this.Whil_Stripe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label241
+            // Whil_Stripe_Lbl_2
             // 
-            this.label241.BackColor = System.Drawing.Color.DarkGray;
-            this.label241.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label241.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label241.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label241.Location = new System.Drawing.Point(794, 966);
-            this.label241.Name = "label241";
-            this.label241.Size = new System.Drawing.Size(85, 23);
-            this.label241.TabIndex = 428;
-            this.label241.Text = "0";
-            this.label241.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Stripe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Stripe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Stripe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Stripe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Stripe_Lbl_2.Location = new System.Drawing.Point(794, 966);
+            this.Whil_Stripe_Lbl_2.Name = "Whil_Stripe_Lbl_2";
+            this.Whil_Stripe_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Stripe_Lbl_2.TabIndex = 428;
+            this.Whil_Stripe_Lbl_2.Text = "0";
+            this.Whil_Stripe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label242
+            // Whil_Stripe_Lbl_1
             // 
-            this.label242.BackColor = System.Drawing.Color.DarkGray;
-            this.label242.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label242.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label242.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label242.Location = new System.Drawing.Point(794, 944);
-            this.label242.Name = "label242";
-            this.label242.Size = new System.Drawing.Size(85, 23);
-            this.label242.TabIndex = 427;
-            this.label242.Text = "0";
-            this.label242.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Stripe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Stripe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Stripe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Stripe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Stripe_Lbl_1.Location = new System.Drawing.Point(794, 944);
+            this.Whil_Stripe_Lbl_1.Name = "Whil_Stripe_Lbl_1";
+            this.Whil_Stripe_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Stripe_Lbl_1.TabIndex = 427;
+            this.Whil_Stripe_Lbl_1.Text = "0";
+            this.Whil_Stripe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Stripe_Lbl_3
             // 
@@ -4512,31 +4513,31 @@
             this.label310.Text = "25*4,0";
             this.label310.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label311
+            // Perc_Pipe_Rect_Lbl_10
             // 
-            this.label311.BackColor = System.Drawing.Color.DarkGray;
-            this.label311.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label311.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label311.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label311.Location = new System.Drawing.Point(702, 1242);
-            this.label311.Name = "label311";
-            this.label311.Size = new System.Drawing.Size(93, 23);
-            this.label311.TabIndex = 530;
-            this.label311.Text = "0";
-            this.label311.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_10.Location = new System.Drawing.Point(702, 1242);
+            this.Perc_Pipe_Rect_Lbl_10.Name = "Perc_Pipe_Rect_Lbl_10";
+            this.Perc_Pipe_Rect_Lbl_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_10.TabIndex = 530;
+            this.Perc_Pipe_Rect_Lbl_10.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label312
+            // Whil_Pipe_Rect_Lbl_10
             // 
-            this.label312.BackColor = System.Drawing.Color.DarkGray;
-            this.label312.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label312.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label312.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label312.Location = new System.Drawing.Point(794, 1242);
-            this.label312.Name = "label312";
-            this.label312.Size = new System.Drawing.Size(85, 23);
-            this.label312.TabIndex = 529;
-            this.label312.Text = "0";
-            this.label312.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_10.Location = new System.Drawing.Point(794, 1242);
+            this.Whil_Pipe_Rect_Lbl_10.Name = "Whil_Pipe_Rect_Lbl_10";
+            this.Whil_Pipe_Rect_Lbl_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_10.TabIndex = 529;
+            this.Whil_Pipe_Rect_Lbl_10.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Pipe_Rect_Lbl_10
             // 
@@ -4603,57 +4604,57 @@
             this.label318.Text = "60*30*2,0";
             this.label318.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label319
+            // Perc_Pipe_Rect_Lbl_9
             // 
-            this.label319.BackColor = System.Drawing.Color.DarkGray;
-            this.label319.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label319.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label319.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label319.Location = new System.Drawing.Point(702, 1220);
-            this.label319.Name = "label319";
-            this.label319.Size = new System.Drawing.Size(93, 23);
-            this.label319.TabIndex = 522;
-            this.label319.Text = "0";
-            this.label319.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_9.Location = new System.Drawing.Point(702, 1220);
+            this.Perc_Pipe_Rect_Lbl_9.Name = "Perc_Pipe_Rect_Lbl_9";
+            this.Perc_Pipe_Rect_Lbl_9.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_9.TabIndex = 522;
+            this.Perc_Pipe_Rect_Lbl_9.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label320
+            // Perc_Pipe_Rect_Lbl_8
             // 
-            this.label320.BackColor = System.Drawing.Color.DarkGray;
-            this.label320.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label320.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label320.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label320.Location = new System.Drawing.Point(702, 1198);
-            this.label320.Name = "label320";
-            this.label320.Size = new System.Drawing.Size(93, 23);
-            this.label320.TabIndex = 521;
-            this.label320.Text = "0";
-            this.label320.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_8.Location = new System.Drawing.Point(702, 1198);
+            this.Perc_Pipe_Rect_Lbl_8.Name = "Perc_Pipe_Rect_Lbl_8";
+            this.Perc_Pipe_Rect_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_8.TabIndex = 521;
+            this.Perc_Pipe_Rect_Lbl_8.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label321
+            // Whil_Pipe_Rect_Lbl_9
             // 
-            this.label321.BackColor = System.Drawing.Color.DarkGray;
-            this.label321.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label321.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label321.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label321.Location = new System.Drawing.Point(794, 1220);
-            this.label321.Name = "label321";
-            this.label321.Size = new System.Drawing.Size(85, 23);
-            this.label321.TabIndex = 520;
-            this.label321.Text = "0";
-            this.label321.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_9.Location = new System.Drawing.Point(794, 1220);
+            this.Whil_Pipe_Rect_Lbl_9.Name = "Whil_Pipe_Rect_Lbl_9";
+            this.Whil_Pipe_Rect_Lbl_9.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_9.TabIndex = 520;
+            this.Whil_Pipe_Rect_Lbl_9.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label322
+            // Whil_Pipe_Rect_Lbl_8
             // 
-            this.label322.BackColor = System.Drawing.Color.DarkGray;
-            this.label322.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label322.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label322.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label322.Location = new System.Drawing.Point(794, 1198);
-            this.label322.Name = "label322";
-            this.label322.Size = new System.Drawing.Size(85, 23);
-            this.label322.TabIndex = 519;
-            this.label322.Text = "0";
-            this.label322.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_8.Location = new System.Drawing.Point(794, 1198);
+            this.Whil_Pipe_Rect_Lbl_8.Name = "Whil_Pipe_Rect_Lbl_8";
+            this.Whil_Pipe_Rect_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_8.TabIndex = 519;
+            this.Whil_Pipe_Rect_Lbl_8.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Pipe_Rect_Lbl_9
             // 
@@ -4797,44 +4798,44 @@
             this.label335.Text = "0";
             this.label335.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label336
+            // Perc_Pipe_Rect_Lbl_7
             // 
-            this.label336.BackColor = System.Drawing.Color.DarkGray;
-            this.label336.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label336.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label336.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label336.Location = new System.Drawing.Point(702, 1176);
-            this.label336.Name = "label336";
-            this.label336.Size = new System.Drawing.Size(93, 23);
-            this.label336.TabIndex = 505;
-            this.label336.Text = "0";
-            this.label336.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_7.Location = new System.Drawing.Point(702, 1176);
+            this.Perc_Pipe_Rect_Lbl_7.Name = "Perc_Pipe_Rect_Lbl_7";
+            this.Perc_Pipe_Rect_Lbl_7.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_7.TabIndex = 505;
+            this.Perc_Pipe_Rect_Lbl_7.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label337
+            // Perc_Pipe_Rect_Lbl_6
             // 
-            this.label337.BackColor = System.Drawing.Color.DarkGray;
-            this.label337.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label337.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label337.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label337.Location = new System.Drawing.Point(702, 1154);
-            this.label337.Name = "label337";
-            this.label337.Size = new System.Drawing.Size(93, 23);
-            this.label337.TabIndex = 504;
-            this.label337.Text = "0";
-            this.label337.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_6.Location = new System.Drawing.Point(702, 1154);
+            this.Perc_Pipe_Rect_Lbl_6.Name = "Perc_Pipe_Rect_Lbl_6";
+            this.Perc_Pipe_Rect_Lbl_6.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_6.TabIndex = 504;
+            this.Perc_Pipe_Rect_Lbl_6.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label338
+            // Perc_Pipe_Rect_Lbl_5
             // 
-            this.label338.BackColor = System.Drawing.Color.DarkGray;
-            this.label338.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label338.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label338.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label338.Location = new System.Drawing.Point(702, 1132);
-            this.label338.Name = "label338";
-            this.label338.Size = new System.Drawing.Size(93, 23);
-            this.label338.TabIndex = 503;
-            this.label338.Text = "0";
-            this.label338.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_5.Location = new System.Drawing.Point(702, 1132);
+            this.Perc_Pipe_Rect_Lbl_5.Name = "Perc_Pipe_Rect_Lbl_5";
+            this.Perc_Pipe_Rect_Lbl_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_5.TabIndex = 503;
+            this.Perc_Pipe_Rect_Lbl_5.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label339
             // 
@@ -4848,44 +4849,44 @@
             this.label339.Text = "0";
             this.label339.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label340
+            // Whil_Pipe_Rect_Lbl_7
             // 
-            this.label340.BackColor = System.Drawing.Color.DarkGray;
-            this.label340.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label340.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label340.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label340.Location = new System.Drawing.Point(794, 1176);
-            this.label340.Name = "label340";
-            this.label340.Size = new System.Drawing.Size(85, 23);
-            this.label340.TabIndex = 501;
-            this.label340.Text = "0";
-            this.label340.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_7.Location = new System.Drawing.Point(794, 1176);
+            this.Whil_Pipe_Rect_Lbl_7.Name = "Whil_Pipe_Rect_Lbl_7";
+            this.Whil_Pipe_Rect_Lbl_7.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_7.TabIndex = 501;
+            this.Whil_Pipe_Rect_Lbl_7.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label341
+            // Whil_Pipe_Rect_Lbl_6
             // 
-            this.label341.BackColor = System.Drawing.Color.DarkGray;
-            this.label341.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label341.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label341.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label341.Location = new System.Drawing.Point(794, 1154);
-            this.label341.Name = "label341";
-            this.label341.Size = new System.Drawing.Size(85, 23);
-            this.label341.TabIndex = 500;
-            this.label341.Text = "0";
-            this.label341.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_6.Location = new System.Drawing.Point(794, 1154);
+            this.Whil_Pipe_Rect_Lbl_6.Name = "Whil_Pipe_Rect_Lbl_6";
+            this.Whil_Pipe_Rect_Lbl_6.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_6.TabIndex = 500;
+            this.Whil_Pipe_Rect_Lbl_6.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label342
+            // Whil_Pipe_Rect_Lbl_5
             // 
-            this.label342.BackColor = System.Drawing.Color.DarkGray;
-            this.label342.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label342.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label342.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label342.Location = new System.Drawing.Point(794, 1132);
-            this.label342.Name = "label342";
-            this.label342.Size = new System.Drawing.Size(85, 23);
-            this.label342.TabIndex = 499;
-            this.label342.Text = "0";
-            this.label342.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_5.Location = new System.Drawing.Point(794, 1132);
+            this.Whil_Pipe_Rect_Lbl_5.Name = "Whil_Pipe_Rect_Lbl_5";
+            this.Whil_Pipe_Rect_Lbl_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_5.TabIndex = 499;
+            this.Whil_Pipe_Rect_Lbl_5.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label343
             // 
@@ -5142,109 +5143,109 @@
             this.label366.Text = "40*25*1,5";
             this.label366.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label367
+            // Perc_Pipe_Rect_Lbl_4
             // 
-            this.label367.BackColor = System.Drawing.Color.DarkGray;
-            this.label367.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label367.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label367.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label367.Location = new System.Drawing.Point(702, 1110);
-            this.label367.Name = "label367";
-            this.label367.Size = new System.Drawing.Size(93, 23);
-            this.label367.TabIndex = 474;
-            this.label367.Text = "0";
-            this.label367.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_4.Location = new System.Drawing.Point(702, 1110);
+            this.Perc_Pipe_Rect_Lbl_4.Name = "Perc_Pipe_Rect_Lbl_4";
+            this.Perc_Pipe_Rect_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_4.TabIndex = 474;
+            this.Perc_Pipe_Rect_Lbl_4.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label368
+            // Perc_Pipe_Rect_Lbl_3
             // 
-            this.label368.BackColor = System.Drawing.Color.DarkGray;
-            this.label368.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label368.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label368.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label368.Location = new System.Drawing.Point(702, 1088);
-            this.label368.Name = "label368";
-            this.label368.Size = new System.Drawing.Size(93, 23);
-            this.label368.TabIndex = 473;
-            this.label368.Text = "0";
-            this.label368.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_3.Location = new System.Drawing.Point(702, 1088);
+            this.Perc_Pipe_Rect_Lbl_3.Name = "Perc_Pipe_Rect_Lbl_3";
+            this.Perc_Pipe_Rect_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_3.TabIndex = 473;
+            this.Perc_Pipe_Rect_Lbl_3.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label369
+            // Perc_Pipe_Rect_Lbl_2
             // 
-            this.label369.BackColor = System.Drawing.Color.DarkGray;
-            this.label369.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label369.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label369.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label369.Location = new System.Drawing.Point(702, 1066);
-            this.label369.Name = "label369";
-            this.label369.Size = new System.Drawing.Size(93, 23);
-            this.label369.TabIndex = 472;
-            this.label369.Text = "0";
-            this.label369.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_2.Location = new System.Drawing.Point(702, 1066);
+            this.Perc_Pipe_Rect_Lbl_2.Name = "Perc_Pipe_Rect_Lbl_2";
+            this.Perc_Pipe_Rect_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_2.TabIndex = 472;
+            this.Perc_Pipe_Rect_Lbl_2.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label370
+            // Perc_Pipe_Rect_Lbl_1
             // 
-            this.label370.BackColor = System.Drawing.Color.DarkGray;
-            this.label370.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label370.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label370.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label370.Location = new System.Drawing.Point(702, 1044);
-            this.label370.Name = "label370";
-            this.label370.Size = new System.Drawing.Size(93, 23);
-            this.label370.TabIndex = 471;
-            this.label370.Text = "0";
-            this.label370.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_1.Location = new System.Drawing.Point(702, 1044);
+            this.Perc_Pipe_Rect_Lbl_1.Name = "Perc_Pipe_Rect_Lbl_1";
+            this.Perc_Pipe_Rect_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_1.TabIndex = 471;
+            this.Perc_Pipe_Rect_Lbl_1.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label371
+            // Whil_Pipe_Rect_Lbl_4
             // 
-            this.label371.BackColor = System.Drawing.Color.DarkGray;
-            this.label371.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label371.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label371.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label371.Location = new System.Drawing.Point(794, 1110);
-            this.label371.Name = "label371";
-            this.label371.Size = new System.Drawing.Size(85, 23);
-            this.label371.TabIndex = 470;
-            this.label371.Text = "0";
-            this.label371.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_4.Location = new System.Drawing.Point(794, 1110);
+            this.Whil_Pipe_Rect_Lbl_4.Name = "Whil_Pipe_Rect_Lbl_4";
+            this.Whil_Pipe_Rect_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_4.TabIndex = 470;
+            this.Whil_Pipe_Rect_Lbl_4.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label372
+            // Whil_Pipe_Rect_Lbl_3
             // 
-            this.label372.BackColor = System.Drawing.Color.DarkGray;
-            this.label372.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label372.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label372.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label372.Location = new System.Drawing.Point(794, 1088);
-            this.label372.Name = "label372";
-            this.label372.Size = new System.Drawing.Size(85, 23);
-            this.label372.TabIndex = 469;
-            this.label372.Text = "0";
-            this.label372.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_3.Location = new System.Drawing.Point(794, 1088);
+            this.Whil_Pipe_Rect_Lbl_3.Name = "Whil_Pipe_Rect_Lbl_3";
+            this.Whil_Pipe_Rect_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_3.TabIndex = 469;
+            this.Whil_Pipe_Rect_Lbl_3.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label373
+            // Whil_Pipe_Rect_Lbl_2
             // 
-            this.label373.BackColor = System.Drawing.Color.DarkGray;
-            this.label373.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label373.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label373.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label373.Location = new System.Drawing.Point(794, 1066);
-            this.label373.Name = "label373";
-            this.label373.Size = new System.Drawing.Size(85, 23);
-            this.label373.TabIndex = 468;
-            this.label373.Text = "0";
-            this.label373.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_2.Location = new System.Drawing.Point(794, 1066);
+            this.Whil_Pipe_Rect_Lbl_2.Name = "Whil_Pipe_Rect_Lbl_2";
+            this.Whil_Pipe_Rect_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_2.TabIndex = 468;
+            this.Whil_Pipe_Rect_Lbl_2.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label374
+            // Whil_Pipe_Rect_Lbl_1
             // 
-            this.label374.BackColor = System.Drawing.Color.DarkGray;
-            this.label374.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label374.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label374.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label374.Location = new System.Drawing.Point(794, 1044);
-            this.label374.Name = "label374";
-            this.label374.Size = new System.Drawing.Size(85, 23);
-            this.label374.TabIndex = 467;
-            this.label374.Text = "0";
-            this.label374.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_1.Location = new System.Drawing.Point(794, 1044);
+            this.Whil_Pipe_Rect_Lbl_1.Name = "Whil_Pipe_Rect_Lbl_1";
+            this.Whil_Pipe_Rect_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_1.TabIndex = 467;
+            this.Whil_Pipe_Rect_Lbl_1.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Pipe_Rect_Lbl_4
             // 
@@ -5531,31 +5532,31 @@
             this.label400.TabIndex = 531;
             this.label400.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label401
+            // Perc_Pipe_Rect_Lbl_15
             // 
-            this.label401.BackColor = System.Drawing.Color.DarkGray;
-            this.label401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label401.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label401.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label401.Location = new System.Drawing.Point(702, 1352);
-            this.label401.Name = "label401";
-            this.label401.Size = new System.Drawing.Size(93, 23);
-            this.label401.TabIndex = 579;
-            this.label401.Text = "0";
-            this.label401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_15.Location = new System.Drawing.Point(702, 1352);
+            this.Perc_Pipe_Rect_Lbl_15.Name = "Perc_Pipe_Rect_Lbl_15";
+            this.Perc_Pipe_Rect_Lbl_15.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_15.TabIndex = 579;
+            this.Perc_Pipe_Rect_Lbl_15.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label402
+            // Whil_Pipe_Rect_Lbl_15
             // 
-            this.label402.BackColor = System.Drawing.Color.DarkGray;
-            this.label402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label402.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label402.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label402.Location = new System.Drawing.Point(794, 1352);
-            this.label402.Name = "label402";
-            this.label402.Size = new System.Drawing.Size(85, 23);
-            this.label402.TabIndex = 578;
-            this.label402.Text = "0";
-            this.label402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_15.Location = new System.Drawing.Point(794, 1352);
+            this.Whil_Pipe_Rect_Lbl_15.Name = "Whil_Pipe_Rect_Lbl_15";
+            this.Whil_Pipe_Rect_Lbl_15.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_15.TabIndex = 578;
+            this.Whil_Pipe_Rect_Lbl_15.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Pipe_Rect_Lbl_15
             // 
@@ -5622,57 +5623,57 @@
             this.label408.Text = "80*40*2,0";
             this.label408.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label409
+            // Perc_Pipe_Rect_Lbl_114
             // 
-            this.label409.BackColor = System.Drawing.Color.DarkGray;
-            this.label409.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label409.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label409.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label409.Location = new System.Drawing.Point(702, 1330);
-            this.label409.Name = "label409";
-            this.label409.Size = new System.Drawing.Size(93, 23);
-            this.label409.TabIndex = 571;
-            this.label409.Text = "0";
-            this.label409.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_114.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_114.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_114.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_114.Location = new System.Drawing.Point(702, 1330);
+            this.Perc_Pipe_Rect_Lbl_114.Name = "Perc_Pipe_Rect_Lbl_114";
+            this.Perc_Pipe_Rect_Lbl_114.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_114.TabIndex = 571;
+            this.Perc_Pipe_Rect_Lbl_114.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_114.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label410
+            // Perc_Pipe_Rect_Lbl_13
             // 
-            this.label410.BackColor = System.Drawing.Color.DarkGray;
-            this.label410.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label410.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label410.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label410.Location = new System.Drawing.Point(702, 1308);
-            this.label410.Name = "label410";
-            this.label410.Size = new System.Drawing.Size(93, 23);
-            this.label410.TabIndex = 570;
-            this.label410.Text = "0";
-            this.label410.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_13.Location = new System.Drawing.Point(702, 1308);
+            this.Perc_Pipe_Rect_Lbl_13.Name = "Perc_Pipe_Rect_Lbl_13";
+            this.Perc_Pipe_Rect_Lbl_13.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_13.TabIndex = 570;
+            this.Perc_Pipe_Rect_Lbl_13.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label411
+            // Whil_Pipe_Rect_Lbl_14
             // 
-            this.label411.BackColor = System.Drawing.Color.DarkGray;
-            this.label411.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label411.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label411.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label411.Location = new System.Drawing.Point(794, 1330);
-            this.label411.Name = "label411";
-            this.label411.Size = new System.Drawing.Size(85, 23);
-            this.label411.TabIndex = 569;
-            this.label411.Text = "0";
-            this.label411.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_14.Location = new System.Drawing.Point(794, 1330);
+            this.Whil_Pipe_Rect_Lbl_14.Name = "Whil_Pipe_Rect_Lbl_14";
+            this.Whil_Pipe_Rect_Lbl_14.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_14.TabIndex = 569;
+            this.Whil_Pipe_Rect_Lbl_14.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label412
+            // Whil_Pipe_Rect_Lbl_13
             // 
-            this.label412.BackColor = System.Drawing.Color.DarkGray;
-            this.label412.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label412.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label412.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label412.Location = new System.Drawing.Point(794, 1308);
-            this.label412.Name = "label412";
-            this.label412.Size = new System.Drawing.Size(85, 23);
-            this.label412.TabIndex = 568;
-            this.label412.Text = "0";
-            this.label412.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_13.Location = new System.Drawing.Point(794, 1308);
+            this.Whil_Pipe_Rect_Lbl_13.Name = "Whil_Pipe_Rect_Lbl_13";
+            this.Whil_Pipe_Rect_Lbl_13.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_13.TabIndex = 568;
+            this.Whil_Pipe_Rect_Lbl_13.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Pipe_Rect_Lbl_14
             // 
@@ -5816,31 +5817,31 @@
             this.label425.Text = "0";
             this.label425.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label426
+            // Perc_Pipe_Rect_Lbl_12
             // 
-            this.label426.BackColor = System.Drawing.Color.DarkGray;
-            this.label426.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label426.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label426.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label426.Location = new System.Drawing.Point(702, 1286);
-            this.label426.Name = "label426";
-            this.label426.Size = new System.Drawing.Size(93, 23);
-            this.label426.TabIndex = 554;
-            this.label426.Text = "0";
-            this.label426.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_12.Location = new System.Drawing.Point(702, 1286);
+            this.Perc_Pipe_Rect_Lbl_12.Name = "Perc_Pipe_Rect_Lbl_12";
+            this.Perc_Pipe_Rect_Lbl_12.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_12.TabIndex = 554;
+            this.Perc_Pipe_Rect_Lbl_12.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label427
+            // Perc_Pipe_Rect_Lbl_11
             // 
-            this.label427.BackColor = System.Drawing.Color.DarkGray;
-            this.label427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label427.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label427.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label427.Location = new System.Drawing.Point(702, 1264);
-            this.label427.Name = "label427";
-            this.label427.Size = new System.Drawing.Size(93, 23);
-            this.label427.TabIndex = 553;
-            this.label427.Text = "0";
-            this.label427.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_11.Location = new System.Drawing.Point(702, 1264);
+            this.Perc_Pipe_Rect_Lbl_11.Name = "Perc_Pipe_Rect_Lbl_11";
+            this.Perc_Pipe_Rect_Lbl_11.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_11.TabIndex = 553;
+            this.Perc_Pipe_Rect_Lbl_11.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label428
             // 
@@ -5854,31 +5855,31 @@
             this.label428.Text = "0";
             this.label428.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label429
+            // Whil_Pipe_Rect_Lbl_12
             // 
-            this.label429.BackColor = System.Drawing.Color.DarkGray;
-            this.label429.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label429.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label429.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label429.Location = new System.Drawing.Point(794, 1286);
-            this.label429.Name = "label429";
-            this.label429.Size = new System.Drawing.Size(85, 23);
-            this.label429.TabIndex = 551;
-            this.label429.Text = "0";
-            this.label429.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_12.Location = new System.Drawing.Point(794, 1286);
+            this.Whil_Pipe_Rect_Lbl_12.Name = "Whil_Pipe_Rect_Lbl_12";
+            this.Whil_Pipe_Rect_Lbl_12.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_12.TabIndex = 551;
+            this.Whil_Pipe_Rect_Lbl_12.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label430
+            // Whil_Pipe_Rect_Lbl_11
             // 
-            this.label430.BackColor = System.Drawing.Color.DarkGray;
-            this.label430.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label430.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label430.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label430.Location = new System.Drawing.Point(794, 1264);
-            this.label430.Name = "label430";
-            this.label430.Size = new System.Drawing.Size(85, 23);
-            this.label430.TabIndex = 550;
-            this.label430.Text = "0";
-            this.label430.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Pipe_Rect_Lbl_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Pipe_Rect_Lbl_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Pipe_Rect_Lbl_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Pipe_Rect_Lbl_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Pipe_Rect_Lbl_11.Location = new System.Drawing.Point(794, 1264);
+            this.Whil_Pipe_Rect_Lbl_11.Name = "Whil_Pipe_Rect_Lbl_11";
+            this.Whil_Pipe_Rect_Lbl_11.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Pipe_Rect_Lbl_11.TabIndex = 550;
+            this.Whil_Pipe_Rect_Lbl_11.Text = "0";
+            this.Whil_Pipe_Rect_Lbl_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label431
             // 
@@ -6082,57 +6083,57 @@
             this.label449.TabIndex = 580;
             this.label449.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label450
+            // Perc_Shet_Lbl_7
             // 
-            this.label450.BackColor = System.Drawing.Color.DarkGray;
-            this.label450.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label450.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label450.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label450.Location = new System.Drawing.Point(702, 1518);
-            this.label450.Name = "label450";
-            this.label450.Size = new System.Drawing.Size(93, 23);
-            this.label450.TabIndex = 637;
-            this.label450.Text = "0";
-            this.label450.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_7.Location = new System.Drawing.Point(702, 1518);
+            this.Perc_Shet_Lbl_7.Name = "Perc_Shet_Lbl_7";
+            this.Perc_Shet_Lbl_7.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_7.TabIndex = 637;
+            this.Perc_Shet_Lbl_7.Text = "0";
+            this.Perc_Shet_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label451
+            // Perc_Shet_Lbl_6
             // 
-            this.label451.BackColor = System.Drawing.Color.DarkGray;
-            this.label451.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label451.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label451.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label451.Location = new System.Drawing.Point(702, 1496);
-            this.label451.Name = "label451";
-            this.label451.Size = new System.Drawing.Size(93, 23);
-            this.label451.TabIndex = 636;
-            this.label451.Text = "0";
-            this.label451.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_6.Location = new System.Drawing.Point(702, 1496);
+            this.Perc_Shet_Lbl_6.Name = "Perc_Shet_Lbl_6";
+            this.Perc_Shet_Lbl_6.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_6.TabIndex = 636;
+            this.Perc_Shet_Lbl_6.Text = "0";
+            this.Perc_Shet_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label452
+            // Whil_Shet_Lbl_7
             // 
-            this.label452.BackColor = System.Drawing.Color.DarkGray;
-            this.label452.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label452.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label452.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label452.Location = new System.Drawing.Point(794, 1518);
-            this.label452.Name = "label452";
-            this.label452.Size = new System.Drawing.Size(85, 23);
-            this.label452.TabIndex = 635;
-            this.label452.Text = "0";
-            this.label452.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_7.Location = new System.Drawing.Point(794, 1518);
+            this.Whil_Shet_Lbl_7.Name = "Whil_Shet_Lbl_7";
+            this.Whil_Shet_Lbl_7.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_7.TabIndex = 635;
+            this.Whil_Shet_Lbl_7.Text = "0";
+            this.Whil_Shet_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label453
+            // Whil_Shet_Lbl_6
             // 
-            this.label453.BackColor = System.Drawing.Color.DarkGray;
-            this.label453.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label453.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label453.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label453.Location = new System.Drawing.Point(794, 1496);
-            this.label453.Name = "label453";
-            this.label453.Size = new System.Drawing.Size(85, 23);
-            this.label453.TabIndex = 634;
-            this.label453.Text = "0";
-            this.label453.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_6.Location = new System.Drawing.Point(794, 1496);
+            this.Whil_Shet_Lbl_6.Name = "Whil_Shet_Lbl_6";
+            this.Whil_Shet_Lbl_6.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_6.TabIndex = 634;
+            this.Whil_Shet_Lbl_6.Text = "0";
+            this.Whil_Shet_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Shet_Lbl_7
             // 
@@ -6264,135 +6265,135 @@
             this.label465.Text = "ПВЛ-406 (1х3,05)";
             this.label465.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label466
+            // Perc_Shet_Lbl_5
             // 
-            this.label466.BackColor = System.Drawing.Color.DarkGray;
-            this.label466.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label466.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label466.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label466.Location = new System.Drawing.Point(702, 1474);
-            this.label466.Name = "label466";
-            this.label466.Size = new System.Drawing.Size(93, 23);
-            this.label466.TabIndex = 621;
-            this.label466.Text = "0";
-            this.label466.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_5.Location = new System.Drawing.Point(702, 1474);
+            this.Perc_Shet_Lbl_5.Name = "Perc_Shet_Lbl_5";
+            this.Perc_Shet_Lbl_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_5.TabIndex = 621;
+            this.Perc_Shet_Lbl_5.Text = "0";
+            this.Perc_Shet_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label467
+            // Perc_Shet_Lbl_4
             // 
-            this.label467.BackColor = System.Drawing.Color.DarkGray;
-            this.label467.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label467.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label467.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label467.Location = new System.Drawing.Point(702, 1452);
-            this.label467.Name = "label467";
-            this.label467.Size = new System.Drawing.Size(93, 23);
-            this.label467.TabIndex = 620;
-            this.label467.Text = "0";
-            this.label467.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_4.Location = new System.Drawing.Point(702, 1452);
+            this.Perc_Shet_Lbl_4.Name = "Perc_Shet_Lbl_4";
+            this.Perc_Shet_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_4.TabIndex = 620;
+            this.Perc_Shet_Lbl_4.Text = "0";
+            this.Perc_Shet_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label468
+            // Perc_Shet_Lbl_3
             // 
-            this.label468.BackColor = System.Drawing.Color.DarkGray;
-            this.label468.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label468.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label468.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label468.Location = new System.Drawing.Point(702, 1430);
-            this.label468.Name = "label468";
-            this.label468.Size = new System.Drawing.Size(93, 23);
-            this.label468.TabIndex = 619;
-            this.label468.Text = "0";
-            this.label468.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_3.Location = new System.Drawing.Point(702, 1430);
+            this.Perc_Shet_Lbl_3.Name = "Perc_Shet_Lbl_3";
+            this.Perc_Shet_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_3.TabIndex = 619;
+            this.Perc_Shet_Lbl_3.Text = "0";
+            this.Perc_Shet_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label469
+            // Perc_Shet_Lbl_2
             // 
-            this.label469.BackColor = System.Drawing.Color.DarkGray;
-            this.label469.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label469.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label469.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label469.Location = new System.Drawing.Point(702, 1408);
-            this.label469.Name = "label469";
-            this.label469.Size = new System.Drawing.Size(93, 23);
-            this.label469.TabIndex = 618;
-            this.label469.Text = "0";
-            this.label469.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_2.Location = new System.Drawing.Point(702, 1408);
+            this.Perc_Shet_Lbl_2.Name = "Perc_Shet_Lbl_2";
+            this.Perc_Shet_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_2.TabIndex = 618;
+            this.Perc_Shet_Lbl_2.Text = "0";
+            this.Perc_Shet_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label470
+            // Perc_Shet_Lbl_1
             // 
-            this.label470.BackColor = System.Drawing.Color.DarkGray;
-            this.label470.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label470.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label470.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label470.Location = new System.Drawing.Point(702, 1386);
-            this.label470.Name = "label470";
-            this.label470.Size = new System.Drawing.Size(93, 23);
-            this.label470.TabIndex = 617;
-            this.label470.Text = "0";
-            this.label470.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_1.Location = new System.Drawing.Point(702, 1386);
+            this.Perc_Shet_Lbl_1.Name = "Perc_Shet_Lbl_1";
+            this.Perc_Shet_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_1.TabIndex = 617;
+            this.Perc_Shet_Lbl_1.Text = "0";
+            this.Perc_Shet_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label471
+            // Whil_Shet_Lbl_5
             // 
-            this.label471.BackColor = System.Drawing.Color.DarkGray;
-            this.label471.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label471.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label471.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label471.Location = new System.Drawing.Point(794, 1474);
-            this.label471.Name = "label471";
-            this.label471.Size = new System.Drawing.Size(85, 23);
-            this.label471.TabIndex = 616;
-            this.label471.Text = "0";
-            this.label471.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_5.Location = new System.Drawing.Point(794, 1474);
+            this.Whil_Shet_Lbl_5.Name = "Whil_Shet_Lbl_5";
+            this.Whil_Shet_Lbl_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_5.TabIndex = 616;
+            this.Whil_Shet_Lbl_5.Text = "0";
+            this.Whil_Shet_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label472
+            // Whil_Shet_Lbl_4
             // 
-            this.label472.BackColor = System.Drawing.Color.DarkGray;
-            this.label472.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label472.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label472.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label472.Location = new System.Drawing.Point(794, 1452);
-            this.label472.Name = "label472";
-            this.label472.Size = new System.Drawing.Size(85, 23);
-            this.label472.TabIndex = 615;
-            this.label472.Text = "0";
-            this.label472.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_4.Location = new System.Drawing.Point(794, 1452);
+            this.Whil_Shet_Lbl_4.Name = "Whil_Shet_Lbl_4";
+            this.Whil_Shet_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_4.TabIndex = 615;
+            this.Whil_Shet_Lbl_4.Text = "0";
+            this.Whil_Shet_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label473
+            // Whil_Shet_Lbl_3
             // 
-            this.label473.BackColor = System.Drawing.Color.DarkGray;
-            this.label473.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label473.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label473.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label473.Location = new System.Drawing.Point(794, 1430);
-            this.label473.Name = "label473";
-            this.label473.Size = new System.Drawing.Size(85, 23);
-            this.label473.TabIndex = 614;
-            this.label473.Text = "0";
-            this.label473.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_3.Location = new System.Drawing.Point(794, 1430);
+            this.Whil_Shet_Lbl_3.Name = "Whil_Shet_Lbl_3";
+            this.Whil_Shet_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_3.TabIndex = 614;
+            this.Whil_Shet_Lbl_3.Text = "0";
+            this.Whil_Shet_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label474
+            // Whil_Shet_Lbl_2
             // 
-            this.label474.BackColor = System.Drawing.Color.DarkGray;
-            this.label474.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label474.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label474.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label474.Location = new System.Drawing.Point(794, 1408);
-            this.label474.Name = "label474";
-            this.label474.Size = new System.Drawing.Size(85, 23);
-            this.label474.TabIndex = 613;
-            this.label474.Text = "0";
-            this.label474.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_2.Location = new System.Drawing.Point(794, 1408);
+            this.Whil_Shet_Lbl_2.Name = "Whil_Shet_Lbl_2";
+            this.Whil_Shet_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_2.TabIndex = 613;
+            this.Whil_Shet_Lbl_2.Text = "0";
+            this.Whil_Shet_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label475
+            // Whil_Shet_Lbl_1
             // 
-            this.label475.BackColor = System.Drawing.Color.DarkGray;
-            this.label475.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label475.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label475.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label475.Location = new System.Drawing.Point(794, 1386);
-            this.label475.Name = "label475";
-            this.label475.Size = new System.Drawing.Size(85, 23);
-            this.label475.TabIndex = 612;
-            this.label475.Text = "0";
-            this.label475.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_1.Location = new System.Drawing.Point(794, 1386);
+            this.Whil_Shet_Lbl_1.Name = "Whil_Shet_Lbl_1";
+            this.Whil_Shet_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_1.TabIndex = 612;
+            this.Whil_Shet_Lbl_1.Text = "0";
+            this.Whil_Shet_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Shet_Lbl_5
             // 
@@ -6732,31 +6733,31 @@
             this.label506.Text = "Лист стальной";
             this.label506.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label507
+            // Perc_Shet_Lbl_8
             // 
-            this.label507.BackColor = System.Drawing.Color.DarkGray;
-            this.label507.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label507.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label507.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label507.Location = new System.Drawing.Point(702, 1540);
-            this.label507.Name = "label507";
-            this.label507.Size = new System.Drawing.Size(93, 23);
-            this.label507.TabIndex = 645;
-            this.label507.Text = "0";
-            this.label507.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Shet_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Shet_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Shet_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Shet_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Shet_Lbl_8.Location = new System.Drawing.Point(702, 1540);
+            this.Perc_Shet_Lbl_8.Name = "Perc_Shet_Lbl_8";
+            this.Perc_Shet_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Shet_Lbl_8.TabIndex = 645;
+            this.Perc_Shet_Lbl_8.Text = "0";
+            this.Perc_Shet_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label508
+            // Whil_Shet_Lbl_8
             // 
-            this.label508.BackColor = System.Drawing.Color.DarkGray;
-            this.label508.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label508.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label508.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label508.Location = new System.Drawing.Point(794, 1540);
-            this.label508.Name = "label508";
-            this.label508.Size = new System.Drawing.Size(85, 23);
-            this.label508.TabIndex = 644;
-            this.label508.Text = "0";
-            this.label508.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Shet_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Shet_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Shet_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Shet_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Shet_Lbl_8.Location = new System.Drawing.Point(794, 1540);
+            this.Whil_Shet_Lbl_8.Name = "Whil_Shet_Lbl_8";
+            this.Whil_Shet_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Shet_Lbl_8.TabIndex = 644;
+            this.Whil_Shet_Lbl_8.Text = "0";
+            this.Whil_Shet_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Shet_Lbl_8
             // 
@@ -6835,31 +6836,31 @@
             this.label515.TabIndex = 646;
             this.label515.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label516
+            // Perc_Seamless_Pipe_Lbl_2
             // 
-            this.label516.BackColor = System.Drawing.Color.DarkGray;
-            this.label516.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label516.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label516.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label516.Location = new System.Drawing.Point(702, 1595);
-            this.label516.Name = "label516";
-            this.label516.Size = new System.Drawing.Size(93, 23);
-            this.label516.TabIndex = 663;
-            this.label516.Text = "0";
-            this.label516.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Seamless_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Seamless_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Seamless_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Seamless_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Seamless_Pipe_Lbl_2.Location = new System.Drawing.Point(702, 1595);
+            this.Perc_Seamless_Pipe_Lbl_2.Name = "Perc_Seamless_Pipe_Lbl_2";
+            this.Perc_Seamless_Pipe_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Seamless_Pipe_Lbl_2.TabIndex = 663;
+            this.Perc_Seamless_Pipe_Lbl_2.Text = "0";
+            this.Perc_Seamless_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label517
+            // Whil_Seamless_Pipe_Lbl_2
             // 
-            this.label517.BackColor = System.Drawing.Color.DarkGray;
-            this.label517.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label517.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label517.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label517.Location = new System.Drawing.Point(794, 1595);
-            this.label517.Name = "label517";
-            this.label517.Size = new System.Drawing.Size(85, 23);
-            this.label517.TabIndex = 662;
-            this.label517.Text = "0";
-            this.label517.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Seamless_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Seamless_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Seamless_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Seamless_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Seamless_Pipe_Lbl_2.Location = new System.Drawing.Point(794, 1595);
+            this.Whil_Seamless_Pipe_Lbl_2.Name = "Whil_Seamless_Pipe_Lbl_2";
+            this.Whil_Seamless_Pipe_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Seamless_Pipe_Lbl_2.TabIndex = 662;
+            this.Whil_Seamless_Pipe_Lbl_2.Text = "0";
+            this.Whil_Seamless_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Seamless_Pipe_Lbl_2
             // 
@@ -6926,31 +6927,31 @@
             this.label523.Text = "57*5,0";
             this.label523.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label524
+            // Perc_Seamless_Pipe_Lbl_1
             // 
-            this.label524.BackColor = System.Drawing.Color.DarkGray;
-            this.label524.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label524.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label524.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label524.Location = new System.Drawing.Point(702, 1573);
-            this.label524.Name = "label524";
-            this.label524.Size = new System.Drawing.Size(93, 23);
-            this.label524.TabIndex = 655;
-            this.label524.Text = "0";
-            this.label524.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Seamless_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Seamless_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Seamless_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Seamless_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Seamless_Pipe_Lbl_1.Location = new System.Drawing.Point(702, 1573);
+            this.Perc_Seamless_Pipe_Lbl_1.Name = "Perc_Seamless_Pipe_Lbl_1";
+            this.Perc_Seamless_Pipe_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Seamless_Pipe_Lbl_1.TabIndex = 655;
+            this.Perc_Seamless_Pipe_Lbl_1.Text = "0";
+            this.Perc_Seamless_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label525
+            // Whil_Seamless_Pipe_Lbl_1
             // 
-            this.label525.BackColor = System.Drawing.Color.DarkGray;
-            this.label525.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label525.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label525.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label525.Location = new System.Drawing.Point(794, 1573);
-            this.label525.Name = "label525";
-            this.label525.Size = new System.Drawing.Size(85, 23);
-            this.label525.TabIndex = 654;
-            this.label525.Text = "0";
-            this.label525.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Seamless_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Seamless_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Seamless_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Seamless_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Seamless_Pipe_Lbl_1.Location = new System.Drawing.Point(794, 1573);
+            this.Whil_Seamless_Pipe_Lbl_1.Name = "Whil_Seamless_Pipe_Lbl_1";
+            this.Whil_Seamless_Pipe_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Seamless_Pipe_Lbl_1.TabIndex = 654;
+            this.Whil_Seamless_Pipe_Lbl_1.Text = "0";
+            this.Whil_Seamless_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Seamless_Pipe_Lbl_1
             // 
@@ -7042,31 +7043,31 @@
             this.label533.TabIndex = 664;
             this.label533.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label534
+            // Perc_VGP_Pipe_Lbl_15
             // 
-            this.label534.BackColor = System.Drawing.Color.DarkGray;
-            this.label534.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label534.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label534.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label534.Location = new System.Drawing.Point(702, 1938);
-            this.label534.Name = "label534";
-            this.label534.Size = new System.Drawing.Size(93, 23);
-            this.label534.TabIndex = 801;
-            this.label534.Text = "0";
-            this.label534.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_15.Location = new System.Drawing.Point(702, 1938);
+            this.Perc_VGP_Pipe_Lbl_15.Name = "Perc_VGP_Pipe_Lbl_15";
+            this.Perc_VGP_Pipe_Lbl_15.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_15.TabIndex = 801;
+            this.Perc_VGP_Pipe_Lbl_15.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label535
+            // Whil_VGP_Pipe_Lbl_15
             // 
-            this.label535.BackColor = System.Drawing.Color.DarkGray;
-            this.label535.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label535.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label535.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label535.Location = new System.Drawing.Point(794, 1938);
-            this.label535.Name = "label535";
-            this.label535.Size = new System.Drawing.Size(85, 23);
-            this.label535.TabIndex = 800;
-            this.label535.Text = "0";
-            this.label535.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_15.Location = new System.Drawing.Point(794, 1938);
+            this.Whil_VGP_Pipe_Lbl_15.Name = "Whil_VGP_Pipe_Lbl_15";
+            this.Whil_VGP_Pipe_Lbl_15.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_15.TabIndex = 800;
+            this.Whil_VGP_Pipe_Lbl_15.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_15
             // 
@@ -7133,57 +7134,57 @@
             this.label541.Text = "50*3,0";
             this.label541.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label542
+            // Perc_VGP_Pipe_Lbl_14
             // 
-            this.label542.BackColor = System.Drawing.Color.DarkGray;
-            this.label542.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label542.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label542.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label542.Location = new System.Drawing.Point(702, 1916);
-            this.label542.Name = "label542";
-            this.label542.Size = new System.Drawing.Size(93, 23);
-            this.label542.TabIndex = 793;
-            this.label542.Text = "0";
-            this.label542.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_14.Location = new System.Drawing.Point(702, 1916);
+            this.Perc_VGP_Pipe_Lbl_14.Name = "Perc_VGP_Pipe_Lbl_14";
+            this.Perc_VGP_Pipe_Lbl_14.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_14.TabIndex = 793;
+            this.Perc_VGP_Pipe_Lbl_14.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label543
+            // Perc_VGP_Pipe_Lbl_13
             // 
-            this.label543.BackColor = System.Drawing.Color.DarkGray;
-            this.label543.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label543.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label543.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label543.Location = new System.Drawing.Point(702, 1894);
-            this.label543.Name = "label543";
-            this.label543.Size = new System.Drawing.Size(93, 23);
-            this.label543.TabIndex = 792;
-            this.label543.Text = "0";
-            this.label543.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_13.Location = new System.Drawing.Point(702, 1894);
+            this.Perc_VGP_Pipe_Lbl_13.Name = "Perc_VGP_Pipe_Lbl_13";
+            this.Perc_VGP_Pipe_Lbl_13.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_13.TabIndex = 792;
+            this.Perc_VGP_Pipe_Lbl_13.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label544
+            // Whil_VGP_Pipe_Lbl_14
             // 
-            this.label544.BackColor = System.Drawing.Color.DarkGray;
-            this.label544.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label544.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label544.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label544.Location = new System.Drawing.Point(794, 1916);
-            this.label544.Name = "label544";
-            this.label544.Size = new System.Drawing.Size(85, 23);
-            this.label544.TabIndex = 791;
-            this.label544.Text = "0";
-            this.label544.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_14.Location = new System.Drawing.Point(794, 1916);
+            this.Whil_VGP_Pipe_Lbl_14.Name = "Whil_VGP_Pipe_Lbl_14";
+            this.Whil_VGP_Pipe_Lbl_14.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_14.TabIndex = 791;
+            this.Whil_VGP_Pipe_Lbl_14.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label545
+            // Whil_VGP_Pipe_Lbl_13
             // 
-            this.label545.BackColor = System.Drawing.Color.DarkGray;
-            this.label545.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label545.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label545.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label545.Location = new System.Drawing.Point(794, 1894);
-            this.label545.Name = "label545";
-            this.label545.Size = new System.Drawing.Size(85, 23);
-            this.label545.TabIndex = 790;
-            this.label545.Text = "0";
-            this.label545.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_13.Location = new System.Drawing.Point(794, 1894);
+            this.Whil_VGP_Pipe_Lbl_13.Name = "Whil_VGP_Pipe_Lbl_13";
+            this.Whil_VGP_Pipe_Lbl_13.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_13.TabIndex = 790;
+            this.Whil_VGP_Pipe_Lbl_13.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_14
             // 
@@ -7327,31 +7328,31 @@
             this.label558.Text = "0";
             this.label558.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label559
+            // Perc_VGP_Pipe_Lbl_12
             // 
-            this.label559.BackColor = System.Drawing.Color.DarkGray;
-            this.label559.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label559.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label559.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label559.Location = new System.Drawing.Point(702, 1872);
-            this.label559.Name = "label559";
-            this.label559.Size = new System.Drawing.Size(93, 23);
-            this.label559.TabIndex = 776;
-            this.label559.Text = "0";
-            this.label559.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_12.Location = new System.Drawing.Point(702, 1872);
+            this.Perc_VGP_Pipe_Lbl_12.Name = "Perc_VGP_Pipe_Lbl_12";
+            this.Perc_VGP_Pipe_Lbl_12.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_12.TabIndex = 776;
+            this.Perc_VGP_Pipe_Lbl_12.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label560
+            // Perc_VGP_Pipe_Lbl_11
             // 
-            this.label560.BackColor = System.Drawing.Color.DarkGray;
-            this.label560.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label560.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label560.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label560.Location = new System.Drawing.Point(702, 1850);
-            this.label560.Name = "label560";
-            this.label560.Size = new System.Drawing.Size(93, 23);
-            this.label560.TabIndex = 775;
-            this.label560.Text = "0";
-            this.label560.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_11.Location = new System.Drawing.Point(702, 1850);
+            this.Perc_VGP_Pipe_Lbl_11.Name = "Perc_VGP_Pipe_Lbl_11";
+            this.Perc_VGP_Pipe_Lbl_11.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_11.TabIndex = 775;
+            this.Perc_VGP_Pipe_Lbl_11.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label561
             // 
@@ -7365,31 +7366,31 @@
             this.label561.Text = "0";
             this.label561.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label562
+            // Whil_VGP_Pipe_Lbl_12
             // 
-            this.label562.BackColor = System.Drawing.Color.DarkGray;
-            this.label562.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label562.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label562.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label562.Location = new System.Drawing.Point(794, 1872);
-            this.label562.Name = "label562";
-            this.label562.Size = new System.Drawing.Size(85, 23);
-            this.label562.TabIndex = 773;
-            this.label562.Text = "0";
-            this.label562.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_12.Location = new System.Drawing.Point(794, 1872);
+            this.Whil_VGP_Pipe_Lbl_12.Name = "Whil_VGP_Pipe_Lbl_12";
+            this.Whil_VGP_Pipe_Lbl_12.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_12.TabIndex = 773;
+            this.Whil_VGP_Pipe_Lbl_12.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label563
+            // Whil_VGP_Pipe_Lbl_11
             // 
-            this.label563.BackColor = System.Drawing.Color.DarkGray;
-            this.label563.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label563.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label563.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label563.Location = new System.Drawing.Point(794, 1850);
-            this.label563.Name = "label563";
-            this.label563.Size = new System.Drawing.Size(85, 23);
-            this.label563.TabIndex = 772;
-            this.label563.Text = "0";
-            this.label563.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_11.Location = new System.Drawing.Point(794, 1850);
+            this.Whil_VGP_Pipe_Lbl_11.Name = "Whil_VGP_Pipe_Lbl_11";
+            this.Whil_VGP_Pipe_Lbl_11.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_11.TabIndex = 772;
+            this.Whil_VGP_Pipe_Lbl_11.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label564
             // 
@@ -7581,31 +7582,31 @@
             this.label581.Text = "32*32";
             this.label581.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label582
+            // Perc_VGP_Pipe_Lbl_10
             // 
-            this.label582.BackColor = System.Drawing.Color.DarkGray;
-            this.label582.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label582.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label582.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label582.Location = new System.Drawing.Point(702, 1828);
-            this.label582.Name = "label582";
-            this.label582.Size = new System.Drawing.Size(93, 23);
-            this.label582.TabIndex = 753;
-            this.label582.Text = "0";
-            this.label582.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_10.Location = new System.Drawing.Point(702, 1828);
+            this.Perc_VGP_Pipe_Lbl_10.Name = "Perc_VGP_Pipe_Lbl_10";
+            this.Perc_VGP_Pipe_Lbl_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_10.TabIndex = 753;
+            this.Perc_VGP_Pipe_Lbl_10.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label583
+            // Whil_VGP_Pipe_Lbl_10
             // 
-            this.label583.BackColor = System.Drawing.Color.DarkGray;
-            this.label583.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label583.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label583.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label583.Location = new System.Drawing.Point(794, 1828);
-            this.label583.Name = "label583";
-            this.label583.Size = new System.Drawing.Size(85, 23);
-            this.label583.TabIndex = 752;
-            this.label583.Text = "0";
-            this.label583.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_10.Location = new System.Drawing.Point(794, 1828);
+            this.Whil_VGP_Pipe_Lbl_10.Name = "Whil_VGP_Pipe_Lbl_10";
+            this.Whil_VGP_Pipe_Lbl_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_10.TabIndex = 752;
+            this.Whil_VGP_Pipe_Lbl_10.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_10
             // 
@@ -7672,57 +7673,57 @@
             this.label589.Text = "32*2,8";
             this.label589.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label590
+            // Perc_VGP_Pipe_Lbl_9
             // 
-            this.label590.BackColor = System.Drawing.Color.DarkGray;
-            this.label590.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label590.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label590.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label590.Location = new System.Drawing.Point(702, 1806);
-            this.label590.Name = "label590";
-            this.label590.Size = new System.Drawing.Size(93, 23);
-            this.label590.TabIndex = 745;
-            this.label590.Text = "0";
-            this.label590.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_9.Location = new System.Drawing.Point(702, 1806);
+            this.Perc_VGP_Pipe_Lbl_9.Name = "Perc_VGP_Pipe_Lbl_9";
+            this.Perc_VGP_Pipe_Lbl_9.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_9.TabIndex = 745;
+            this.Perc_VGP_Pipe_Lbl_9.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label591
+            // Perc_VGP_Pipe_Lbl_8
             // 
-            this.label591.BackColor = System.Drawing.Color.DarkGray;
-            this.label591.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label591.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label591.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label591.Location = new System.Drawing.Point(702, 1784);
-            this.label591.Name = "label591";
-            this.label591.Size = new System.Drawing.Size(93, 23);
-            this.label591.TabIndex = 744;
-            this.label591.Text = "0";
-            this.label591.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_8.Location = new System.Drawing.Point(702, 1784);
+            this.Perc_VGP_Pipe_Lbl_8.Name = "Perc_VGP_Pipe_Lbl_8";
+            this.Perc_VGP_Pipe_Lbl_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_8.TabIndex = 744;
+            this.Perc_VGP_Pipe_Lbl_8.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label592
+            // Whil_VGP_Pipe_Lbl_9
             // 
-            this.label592.BackColor = System.Drawing.Color.DarkGray;
-            this.label592.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label592.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label592.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label592.Location = new System.Drawing.Point(794, 1806);
-            this.label592.Name = "label592";
-            this.label592.Size = new System.Drawing.Size(85, 23);
-            this.label592.TabIndex = 743;
-            this.label592.Text = "0";
-            this.label592.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_9.Location = new System.Drawing.Point(794, 1806);
+            this.Whil_VGP_Pipe_Lbl_9.Name = "Whil_VGP_Pipe_Lbl_9";
+            this.Whil_VGP_Pipe_Lbl_9.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_9.TabIndex = 743;
+            this.Whil_VGP_Pipe_Lbl_9.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label593
+            // Whil_VGP_Pipe_Lbl_8
             // 
-            this.label593.BackColor = System.Drawing.Color.DarkGray;
-            this.label593.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label593.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label593.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label593.Location = new System.Drawing.Point(794, 1784);
-            this.label593.Name = "label593";
-            this.label593.Size = new System.Drawing.Size(85, 23);
-            this.label593.TabIndex = 742;
-            this.label593.Text = "0";
-            this.label593.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_8.Location = new System.Drawing.Point(794, 1784);
+            this.Whil_VGP_Pipe_Lbl_8.Name = "Whil_VGP_Pipe_Lbl_8";
+            this.Whil_VGP_Pipe_Lbl_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_8.TabIndex = 742;
+            this.Whil_VGP_Pipe_Lbl_8.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_9
             // 
@@ -7866,44 +7867,44 @@
             this.label606.Text = "0";
             this.label606.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label607
+            // Perc_VGP_Pipe_Lbl_7
             // 
-            this.label607.BackColor = System.Drawing.Color.DarkGray;
-            this.label607.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label607.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label607.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label607.Location = new System.Drawing.Point(702, 1762);
-            this.label607.Name = "label607";
-            this.label607.Size = new System.Drawing.Size(93, 23);
-            this.label607.TabIndex = 728;
-            this.label607.Text = "0";
-            this.label607.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_7.Location = new System.Drawing.Point(702, 1762);
+            this.Perc_VGP_Pipe_Lbl_7.Name = "Perc_VGP_Pipe_Lbl_7";
+            this.Perc_VGP_Pipe_Lbl_7.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_7.TabIndex = 728;
+            this.Perc_VGP_Pipe_Lbl_7.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label608
+            // Perc_VGP_Pipe_Lbl_6
             // 
-            this.label608.BackColor = System.Drawing.Color.DarkGray;
-            this.label608.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label608.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label608.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label608.Location = new System.Drawing.Point(702, 1740);
-            this.label608.Name = "label608";
-            this.label608.Size = new System.Drawing.Size(93, 23);
-            this.label608.TabIndex = 727;
-            this.label608.Text = "0";
-            this.label608.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_6.Location = new System.Drawing.Point(702, 1740);
+            this.Perc_VGP_Pipe_Lbl_6.Name = "Perc_VGP_Pipe_Lbl_6";
+            this.Perc_VGP_Pipe_Lbl_6.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_6.TabIndex = 727;
+            this.Perc_VGP_Pipe_Lbl_6.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label609
+            // Perc_VGP_Pipe_Lbl_5
             // 
-            this.label609.BackColor = System.Drawing.Color.DarkGray;
-            this.label609.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label609.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label609.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label609.Location = new System.Drawing.Point(702, 1718);
-            this.label609.Name = "label609";
-            this.label609.Size = new System.Drawing.Size(93, 23);
-            this.label609.TabIndex = 726;
-            this.label609.Text = "0";
-            this.label609.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_5.Location = new System.Drawing.Point(702, 1718);
+            this.Perc_VGP_Pipe_Lbl_5.Name = "Perc_VGP_Pipe_Lbl_5";
+            this.Perc_VGP_Pipe_Lbl_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_5.TabIndex = 726;
+            this.Perc_VGP_Pipe_Lbl_5.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label610
             // 
@@ -7917,44 +7918,44 @@
             this.label610.Text = "0";
             this.label610.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label611
+            // Whil_VGP_Pipe_Lbl_7
             // 
-            this.label611.BackColor = System.Drawing.Color.DarkGray;
-            this.label611.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label611.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label611.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label611.Location = new System.Drawing.Point(794, 1762);
-            this.label611.Name = "label611";
-            this.label611.Size = new System.Drawing.Size(85, 23);
-            this.label611.TabIndex = 724;
-            this.label611.Text = "0";
-            this.label611.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_7.Location = new System.Drawing.Point(794, 1762);
+            this.Whil_VGP_Pipe_Lbl_7.Name = "Whil_VGP_Pipe_Lbl_7";
+            this.Whil_VGP_Pipe_Lbl_7.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_7.TabIndex = 724;
+            this.Whil_VGP_Pipe_Lbl_7.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label612
+            // Whil_VGP_Pipe_Lbl_6
             // 
-            this.label612.BackColor = System.Drawing.Color.DarkGray;
-            this.label612.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label612.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label612.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label612.Location = new System.Drawing.Point(794, 1740);
-            this.label612.Name = "label612";
-            this.label612.Size = new System.Drawing.Size(85, 23);
-            this.label612.TabIndex = 723;
-            this.label612.Text = "0";
-            this.label612.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_6.Location = new System.Drawing.Point(794, 1740);
+            this.Whil_VGP_Pipe_Lbl_6.Name = "Whil_VGP_Pipe_Lbl_6";
+            this.Whil_VGP_Pipe_Lbl_6.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_6.TabIndex = 723;
+            this.Whil_VGP_Pipe_Lbl_6.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label613
+            // Whil_VGP_Pipe_Lbl_5
             // 
-            this.label613.BackColor = System.Drawing.Color.DarkGray;
-            this.label613.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label613.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label613.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label613.Location = new System.Drawing.Point(794, 1718);
-            this.label613.Name = "label613";
-            this.label613.Size = new System.Drawing.Size(85, 23);
-            this.label613.TabIndex = 722;
-            this.label613.Text = "0";
-            this.label613.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_5.Location = new System.Drawing.Point(794, 1718);
+            this.Whil_VGP_Pipe_Lbl_5.Name = "Whil_VGP_Pipe_Lbl_5";
+            this.Whil_VGP_Pipe_Lbl_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_5.TabIndex = 722;
+            this.Whil_VGP_Pipe_Lbl_5.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label614
             // 
@@ -8211,109 +8212,109 @@
             this.label637.Text = "20*2,8";
             this.label637.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label638
+            // Perc_VGP_Pipe_Lbl_4
             // 
-            this.label638.BackColor = System.Drawing.Color.DarkGray;
-            this.label638.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label638.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label638.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label638.Location = new System.Drawing.Point(702, 1696);
-            this.label638.Name = "label638";
-            this.label638.Size = new System.Drawing.Size(93, 23);
-            this.label638.TabIndex = 697;
-            this.label638.Text = "0";
-            this.label638.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_4.Location = new System.Drawing.Point(702, 1696);
+            this.Perc_VGP_Pipe_Lbl_4.Name = "Perc_VGP_Pipe_Lbl_4";
+            this.Perc_VGP_Pipe_Lbl_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_4.TabIndex = 697;
+            this.Perc_VGP_Pipe_Lbl_4.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label639
+            // Perc_VGP_Pipe_Lbl_3
             // 
-            this.label639.BackColor = System.Drawing.Color.DarkGray;
-            this.label639.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label639.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label639.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label639.Location = new System.Drawing.Point(702, 1674);
-            this.label639.Name = "label639";
-            this.label639.Size = new System.Drawing.Size(93, 23);
-            this.label639.TabIndex = 696;
-            this.label639.Text = "0";
-            this.label639.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_3.Location = new System.Drawing.Point(702, 1674);
+            this.Perc_VGP_Pipe_Lbl_3.Name = "Perc_VGP_Pipe_Lbl_3";
+            this.Perc_VGP_Pipe_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_3.TabIndex = 696;
+            this.Perc_VGP_Pipe_Lbl_3.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label640
+            // Perc_VGP_Pipe_Lbl_2
             // 
-            this.label640.BackColor = System.Drawing.Color.DarkGray;
-            this.label640.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label640.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label640.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label640.Location = new System.Drawing.Point(702, 1652);
-            this.label640.Name = "label640";
-            this.label640.Size = new System.Drawing.Size(93, 23);
-            this.label640.TabIndex = 695;
-            this.label640.Text = "0";
-            this.label640.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_2.Location = new System.Drawing.Point(702, 1652);
+            this.Perc_VGP_Pipe_Lbl_2.Name = "Perc_VGP_Pipe_Lbl_2";
+            this.Perc_VGP_Pipe_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_2.TabIndex = 695;
+            this.Perc_VGP_Pipe_Lbl_2.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label641
+            // Perc_VGP_Pipe_Lbl_1
             // 
-            this.label641.BackColor = System.Drawing.Color.DarkGray;
-            this.label641.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label641.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label641.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label641.Location = new System.Drawing.Point(702, 1630);
-            this.label641.Name = "label641";
-            this.label641.Size = new System.Drawing.Size(93, 23);
-            this.label641.TabIndex = 694;
-            this.label641.Text = "0";
-            this.label641.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_1.Location = new System.Drawing.Point(702, 1630);
+            this.Perc_VGP_Pipe_Lbl_1.Name = "Perc_VGP_Pipe_Lbl_1";
+            this.Perc_VGP_Pipe_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_1.TabIndex = 694;
+            this.Perc_VGP_Pipe_Lbl_1.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label642
+            // Whil_VGP_Pipe_Lbl_4
             // 
-            this.label642.BackColor = System.Drawing.Color.DarkGray;
-            this.label642.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label642.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label642.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label642.Location = new System.Drawing.Point(794, 1696);
-            this.label642.Name = "label642";
-            this.label642.Size = new System.Drawing.Size(85, 23);
-            this.label642.TabIndex = 693;
-            this.label642.Text = "0";
-            this.label642.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_4.Location = new System.Drawing.Point(794, 1696);
+            this.Whil_VGP_Pipe_Lbl_4.Name = "Whil_VGP_Pipe_Lbl_4";
+            this.Whil_VGP_Pipe_Lbl_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_4.TabIndex = 693;
+            this.Whil_VGP_Pipe_Lbl_4.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label643
+            // Whil_VGP_Pipe_Lbl_3
             // 
-            this.label643.BackColor = System.Drawing.Color.DarkGray;
-            this.label643.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label643.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label643.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label643.Location = new System.Drawing.Point(794, 1674);
-            this.label643.Name = "label643";
-            this.label643.Size = new System.Drawing.Size(85, 23);
-            this.label643.TabIndex = 692;
-            this.label643.Text = "0";
-            this.label643.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_3.Location = new System.Drawing.Point(794, 1674);
+            this.Whil_VGP_Pipe_Lbl_3.Name = "Whil_VGP_Pipe_Lbl_3";
+            this.Whil_VGP_Pipe_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_3.TabIndex = 692;
+            this.Whil_VGP_Pipe_Lbl_3.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label644
+            // Whil_VGP_Pipe_Lbl_2
             // 
-            this.label644.BackColor = System.Drawing.Color.DarkGray;
-            this.label644.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label644.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label644.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label644.Location = new System.Drawing.Point(794, 1652);
-            this.label644.Name = "label644";
-            this.label644.Size = new System.Drawing.Size(85, 23);
-            this.label644.TabIndex = 691;
-            this.label644.Text = "0";
-            this.label644.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_2.Location = new System.Drawing.Point(794, 1652);
+            this.Whil_VGP_Pipe_Lbl_2.Name = "Whil_VGP_Pipe_Lbl_2";
+            this.Whil_VGP_Pipe_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_2.TabIndex = 691;
+            this.Whil_VGP_Pipe_Lbl_2.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label645
+            // Whil_VGP_Pipe_Lbl_1
             // 
-            this.label645.BackColor = System.Drawing.Color.DarkGray;
-            this.label645.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label645.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label645.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label645.Location = new System.Drawing.Point(794, 1630);
-            this.label645.Name = "label645";
-            this.label645.Size = new System.Drawing.Size(85, 23);
-            this.label645.TabIndex = 690;
-            this.label645.Text = "0";
-            this.label645.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_1.Location = new System.Drawing.Point(794, 1630);
+            this.Whil_VGP_Pipe_Lbl_1.Name = "Whil_VGP_Pipe_Lbl_1";
+            this.Whil_VGP_Pipe_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_1.TabIndex = 690;
+            this.Whil_VGP_Pipe_Lbl_1.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_4
             // 
@@ -8588,31 +8589,31 @@
             this.label670.Text = "Труба стальная вгп";
             this.label670.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label671
+            // Perc_VGP_Pipe_Lbl_16
             // 
-            this.label671.BackColor = System.Drawing.Color.DarkGray;
-            this.label671.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label671.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label671.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label671.Location = new System.Drawing.Point(702, 1961);
-            this.label671.Name = "label671";
-            this.label671.Size = new System.Drawing.Size(93, 23);
-            this.label671.TabIndex = 809;
-            this.label671.Text = "0";
-            this.label671.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_VGP_Pipe_Lbl_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_VGP_Pipe_Lbl_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_VGP_Pipe_Lbl_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_VGP_Pipe_Lbl_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_VGP_Pipe_Lbl_16.Location = new System.Drawing.Point(702, 1961);
+            this.Perc_VGP_Pipe_Lbl_16.Name = "Perc_VGP_Pipe_Lbl_16";
+            this.Perc_VGP_Pipe_Lbl_16.Size = new System.Drawing.Size(93, 23);
+            this.Perc_VGP_Pipe_Lbl_16.TabIndex = 809;
+            this.Perc_VGP_Pipe_Lbl_16.Text = "0";
+            this.Perc_VGP_Pipe_Lbl_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label672
+            // Whil_VGP_Pipe_Lbl_16
             // 
-            this.label672.BackColor = System.Drawing.Color.DarkGray;
-            this.label672.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label672.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label672.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label672.Location = new System.Drawing.Point(794, 1961);
-            this.label672.Name = "label672";
-            this.label672.Size = new System.Drawing.Size(85, 23);
-            this.label672.TabIndex = 808;
-            this.label672.Text = "0";
-            this.label672.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_VGP_Pipe_Lbl_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_VGP_Pipe_Lbl_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_VGP_Pipe_Lbl_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_VGP_Pipe_Lbl_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_VGP_Pipe_Lbl_16.Location = new System.Drawing.Point(794, 1961);
+            this.Whil_VGP_Pipe_Lbl_16.Name = "Whil_VGP_Pipe_Lbl_16";
+            this.Whil_VGP_Pipe_Lbl_16.Size = new System.Drawing.Size(85, 23);
+            this.Whil_VGP_Pipe_Lbl_16.TabIndex = 808;
+            this.Whil_VGP_Pipe_Lbl_16.Text = "0";
+            this.Whil_VGP_Pipe_Lbl_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_VGP_Pipe_Lbl_16
             // 
@@ -8691,31 +8692,31 @@
             this.label679.TabIndex = 810;
             this.label679.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label680
+            // Perc_El_Weld_Pipe_Lbl_2
             // 
-            this.label680.BackColor = System.Drawing.Color.DarkGray;
-            this.label680.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label680.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label680.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label680.Location = new System.Drawing.Point(702, 2018);
-            this.label680.Name = "label680";
-            this.label680.Size = new System.Drawing.Size(93, 23);
-            this.label680.TabIndex = 828;
-            this.label680.Text = "0";
-            this.label680.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_El_Weld_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_El_Weld_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_El_Weld_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_El_Weld_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_El_Weld_Pipe_Lbl_2.Location = new System.Drawing.Point(702, 2018);
+            this.Perc_El_Weld_Pipe_Lbl_2.Name = "Perc_El_Weld_Pipe_Lbl_2";
+            this.Perc_El_Weld_Pipe_Lbl_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_El_Weld_Pipe_Lbl_2.TabIndex = 828;
+            this.Perc_El_Weld_Pipe_Lbl_2.Text = "0";
+            this.Perc_El_Weld_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label681
+            // Whil_El_Weld_Pipe_Lbl_2
             // 
-            this.label681.BackColor = System.Drawing.Color.DarkGray;
-            this.label681.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label681.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label681.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label681.Location = new System.Drawing.Point(794, 2018);
-            this.label681.Name = "label681";
-            this.label681.Size = new System.Drawing.Size(85, 23);
-            this.label681.TabIndex = 827;
-            this.label681.Text = "0";
-            this.label681.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_El_Weld_Pipe_Lbl_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_El_Weld_Pipe_Lbl_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_El_Weld_Pipe_Lbl_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_El_Weld_Pipe_Lbl_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_El_Weld_Pipe_Lbl_2.Location = new System.Drawing.Point(794, 2018);
+            this.Whil_El_Weld_Pipe_Lbl_2.Name = "Whil_El_Weld_Pipe_Lbl_2";
+            this.Whil_El_Weld_Pipe_Lbl_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_El_Weld_Pipe_Lbl_2.TabIndex = 827;
+            this.Whil_El_Weld_Pipe_Lbl_2.Text = "0";
+            this.Whil_El_Weld_Pipe_Lbl_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_El_Weld_Pipe_Lbl_2
             // 
@@ -8782,31 +8783,31 @@
             this.label687.Text = "57*3,0";
             this.label687.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label688
+            // Perc_El_Weld_Pipe_Lbl_1
             // 
-            this.label688.BackColor = System.Drawing.Color.DarkGray;
-            this.label688.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label688.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label688.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label688.Location = new System.Drawing.Point(702, 1996);
-            this.label688.Name = "label688";
-            this.label688.Size = new System.Drawing.Size(93, 23);
-            this.label688.TabIndex = 820;
-            this.label688.Text = "0";
-            this.label688.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_El_Weld_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_El_Weld_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_El_Weld_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_El_Weld_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_El_Weld_Pipe_Lbl_1.Location = new System.Drawing.Point(702, 1996);
+            this.Perc_El_Weld_Pipe_Lbl_1.Name = "Perc_El_Weld_Pipe_Lbl_1";
+            this.Perc_El_Weld_Pipe_Lbl_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_El_Weld_Pipe_Lbl_1.TabIndex = 820;
+            this.Perc_El_Weld_Pipe_Lbl_1.Text = "0";
+            this.Perc_El_Weld_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label689
+            // Whil_El_Weld_Pipe_Lbl_1
             // 
-            this.label689.BackColor = System.Drawing.Color.DarkGray;
-            this.label689.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label689.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label689.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label689.Location = new System.Drawing.Point(794, 1996);
-            this.label689.Name = "label689";
-            this.label689.Size = new System.Drawing.Size(85, 23);
-            this.label689.TabIndex = 819;
-            this.label689.Text = "0";
-            this.label689.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_El_Weld_Pipe_Lbl_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_El_Weld_Pipe_Lbl_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_El_Weld_Pipe_Lbl_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_El_Weld_Pipe_Lbl_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_El_Weld_Pipe_Lbl_1.Location = new System.Drawing.Point(794, 1996);
+            this.Whil_El_Weld_Pipe_Lbl_1.Name = "Whil_El_Weld_Pipe_Lbl_1";
+            this.Whil_El_Weld_Pipe_Lbl_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_El_Weld_Pipe_Lbl_1.TabIndex = 819;
+            this.Whil_El_Weld_Pipe_Lbl_1.Text = "0";
+            this.Whil_El_Weld_Pipe_Lbl_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_El_Weld_Pipe_Lbl_1
             // 
@@ -8899,18 +8900,18 @@
             this.label697.Text = "0";
             this.label697.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label698
+            // Whil_El_Weld_Pipe_Lbl_3
             // 
-            this.label698.BackColor = System.Drawing.Color.DarkGray;
-            this.label698.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label698.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label698.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label698.Location = new System.Drawing.Point(794, 2041);
-            this.label698.Name = "label698";
-            this.label698.Size = new System.Drawing.Size(85, 23);
-            this.label698.TabIndex = 835;
-            this.label698.Text = "0";
-            this.label698.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_El_Weld_Pipe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_El_Weld_Pipe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_El_Weld_Pipe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_El_Weld_Pipe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_El_Weld_Pipe_Lbl_3.Location = new System.Drawing.Point(794, 2041);
+            this.Whil_El_Weld_Pipe_Lbl_3.Name = "Whil_El_Weld_Pipe_Lbl_3";
+            this.Whil_El_Weld_Pipe_Lbl_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_El_Weld_Pipe_Lbl_3.TabIndex = 835;
+            this.Whil_El_Weld_Pipe_Lbl_3.Text = "0";
+            this.Whil_El_Weld_Pipe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_El_Weld_Pipe_Lbl_3
             // 
@@ -8989,31 +8990,31 @@
             this.label705.TabIndex = 837;
             this.label705.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label706
+            // Perc_Rect_Steel_Pipe_16
             // 
-            this.label706.BackColor = System.Drawing.Color.DarkGray;
-            this.label706.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label706.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label706.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label706.Location = new System.Drawing.Point(702, 2407);
-            this.label706.Name = "label706";
-            this.label706.Size = new System.Drawing.Size(93, 23);
-            this.label706.TabIndex = 982;
-            this.label706.Text = "0";
-            this.label706.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_16.Location = new System.Drawing.Point(702, 2407);
+            this.Perc_Rect_Steel_Pipe_16.Name = "Perc_Rect_Steel_Pipe_16";
+            this.Perc_Rect_Steel_Pipe_16.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_16.TabIndex = 982;
+            this.Perc_Rect_Steel_Pipe_16.Text = "0";
+            this.Perc_Rect_Steel_Pipe_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label707
+            // Whil_Rect_Steel_Pipe_16
             // 
-            this.label707.BackColor = System.Drawing.Color.DarkGray;
-            this.label707.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label707.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label707.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label707.Location = new System.Drawing.Point(794, 2407);
-            this.label707.Name = "label707";
-            this.label707.Size = new System.Drawing.Size(85, 23);
-            this.label707.TabIndex = 981;
-            this.label707.Text = "0";
-            this.label707.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_16.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_16.Location = new System.Drawing.Point(794, 2407);
+            this.Whil_Rect_Steel_Pipe_16.Name = "Whil_Rect_Steel_Pipe_16";
+            this.Whil_Rect_Steel_Pipe_16.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_16.TabIndex = 981;
+            this.Whil_Rect_Steel_Pipe_16.Text = "0";
+            this.Whil_Rect_Steel_Pipe_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_16
             // 
@@ -9080,31 +9081,31 @@
             this.label713.Text = "80*80*2,0";
             this.label713.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label714
+            // Perc_Rect_Steel_Pipe_15
             // 
-            this.label714.BackColor = System.Drawing.Color.DarkGray;
-            this.label714.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label714.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label714.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label714.Location = new System.Drawing.Point(702, 2384);
-            this.label714.Name = "label714";
-            this.label714.Size = new System.Drawing.Size(93, 23);
-            this.label714.TabIndex = 974;
-            this.label714.Text = "0";
-            this.label714.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_15.Location = new System.Drawing.Point(702, 2384);
+            this.Perc_Rect_Steel_Pipe_15.Name = "Perc_Rect_Steel_Pipe_15";
+            this.Perc_Rect_Steel_Pipe_15.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_15.TabIndex = 974;
+            this.Perc_Rect_Steel_Pipe_15.Text = "0";
+            this.Perc_Rect_Steel_Pipe_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label715
+            // Whil_Rect_Steel_Pipe_15
             // 
-            this.label715.BackColor = System.Drawing.Color.DarkGray;
-            this.label715.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label715.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label715.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label715.Location = new System.Drawing.Point(794, 2384);
-            this.label715.Name = "label715";
-            this.label715.Size = new System.Drawing.Size(85, 23);
-            this.label715.TabIndex = 973;
-            this.label715.Text = "0";
-            this.label715.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_15.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_15.Location = new System.Drawing.Point(794, 2384);
+            this.Whil_Rect_Steel_Pipe_15.Name = "Whil_Rect_Steel_Pipe_15";
+            this.Whil_Rect_Steel_Pipe_15.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_15.TabIndex = 973;
+            this.Whil_Rect_Steel_Pipe_15.Text = "0";
+            this.Whil_Rect_Steel_Pipe_15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_15
             // 
@@ -9171,57 +9172,57 @@
             this.label721.Text = "60*60*4,0";
             this.label721.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label722
+            // Perc_Rect_Steel_Pipe_14
             // 
-            this.label722.BackColor = System.Drawing.Color.DarkGray;
-            this.label722.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label722.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label722.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label722.Location = new System.Drawing.Point(702, 2362);
-            this.label722.Name = "label722";
-            this.label722.Size = new System.Drawing.Size(93, 23);
-            this.label722.TabIndex = 966;
-            this.label722.Text = "0";
-            this.label722.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_14.Location = new System.Drawing.Point(702, 2362);
+            this.Perc_Rect_Steel_Pipe_14.Name = "Perc_Rect_Steel_Pipe_14";
+            this.Perc_Rect_Steel_Pipe_14.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_14.TabIndex = 966;
+            this.Perc_Rect_Steel_Pipe_14.Text = "0";
+            this.Perc_Rect_Steel_Pipe_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label723
+            // Perc_Rect_Steel_Pipe_13
             // 
-            this.label723.BackColor = System.Drawing.Color.DarkGray;
-            this.label723.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label723.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label723.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label723.Location = new System.Drawing.Point(702, 2340);
-            this.label723.Name = "label723";
-            this.label723.Size = new System.Drawing.Size(93, 23);
-            this.label723.TabIndex = 965;
-            this.label723.Text = "0";
-            this.label723.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_13.Location = new System.Drawing.Point(702, 2340);
+            this.Perc_Rect_Steel_Pipe_13.Name = "Perc_Rect_Steel_Pipe_13";
+            this.Perc_Rect_Steel_Pipe_13.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_13.TabIndex = 965;
+            this.Perc_Rect_Steel_Pipe_13.Text = "0";
+            this.Perc_Rect_Steel_Pipe_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label724
+            // Whil_Rect_Steel_Pipe_14
             // 
-            this.label724.BackColor = System.Drawing.Color.DarkGray;
-            this.label724.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label724.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label724.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label724.Location = new System.Drawing.Point(794, 2362);
-            this.label724.Name = "label724";
-            this.label724.Size = new System.Drawing.Size(85, 23);
-            this.label724.TabIndex = 964;
-            this.label724.Text = "0";
-            this.label724.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_14.Location = new System.Drawing.Point(794, 2362);
+            this.Whil_Rect_Steel_Pipe_14.Name = "Whil_Rect_Steel_Pipe_14";
+            this.Whil_Rect_Steel_Pipe_14.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_14.TabIndex = 964;
+            this.Whil_Rect_Steel_Pipe_14.Text = "0";
+            this.Whil_Rect_Steel_Pipe_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label725
+            // Whil_Rect_Steel_Pipe_13
             // 
-            this.label725.BackColor = System.Drawing.Color.DarkGray;
-            this.label725.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label725.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label725.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label725.Location = new System.Drawing.Point(794, 2340);
-            this.label725.Name = "label725";
-            this.label725.Size = new System.Drawing.Size(85, 23);
-            this.label725.TabIndex = 963;
-            this.label725.Text = "0";
-            this.label725.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_13.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_13.Location = new System.Drawing.Point(794, 2340);
+            this.Whil_Rect_Steel_Pipe_13.Name = "Whil_Rect_Steel_Pipe_13";
+            this.Whil_Rect_Steel_Pipe_13.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_13.TabIndex = 963;
+            this.Whil_Rect_Steel_Pipe_13.Text = "0";
+            this.Whil_Rect_Steel_Pipe_13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_14
             // 
@@ -9365,31 +9366,31 @@
             this.label738.Text = "0";
             this.label738.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label739
+            // Perc_Rect_Steel_Pipe_12
             // 
-            this.label739.BackColor = System.Drawing.Color.DarkGray;
-            this.label739.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label739.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label739.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label739.Location = new System.Drawing.Point(702, 2318);
-            this.label739.Name = "label739";
-            this.label739.Size = new System.Drawing.Size(93, 23);
-            this.label739.TabIndex = 949;
-            this.label739.Text = "0";
-            this.label739.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_12.Location = new System.Drawing.Point(702, 2318);
+            this.Perc_Rect_Steel_Pipe_12.Name = "Perc_Rect_Steel_Pipe_12";
+            this.Perc_Rect_Steel_Pipe_12.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_12.TabIndex = 949;
+            this.Perc_Rect_Steel_Pipe_12.Text = "0";
+            this.Perc_Rect_Steel_Pipe_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label740
+            // Perc_Rect_Steel_Pipe_11
             // 
-            this.label740.BackColor = System.Drawing.Color.DarkGray;
-            this.label740.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label740.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label740.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label740.Location = new System.Drawing.Point(702, 2296);
-            this.label740.Name = "label740";
-            this.label740.Size = new System.Drawing.Size(93, 23);
-            this.label740.TabIndex = 948;
-            this.label740.Text = "0";
-            this.label740.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_11.Location = new System.Drawing.Point(702, 2296);
+            this.Perc_Rect_Steel_Pipe_11.Name = "Perc_Rect_Steel_Pipe_11";
+            this.Perc_Rect_Steel_Pipe_11.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_11.TabIndex = 948;
+            this.Perc_Rect_Steel_Pipe_11.Text = "0";
+            this.Perc_Rect_Steel_Pipe_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label741
             // 
@@ -9403,31 +9404,31 @@
             this.label741.Text = "0";
             this.label741.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label742
+            // Whil_Rect_Steel_Pipe_12
             // 
-            this.label742.BackColor = System.Drawing.Color.DarkGray;
-            this.label742.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label742.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label742.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label742.Location = new System.Drawing.Point(794, 2318);
-            this.label742.Name = "label742";
-            this.label742.Size = new System.Drawing.Size(85, 23);
-            this.label742.TabIndex = 946;
-            this.label742.Text = "0";
-            this.label742.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_12.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_12.Location = new System.Drawing.Point(794, 2318);
+            this.Whil_Rect_Steel_Pipe_12.Name = "Whil_Rect_Steel_Pipe_12";
+            this.Whil_Rect_Steel_Pipe_12.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_12.TabIndex = 946;
+            this.Whil_Rect_Steel_Pipe_12.Text = "0";
+            this.Whil_Rect_Steel_Pipe_12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label743
+            // Whil_Rect_Steel_Pipe_11
             // 
-            this.label743.BackColor = System.Drawing.Color.DarkGray;
-            this.label743.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label743.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label743.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label743.Location = new System.Drawing.Point(794, 2296);
-            this.label743.Name = "label743";
-            this.label743.Size = new System.Drawing.Size(85, 23);
-            this.label743.TabIndex = 945;
-            this.label743.Text = "0";
-            this.label743.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_11.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_11.Location = new System.Drawing.Point(794, 2296);
+            this.Whil_Rect_Steel_Pipe_11.Name = "Whil_Rect_Steel_Pipe_11";
+            this.Whil_Rect_Steel_Pipe_11.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_11.TabIndex = 945;
+            this.Whil_Rect_Steel_Pipe_11.Text = "0";
+            this.Whil_Rect_Steel_Pipe_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label744
             // 
@@ -9619,31 +9620,31 @@
             this.label761.Text = "40*40*2,0";
             this.label761.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label762
+            // Perc_Rect_Steel_Pipe_10
             // 
-            this.label762.BackColor = System.Drawing.Color.DarkGray;
-            this.label762.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label762.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label762.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label762.Location = new System.Drawing.Point(702, 2274);
-            this.label762.Name = "label762";
-            this.label762.Size = new System.Drawing.Size(93, 23);
-            this.label762.TabIndex = 926;
-            this.label762.Text = "0";
-            this.label762.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_10.Location = new System.Drawing.Point(702, 2274);
+            this.Perc_Rect_Steel_Pipe_10.Name = "Perc_Rect_Steel_Pipe_10";
+            this.Perc_Rect_Steel_Pipe_10.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_10.TabIndex = 926;
+            this.Perc_Rect_Steel_Pipe_10.Text = "0";
+            this.Perc_Rect_Steel_Pipe_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label763
+            // Whil_Rect_Steel_Pipe_10
             // 
-            this.label763.BackColor = System.Drawing.Color.DarkGray;
-            this.label763.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label763.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label763.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label763.Location = new System.Drawing.Point(794, 2274);
-            this.label763.Name = "label763";
-            this.label763.Size = new System.Drawing.Size(85, 23);
-            this.label763.TabIndex = 925;
-            this.label763.Text = "0";
-            this.label763.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_10.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_10.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_10.Location = new System.Drawing.Point(794, 2274);
+            this.Whil_Rect_Steel_Pipe_10.Name = "Whil_Rect_Steel_Pipe_10";
+            this.Whil_Rect_Steel_Pipe_10.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_10.TabIndex = 925;
+            this.Whil_Rect_Steel_Pipe_10.Text = "0";
+            this.Whil_Rect_Steel_Pipe_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_10
             // 
@@ -9710,57 +9711,57 @@
             this.label769.Text = "40*40*1,5";
             this.label769.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label770
+            // Perc_Rect_Steel_Pipe_9
             // 
-            this.label770.BackColor = System.Drawing.Color.DarkGray;
-            this.label770.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label770.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label770.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label770.Location = new System.Drawing.Point(702, 2252);
-            this.label770.Name = "label770";
-            this.label770.Size = new System.Drawing.Size(93, 23);
-            this.label770.TabIndex = 918;
-            this.label770.Text = "0";
-            this.label770.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_9.Location = new System.Drawing.Point(702, 2252);
+            this.Perc_Rect_Steel_Pipe_9.Name = "Perc_Rect_Steel_Pipe_9";
+            this.Perc_Rect_Steel_Pipe_9.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_9.TabIndex = 918;
+            this.Perc_Rect_Steel_Pipe_9.Text = "0";
+            this.Perc_Rect_Steel_Pipe_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label771
+            // Perc_Rect_Steel_Pipe_8
             // 
-            this.label771.BackColor = System.Drawing.Color.DarkGray;
-            this.label771.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label771.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label771.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label771.Location = new System.Drawing.Point(702, 2230);
-            this.label771.Name = "label771";
-            this.label771.Size = new System.Drawing.Size(93, 23);
-            this.label771.TabIndex = 917;
-            this.label771.Text = "0";
-            this.label771.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_8.Location = new System.Drawing.Point(702, 2230);
+            this.Perc_Rect_Steel_Pipe_8.Name = "Perc_Rect_Steel_Pipe_8";
+            this.Perc_Rect_Steel_Pipe_8.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_8.TabIndex = 917;
+            this.Perc_Rect_Steel_Pipe_8.Text = "0";
+            this.Perc_Rect_Steel_Pipe_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label772
+            // Whil_Rect_Steel_Pipe_9
             // 
-            this.label772.BackColor = System.Drawing.Color.DarkGray;
-            this.label772.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label772.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label772.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label772.Location = new System.Drawing.Point(794, 2252);
-            this.label772.Name = "label772";
-            this.label772.Size = new System.Drawing.Size(85, 23);
-            this.label772.TabIndex = 916;
-            this.label772.Text = "0";
-            this.label772.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_9.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_9.Location = new System.Drawing.Point(794, 2252);
+            this.Whil_Rect_Steel_Pipe_9.Name = "Whil_Rect_Steel_Pipe_9";
+            this.Whil_Rect_Steel_Pipe_9.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_9.TabIndex = 916;
+            this.Whil_Rect_Steel_Pipe_9.Text = "0";
+            this.Whil_Rect_Steel_Pipe_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label773
+            // Whil_Rect_Steel_Pipe_8
             // 
-            this.label773.BackColor = System.Drawing.Color.DarkGray;
-            this.label773.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label773.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label773.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label773.Location = new System.Drawing.Point(794, 2230);
-            this.label773.Name = "label773";
-            this.label773.Size = new System.Drawing.Size(85, 23);
-            this.label773.TabIndex = 915;
-            this.label773.Text = "0";
-            this.label773.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_8.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_8.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_8.Location = new System.Drawing.Point(794, 2230);
+            this.Whil_Rect_Steel_Pipe_8.Name = "Whil_Rect_Steel_Pipe_8";
+            this.Whil_Rect_Steel_Pipe_8.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_8.TabIndex = 915;
+            this.Whil_Rect_Steel_Pipe_8.Text = "0";
+            this.Whil_Rect_Steel_Pipe_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_9
             // 
@@ -9904,44 +9905,44 @@
             this.label786.Text = "0";
             this.label786.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label787
+            // Perc_Rect_Steel_Pipe_7
             // 
-            this.label787.BackColor = System.Drawing.Color.DarkGray;
-            this.label787.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label787.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label787.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label787.Location = new System.Drawing.Point(702, 2208);
-            this.label787.Name = "label787";
-            this.label787.Size = new System.Drawing.Size(93, 23);
-            this.label787.TabIndex = 901;
-            this.label787.Text = "0";
-            this.label787.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_7.Location = new System.Drawing.Point(702, 2208);
+            this.Perc_Rect_Steel_Pipe_7.Name = "Perc_Rect_Steel_Pipe_7";
+            this.Perc_Rect_Steel_Pipe_7.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_7.TabIndex = 901;
+            this.Perc_Rect_Steel_Pipe_7.Text = "0";
+            this.Perc_Rect_Steel_Pipe_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label788
+            // Perc_Rect_Steel_Pipe_6
             // 
-            this.label788.BackColor = System.Drawing.Color.DarkGray;
-            this.label788.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label788.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label788.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label788.Location = new System.Drawing.Point(702, 2186);
-            this.label788.Name = "label788";
-            this.label788.Size = new System.Drawing.Size(93, 23);
-            this.label788.TabIndex = 900;
-            this.label788.Text = "0";
-            this.label788.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_6.Location = new System.Drawing.Point(702, 2186);
+            this.Perc_Rect_Steel_Pipe_6.Name = "Perc_Rect_Steel_Pipe_6";
+            this.Perc_Rect_Steel_Pipe_6.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_6.TabIndex = 900;
+            this.Perc_Rect_Steel_Pipe_6.Text = "0";
+            this.Perc_Rect_Steel_Pipe_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label789
+            // Perc_Rect_Steel_Pipe_5
             // 
-            this.label789.BackColor = System.Drawing.Color.DarkGray;
-            this.label789.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label789.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label789.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label789.Location = new System.Drawing.Point(702, 2164);
-            this.label789.Name = "label789";
-            this.label789.Size = new System.Drawing.Size(93, 23);
-            this.label789.TabIndex = 899;
-            this.label789.Text = "0";
-            this.label789.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_5.Location = new System.Drawing.Point(702, 2164);
+            this.Perc_Rect_Steel_Pipe_5.Name = "Perc_Rect_Steel_Pipe_5";
+            this.Perc_Rect_Steel_Pipe_5.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_5.TabIndex = 899;
+            this.Perc_Rect_Steel_Pipe_5.Text = "0";
+            this.Perc_Rect_Steel_Pipe_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label790
             // 
@@ -9955,44 +9956,44 @@
             this.label790.Text = "0";
             this.label790.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label791
+            // Whil_Rect_Steel_Pipe_7
             // 
-            this.label791.BackColor = System.Drawing.Color.DarkGray;
-            this.label791.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label791.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label791.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label791.Location = new System.Drawing.Point(794, 2208);
-            this.label791.Name = "label791";
-            this.label791.Size = new System.Drawing.Size(85, 23);
-            this.label791.TabIndex = 897;
-            this.label791.Text = "0";
-            this.label791.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_7.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_7.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_7.Location = new System.Drawing.Point(794, 2208);
+            this.Whil_Rect_Steel_Pipe_7.Name = "Whil_Rect_Steel_Pipe_7";
+            this.Whil_Rect_Steel_Pipe_7.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_7.TabIndex = 897;
+            this.Whil_Rect_Steel_Pipe_7.Text = "0";
+            this.Whil_Rect_Steel_Pipe_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label792
+            // Whil_Rect_Steel_Pipe_6
             // 
-            this.label792.BackColor = System.Drawing.Color.DarkGray;
-            this.label792.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label792.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label792.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label792.Location = new System.Drawing.Point(794, 2186);
-            this.label792.Name = "label792";
-            this.label792.Size = new System.Drawing.Size(85, 23);
-            this.label792.TabIndex = 896;
-            this.label792.Text = "0";
-            this.label792.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_6.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_6.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_6.Location = new System.Drawing.Point(794, 2186);
+            this.Whil_Rect_Steel_Pipe_6.Name = "Whil_Rect_Steel_Pipe_6";
+            this.Whil_Rect_Steel_Pipe_6.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_6.TabIndex = 896;
+            this.Whil_Rect_Steel_Pipe_6.Text = "0";
+            this.Whil_Rect_Steel_Pipe_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label793
+            // Whil_Rect_Steel_Pipe_5
             // 
-            this.label793.BackColor = System.Drawing.Color.DarkGray;
-            this.label793.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label793.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label793.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label793.Location = new System.Drawing.Point(794, 2164);
-            this.label793.Name = "label793";
-            this.label793.Size = new System.Drawing.Size(85, 23);
-            this.label793.TabIndex = 895;
-            this.label793.Text = "0";
-            this.label793.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_5.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_5.Location = new System.Drawing.Point(794, 2164);
+            this.Whil_Rect_Steel_Pipe_5.Name = "Whil_Rect_Steel_Pipe_5";
+            this.Whil_Rect_Steel_Pipe_5.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_5.TabIndex = 895;
+            this.Whil_Rect_Steel_Pipe_5.Text = "0";
+            this.Whil_Rect_Steel_Pipe_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label794
             // 
@@ -10249,109 +10250,109 @@
             this.label817.Text = "20*20*2,0";
             this.label817.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label818
+            // Perc_Rect_Steel_Pipe_4
             // 
-            this.label818.BackColor = System.Drawing.Color.DarkGray;
-            this.label818.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label818.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label818.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label818.Location = new System.Drawing.Point(702, 2142);
-            this.label818.Name = "label818";
-            this.label818.Size = new System.Drawing.Size(93, 23);
-            this.label818.TabIndex = 870;
-            this.label818.Text = "0";
-            this.label818.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_4.Location = new System.Drawing.Point(702, 2142);
+            this.Perc_Rect_Steel_Pipe_4.Name = "Perc_Rect_Steel_Pipe_4";
+            this.Perc_Rect_Steel_Pipe_4.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_4.TabIndex = 870;
+            this.Perc_Rect_Steel_Pipe_4.Text = "0";
+            this.Perc_Rect_Steel_Pipe_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label819
+            // Perc_Rect_Steel_Pipe_3
             // 
-            this.label819.BackColor = System.Drawing.Color.DarkGray;
-            this.label819.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label819.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label819.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label819.Location = new System.Drawing.Point(702, 2120);
-            this.label819.Name = "label819";
-            this.label819.Size = new System.Drawing.Size(93, 23);
-            this.label819.TabIndex = 869;
-            this.label819.Text = "0";
-            this.label819.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_3.Location = new System.Drawing.Point(702, 2120);
+            this.Perc_Rect_Steel_Pipe_3.Name = "Perc_Rect_Steel_Pipe_3";
+            this.Perc_Rect_Steel_Pipe_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_3.TabIndex = 869;
+            this.Perc_Rect_Steel_Pipe_3.Text = "0";
+            this.Perc_Rect_Steel_Pipe_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label820
+            // Perc_Rect_Steel_Pipe_2
             // 
-            this.label820.BackColor = System.Drawing.Color.DarkGray;
-            this.label820.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label820.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label820.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label820.Location = new System.Drawing.Point(702, 2098);
-            this.label820.Name = "label820";
-            this.label820.Size = new System.Drawing.Size(93, 23);
-            this.label820.TabIndex = 868;
-            this.label820.Text = "0";
-            this.label820.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_2.Location = new System.Drawing.Point(702, 2098);
+            this.Perc_Rect_Steel_Pipe_2.Name = "Perc_Rect_Steel_Pipe_2";
+            this.Perc_Rect_Steel_Pipe_2.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_2.TabIndex = 868;
+            this.Perc_Rect_Steel_Pipe_2.Text = "0";
+            this.Perc_Rect_Steel_Pipe_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label821
+            // Perc_Rect_Steel_Pipe_1
             // 
-            this.label821.BackColor = System.Drawing.Color.DarkGray;
-            this.label821.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label821.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label821.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label821.Location = new System.Drawing.Point(702, 2076);
-            this.label821.Name = "label821";
-            this.label821.Size = new System.Drawing.Size(93, 23);
-            this.label821.TabIndex = 867;
-            this.label821.Text = "0";
-            this.label821.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_1.Location = new System.Drawing.Point(702, 2076);
+            this.Perc_Rect_Steel_Pipe_1.Name = "Perc_Rect_Steel_Pipe_1";
+            this.Perc_Rect_Steel_Pipe_1.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_1.TabIndex = 867;
+            this.Perc_Rect_Steel_Pipe_1.Text = "0";
+            this.Perc_Rect_Steel_Pipe_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label822
+            // Whil_Rect_Steel_Pipe_4
             // 
-            this.label822.BackColor = System.Drawing.Color.DarkGray;
-            this.label822.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label822.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label822.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label822.Location = new System.Drawing.Point(794, 2142);
-            this.label822.Name = "label822";
-            this.label822.Size = new System.Drawing.Size(85, 23);
-            this.label822.TabIndex = 866;
-            this.label822.Text = "0";
-            this.label822.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_4.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_4.Location = new System.Drawing.Point(794, 2142);
+            this.Whil_Rect_Steel_Pipe_4.Name = "Whil_Rect_Steel_Pipe_4";
+            this.Whil_Rect_Steel_Pipe_4.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_4.TabIndex = 866;
+            this.Whil_Rect_Steel_Pipe_4.Text = "0";
+            this.Whil_Rect_Steel_Pipe_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label823
+            // Whil_Rect_Steel_Pipe_3
             // 
-            this.label823.BackColor = System.Drawing.Color.DarkGray;
-            this.label823.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label823.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label823.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label823.Location = new System.Drawing.Point(794, 2120);
-            this.label823.Name = "label823";
-            this.label823.Size = new System.Drawing.Size(85, 23);
-            this.label823.TabIndex = 865;
-            this.label823.Text = "0";
-            this.label823.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_3.Location = new System.Drawing.Point(794, 2120);
+            this.Whil_Rect_Steel_Pipe_3.Name = "Whil_Rect_Steel_Pipe_3";
+            this.Whil_Rect_Steel_Pipe_3.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_3.TabIndex = 865;
+            this.Whil_Rect_Steel_Pipe_3.Text = "0";
+            this.Whil_Rect_Steel_Pipe_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label824
+            // Whil_Rect_Steel_Pipe_2
             // 
-            this.label824.BackColor = System.Drawing.Color.DarkGray;
-            this.label824.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label824.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label824.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label824.Location = new System.Drawing.Point(794, 2098);
-            this.label824.Name = "label824";
-            this.label824.Size = new System.Drawing.Size(85, 23);
-            this.label824.TabIndex = 864;
-            this.label824.Text = "0";
-            this.label824.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_2.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_2.Location = new System.Drawing.Point(794, 2098);
+            this.Whil_Rect_Steel_Pipe_2.Name = "Whil_Rect_Steel_Pipe_2";
+            this.Whil_Rect_Steel_Pipe_2.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_2.TabIndex = 864;
+            this.Whil_Rect_Steel_Pipe_2.Text = "0";
+            this.Whil_Rect_Steel_Pipe_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label825
+            // Whil_Rect_Steel_Pipe_1
             // 
-            this.label825.BackColor = System.Drawing.Color.DarkGray;
-            this.label825.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label825.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label825.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label825.Location = new System.Drawing.Point(794, 2076);
-            this.label825.Name = "label825";
-            this.label825.Size = new System.Drawing.Size(85, 23);
-            this.label825.TabIndex = 863;
-            this.label825.Text = "0";
-            this.label825.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_1.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_1.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_1.Location = new System.Drawing.Point(794, 2076);
+            this.Whil_Rect_Steel_Pipe_1.Name = "Whil_Rect_Steel_Pipe_1";
+            this.Whil_Rect_Steel_Pipe_1.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_1.TabIndex = 863;
+            this.Whil_Rect_Steel_Pipe_1.Text = "0";
+            this.Whil_Rect_Steel_Pipe_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_4
             // 
@@ -10626,31 +10627,31 @@
             this.label850.Text = "Труба стальная квадратная";
             this.label850.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label851
+            // Perc_Rect_Steel_Pipe_21
             // 
-            this.label851.BackColor = System.Drawing.Color.DarkGray;
-            this.label851.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label851.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label851.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label851.Location = new System.Drawing.Point(702, 2519);
-            this.label851.Name = "label851";
-            this.label851.Size = new System.Drawing.Size(93, 23);
-            this.label851.TabIndex = 1030;
-            this.label851.Text = "0";
-            this.label851.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_21.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_21.Location = new System.Drawing.Point(702, 2519);
+            this.Perc_Rect_Steel_Pipe_21.Name = "Perc_Rect_Steel_Pipe_21";
+            this.Perc_Rect_Steel_Pipe_21.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_21.TabIndex = 1030;
+            this.Perc_Rect_Steel_Pipe_21.Text = "0";
+            this.Perc_Rect_Steel_Pipe_21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label852
+            // Whil_Rect_Steel_Pipe_21
             // 
-            this.label852.BackColor = System.Drawing.Color.DarkGray;
-            this.label852.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label852.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label852.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label852.Location = new System.Drawing.Point(794, 2519);
-            this.label852.Name = "label852";
-            this.label852.Size = new System.Drawing.Size(85, 23);
-            this.label852.TabIndex = 1029;
-            this.label852.Text = "0";
-            this.label852.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_21.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_21.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_21.Location = new System.Drawing.Point(794, 2519);
+            this.Whil_Rect_Steel_Pipe_21.Name = "Whil_Rect_Steel_Pipe_21";
+            this.Whil_Rect_Steel_Pipe_21.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_21.TabIndex = 1029;
+            this.Whil_Rect_Steel_Pipe_21.Text = "0";
+            this.Whil_Rect_Steel_Pipe_21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_21
             // 
@@ -10717,31 +10718,31 @@
             this.label858.Text = "140*140*5,0";
             this.label858.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label859
+            // Perc_Rect_Steel_Pipe_20
             // 
-            this.label859.BackColor = System.Drawing.Color.DarkGray;
-            this.label859.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label859.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label859.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label859.Location = new System.Drawing.Point(702, 2496);
-            this.label859.Name = "label859";
-            this.label859.Size = new System.Drawing.Size(93, 23);
-            this.label859.TabIndex = 1022;
-            this.label859.Text = "0";
-            this.label859.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_20.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_20.Location = new System.Drawing.Point(702, 2496);
+            this.Perc_Rect_Steel_Pipe_20.Name = "Perc_Rect_Steel_Pipe_20";
+            this.Perc_Rect_Steel_Pipe_20.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_20.TabIndex = 1022;
+            this.Perc_Rect_Steel_Pipe_20.Text = "0";
+            this.Perc_Rect_Steel_Pipe_20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label860
+            // Whil_Rect_Steel_Pipe_20
             // 
-            this.label860.BackColor = System.Drawing.Color.DarkGray;
-            this.label860.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label860.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label860.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label860.Location = new System.Drawing.Point(794, 2496);
-            this.label860.Name = "label860";
-            this.label860.Size = new System.Drawing.Size(85, 23);
-            this.label860.TabIndex = 1021;
-            this.label860.Text = "0";
-            this.label860.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_20.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_20.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_20.Location = new System.Drawing.Point(794, 2496);
+            this.Whil_Rect_Steel_Pipe_20.Name = "Whil_Rect_Steel_Pipe_20";
+            this.Whil_Rect_Steel_Pipe_20.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_20.TabIndex = 1021;
+            this.Whil_Rect_Steel_Pipe_20.Text = "0";
+            this.Whil_Rect_Steel_Pipe_20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_20
             // 
@@ -10808,57 +10809,57 @@
             this.label866.Text = "120*120*4,0";
             this.label866.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label867
+            // Perc_Rect_Steel_Pipe_19
             // 
-            this.label867.BackColor = System.Drawing.Color.DarkGray;
-            this.label867.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label867.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label867.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label867.Location = new System.Drawing.Point(702, 2474);
-            this.label867.Name = "label867";
-            this.label867.Size = new System.Drawing.Size(93, 23);
-            this.label867.TabIndex = 1014;
-            this.label867.Text = "0";
-            this.label867.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_19.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_19.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_19.Location = new System.Drawing.Point(702, 2474);
+            this.Perc_Rect_Steel_Pipe_19.Name = "Perc_Rect_Steel_Pipe_19";
+            this.Perc_Rect_Steel_Pipe_19.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_19.TabIndex = 1014;
+            this.Perc_Rect_Steel_Pipe_19.Text = "0";
+            this.Perc_Rect_Steel_Pipe_19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label868
+            // Perc_Rect_Steel_Pipe_18
             // 
-            this.label868.BackColor = System.Drawing.Color.DarkGray;
-            this.label868.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label868.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label868.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label868.Location = new System.Drawing.Point(702, 2452);
-            this.label868.Name = "label868";
-            this.label868.Size = new System.Drawing.Size(93, 23);
-            this.label868.TabIndex = 1013;
-            this.label868.Text = "0";
-            this.label868.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_18.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_18.Location = new System.Drawing.Point(702, 2452);
+            this.Perc_Rect_Steel_Pipe_18.Name = "Perc_Rect_Steel_Pipe_18";
+            this.Perc_Rect_Steel_Pipe_18.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_18.TabIndex = 1013;
+            this.Perc_Rect_Steel_Pipe_18.Text = "0";
+            this.Perc_Rect_Steel_Pipe_18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label869
+            // Whil_Rect_Steel_Pipe_19
             // 
-            this.label869.BackColor = System.Drawing.Color.DarkGray;
-            this.label869.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label869.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label869.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label869.Location = new System.Drawing.Point(794, 2474);
-            this.label869.Name = "label869";
-            this.label869.Size = new System.Drawing.Size(85, 23);
-            this.label869.TabIndex = 1012;
-            this.label869.Text = "0";
-            this.label869.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_19.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_19.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_19.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_19.Location = new System.Drawing.Point(794, 2474);
+            this.Whil_Rect_Steel_Pipe_19.Name = "Whil_Rect_Steel_Pipe_19";
+            this.Whil_Rect_Steel_Pipe_19.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_19.TabIndex = 1012;
+            this.Whil_Rect_Steel_Pipe_19.Text = "0";
+            this.Whil_Rect_Steel_Pipe_19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label870
+            // Whil_Rect_Steel_Pipe_18
             // 
-            this.label870.BackColor = System.Drawing.Color.DarkGray;
-            this.label870.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label870.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label870.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label870.Location = new System.Drawing.Point(794, 2452);
-            this.label870.Name = "label870";
-            this.label870.Size = new System.Drawing.Size(85, 23);
-            this.label870.TabIndex = 1011;
-            this.label870.Text = "0";
-            this.label870.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_18.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_18.Location = new System.Drawing.Point(794, 2452);
+            this.Whil_Rect_Steel_Pipe_18.Name = "Whil_Rect_Steel_Pipe_18";
+            this.Whil_Rect_Steel_Pipe_18.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_18.TabIndex = 1011;
+            this.Whil_Rect_Steel_Pipe_18.Text = "0";
+            this.Whil_Rect_Steel_Pipe_18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Sum_Rect_Steel_Pipe_19
             // 
@@ -11002,18 +11003,18 @@
             this.label883.Text = "0";
             this.label883.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label884
+            // Perc_Rect_Steel_Pipe_17
             // 
-            this.label884.BackColor = System.Drawing.Color.DarkGray;
-            this.label884.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label884.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label884.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label884.Location = new System.Drawing.Point(702, 2430);
-            this.label884.Name = "label884";
-            this.label884.Size = new System.Drawing.Size(93, 23);
-            this.label884.TabIndex = 997;
-            this.label884.Text = "0";
-            this.label884.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Rect_Steel_Pipe_17.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Rect_Steel_Pipe_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Rect_Steel_Pipe_17.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Rect_Steel_Pipe_17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Rect_Steel_Pipe_17.Location = new System.Drawing.Point(702, 2430);
+            this.Perc_Rect_Steel_Pipe_17.Name = "Perc_Rect_Steel_Pipe_17";
+            this.Perc_Rect_Steel_Pipe_17.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Rect_Steel_Pipe_17.TabIndex = 997;
+            this.Perc_Rect_Steel_Pipe_17.Text = "0";
+            this.Perc_Rect_Steel_Pipe_17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label885
             // 
@@ -11027,18 +11028,18 @@
             this.label885.Text = "0";
             this.label885.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label886
+            // Whil_Rect_Steel_Pipe_17
             // 
-            this.label886.BackColor = System.Drawing.Color.DarkGray;
-            this.label886.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label886.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label886.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label886.Location = new System.Drawing.Point(794, 2430);
-            this.label886.Name = "label886";
-            this.label886.Size = new System.Drawing.Size(85, 23);
-            this.label886.TabIndex = 995;
-            this.label886.Text = "0";
-            this.label886.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Whil_Rect_Steel_Pipe_17.BackColor = System.Drawing.Color.DarkGray;
+            this.Whil_Rect_Steel_Pipe_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Whil_Rect_Steel_Pipe_17.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Whil_Rect_Steel_Pipe_17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Whil_Rect_Steel_Pipe_17.Location = new System.Drawing.Point(794, 2430);
+            this.Whil_Rect_Steel_Pipe_17.Name = "Whil_Rect_Steel_Pipe_17";
+            this.Whil_Rect_Steel_Pipe_17.Size = new System.Drawing.Size(85, 23);
+            this.Whil_Rect_Steel_Pipe_17.TabIndex = 995;
+            this.Whil_Rect_Steel_Pipe_17.Text = "0";
+            this.Whil_Rect_Steel_Pipe_17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label887
             // 
@@ -12259,29 +12260,29 @@
             this.Rect_Steel_Pipe_TB_5.TabIndex = 1119;
             this.Rect_Steel_Pipe_TB_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Rect_Steel_Pipe_TB_13
-            // 
-            this.Rect_Steel_Pipe_TB_13.BackColor = System.Drawing.Color.LightGray;
-            this.Rect_Steel_Pipe_TB_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Rect_Steel_Pipe_TB_13.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_13.Location = new System.Drawing.Point(229, 2317);
-            this.Rect_Steel_Pipe_TB_13.Multiline = true;
-            this.Rect_Steel_Pipe_TB_13.Name = "Rect_Steel_Pipe_TB_13";
-            this.Rect_Steel_Pipe_TB_13.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_13.TabIndex = 1126;
-            this.Rect_Steel_Pipe_TB_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Rect_Steel_Pipe_TB_12
             // 
             this.Rect_Steel_Pipe_TB_12.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_12.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_12.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_12.Location = new System.Drawing.Point(229, 2295);
+            this.Rect_Steel_Pipe_TB_12.Location = new System.Drawing.Point(229, 2317);
             this.Rect_Steel_Pipe_TB_12.Multiline = true;
             this.Rect_Steel_Pipe_TB_12.Name = "Rect_Steel_Pipe_TB_12";
             this.Rect_Steel_Pipe_TB_12.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_12.TabIndex = 1125;
+            this.Rect_Steel_Pipe_TB_12.TabIndex = 1126;
             this.Rect_Steel_Pipe_TB_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Rect_Steel_Pipe_TB_11
+            // 
+            this.Rect_Steel_Pipe_TB_11.BackColor = System.Drawing.Color.LightGray;
+            this.Rect_Steel_Pipe_TB_11.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Rect_Steel_Pipe_TB_11.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Rect_Steel_Pipe_TB_11.Location = new System.Drawing.Point(229, 2295);
+            this.Rect_Steel_Pipe_TB_11.Multiline = true;
+            this.Rect_Steel_Pipe_TB_11.Name = "Rect_Steel_Pipe_TB_11";
+            this.Rect_Steel_Pipe_TB_11.Size = new System.Drawing.Size(107, 23);
+            this.Rect_Steel_Pipe_TB_11.TabIndex = 1125;
+            this.Rect_Steel_Pipe_TB_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_10
             // 
@@ -12307,28 +12308,16 @@
             this.Rect_Steel_Pipe_TB_9.TabIndex = 1123;
             this.Rect_Steel_Pipe_TB_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Rect_Steel_Pipe_TB_17
-            // 
-            this.Rect_Steel_Pipe_TB_17.BackColor = System.Drawing.Color.LightGray;
-            this.Rect_Steel_Pipe_TB_17.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Rect_Steel_Pipe_TB_17.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_17.Location = new System.Drawing.Point(229, 2405);
-            this.Rect_Steel_Pipe_TB_17.Multiline = true;
-            this.Rect_Steel_Pipe_TB_17.Name = "Rect_Steel_Pipe_TB_17";
-            this.Rect_Steel_Pipe_TB_17.Size = new System.Drawing.Size(107, 25);
-            this.Rect_Steel_Pipe_TB_17.TabIndex = 1130;
-            this.Rect_Steel_Pipe_TB_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Rect_Steel_Pipe_TB_16
             // 
             this.Rect_Steel_Pipe_TB_16.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_16.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_16.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_16.Location = new System.Drawing.Point(229, 2383);
+            this.Rect_Steel_Pipe_TB_16.Location = new System.Drawing.Point(229, 2405);
             this.Rect_Steel_Pipe_TB_16.Multiline = true;
             this.Rect_Steel_Pipe_TB_16.Name = "Rect_Steel_Pipe_TB_16";
-            this.Rect_Steel_Pipe_TB_16.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_16.TabIndex = 1129;
+            this.Rect_Steel_Pipe_TB_16.Size = new System.Drawing.Size(107, 25);
+            this.Rect_Steel_Pipe_TB_16.TabIndex = 1130;
             this.Rect_Steel_Pipe_TB_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_15
@@ -12336,11 +12325,11 @@
             this.Rect_Steel_Pipe_TB_15.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_15.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_15.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_15.Location = new System.Drawing.Point(229, 2362);
+            this.Rect_Steel_Pipe_TB_15.Location = new System.Drawing.Point(229, 2383);
             this.Rect_Steel_Pipe_TB_15.Multiline = true;
             this.Rect_Steel_Pipe_TB_15.Name = "Rect_Steel_Pipe_TB_15";
             this.Rect_Steel_Pipe_TB_15.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_15.TabIndex = 1128;
+            this.Rect_Steel_Pipe_TB_15.TabIndex = 1129;
             this.Rect_Steel_Pipe_TB_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_14
@@ -12348,35 +12337,35 @@
             this.Rect_Steel_Pipe_TB_14.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_14.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_14.Location = new System.Drawing.Point(229, 2340);
+            this.Rect_Steel_Pipe_TB_14.Location = new System.Drawing.Point(229, 2362);
             this.Rect_Steel_Pipe_TB_14.Multiline = true;
             this.Rect_Steel_Pipe_TB_14.Name = "Rect_Steel_Pipe_TB_14";
             this.Rect_Steel_Pipe_TB_14.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_14.TabIndex = 1127;
+            this.Rect_Steel_Pipe_TB_14.TabIndex = 1128;
             this.Rect_Steel_Pipe_TB_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Rect_Steel_Pipe_TB_22
+            // Rect_Steel_Pipe_TB_13
             // 
-            this.Rect_Steel_Pipe_TB_22.BackColor = System.Drawing.Color.LightGray;
-            this.Rect_Steel_Pipe_TB_22.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Rect_Steel_Pipe_TB_22.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_22.Location = new System.Drawing.Point(229, 2495);
-            this.Rect_Steel_Pipe_TB_22.Multiline = true;
-            this.Rect_Steel_Pipe_TB_22.Name = "Rect_Steel_Pipe_TB_22";
-            this.Rect_Steel_Pipe_TB_22.Size = new System.Drawing.Size(107, 33);
-            this.Rect_Steel_Pipe_TB_22.TabIndex = 1134;
-            this.Rect_Steel_Pipe_TB_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Rect_Steel_Pipe_TB_13.BackColor = System.Drawing.Color.LightGray;
+            this.Rect_Steel_Pipe_TB_13.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Rect_Steel_Pipe_TB_13.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Rect_Steel_Pipe_TB_13.Location = new System.Drawing.Point(229, 2340);
+            this.Rect_Steel_Pipe_TB_13.Multiline = true;
+            this.Rect_Steel_Pipe_TB_13.Name = "Rect_Steel_Pipe_TB_13";
+            this.Rect_Steel_Pipe_TB_13.Size = new System.Drawing.Size(107, 23);
+            this.Rect_Steel_Pipe_TB_13.TabIndex = 1127;
+            this.Rect_Steel_Pipe_TB_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_20
             // 
             this.Rect_Steel_Pipe_TB_20.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_20.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_20.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_20.Location = new System.Drawing.Point(229, 2473);
+            this.Rect_Steel_Pipe_TB_20.Location = new System.Drawing.Point(229, 2495);
             this.Rect_Steel_Pipe_TB_20.Multiline = true;
             this.Rect_Steel_Pipe_TB_20.Name = "Rect_Steel_Pipe_TB_20";
-            this.Rect_Steel_Pipe_TB_20.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_20.TabIndex = 1133;
+            this.Rect_Steel_Pipe_TB_20.Size = new System.Drawing.Size(107, 33);
+            this.Rect_Steel_Pipe_TB_20.TabIndex = 1134;
             this.Rect_Steel_Pipe_TB_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_19
@@ -12384,11 +12373,11 @@
             this.Rect_Steel_Pipe_TB_19.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_19.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_19.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_19.Location = new System.Drawing.Point(229, 2452);
+            this.Rect_Steel_Pipe_TB_19.Location = new System.Drawing.Point(229, 2473);
             this.Rect_Steel_Pipe_TB_19.Multiline = true;
             this.Rect_Steel_Pipe_TB_19.Name = "Rect_Steel_Pipe_TB_19";
             this.Rect_Steel_Pipe_TB_19.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_19.TabIndex = 1132;
+            this.Rect_Steel_Pipe_TB_19.TabIndex = 1133;
             this.Rect_Steel_Pipe_TB_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Rect_Steel_Pipe_TB_18
@@ -12396,24 +12385,36 @@
             this.Rect_Steel_Pipe_TB_18.BackColor = System.Drawing.Color.LightGray;
             this.Rect_Steel_Pipe_TB_18.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Rect_Steel_Pipe_TB_18.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_18.Location = new System.Drawing.Point(229, 2430);
+            this.Rect_Steel_Pipe_TB_18.Location = new System.Drawing.Point(229, 2452);
             this.Rect_Steel_Pipe_TB_18.Multiline = true;
             this.Rect_Steel_Pipe_TB_18.Name = "Rect_Steel_Pipe_TB_18";
             this.Rect_Steel_Pipe_TB_18.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_18.TabIndex = 1131;
+            this.Rect_Steel_Pipe_TB_18.TabIndex = 1132;
             this.Rect_Steel_Pipe_TB_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Rect_Steel_Pipe_TB_23
+            // Rect_Steel_Pipe_TB_17
             // 
-            this.Rect_Steel_Pipe_TB_23.BackColor = System.Drawing.Color.LightGray;
-            this.Rect_Steel_Pipe_TB_23.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Rect_Steel_Pipe_TB_23.ForeColor = System.Drawing.SystemColors.Menu;
-            this.Rect_Steel_Pipe_TB_23.Location = new System.Drawing.Point(229, 2519);
-            this.Rect_Steel_Pipe_TB_23.Multiline = true;
-            this.Rect_Steel_Pipe_TB_23.Name = "Rect_Steel_Pipe_TB_23";
-            this.Rect_Steel_Pipe_TB_23.Size = new System.Drawing.Size(107, 23);
-            this.Rect_Steel_Pipe_TB_23.TabIndex = 1135;
-            this.Rect_Steel_Pipe_TB_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Rect_Steel_Pipe_TB_17.BackColor = System.Drawing.Color.LightGray;
+            this.Rect_Steel_Pipe_TB_17.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Rect_Steel_Pipe_TB_17.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Rect_Steel_Pipe_TB_17.Location = new System.Drawing.Point(229, 2430);
+            this.Rect_Steel_Pipe_TB_17.Multiline = true;
+            this.Rect_Steel_Pipe_TB_17.Name = "Rect_Steel_Pipe_TB_17";
+            this.Rect_Steel_Pipe_TB_17.Size = new System.Drawing.Size(107, 23);
+            this.Rect_Steel_Pipe_TB_17.TabIndex = 1131;
+            this.Rect_Steel_Pipe_TB_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Rect_Steel_Pipe_TB_21
+            // 
+            this.Rect_Steel_Pipe_TB_21.BackColor = System.Drawing.Color.LightGray;
+            this.Rect_Steel_Pipe_TB_21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Rect_Steel_Pipe_TB_21.ForeColor = System.Drawing.SystemColors.Menu;
+            this.Rect_Steel_Pipe_TB_21.Location = new System.Drawing.Point(229, 2519);
+            this.Rect_Steel_Pipe_TB_21.Multiline = true;
+            this.Rect_Steel_Pipe_TB_21.Name = "Rect_Steel_Pipe_TB_21";
+            this.Rect_Steel_Pipe_TB_21.Size = new System.Drawing.Size(107, 23);
+            this.Rect_Steel_Pipe_TB_21.TabIndex = 1135;
+            this.Rect_Steel_Pipe_TB_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // KaztemirContractForm
             // 
@@ -12422,9 +12423,8 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(910, 749);
-            this.Controls.Add(this.Rect_Steel_Pipe_TB_23);
-            this.Controls.Add(this.Rect_Steel_Pipe_TB_22);
+            this.ClientSize = new System.Drawing.Size(927, 749);
+            this.Controls.Add(this.Rect_Steel_Pipe_TB_21);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_20);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_19);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_18);
@@ -12434,6 +12434,7 @@
             this.Controls.Add(this.Rect_Steel_Pipe_TB_14);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_13);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_12);
+            this.Controls.Add(this.Rect_Steel_Pipe_TB_11);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_10);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_9);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_8);
@@ -12527,24 +12528,24 @@
             this.Controls.Add(this.totalWeightLlabel);
             this.Controls.Add(this.totalSumLabel);
             this.Controls.Add(this.label899);
-            this.Controls.Add(this.label851);
-            this.Controls.Add(this.label852);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_21);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_21);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_21);
             this.Controls.Add(this.label854);
             this.Controls.Add(this.Count_Rect_Pipe_21Lbl);
             this.Controls.Add(this.label856);
             this.Controls.Add(this.label858);
-            this.Controls.Add(this.label859);
-            this.Controls.Add(this.label860);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_20);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_20);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_20);
             this.Controls.Add(this.label862);
             this.Controls.Add(this.Count_Rect_Pipe_20Lbl);
             this.Controls.Add(this.label864);
             this.Controls.Add(this.label866);
-            this.Controls.Add(this.label867);
-            this.Controls.Add(this.label868);
-            this.Controls.Add(this.label869);
-            this.Controls.Add(this.label870);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_19);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_18);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_19);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_18);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_19);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_18);
             this.Controls.Add(this.label873);
@@ -12556,9 +12557,9 @@
             this.Controls.Add(this.label881);
             this.Controls.Add(this.label882);
             this.Controls.Add(this.label883);
-            this.Controls.Add(this.label884);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_17);
             this.Controls.Add(this.label885);
-            this.Controls.Add(this.label886);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_17);
             this.Controls.Add(this.label887);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_17);
             this.Controls.Add(this.label889);
@@ -12569,24 +12570,24 @@
             this.Controls.Add(this.label894);
             this.Controls.Add(this.label897);
             this.Controls.Add(this.label898);
-            this.Controls.Add(this.label706);
-            this.Controls.Add(this.label707);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_16);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_16);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_16);
             this.Controls.Add(this.label709);
             this.Controls.Add(this.Count_Rect_Pipe_16Lbl);
             this.Controls.Add(this.label711);
             this.Controls.Add(this.label713);
-            this.Controls.Add(this.label714);
-            this.Controls.Add(this.label715);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_15);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_15);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_15);
             this.Controls.Add(this.label717);
             this.Controls.Add(this.Count_Rect_Pipe_15Lbl);
             this.Controls.Add(this.label719);
             this.Controls.Add(this.label721);
-            this.Controls.Add(this.label722);
-            this.Controls.Add(this.label723);
-            this.Controls.Add(this.label724);
-            this.Controls.Add(this.label725);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_14);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_13);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_14);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_13);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_14);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_13);
             this.Controls.Add(this.label728);
@@ -12598,11 +12599,11 @@
             this.Controls.Add(this.label736);
             this.Controls.Add(this.label737);
             this.Controls.Add(this.label738);
-            this.Controls.Add(this.label739);
-            this.Controls.Add(this.label740);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_12);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_11);
             this.Controls.Add(this.label741);
-            this.Controls.Add(this.label742);
-            this.Controls.Add(this.label743);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_12);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_11);
             this.Controls.Add(this.label744);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_12);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_11);
@@ -12618,17 +12619,17 @@
             this.Controls.Add(this.label759);
             this.Controls.Add(this.label760);
             this.Controls.Add(this.label761);
-            this.Controls.Add(this.label762);
-            this.Controls.Add(this.label763);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_10);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_10);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_10);
             this.Controls.Add(this.label765);
             this.Controls.Add(this.Count_Rect_Pipe_10Lbl);
             this.Controls.Add(this.label767);
             this.Controls.Add(this.label769);
-            this.Controls.Add(this.label770);
-            this.Controls.Add(this.label771);
-            this.Controls.Add(this.label772);
-            this.Controls.Add(this.label773);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_9);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_8);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_9);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_8);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_9);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_8);
             this.Controls.Add(this.label776);
@@ -12640,13 +12641,13 @@
             this.Controls.Add(this.label784);
             this.Controls.Add(this.label785);
             this.Controls.Add(this.label786);
-            this.Controls.Add(this.label787);
-            this.Controls.Add(this.label788);
-            this.Controls.Add(this.label789);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_7);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_6);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_5);
             this.Controls.Add(this.label790);
-            this.Controls.Add(this.label791);
-            this.Controls.Add(this.label792);
-            this.Controls.Add(this.label793);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_7);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_6);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_5);
             this.Controls.Add(this.label794);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_7);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_6);
@@ -12667,14 +12668,14 @@
             this.Controls.Add(this.label815);
             this.Controls.Add(this.label816);
             this.Controls.Add(this.label817);
-            this.Controls.Add(this.label818);
-            this.Controls.Add(this.label819);
-            this.Controls.Add(this.label820);
-            this.Controls.Add(this.label821);
-            this.Controls.Add(this.label822);
-            this.Controls.Add(this.label823);
-            this.Controls.Add(this.label824);
-            this.Controls.Add(this.label825);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_4);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_3);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_2);
+            this.Controls.Add(this.Perc_Rect_Steel_Pipe_1);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_4);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_3);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_2);
+            this.Controls.Add(this.Whil_Rect_Steel_Pipe_1);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_4);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_3);
             this.Controls.Add(this.Sum_Rect_Steel_Pipe_2);
@@ -12698,21 +12699,21 @@
             this.Controls.Add(this.label850);
             this.Controls.Add(this.label705);
             this.Controls.Add(this.label697);
-            this.Controls.Add(this.label698);
+            this.Controls.Add(this.Whil_El_Weld_Pipe_Lbl_3);
             this.Controls.Add(this.Sum_El_Weld_Pipe_Lbl_3);
             this.Controls.Add(this.label700);
             this.Controls.Add(this.Count_El_Weld_Pipe_3Lbl);
             this.Controls.Add(this.label702);
             this.Controls.Add(this.label704);
-            this.Controls.Add(this.label680);
-            this.Controls.Add(this.label681);
+            this.Controls.Add(this.Perc_El_Weld_Pipe_Lbl_2);
+            this.Controls.Add(this.Whil_El_Weld_Pipe_Lbl_2);
             this.Controls.Add(this.Sum_El_Weld_Pipe_Lbl_2);
             this.Controls.Add(this.label683);
             this.Controls.Add(this.Count_El_Weld_Pipe_2Lbl);
             this.Controls.Add(this.label685);
             this.Controls.Add(this.label687);
-            this.Controls.Add(this.label688);
-            this.Controls.Add(this.label689);
+            this.Controls.Add(this.Perc_El_Weld_Pipe_Lbl_1);
+            this.Controls.Add(this.Whil_El_Weld_Pipe_Lbl_1);
             this.Controls.Add(this.Sum_El_Weld_Pipe_Lbl_1);
             this.Controls.Add(this.label691);
             this.Controls.Add(this.Count_El_Weld_Pipe_1Lbl);
@@ -12720,24 +12721,24 @@
             this.Controls.Add(this.label695);
             this.Controls.Add(this.label696);
             this.Controls.Add(this.label679);
-            this.Controls.Add(this.label671);
-            this.Controls.Add(this.label672);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_16);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_16);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_16);
             this.Controls.Add(this.label674);
             this.Controls.Add(this.Count_VGP_Pipe_16Lbl);
             this.Controls.Add(this.label676);
             this.Controls.Add(this.label678);
-            this.Controls.Add(this.label534);
-            this.Controls.Add(this.label535);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_15);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_15);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_15);
             this.Controls.Add(this.label537);
             this.Controls.Add(this.Count_VGP_Pipe_15Lbl);
             this.Controls.Add(this.label539);
             this.Controls.Add(this.label541);
-            this.Controls.Add(this.label542);
-            this.Controls.Add(this.label543);
-            this.Controls.Add(this.label544);
-            this.Controls.Add(this.label545);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_14);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_13);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_14);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_13);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_14);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_13);
             this.Controls.Add(this.label548);
@@ -12749,11 +12750,11 @@
             this.Controls.Add(this.label556);
             this.Controls.Add(this.label557);
             this.Controls.Add(this.label558);
-            this.Controls.Add(this.label559);
-            this.Controls.Add(this.label560);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_12);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_11);
             this.Controls.Add(this.label561);
-            this.Controls.Add(this.label562);
-            this.Controls.Add(this.label563);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_12);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_11);
             this.Controls.Add(this.label564);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_12);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_11);
@@ -12769,17 +12770,17 @@
             this.Controls.Add(this.label579);
             this.Controls.Add(this.label580);
             this.Controls.Add(this.label581);
-            this.Controls.Add(this.label582);
-            this.Controls.Add(this.label583);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_10);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_10);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_10);
             this.Controls.Add(this.label585);
             this.Controls.Add(this.Count_VGP_Pipe_10Lbl);
             this.Controls.Add(this.label587);
             this.Controls.Add(this.label589);
-            this.Controls.Add(this.label590);
-            this.Controls.Add(this.label591);
-            this.Controls.Add(this.label592);
-            this.Controls.Add(this.label593);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_9);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_8);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_9);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_8);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_9);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_8);
             this.Controls.Add(this.label596);
@@ -12791,13 +12792,13 @@
             this.Controls.Add(this.label604);
             this.Controls.Add(this.label605);
             this.Controls.Add(this.label606);
-            this.Controls.Add(this.label607);
-            this.Controls.Add(this.label608);
-            this.Controls.Add(this.label609);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_7);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_6);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_5);
             this.Controls.Add(this.label610);
-            this.Controls.Add(this.label611);
-            this.Controls.Add(this.label612);
-            this.Controls.Add(this.label613);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_7);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_6);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_5);
             this.Controls.Add(this.label614);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_7);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_6);
@@ -12818,14 +12819,14 @@
             this.Controls.Add(this.label635);
             this.Controls.Add(this.label636);
             this.Controls.Add(this.label637);
-            this.Controls.Add(this.label638);
-            this.Controls.Add(this.label639);
-            this.Controls.Add(this.label640);
-            this.Controls.Add(this.label641);
-            this.Controls.Add(this.label642);
-            this.Controls.Add(this.label643);
-            this.Controls.Add(this.label644);
-            this.Controls.Add(this.label645);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_4);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_3);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_2);
+            this.Controls.Add(this.Perc_VGP_Pipe_Lbl_1);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_4);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_3);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_2);
+            this.Controls.Add(this.Whil_VGP_Pipe_Lbl_1);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_4);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_3);
             this.Controls.Add(this.Sum_VGP_Pipe_Lbl_2);
@@ -12848,15 +12849,15 @@
             this.Controls.Add(this.label669);
             this.Controls.Add(this.label670);
             this.Controls.Add(this.label533);
-            this.Controls.Add(this.label516);
-            this.Controls.Add(this.label517);
+            this.Controls.Add(this.Perc_Seamless_Pipe_Lbl_2);
+            this.Controls.Add(this.Whil_Seamless_Pipe_Lbl_2);
             this.Controls.Add(this.Sum_Seamless_Pipe_Lbl_2);
             this.Controls.Add(this.label519);
             this.Controls.Add(this.Count_Seamless_Pipe_2Lbl);
             this.Controls.Add(this.label521);
             this.Controls.Add(this.label523);
-            this.Controls.Add(this.label524);
-            this.Controls.Add(this.label525);
+            this.Controls.Add(this.Perc_Seamless_Pipe_Lbl_1);
+            this.Controls.Add(this.Whil_Seamless_Pipe_Lbl_1);
             this.Controls.Add(this.Sum_Seamless_Pipe_Lbl_1);
             this.Controls.Add(this.label527);
             this.Controls.Add(this.Count_Seamless_Pipe_1Lbl);
@@ -12864,17 +12865,17 @@
             this.Controls.Add(this.label531);
             this.Controls.Add(this.label532);
             this.Controls.Add(this.label515);
-            this.Controls.Add(this.label507);
-            this.Controls.Add(this.label508);
+            this.Controls.Add(this.Perc_Shet_Lbl_8);
+            this.Controls.Add(this.Whil_Shet_Lbl_8);
             this.Controls.Add(this.Sum_Shet_Lbl_8);
             this.Controls.Add(this.label510);
             this.Controls.Add(this.Count_Shet_8Lbl);
             this.Controls.Add(this.label512);
             this.Controls.Add(this.label514);
-            this.Controls.Add(this.label450);
-            this.Controls.Add(this.label451);
-            this.Controls.Add(this.label452);
-            this.Controls.Add(this.label453);
+            this.Controls.Add(this.Perc_Shet_Lbl_7);
+            this.Controls.Add(this.Perc_Shet_Lbl_6);
+            this.Controls.Add(this.Whil_Shet_Lbl_7);
+            this.Controls.Add(this.Whil_Shet_Lbl_6);
             this.Controls.Add(this.Sum_Shet_Lbl_7);
             this.Controls.Add(this.Sum_Shet_Lbl_6);
             this.Controls.Add(this.label456);
@@ -12885,16 +12886,16 @@
             this.Controls.Add(this.label461);
             this.Controls.Add(this.label464);
             this.Controls.Add(this.label465);
-            this.Controls.Add(this.label466);
-            this.Controls.Add(this.label467);
-            this.Controls.Add(this.label468);
-            this.Controls.Add(this.label469);
-            this.Controls.Add(this.label470);
-            this.Controls.Add(this.label471);
-            this.Controls.Add(this.label472);
-            this.Controls.Add(this.label473);
-            this.Controls.Add(this.label474);
-            this.Controls.Add(this.label475);
+            this.Controls.Add(this.Perc_Shet_Lbl_5);
+            this.Controls.Add(this.Perc_Shet_Lbl_4);
+            this.Controls.Add(this.Perc_Shet_Lbl_3);
+            this.Controls.Add(this.Perc_Shet_Lbl_2);
+            this.Controls.Add(this.Perc_Shet_Lbl_1);
+            this.Controls.Add(this.Whil_Shet_Lbl_5);
+            this.Controls.Add(this.Whil_Shet_Lbl_4);
+            this.Controls.Add(this.Whil_Shet_Lbl_3);
+            this.Controls.Add(this.Whil_Shet_Lbl_2);
+            this.Controls.Add(this.Whil_Shet_Lbl_1);
             this.Controls.Add(this.Sum_Shet_Lbl_5);
             this.Controls.Add(this.Sum_Shet_Lbl_4);
             this.Controls.Add(this.Sum_Shet_Lbl_3);
@@ -12922,17 +12923,17 @@
             this.Controls.Add(this.label505);
             this.Controls.Add(this.label506);
             this.Controls.Add(this.label449);
-            this.Controls.Add(this.label401);
-            this.Controls.Add(this.label402);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_15);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_15);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_15);
             this.Controls.Add(this.label404);
             this.Controls.Add(this.Count_Pipe_Rect15Lbl);
             this.Controls.Add(this.label406);
             this.Controls.Add(this.label408);
-            this.Controls.Add(this.label409);
-            this.Controls.Add(this.label410);
-            this.Controls.Add(this.label411);
-            this.Controls.Add(this.label412);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_114);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_13);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_14);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_13);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_14);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_13);
             this.Controls.Add(this.label415);
@@ -12944,11 +12945,11 @@
             this.Controls.Add(this.label423);
             this.Controls.Add(this.label424);
             this.Controls.Add(this.label425);
-            this.Controls.Add(this.label426);
-            this.Controls.Add(this.label427);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_12);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_11);
             this.Controls.Add(this.label428);
-            this.Controls.Add(this.label429);
-            this.Controls.Add(this.label430);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_12);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_11);
             this.Controls.Add(this.label431);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_12);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_11);
@@ -12965,17 +12966,17 @@
             this.Controls.Add(this.label447);
             this.Controls.Add(this.label448);
             this.Controls.Add(this.label400);
-            this.Controls.Add(this.label311);
-            this.Controls.Add(this.label312);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_10);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_10);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_10);
             this.Controls.Add(this.label314);
             this.Controls.Add(this.Count_Pipe_Rect10Lbl);
             this.Controls.Add(this.label316);
             this.Controls.Add(this.label318);
-            this.Controls.Add(this.label319);
-            this.Controls.Add(this.label320);
-            this.Controls.Add(this.label321);
-            this.Controls.Add(this.label322);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_9);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_8);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_9);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_8);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_9);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_8);
             this.Controls.Add(this.label325);
@@ -12987,13 +12988,13 @@
             this.Controls.Add(this.label333);
             this.Controls.Add(this.label334);
             this.Controls.Add(this.label335);
-            this.Controls.Add(this.label336);
-            this.Controls.Add(this.label337);
-            this.Controls.Add(this.label338);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_7);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_6);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_5);
             this.Controls.Add(this.label339);
-            this.Controls.Add(this.label340);
-            this.Controls.Add(this.label341);
-            this.Controls.Add(this.label342);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_7);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_6);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_5);
             this.Controls.Add(this.label343);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_7);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_6);
@@ -13014,14 +13015,14 @@
             this.Controls.Add(this.label364);
             this.Controls.Add(this.label365);
             this.Controls.Add(this.label366);
-            this.Controls.Add(this.label367);
-            this.Controls.Add(this.label368);
-            this.Controls.Add(this.label369);
-            this.Controls.Add(this.label370);
-            this.Controls.Add(this.label371);
-            this.Controls.Add(this.label372);
-            this.Controls.Add(this.label373);
-            this.Controls.Add(this.label374);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_4);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_3);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_2);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_1);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_4);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_3);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_2);
+            this.Controls.Add(this.Whil_Pipe_Rect_Lbl_1);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_4);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_3);
             this.Controls.Add(this.Sum_Pipe_Rect_Lbl_2);
@@ -13044,19 +13045,19 @@
             this.Controls.Add(this.label398);
             this.Controls.Add(this.label399);
             this.Controls.Add(this.label228);
-            this.Controls.Add(this.label229);
-            this.Controls.Add(this.label230);
+            this.Controls.Add(this.Perc_Stripe_Lbl_4);
+            this.Controls.Add(this.Whil_Stripe_Lbl_4);
             this.Controls.Add(this.Sum_Stripe_Lbl_4);
             this.Controls.Add(this.label232);
             this.Controls.Add(this.Count_Stripe4Lbl);
             this.Controls.Add(this.label234);
             this.Controls.Add(this.label236);
-            this.Controls.Add(this.label237);
-            this.Controls.Add(this.label238);
-            this.Controls.Add(this.label239);
-            this.Controls.Add(this.label240);
-            this.Controls.Add(this.label241);
-            this.Controls.Add(this.label242);
+            this.Controls.Add(this.Perc_Stripe_Lbl_3);
+            this.Controls.Add(this.Perc_Stripe_Lbl_2);
+            this.Controls.Add(this.Perc_Stripe_Lbl_1);
+            this.Controls.Add(this.Whil_Stripe_Lbl_3);
+            this.Controls.Add(this.Whil_Stripe_Lbl_2);
+            this.Controls.Add(this.Whil_Stripe_Lbl_1);
             this.Controls.Add(this.Sum_Stripe_Lbl_3);
             this.Controls.Add(this.Sum_Stripe_Lbl_2);
             this.Controls.Add(this.Sum_Stripe_Lbl_1);
@@ -13075,10 +13076,10 @@
             this.Controls.Add(this.label227);
             this.Controls.Add(this.label226);
             this.Controls.Add(this.label307);
-            this.Controls.Add(this.label244);
-            this.Controls.Add(this.label245);
-            this.Controls.Add(this.label248);
-            this.Controls.Add(this.label249);
+            this.Controls.Add(this.Perc_Shv_Lbl_5);
+            this.Controls.Add(this.Perc_Shv_Lbl_4);
+            this.Controls.Add(this.Whil_Shv_Lbl_5);
+            this.Controls.Add(this.Whil_Shv_Lbl_4);
             this.Controls.Add(this.Sum_Shv_Lbl_5);
             this.Controls.Add(this.Sum_Shv_Lbl_4);
             this.Controls.Add(this.label256);
@@ -13089,14 +13090,14 @@
             this.Controls.Add(this.label265);
             this.Controls.Add(this.label272);
             this.Controls.Add(this.label273);
-            this.Controls.Add(this.label274);
-            this.Controls.Add(this.label275);
-            this.Controls.Add(this.label276);
-            this.Controls.Add(this.label277);
-            this.Controls.Add(this.label278);
-            this.Controls.Add(this.label279);
-            this.Controls.Add(this.label280);
-            this.Controls.Add(this.label281);
+            this.Controls.Add(this.Perc_Shv_Lbl_3);
+            this.Controls.Add(this.Perc_Shv_Lbl_2);
+            this.Controls.Add(this.Perc_Shv_Lbl_1);
+            this.Controls.Add(this.Perc_Corner_Lbl_10);
+            this.Controls.Add(this.Whil_Shv_Lbl_3);
+            this.Controls.Add(this.Whil_Shv_Lbl_2);
+            this.Controls.Add(this.Whil_Shv_Lbl_1);
+            this.Controls.Add(this.Whil_Corner_Lbl_10);
             this.Controls.Add(this.Sum_Shv_Lbl_3);
             this.Controls.Add(this.Sum_Shv_Lbl_2);
             this.Controls.Add(this.Sum_Shv_Lbl_1);
@@ -13118,10 +13119,10 @@
             this.Controls.Add(this.label304);
             this.Controls.Add(this.label305);
             this.Controls.Add(this.label306);
-            this.Controls.Add(this.label210);
-            this.Controls.Add(this.label211);
-            this.Controls.Add(this.label212);
-            this.Controls.Add(this.label213);
+            this.Controls.Add(this.Perc_Corner_Lbl_9);
+            this.Controls.Add(this.Perc_Corner_Lbl_8);
+            this.Controls.Add(this.Whil_Corner_Lbl_9);
+            this.Controls.Add(this.Whil_Corner_Lbl_8);
             this.Controls.Add(this.Sum_Corner_Lbl_9);
             this.Controls.Add(this.Sum_Corner_Lbl_8);
             this.Controls.Add(this.label216);
@@ -13133,13 +13134,13 @@
             this.Controls.Add(this.label224);
             this.Controls.Add(this.label225);
             this.Controls.Add(this.label178);
-            this.Controls.Add(this.label179);
-            this.Controls.Add(this.label180);
-            this.Controls.Add(this.label181);
+            this.Controls.Add(this.Perc_Corner_Lbl_7);
+            this.Controls.Add(this.Perc_Corner_Lbl_6);
+            this.Controls.Add(this.Perc_Corner_Lbl_5);
             this.Controls.Add(this.label182);
-            this.Controls.Add(this.label183);
-            this.Controls.Add(this.label184);
-            this.Controls.Add(this.label185);
+            this.Controls.Add(this.Whil_Corner_Lbl_7);
+            this.Controls.Add(this.Whil_Corner_Lbl_6);
+            this.Controls.Add(this.Whil_Corner_Lbl_5);
             this.Controls.Add(this.label186);
             this.Controls.Add(this.Sum_Corner_Lbl_7);
             this.Controls.Add(this.Sum_Corner_Lbl_6);
@@ -13160,14 +13161,14 @@
             this.Controls.Add(this.label207);
             this.Controls.Add(this.label208);
             this.Controls.Add(this.label209);
-            this.Controls.Add(this.label112);
-            this.Controls.Add(this.label113);
-            this.Controls.Add(this.label114);
-            this.Controls.Add(this.label115);
-            this.Controls.Add(this.label116);
-            this.Controls.Add(this.label117);
-            this.Controls.Add(this.label118);
-            this.Controls.Add(this.label119);
+            this.Controls.Add(this.Perc_Corner_Lbl_4);
+            this.Controls.Add(this.Perc_Corner_Lbl_3);
+            this.Controls.Add(this.Perc_Corner_Lbl_2);
+            this.Controls.Add(this.Perc_Corner_Lbl_1);
+            this.Controls.Add(this.Whil_Corner_Lbl_4);
+            this.Controls.Add(this.Whil_Corner_Lbl_3);
+            this.Controls.Add(this.Whil_Corner_Lbl_2);
+            this.Controls.Add(this.Whil_Corner_Lbl_1);
             this.Controls.Add(this.Sum_Corner_Lbl_4);
             this.Controls.Add(this.Sum_Corner_Lbl_3);
             this.Controls.Add(this.Sum_Corner_Lbl_2);
@@ -13190,14 +13191,14 @@
             this.Controls.Add(this.label176);
             this.Controls.Add(this.label177);
             this.Controls.Add(this.label48);
-            this.Controls.Add(this.label128);
-            this.Controls.Add(this.label129);
-            this.Controls.Add(this.label130);
-            this.Controls.Add(this.label131);
-            this.Controls.Add(this.label133);
-            this.Controls.Add(this.label134);
-            this.Controls.Add(this.label135);
-            this.Controls.Add(this.label136);
+            this.Controls.Add(this.Perc_Sq_Lbl_14);
+            this.Controls.Add(this.Perc_Sq_Lbl_12);
+            this.Controls.Add(this.Perc_Sq_Lbl_10);
+            this.Controls.Add(this.Perc_Sq_Lbl_8);
+            this.Controls.Add(this.Whil_Sq_Lbl_14);
+            this.Controls.Add(this.Whil_Sq_Lbl_12);
+            this.Controls.Add(this.Whil_Sq_Lbl_10);
+            this.Controls.Add(this.Whil_Sq_Lbl_8);
             this.Controls.Add(this.Sum_Rect_Lbl_14);
             this.Controls.Add(this.Sum_Rect_Lbl_12);
             this.Controls.Add(this.Sum_Rect_Lbl_10);
@@ -13222,10 +13223,10 @@
             this.Controls.Add(this.label111);
             this.Controls.Add(this.label110);
             this.Controls.Add(this.label109);
-            this.Controls.Add(this.label93);
-            this.Controls.Add(this.label94);
-            this.Controls.Add(this.label95);
-            this.Controls.Add(this.label96);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_20);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_18);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_20);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_18);
             this.Controls.Add(this.Sum_SteelCircle_Lbl_20);
             this.Controls.Add(this.Sum_SteelCircle_Lbl_18);
             this.Controls.Add(this.label99);
@@ -13236,16 +13237,16 @@
             this.Controls.Add(this.label104);
             this.Controls.Add(this.label107);
             this.Controls.Add(this.label108);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label59);
-            this.Controls.Add(this.label60);
-            this.Controls.Add(this.label61);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_16);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_14);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_12);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_10);
+            this.Controls.Add(this.Perc_SteelCircle_Lbl_8);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_16);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_14);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_12);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_10);
+            this.Controls.Add(this.Whil_SteelCircle_Lbl_8);
             this.Controls.Add(this.Sum_SteelCircle_Lbl_16);
             this.Controls.Add(this.Sum_SteelCircle_Lbl_14);
             this.Controls.Add(this.Sum_SteelCircle_Lbl_12);
@@ -13385,16 +13386,16 @@
         private System.Windows.Forms.Label Perc20_Arm12Label;
         private System.Windows.Forms.Label Perc20_Arm10Label;
         private System.Windows.Forms.Button ToChooseButton;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_16;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_14;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_12;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_10;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_8;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_16;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_14;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_12;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_10;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_8;
         private System.Windows.Forms.Label Sum_SteelCircle_Lbl_16;
         private System.Windows.Forms.Label Sum_SteelCircle_Lbl_14;
         private System.Windows.Forms.Label Sum_SteelCircle_Lbl_12;
@@ -13421,10 +13422,10 @@
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.Label label91;
         private System.Windows.Forms.Label label92;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_20;
+        private System.Windows.Forms.Label Perc_SteelCircle_Lbl_18;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_20;
+        private System.Windows.Forms.Label Whil_SteelCircle_Lbl_18;
         private System.Windows.Forms.Label Sum_SteelCircle_Lbl_20;
         private System.Windows.Forms.Label Sum_SteelCircle_Lbl_18;
         private System.Windows.Forms.Label label99;
@@ -13438,14 +13439,14 @@
         private System.Windows.Forms.Label label109;
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.Label label111;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.Label label131;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.Label label134;
-        private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.Label label136;
+        private System.Windows.Forms.Label Perc_Sq_Lbl_14;
+        private System.Windows.Forms.Label Perc_Sq_Lbl_12;
+        private System.Windows.Forms.Label Perc_Sq_Lbl_10;
+        private System.Windows.Forms.Label Perc_Sq_Lbl_8;
+        private System.Windows.Forms.Label Whil_Sq_Lbl_14;
+        private System.Windows.Forms.Label Whil_Sq_Lbl_12;
+        private System.Windows.Forms.Label Whil_Sq_Lbl_10;
+        private System.Windows.Forms.Label Whil_Sq_Lbl_8;
         private System.Windows.Forms.Label Sum_Rect_Lbl_14;
         private System.Windows.Forms.Label Sum_Rect_Lbl_12;
         private System.Windows.Forms.Label Sum_Rect_Lbl_10;
@@ -13468,14 +13469,14 @@
         private System.Windows.Forms.Label label166;
         private System.Windows.Forms.Label label167;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label112;
-        private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.Label label114;
-        private System.Windows.Forms.Label label115;
-        private System.Windows.Forms.Label label116;
-        private System.Windows.Forms.Label label117;
-        private System.Windows.Forms.Label label118;
-        private System.Windows.Forms.Label label119;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_4;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_3;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_2;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_1;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_4;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_3;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_2;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_1;
         private System.Windows.Forms.Label Sum_Corner_Lbl_4;
         private System.Windows.Forms.Label Sum_Corner_Lbl_3;
         private System.Windows.Forms.Label Sum_Corner_Lbl_2;
@@ -13498,13 +13499,13 @@
         private System.Windows.Forms.Label label176;
         private System.Windows.Forms.Label label177;
         private System.Windows.Forms.Label label178;
-        private System.Windows.Forms.Label label179;
-        private System.Windows.Forms.Label label180;
-        private System.Windows.Forms.Label label181;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_7;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_6;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_5;
         private System.Windows.Forms.Label label182;
-        private System.Windows.Forms.Label label183;
-        private System.Windows.Forms.Label label184;
-        private System.Windows.Forms.Label label185;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_7;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_6;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_5;
         private System.Windows.Forms.Label label186;
         private System.Windows.Forms.Label Sum_Corner_Lbl_7;
         private System.Windows.Forms.Label Sum_Corner_Lbl_6;
@@ -13525,10 +13526,10 @@
         private System.Windows.Forms.Label label207;
         private System.Windows.Forms.Label label208;
         private System.Windows.Forms.Label label209;
-        private System.Windows.Forms.Label label210;
-        private System.Windows.Forms.Label label211;
-        private System.Windows.Forms.Label label212;
-        private System.Windows.Forms.Label label213;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_9;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_8;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_9;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_8;
         private System.Windows.Forms.Label Sum_Corner_Lbl_9;
         private System.Windows.Forms.Label Sum_Corner_Lbl_8;
         private System.Windows.Forms.Label label216;
@@ -13539,10 +13540,10 @@
         private System.Windows.Forms.Label label221;
         private System.Windows.Forms.Label label224;
         private System.Windows.Forms.Label label225;
-        private System.Windows.Forms.Label label244;
-        private System.Windows.Forms.Label label245;
-        private System.Windows.Forms.Label label248;
-        private System.Windows.Forms.Label label249;
+        private System.Windows.Forms.Label Perc_Shv_Lbl_5;
+        private System.Windows.Forms.Label Perc_Shv_Lbl_4;
+        private System.Windows.Forms.Label Whil_Shv_Lbl_5;
+        private System.Windows.Forms.Label Whil_Shv_Lbl_4;
         private System.Windows.Forms.Label Sum_Shv_Lbl_5;
         private System.Windows.Forms.Label Sum_Shv_Lbl_4;
         private System.Windows.Forms.Label label256;
@@ -13553,14 +13554,14 @@
         private System.Windows.Forms.Label label265;
         private System.Windows.Forms.Label label272;
         private System.Windows.Forms.Label label273;
-        private System.Windows.Forms.Label label274;
-        private System.Windows.Forms.Label label275;
-        private System.Windows.Forms.Label label276;
-        private System.Windows.Forms.Label label277;
-        private System.Windows.Forms.Label label278;
-        private System.Windows.Forms.Label label279;
-        private System.Windows.Forms.Label label280;
-        private System.Windows.Forms.Label label281;
+        private System.Windows.Forms.Label Perc_Shv_Lbl_3;
+        private System.Windows.Forms.Label Perc_Shv_Lbl_2;
+        private System.Windows.Forms.Label Perc_Shv_Lbl_1;
+        private System.Windows.Forms.Label Perc_Corner_Lbl_10;
+        private System.Windows.Forms.Label Whil_Shv_Lbl_3;
+        private System.Windows.Forms.Label Whil_Shv_Lbl_2;
+        private System.Windows.Forms.Label Whil_Shv_Lbl_1;
+        private System.Windows.Forms.Label Whil_Corner_Lbl_10;
         private System.Windows.Forms.Label Sum_Shv_Lbl_3;
         private System.Windows.Forms.Label Sum_Shv_Lbl_2;
         private System.Windows.Forms.Label Sum_Shv_Lbl_1;
@@ -13586,19 +13587,19 @@
         private System.Windows.Forms.Label label226;
         private System.Windows.Forms.Label label227;
         private System.Windows.Forms.Label label228;
-        private System.Windows.Forms.Label label229;
-        private System.Windows.Forms.Label label230;
+        private System.Windows.Forms.Label Perc_Stripe_Lbl_4;
+        private System.Windows.Forms.Label Whil_Stripe_Lbl_4;
         private System.Windows.Forms.Label Sum_Stripe_Lbl_4;
         private System.Windows.Forms.Label label232;
         private System.Windows.Forms.Label Count_Stripe4Lbl;
         private System.Windows.Forms.Label label234;
         private System.Windows.Forms.Label label236;
-        private System.Windows.Forms.Label label237;
-        private System.Windows.Forms.Label label238;
-        private System.Windows.Forms.Label label239;
-        private System.Windows.Forms.Label label240;
-        private System.Windows.Forms.Label label241;
-        private System.Windows.Forms.Label label242;
+        private System.Windows.Forms.Label Perc_Stripe_Lbl_3;
+        private System.Windows.Forms.Label Perc_Stripe_Lbl_2;
+        private System.Windows.Forms.Label Perc_Stripe_Lbl_1;
+        private System.Windows.Forms.Label Whil_Stripe_Lbl_3;
+        private System.Windows.Forms.Label Whil_Stripe_Lbl_2;
+        private System.Windows.Forms.Label Whil_Stripe_Lbl_1;
         private System.Windows.Forms.Label Sum_Stripe_Lbl_3;
         private System.Windows.Forms.Label Sum_Stripe_Lbl_2;
         private System.Windows.Forms.Label Sum_Stripe_Lbl_1;
@@ -13614,17 +13615,17 @@
         private System.Windows.Forms.Label label308;
         private System.Windows.Forms.Label label309;
         private System.Windows.Forms.Label label310;
-        private System.Windows.Forms.Label label311;
-        private System.Windows.Forms.Label label312;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_10;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_10;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_10;
         private System.Windows.Forms.Label label314;
         private System.Windows.Forms.Label Count_Pipe_Rect10Lbl;
         private System.Windows.Forms.Label label316;
         private System.Windows.Forms.Label label318;
-        private System.Windows.Forms.Label label319;
-        private System.Windows.Forms.Label label320;
-        private System.Windows.Forms.Label label321;
-        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_9;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_8;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_9;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_8;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_9;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_8;
         private System.Windows.Forms.Label label325;
@@ -13636,13 +13637,13 @@
         private System.Windows.Forms.Label label333;
         private System.Windows.Forms.Label label334;
         private System.Windows.Forms.Label label335;
-        private System.Windows.Forms.Label label336;
-        private System.Windows.Forms.Label label337;
-        private System.Windows.Forms.Label label338;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_7;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_6;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_5;
         private System.Windows.Forms.Label label339;
-        private System.Windows.Forms.Label label340;
-        private System.Windows.Forms.Label label341;
-        private System.Windows.Forms.Label label342;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_7;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_6;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_5;
         private System.Windows.Forms.Label label343;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_7;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_6;
@@ -13663,14 +13664,14 @@
         private System.Windows.Forms.Label label364;
         private System.Windows.Forms.Label label365;
         private System.Windows.Forms.Label label366;
-        private System.Windows.Forms.Label label367;
-        private System.Windows.Forms.Label label368;
-        private System.Windows.Forms.Label label369;
-        private System.Windows.Forms.Label label370;
-        private System.Windows.Forms.Label label371;
-        private System.Windows.Forms.Label label372;
-        private System.Windows.Forms.Label label373;
-        private System.Windows.Forms.Label label374;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_4;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_3;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_2;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_1;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_4;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_3;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_2;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_1;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_4;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_3;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_2;
@@ -13693,17 +13694,17 @@
         private System.Windows.Forms.Label label398;
         private System.Windows.Forms.Label label399;
         private System.Windows.Forms.Label label400;
-        private System.Windows.Forms.Label label401;
-        private System.Windows.Forms.Label label402;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_15;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_15;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_15;
         private System.Windows.Forms.Label label404;
         private System.Windows.Forms.Label Count_Pipe_Rect15Lbl;
         private System.Windows.Forms.Label label406;
         private System.Windows.Forms.Label label408;
-        private System.Windows.Forms.Label label409;
-        private System.Windows.Forms.Label label410;
-        private System.Windows.Forms.Label label411;
-        private System.Windows.Forms.Label label412;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_114;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_13;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_14;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_13;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_14;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_13;
         private System.Windows.Forms.Label label415;
@@ -13715,11 +13716,11 @@
         private System.Windows.Forms.Label label423;
         private System.Windows.Forms.Label label424;
         private System.Windows.Forms.Label label425;
-        private System.Windows.Forms.Label label426;
-        private System.Windows.Forms.Label label427;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_12;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_11;
         private System.Windows.Forms.Label label428;
-        private System.Windows.Forms.Label label429;
-        private System.Windows.Forms.Label label430;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_12;
+        private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_11;
         private System.Windows.Forms.Label label431;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_12;
         private System.Windows.Forms.Label Sum_Pipe_Rect_Lbl_11;
@@ -13736,10 +13737,10 @@
         private System.Windows.Forms.Label label447;
         private System.Windows.Forms.Label label448;
         private System.Windows.Forms.Label label449;
-        private System.Windows.Forms.Label label450;
-        private System.Windows.Forms.Label label451;
-        private System.Windows.Forms.Label label452;
-        private System.Windows.Forms.Label label453;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_7;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_6;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_7;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_6;
         private System.Windows.Forms.Label Sum_Shet_Lbl_7;
         private System.Windows.Forms.Label Sum_Shet_Lbl_6;
         private System.Windows.Forms.Label label456;
@@ -13750,16 +13751,16 @@
         private System.Windows.Forms.Label label461;
         private System.Windows.Forms.Label label464;
         private System.Windows.Forms.Label label465;
-        private System.Windows.Forms.Label label466;
-        private System.Windows.Forms.Label label467;
-        private System.Windows.Forms.Label label468;
-        private System.Windows.Forms.Label label469;
-        private System.Windows.Forms.Label label470;
-        private System.Windows.Forms.Label label471;
-        private System.Windows.Forms.Label label472;
-        private System.Windows.Forms.Label label473;
-        private System.Windows.Forms.Label label474;
-        private System.Windows.Forms.Label label475;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_5;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_4;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_3;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_2;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_1;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_5;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_4;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_3;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_2;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_1;
         private System.Windows.Forms.Label Sum_Shet_Lbl_5;
         private System.Windows.Forms.Label Sum_Shet_Lbl_4;
         private System.Windows.Forms.Label Sum_Shet_Lbl_3;
@@ -13786,23 +13787,23 @@
         private System.Windows.Forms.Label label504;
         private System.Windows.Forms.Label label505;
         private System.Windows.Forms.Label label506;
-        private System.Windows.Forms.Label label507;
-        private System.Windows.Forms.Label label508;
+        private System.Windows.Forms.Label Perc_Shet_Lbl_8;
+        private System.Windows.Forms.Label Whil_Shet_Lbl_8;
         private System.Windows.Forms.Label Sum_Shet_Lbl_8;
         private System.Windows.Forms.Label label510;
         private System.Windows.Forms.Label Count_Shet_8Lbl;
         private System.Windows.Forms.Label label512;
         private System.Windows.Forms.Label label514;
         private System.Windows.Forms.Label label515;
-        private System.Windows.Forms.Label label516;
-        private System.Windows.Forms.Label label517;
+        private System.Windows.Forms.Label Perc_Seamless_Pipe_Lbl_2;
+        private System.Windows.Forms.Label Whil_Seamless_Pipe_Lbl_2;
         private System.Windows.Forms.Label Sum_Seamless_Pipe_Lbl_2;
         private System.Windows.Forms.Label label519;
         private System.Windows.Forms.Label Count_Seamless_Pipe_2Lbl;
         private System.Windows.Forms.Label label521;
         private System.Windows.Forms.Label label523;
-        private System.Windows.Forms.Label label524;
-        private System.Windows.Forms.Label label525;
+        private System.Windows.Forms.Label Perc_Seamless_Pipe_Lbl_1;
+        private System.Windows.Forms.Label Whil_Seamless_Pipe_Lbl_1;
         private System.Windows.Forms.Label Sum_Seamless_Pipe_Lbl_1;
         private System.Windows.Forms.Label label527;
         private System.Windows.Forms.Label Count_Seamless_Pipe_1Lbl;
@@ -13810,17 +13811,17 @@
         private System.Windows.Forms.Label label531;
         private System.Windows.Forms.Label label532;
         private System.Windows.Forms.Label label533;
-        private System.Windows.Forms.Label label534;
-        private System.Windows.Forms.Label label535;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_15;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_15;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_15;
         private System.Windows.Forms.Label label537;
         private System.Windows.Forms.Label Count_VGP_Pipe_15Lbl;
         private System.Windows.Forms.Label label539;
         private System.Windows.Forms.Label label541;
-        private System.Windows.Forms.Label label542;
-        private System.Windows.Forms.Label label543;
-        private System.Windows.Forms.Label label544;
-        private System.Windows.Forms.Label label545;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_14;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_13;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_14;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_13;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_14;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_13;
         private System.Windows.Forms.Label label548;
@@ -13832,11 +13833,11 @@
         private System.Windows.Forms.Label label556;
         private System.Windows.Forms.Label label557;
         private System.Windows.Forms.Label label558;
-        private System.Windows.Forms.Label label559;
-        private System.Windows.Forms.Label label560;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_12;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_11;
         private System.Windows.Forms.Label label561;
-        private System.Windows.Forms.Label label562;
-        private System.Windows.Forms.Label label563;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_12;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_11;
         private System.Windows.Forms.Label label564;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_12;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_11;
@@ -13852,17 +13853,17 @@
         private System.Windows.Forms.Label label579;
         private System.Windows.Forms.Label label580;
         private System.Windows.Forms.Label label581;
-        private System.Windows.Forms.Label label582;
-        private System.Windows.Forms.Label label583;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_10;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_10;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_10;
         private System.Windows.Forms.Label label585;
         private System.Windows.Forms.Label Count_VGP_Pipe_10Lbl;
         private System.Windows.Forms.Label label587;
         private System.Windows.Forms.Label label589;
-        private System.Windows.Forms.Label label590;
-        private System.Windows.Forms.Label label591;
-        private System.Windows.Forms.Label label592;
-        private System.Windows.Forms.Label label593;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_9;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_8;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_9;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_8;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_9;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_8;
         private System.Windows.Forms.Label label596;
@@ -13874,13 +13875,13 @@
         private System.Windows.Forms.Label label604;
         private System.Windows.Forms.Label label605;
         private System.Windows.Forms.Label label606;
-        private System.Windows.Forms.Label label607;
-        private System.Windows.Forms.Label label608;
-        private System.Windows.Forms.Label label609;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_7;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_6;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_5;
         private System.Windows.Forms.Label label610;
-        private System.Windows.Forms.Label label611;
-        private System.Windows.Forms.Label label612;
-        private System.Windows.Forms.Label label613;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_7;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_6;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_5;
         private System.Windows.Forms.Label label614;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_7;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_6;
@@ -13901,14 +13902,14 @@
         private System.Windows.Forms.Label label635;
         private System.Windows.Forms.Label label636;
         private System.Windows.Forms.Label label637;
-        private System.Windows.Forms.Label label638;
-        private System.Windows.Forms.Label label639;
-        private System.Windows.Forms.Label label640;
-        private System.Windows.Forms.Label label641;
-        private System.Windows.Forms.Label label642;
-        private System.Windows.Forms.Label label643;
-        private System.Windows.Forms.Label label644;
-        private System.Windows.Forms.Label label645;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_4;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_3;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_2;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_1;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_4;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_3;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_2;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_1;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_4;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_3;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_2;
@@ -13930,23 +13931,23 @@
         private System.Windows.Forms.Label label668;
         private System.Windows.Forms.Label label669;
         private System.Windows.Forms.Label label670;
-        private System.Windows.Forms.Label label671;
-        private System.Windows.Forms.Label label672;
+        private System.Windows.Forms.Label Perc_VGP_Pipe_Lbl_16;
+        private System.Windows.Forms.Label Whil_VGP_Pipe_Lbl_16;
         private System.Windows.Forms.Label Sum_VGP_Pipe_Lbl_16;
         private System.Windows.Forms.Label label674;
         private System.Windows.Forms.Label Count_VGP_Pipe_16Lbl;
         private System.Windows.Forms.Label label676;
         private System.Windows.Forms.Label label678;
         private System.Windows.Forms.Label label679;
-        private System.Windows.Forms.Label label680;
-        private System.Windows.Forms.Label label681;
+        private System.Windows.Forms.Label Perc_El_Weld_Pipe_Lbl_2;
+        private System.Windows.Forms.Label Whil_El_Weld_Pipe_Lbl_2;
         private System.Windows.Forms.Label Sum_El_Weld_Pipe_Lbl_2;
         private System.Windows.Forms.Label label683;
         private System.Windows.Forms.Label Count_El_Weld_Pipe_2Lbl;
         private System.Windows.Forms.Label label685;
         private System.Windows.Forms.Label label687;
-        private System.Windows.Forms.Label label688;
-        private System.Windows.Forms.Label label689;
+        private System.Windows.Forms.Label Perc_El_Weld_Pipe_Lbl_1;
+        private System.Windows.Forms.Label Whil_El_Weld_Pipe_Lbl_1;
         private System.Windows.Forms.Label Sum_El_Weld_Pipe_Lbl_1;
         private System.Windows.Forms.Label label691;
         private System.Windows.Forms.Label Count_El_Weld_Pipe_1Lbl;
@@ -13954,31 +13955,31 @@
         private System.Windows.Forms.Label label695;
         private System.Windows.Forms.Label label696;
         private System.Windows.Forms.Label label697;
-        private System.Windows.Forms.Label label698;
+        private System.Windows.Forms.Label Whil_El_Weld_Pipe_Lbl_3;
         private System.Windows.Forms.Label Sum_El_Weld_Pipe_Lbl_3;
         private System.Windows.Forms.Label label700;
         private System.Windows.Forms.Label Count_El_Weld_Pipe_3Lbl;
         private System.Windows.Forms.Label label702;
         private System.Windows.Forms.Label label704;
         private System.Windows.Forms.Label label705;
-        private System.Windows.Forms.Label label706;
-        private System.Windows.Forms.Label label707;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_16;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_16;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_16;
         private System.Windows.Forms.Label label709;
         private System.Windows.Forms.Label Count_Rect_Pipe_16Lbl;
         private System.Windows.Forms.Label label711;
         private System.Windows.Forms.Label label713;
-        private System.Windows.Forms.Label label714;
-        private System.Windows.Forms.Label label715;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_15;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_15;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_15;
         private System.Windows.Forms.Label label717;
         private System.Windows.Forms.Label Count_Rect_Pipe_15Lbl;
         private System.Windows.Forms.Label label719;
         private System.Windows.Forms.Label label721;
-        private System.Windows.Forms.Label label722;
-        private System.Windows.Forms.Label label723;
-        private System.Windows.Forms.Label label724;
-        private System.Windows.Forms.Label label725;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_14;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_13;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_14;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_13;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_14;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_13;
         private System.Windows.Forms.Label label728;
@@ -13990,11 +13991,11 @@
         private System.Windows.Forms.Label label736;
         private System.Windows.Forms.Label label737;
         private System.Windows.Forms.Label label738;
-        private System.Windows.Forms.Label label739;
-        private System.Windows.Forms.Label label740;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_12;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_11;
         private System.Windows.Forms.Label label741;
-        private System.Windows.Forms.Label label742;
-        private System.Windows.Forms.Label label743;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_12;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_11;
         private System.Windows.Forms.Label label744;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_12;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_11;
@@ -14010,17 +14011,17 @@
         private System.Windows.Forms.Label label759;
         private System.Windows.Forms.Label label760;
         private System.Windows.Forms.Label label761;
-        private System.Windows.Forms.Label label762;
-        private System.Windows.Forms.Label label763;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_10;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_10;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_10;
         private System.Windows.Forms.Label label765;
         private System.Windows.Forms.Label Count_Rect_Pipe_10Lbl;
         private System.Windows.Forms.Label label767;
         private System.Windows.Forms.Label label769;
-        private System.Windows.Forms.Label label770;
-        private System.Windows.Forms.Label label771;
-        private System.Windows.Forms.Label label772;
-        private System.Windows.Forms.Label label773;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_9;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_8;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_9;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_8;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_9;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_8;
         private System.Windows.Forms.Label label776;
@@ -14032,13 +14033,13 @@
         private System.Windows.Forms.Label label784;
         private System.Windows.Forms.Label label785;
         private System.Windows.Forms.Label label786;
-        private System.Windows.Forms.Label label787;
-        private System.Windows.Forms.Label label788;
-        private System.Windows.Forms.Label label789;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_7;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_6;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_5;
         private System.Windows.Forms.Label label790;
-        private System.Windows.Forms.Label label791;
-        private System.Windows.Forms.Label label792;
-        private System.Windows.Forms.Label label793;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_7;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_6;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_5;
         private System.Windows.Forms.Label label794;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_7;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_6;
@@ -14059,14 +14060,14 @@
         private System.Windows.Forms.Label label815;
         private System.Windows.Forms.Label label816;
         private System.Windows.Forms.Label label817;
-        private System.Windows.Forms.Label label818;
-        private System.Windows.Forms.Label label819;
-        private System.Windows.Forms.Label label820;
-        private System.Windows.Forms.Label label821;
-        private System.Windows.Forms.Label label822;
-        private System.Windows.Forms.Label label823;
-        private System.Windows.Forms.Label label824;
-        private System.Windows.Forms.Label label825;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_4;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_3;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_2;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_1;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_4;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_3;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_2;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_1;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_4;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_3;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_2;
@@ -14088,24 +14089,24 @@
         private System.Windows.Forms.Label label848;
         private System.Windows.Forms.Label label849;
         private System.Windows.Forms.Label label850;
-        private System.Windows.Forms.Label label851;
-        private System.Windows.Forms.Label label852;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_21;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_21;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_21;
         private System.Windows.Forms.Label label854;
         private System.Windows.Forms.Label Count_Rect_Pipe_21Lbl;
         private System.Windows.Forms.Label label856;
         private System.Windows.Forms.Label label858;
-        private System.Windows.Forms.Label label859;
-        private System.Windows.Forms.Label label860;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_20;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_20;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_20;
         private System.Windows.Forms.Label label862;
         private System.Windows.Forms.Label Count_Rect_Pipe_20Lbl;
         private System.Windows.Forms.Label label864;
         private System.Windows.Forms.Label label866;
-        private System.Windows.Forms.Label label867;
-        private System.Windows.Forms.Label label868;
-        private System.Windows.Forms.Label label869;
-        private System.Windows.Forms.Label label870;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_19;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_18;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_19;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_18;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_19;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_18;
         private System.Windows.Forms.Label label873;
@@ -14117,9 +14118,9 @@
         private System.Windows.Forms.Label label881;
         private System.Windows.Forms.Label label882;
         private System.Windows.Forms.Label label883;
-        private System.Windows.Forms.Label label884;
+        private System.Windows.Forms.Label Perc_Rect_Steel_Pipe_17;
         private System.Windows.Forms.Label label885;
-        private System.Windows.Forms.Label label886;
+        private System.Windows.Forms.Label Whil_Rect_Steel_Pipe_17;
         private System.Windows.Forms.Label label887;
         private System.Windows.Forms.Label Sum_Rect_Steel_Pipe_17;
         private System.Windows.Forms.Label label889;
@@ -14221,18 +14222,18 @@
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_7;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_6;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_5;
-        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_13;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_12;
+        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_11;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_10;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_9;
-        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_17;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_16;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_15;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_14;
-        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_22;
+        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_13;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_20;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_19;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_18;
-        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_23;
+        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_17;
+        private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_21;
     }
 }
