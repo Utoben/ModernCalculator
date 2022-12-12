@@ -393,7 +393,7 @@
             this.Count_Pipe_Rect15Lbl = new System.Windows.Forms.Label();
             this.label406 = new System.Windows.Forms.Label();
             this.label408 = new System.Windows.Forms.Label();
-            this.Perc_Pipe_Rect_Lbl_114 = new System.Windows.Forms.Label();
+            this.Perc_Pipe_Rect_Lbl_14 = new System.Windows.Forms.Label();
             this.Perc_Pipe_Rect_Lbl_13 = new System.Windows.Forms.Label();
             this.Whil_Pipe_Rect_Lbl_14 = new System.Windows.Forms.Label();
             this.Whil_Pipe_Rect_Lbl_13 = new System.Windows.Forms.Label();
@@ -646,7 +646,7 @@
             this.label693 = new System.Windows.Forms.Label();
             this.label695 = new System.Windows.Forms.Label();
             this.label696 = new System.Windows.Forms.Label();
-            this.label697 = new System.Windows.Forms.Label();
+            this.Perc_El_Weld_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.Whil_El_Weld_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.Sum_El_Weld_Pipe_Lbl_3 = new System.Windows.Forms.Label();
             this.label700 = new System.Windows.Forms.Label();
@@ -927,6 +927,7 @@
             this.Rect_Steel_Pipe_TB_18 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_17 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_21 = new System.Windows.Forms.TextBox();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -946,7 +947,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.справкаToolStripMenuItem});
+            this.справкаToolStripMenuItem,
+            this.выходToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 3, 0, 3);
@@ -5623,18 +5625,18 @@
             this.label408.Text = "80*40*2,0";
             this.label408.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Perc_Pipe_Rect_Lbl_114
+            // Perc_Pipe_Rect_Lbl_14
             // 
-            this.Perc_Pipe_Rect_Lbl_114.BackColor = System.Drawing.Color.DarkGray;
-            this.Perc_Pipe_Rect_Lbl_114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Perc_Pipe_Rect_Lbl_114.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Perc_Pipe_Rect_Lbl_114.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Perc_Pipe_Rect_Lbl_114.Location = new System.Drawing.Point(702, 1330);
-            this.Perc_Pipe_Rect_Lbl_114.Name = "Perc_Pipe_Rect_Lbl_114";
-            this.Perc_Pipe_Rect_Lbl_114.Size = new System.Drawing.Size(93, 23);
-            this.Perc_Pipe_Rect_Lbl_114.TabIndex = 571;
-            this.Perc_Pipe_Rect_Lbl_114.Text = "0";
-            this.Perc_Pipe_Rect_Lbl_114.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_Pipe_Rect_Lbl_14.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_Pipe_Rect_Lbl_14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_Pipe_Rect_Lbl_14.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_Pipe_Rect_Lbl_14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_Pipe_Rect_Lbl_14.Location = new System.Drawing.Point(702, 1330);
+            this.Perc_Pipe_Rect_Lbl_14.Name = "Perc_Pipe_Rect_Lbl_14";
+            this.Perc_Pipe_Rect_Lbl_14.Size = new System.Drawing.Size(93, 23);
+            this.Perc_Pipe_Rect_Lbl_14.TabIndex = 571;
+            this.Perc_Pipe_Rect_Lbl_14.Text = "0";
+            this.Perc_Pipe_Rect_Lbl_14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Perc_Pipe_Rect_Lbl_13
             // 
@@ -8887,18 +8889,18 @@
             this.label696.Text = "Труба стальная электросварная";
             this.label696.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label697
+            // Perc_El_Weld_Pipe_Lbl_3
             // 
-            this.label697.BackColor = System.Drawing.Color.DarkGray;
-            this.label697.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label697.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label697.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label697.Location = new System.Drawing.Point(702, 2041);
-            this.label697.Name = "label697";
-            this.label697.Size = new System.Drawing.Size(93, 23);
-            this.label697.TabIndex = 836;
-            this.label697.Text = "0";
-            this.label697.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Perc_El_Weld_Pipe_Lbl_3.BackColor = System.Drawing.Color.DarkGray;
+            this.Perc_El_Weld_Pipe_Lbl_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Perc_El_Weld_Pipe_Lbl_3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Perc_El_Weld_Pipe_Lbl_3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Perc_El_Weld_Pipe_Lbl_3.Location = new System.Drawing.Point(702, 2041);
+            this.Perc_El_Weld_Pipe_Lbl_3.Name = "Perc_El_Weld_Pipe_Lbl_3";
+            this.Perc_El_Weld_Pipe_Lbl_3.Size = new System.Drawing.Size(93, 23);
+            this.Perc_El_Weld_Pipe_Lbl_3.TabIndex = 836;
+            this.Perc_El_Weld_Pipe_Lbl_3.Text = "0";
+            this.Perc_El_Weld_Pipe_Lbl_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Whil_El_Weld_Pipe_Lbl_3
             // 
@@ -12416,6 +12418,13 @@
             this.Rect_Steel_Pipe_TB_21.TabIndex = 1135;
             this.Rect_Steel_Pipe_TB_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(54, 19);
+            this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
             // KaztemirContractForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
@@ -12698,7 +12707,7 @@
             this.Controls.Add(this.label849);
             this.Controls.Add(this.label850);
             this.Controls.Add(this.label705);
-            this.Controls.Add(this.label697);
+            this.Controls.Add(this.Perc_El_Weld_Pipe_Lbl_3);
             this.Controls.Add(this.Whil_El_Weld_Pipe_Lbl_3);
             this.Controls.Add(this.Sum_El_Weld_Pipe_Lbl_3);
             this.Controls.Add(this.label700);
@@ -12930,7 +12939,7 @@
             this.Controls.Add(this.Count_Pipe_Rect15Lbl);
             this.Controls.Add(this.label406);
             this.Controls.Add(this.label408);
-            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_114);
+            this.Controls.Add(this.Perc_Pipe_Rect_Lbl_14);
             this.Controls.Add(this.Perc_Pipe_Rect_Lbl_13);
             this.Controls.Add(this.Whil_Pipe_Rect_Lbl_14);
             this.Controls.Add(this.Whil_Pipe_Rect_Lbl_13);
@@ -13701,7 +13710,7 @@
         private System.Windows.Forms.Label Count_Pipe_Rect15Lbl;
         private System.Windows.Forms.Label label406;
         private System.Windows.Forms.Label label408;
-        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_114;
+        private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_14;
         private System.Windows.Forms.Label Perc_Pipe_Rect_Lbl_13;
         private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_14;
         private System.Windows.Forms.Label Whil_Pipe_Rect_Lbl_13;
@@ -13954,7 +13963,7 @@
         private System.Windows.Forms.Label label693;
         private System.Windows.Forms.Label label695;
         private System.Windows.Forms.Label label696;
-        private System.Windows.Forms.Label label697;
+        private System.Windows.Forms.Label Perc_El_Weld_Pipe_Lbl_3;
         private System.Windows.Forms.Label Whil_El_Weld_Pipe_Lbl_3;
         private System.Windows.Forms.Label Sum_El_Weld_Pipe_Lbl_3;
         private System.Windows.Forms.Label label700;
@@ -14235,5 +14244,6 @@
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_18;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_17;
         private System.Windows.Forms.TextBox Rect_Steel_Pipe_TB_21;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
     }
 }
