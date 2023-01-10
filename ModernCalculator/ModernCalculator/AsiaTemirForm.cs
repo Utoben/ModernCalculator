@@ -20,7 +20,8 @@ namespace ModernCalculator
         private void ToChooseButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainCalculationChooseForm s = new MainCalculationChooseForm();
+            //MainCalculationChooseForm s = new MainCalculationChooseForm();
+            StartForm s = new StartForm();
             s.ShowDialog();
         }
 

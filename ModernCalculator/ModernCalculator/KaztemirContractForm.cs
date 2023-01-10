@@ -26,96 +26,431 @@ namespace ModernCalculator
         double El_Weld_Pipe_Text_1, El_Weld_Pipe_Text_2, El_Weld_Pipe_Text_3;
         double Rect_Steel_Pipe_Text_1, Rect_Steel_Pipe_Text_2, Rect_Steel_Pipe_Text_3, Rect_Steel_Pipe_Text_4, Rect_Steel_Pipe_Text_5, Rect_Steel_Pipe_Text_6, Rect_Steel_Pipe_Text_7, Rect_Steel_Pipe_Text_8, Rect_Steel_Pipe_Text_9, Rect_Steel_Pipe_Text_10, Rect_Steel_Pipe_Text_11, Rect_Steel_Pipe_Text_12, Rect_Steel_Pipe_Text_13, Rect_Steel_Pipe_Text_14, Rect_Steel_Pipe_Text_15, Rect_Steel_Pipe_Text_16, Rect_Steel_Pipe_Text_17, Rect_Steel_Pipe_Text_18, Rect_Steel_Pipe_Text_19, Rect_Steel_Pipe_Text_20, Rect_Steel_Pipe_Text_21;
         double totalWeightSumResult;
+
+
         public KaztemirContractForm()
         {
             InitializeComponent();
+            Arm10TB.TextChanged += Arm10TB_TextChanged;
+            Arm12TB.TextChanged += Arm12TB_TextChanged;
+            Arm14TB.TextChanged += Arm14TB_TextChanged;
+            Arm16TB.TextChanged += Arm16TB_TextChanged;
+            Arm18TB.TextChanged += Arm18TB_TextChanged;
+
+            SteelCircle8TB.TextChanged += SteelCircle8TB_TextChanged;
+            SteelCircle10TB.TextChanged +=SteelCircle10TB_TextChanged;
+            SteelCircle12TB.TextChanged +=SteelCircle12TB_TextChanged;
+            SteelCircle14TB.TextChanged +=SteelCircle14TB_TextChanged;
+            SteelCircle16TB.TextChanged +=SteelCircle16TB_TextChanged;
+            SteelCircle18TB.TextChanged +=SteelCircle18TB_TextChanged;
+            SteelCircle20TB.TextChanged +=SteelCircle20TB_TextChanged;
+
+            Sq8_TB.TextChanged +=Sq8_TB_TextChanged;
+            Sq10_TB.TextChanged +=Sq10_TB_TextChanged;
+            Sq12_TB.TextChanged +=Sq12_TB_TextChanged;
+            Sq14_TB.TextChanged +=Sq14_TB_TextChanged;
+            
+            Corner1_TB.TextChanged +=Corner1_TB_TextChanged;
+            Corner2_TB.TextChanged +=Corner2_TB_TextChanged;
+            Corner3_TB.TextChanged +=Corner3_TB_TextChanged;
+            Corner4_TB.TextChanged +=Corner4_TB_TextChanged;
+            Corner5_TB.TextChanged +=Corner5_TB_TextChanged;
+            Corner6_TB.TextChanged +=Corner6_TB_TextChanged;
+            Corner7_TB.TextChanged +=Corner7_TB_TextChanged;
+            Corner8_TB.TextChanged +=Corner8_TB_TextChanged;
+            Corner9_TB.TextChanged +=Corner9_TB_TextChanged;
+            Corner10_TB.TextChanged +=Corner10_TB_TextChanged;
+
+            Shv_TB_10.TextChanged +=Shv_TB_10_TextChanged;
+            Shv_TB_12.TextChanged +=Shv_TB_12_TextChanged;
+            Shv_TB_14.TextChanged +=Shv_TB_14_TextChanged;
+            Shv_TB_16.TextChanged +=Shv_TB_16_TextChanged;
+            Shv_TB_18.TextChanged +=Shv_TB_18_TextChanged;
+
+            /*Stripe_TB_1.TextChanged +=Stripe_TB_1_TextChanged;
+            Stripe_TB_2.TextChanged +=Stripe_TB_2_TextChanged;
+            Stripe_TB_3.TextChanged +=Stripe_TB_3_TextChanged;
+            Stripe_TB_4.TextChanged +=Stripe_TB_4_TextChanged;
+            
+            Pipe_Rect_TB_1.TextChanged +=Pipe_Rect_TB_1_TextChanged;
+            Pipe_Rect_TB_2.TextChanged +=Pipe_Rect_TB_2_TextChanged;
+            Pipe_Rect_TB_3.TextChanged +=Pipe_Rect_TB_3_TextChanged;
+            Pipe_Rect_TB_4.TextChanged +=Pipe_Rect_TB_4_TextChanged;
+            Pipe_Rect_TB_5.TextChanged +=Pipe_Rect_TB_5_TextChanged;
+            Pipe_Rect_TB_6.TextChanged +=Pipe_Rect_TB_6_TextChanged;
+            Pipe_Rect_TB_7.TextChanged +=Pipe_Rect_TB_7_TextChanged;
+            Pipe_Rect_TB_8.TextChanged +=Pipe_Rect_TB_8_TextChanged;
+            Pipe_Rect_TB_9.TextChanged +=Pipe_Rect_TB_9_TextChanged;
+            Pipe_Rect_TB_10.TextChanged +=Pipe_Rect_TB_10_TextChanged;
+            Pipe_Rect_TB_11.TextChanged +=Pipe_Rect_TB_11_TextChanged;
+            Pipe_Rect_TB_12.TextChanged +=Pipe_Rect_TB_12_TextChanged;
+            Pipe_Rect_TB_13.TextChanged +=Pipe_Rect_TB_13_TextChanged;
+            Pipe_Rect_TB_14.TextChanged +=Pipe_Rect_TB_14_TextChanged;
+            Pipe_Rect_TB_15.TextChanged +=Pipe_Rect_TB_15_TextChanged;
+
+            Shet_TB_1.TextChanged +=Shet_TB_1_TextChanged;
+            Shet_TB_2.TextChanged +=Shet_TB_2_TextChanged;
+            Shet_TB_3.TextChanged +=Shet_TB_3_TextChanged;
+            Shet_TB_4.TextChanged +=Shet_TB_4_TextChanged;
+            Shet_TB_5.TextChanged +=Shet_TB_5_TextChanged;
+            Shet_TB_6.TextChanged +=Shet_TB_6_TextChanged;
+            Shet_TB_7.TextChanged +=Shet_TB_7_TextChanged;
+            Shet_TB_8.TextChanged +=Shet_TB_8_TextChanged;
+
+            Seamless_Pipe_TB_1.TextChanged +=Seamless_Pipe_TB_1_TextChanged;
+            Seamless_Pipe_TB_2.TextChanged +=Seamless_Pipe_TB_2_TextChanged;
+
+            VGP_Pipe_TB_1.TextChanged +=VGP_Pipe_TB_1_TextChanged;
+            VGP_Pipe_TB_2.TextChanged +=VGP_Pipe_TB_2_TextChanged;
+            VGP_Pipe_TB_3.TextChanged +=VGP_Pipe_TB_3_TextChanged;
+            VGP_Pipe_TB_4.TextChanged +=VGP_Pipe_TB_4_TextChanged;
+            VGP_Pipe_TB_5.TextChanged +=VGP_Pipe_TB_5_TextChanged;
+            VGP_Pipe_TB_6.TextChanged +=VGP_Pipe_TB_6_TextChanged;
+            VGP_Pipe_TB_7.TextChanged +=VGP_Pipe_TB_7_TextChanged;
+            VGP_Pipe_TB_8.TextChanged +=VGP_Pipe_TB_8_TextChanged;
+            VGP_Pipe_TB_9.TextChanged +=VGP_Pipe_TB_9_TextChanged;
+            VGP_Pipe_TB_10.TextChanged +=VGP_Pipe_TB_10_TextChanged;
+            VGP_Pipe_TB_11.TextChanged +=VGP_Pipe_TB_11_TextChanged;
+            VGP_Pipe_TB_12.TextChanged +=VGP_Pipe_TB_12_TextChanged;
+            VGP_Pipe_TB_13.TextChanged +=VGP_Pipe_TB_13_TextChanged;
+            VGP_Pipe_TB_14.TextChanged +=VGP_Pipe_TB_14_TextChanged;
+            VGP_Pipe_TB_15.TextChanged +=VGP_Pipe_TB_15_TextChanged;
+            VGP_Pipe_TB_16.TextChanged +=VGP_Pipe_TB_16_TextChanged;
+
+            El_Weld_Pipe_TB_1.TextChanged +=El_Weld_Pipe_TB_1_TextChanged;
+            El_Weld_Pipe_TB_2.TextChanged +=El_Weld_Pipe_TB_2_TextChanged;
+            El_Weld_Pipe_TB_3.TextChanged +=El_Weld_Pipe_TB_3_TextChanged;
+            
+            Rect_Steel_Pipe_TB_1.TextChanged +=Rect_Steel_Pipe_TB_1_TextChanged;
+            Rect_Steel_Pipe_TB_2.TextChanged +=Rect_Steel_Pipe_TB_2_TextChanged;
+            Rect_Steel_Pipe_TB_3.TextChanged +=Rect_Steel_Pipe_TB_3_TextChanged;
+            Rect_Steel_Pipe_TB_4.TextChanged +=Rect_Steel_Pipe_TB_4_TextChanged;
+            Rect_Steel_Pipe_TB_5.TextChanged +=Rect_Steel_Pipe_TB_5_TextChanged;
+            Rect_Steel_Pipe_TB_6.TextChanged +=Rect_Steel_Pipe_TB_6_TextChanged;
+            Rect_Steel_Pipe_TB_7.TextChanged +=Rect_Steel_Pipe_TB_7_TextChanged;
+            Rect_Steel_Pipe_TB_8.TextChanged +=Rect_Steel_Pipe_TB_8_TextChanged;
+            Rect_Steel_Pipe_TB_9.TextChanged +=Rect_Steel_Pipe_TB_9_TextChanged;
+            Rect_Steel_Pipe_TB_10.TextChanged +=Rect_Steel_Pipe_TB_10_TextChanged;
+            Rect_Steel_Pipe_TB_11.TextChanged +=Rect_Steel_Pipe_TB_11_TextChanged;
+            Rect_Steel_Pipe_TB_12.TextChanged +=Rect_Steel_Pipe_TB_12_TextChanged;
+            Rect_Steel_Pipe_TB_13.TextChanged +=Rect_Steel_Pipe_TB_13_TextChanged;
+            Rect_Steel_Pipe_TB_14.TextChanged +=Rect_Steel_Pipe_TB_14_TextChanged;
+            Rect_Steel_Pipe_TB_15.TextChanged +=Rect_Steel_Pipe_TB_15_TextChanged;
+            Rect_Steel_Pipe_TB_16.TextChanged +=Rect_Steel_Pipe_TB_16_TextChanged;
+            Rect_Steel_Pipe_TB_17.TextChanged +=Rect_Steel_Pipe_TB_17_TextChanged;
+            Rect_Steel_Pipe_TB_18.TextChanged +=Rect_Steel_Pipe_TB_18_TextChanged;
+            Rect_Steel_Pipe_TB_19.TextChanged +=Rect_Steel_Pipe_TB_19_TextChanged;
+            Rect_Steel_Pipe_TB_20.TextChanged +=Rect_Steel_Pipe_TB_20_TextChanged;
+            Rect_Steel_Pipe_TB_21.TextChanged +=Rect_Steel_Pipe_TB_21_TextChanged;*/
+
         }
 
-        private void label21_Click(object sender, EventArgs e)
+        private void Arm10TB_TextChanged(object sender, EventArgs e)
         {
+            double.TryParse(Arm10TB.Text, out Arm10Text);
+            TotalCount_Arm10Label.Text = Convert.ToString(Math.Round((Arm10Text * Convert.ToDouble(label13.Text)), 2));
+            TotalSum_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text * Convert.ToDouble((label43.Text))));
+            Perc20_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text * 20 / 100, 1));
+            Whip_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text / 6, 2));
 
         }
-
-        private void ToChooseButton_Click(object sender, EventArgs e)
+        private void Arm12TB_TextChanged(object sender, EventArgs e)
         {
-            this.Hide();
-            MainCalculationChooseForm s = new MainCalculationChooseForm();
-            s.ShowDialog();
-        }
+            double.TryParse(Arm12TB.Text, out Arm12Text);
+            TotalCount_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * Convert.ToDouble(label12.Text), 2));
+            TotalSum_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * Convert.ToDouble((label42.Text))));
 
-        private void label167_Click(object sender, EventArgs e)
+            Perc20_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * 20 / 100, 1));
+            Whip_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text / 6, 2));
+
+        }
+        private void Arm14TB_TextChanged(object sender, EventArgs e)
         {
+            double.TryParse(Arm14TB.Text, out Arm14Text);
+            TotalCount_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * Convert.ToDouble(label11.Text), 2));
+            TotalSum_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * Convert.ToDouble((label41.Text))));
+            Perc20_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * 20 / 100, 1));
+            Whip_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text / 6, 2));
 
         }
 
-        private void label145_Click(object sender, EventArgs e)
+        private void Arm16TB_TextChanged(object sender, EventArgs e)
         {
-
+            double.TryParse(Arm16TB.Text, out Arm16Text);
+            TotalCount_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * Convert.ToDouble(label10.Text), 2));
+            TotalSum_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * Convert.ToDouble((label40.Text))));
+            Perc20_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * 20 / 100, 1));
+            Whip_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text / 6, 2));
         }
-
-        private void label23_Click(object sender, EventArgs e)
+        private void Arm18TB_TextChanged(object sender, EventArgs e)
         {
+            double.TryParse(Arm18TB.Text, out Arm18Text);
+            TotalCount_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * Convert.ToDouble(label9.Text), 2));
+            TotalSum_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * Convert.ToDouble((label39.Text))));
+            Perc20_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * 20 / 100, 1));
+            Whip_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text / 6, 2));
 
         }
+        
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void SteelCircle8TB_TextChanged(object sender, EventArgs e)
         {
+            double.TryParse(SteelCircle8TB.Text, out SteelCircle8Text);
+            Count_StCl8Lbl.Text = Convert.ToString(Math.Round(SteelCircle8Text * Convert.ToDouble(label81.Text), 2));
+            Sum_SteelCircle_Lbl_8.Text = Convert.ToString(Math.Round(SteelCircle8Text * Convert.ToDouble(label71.Text), 2));
+
+            Perc_SteelCircle_Lbl_8.Text = Convert.ToString(Math.Round(SteelCircle8Text * 20 / 100, 1));
+
+            Whil_SteelCircle_Lbl_8.Text = Convert.ToString(Math.Round(SteelCircle8Text / 6, 2));
 
         }
-
-        private void label229_Click(object sender, EventArgs e)
+        private void SteelCircle10TB_TextChanged(object sender, EventArgs e)
         {
+            double.TryParse(SteelCircle10TB.Text, out SteelCircle10Text);
+            Count_StCl10Lbl.Text = Convert.ToString(Math.Round(SteelCircle10Text * Convert.ToDouble(label80.Text), 2));
+            Sum_SteelCircle_Lbl_10.Text = Convert.ToString(Math.Round(SteelCircle10Text * Convert.ToDouble(label70.Text), 2));
+            Perc_SteelCircle_Lbl_10.Text = Convert.ToString(Math.Round(SteelCircle10Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_10.Text = Convert.ToString(Math.Round(SteelCircle10Text / 6, 2));
+            
+
+        }
+        private void SteelCircle12TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(SteelCircle12TB.Text, out SteelCircle12Text);
+            Count_StCl12Lbl.Text = Convert.ToString(Math.Round(SteelCircle12Text * Convert.ToDouble(label79.Text), 2));
+            Sum_SteelCircle_Lbl_12.Text = Convert.ToString(Math.Round(SteelCircle12Text * Convert.ToDouble(label79.Text), 2));
+            Perc_SteelCircle_Lbl_12.Text = Convert.ToString(Math.Round(SteelCircle12Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_12.Text = Convert.ToString(Math.Round(SteelCircle12Text / 6, 2));
+            
+
+        }
+        private void SteelCircle14TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(SteelCircle14TB.Text, out SteelCircle14Text);
+            Count_StCl14Lbl.Text = Convert.ToString(Math.Round(SteelCircle14Text * Convert.ToDouble(label81.Text), 2));
+            Sum_SteelCircle_Lbl_14.Text = Convert.ToString(Math.Round(SteelCircle14Text * Convert.ToDouble(label69.Text), 2));
+            Perc_SteelCircle_Lbl_14.Text = Convert.ToString(Math.Round(SteelCircle14Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_14.Text = Convert.ToString(Math.Round(SteelCircle14Text / 6, 2));
+          
+
+        }
+        private void SteelCircle16TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(SteelCircle16TB.Text, out SteelCircle16Text);
+            Count_StCl16Lbl.Text = Convert.ToString(Math.Round(SteelCircle16Text * Convert.ToDouble(label81.Text), 2));
+            Sum_SteelCircle_Lbl_16.Text = Convert.ToString(Math.Round(SteelCircle16Text * Convert.ToDouble(label67.Text), 2));
+            Perc_SteelCircle_Lbl_16.Text = Convert.ToString(Math.Round(SteelCircle16Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_16.Text = Convert.ToString(Math.Round(SteelCircle16Text / 6, 2));
+            
+        }
+        private void SteelCircle18TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(SteelCircle18TB.Text, out SteelCircle18Text);
+            Count_StCl18Lbl.Text = Convert.ToString(Math.Round(SteelCircle18Text * Convert.ToDouble(label81.Text), 2));
+            Sum_SteelCircle_Lbl_18.Text = Convert.ToString(Math.Round(SteelCircle18Text * Convert.ToDouble(label100.Text), 2));
+            Perc_SteelCircle_Lbl_18.Text = Convert.ToString(Math.Round(SteelCircle18Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_18.Text = Convert.ToString(Math.Round(SteelCircle18Text / 6, 2));
+           
+
+        }
+        private void SteelCircle20TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(SteelCircle20TB.Text, out SteelCircle20Text);
+            Count_StC20Lbl.Text = Convert.ToString(Math.Round(SteelCircle20Text * Convert.ToDouble(label103.Text), 2));
+            Sum_SteelCircle_Lbl_20.Text = Convert.ToString(Math.Round(SteelCircle20Text * Convert.ToDouble(label99.Text), 2));
+            Perc_SteelCircle_Lbl_20.Text = Convert.ToString(Math.Round(SteelCircle20Text * 20 / 100, 1));
+            Whil_SteelCircle_Lbl_20.Text = Convert.ToString(Math.Round(SteelCircle20Text / 6, 2));
+        }
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void Sq8_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Sq8_TB.Text, out Sq8_Text);
+            Count_Sq8Lbl.Text = Convert.ToString(Math.Round(Sq8_Text * Convert.ToDouble(label156.Text), 2));
+            Sum_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Sq8_Text * Convert.ToDouble(label146.Text), 2));
+            Perc_Sq_Lbl_8.Text = Convert.ToString(Math.Round(Sq8_Text * 20 / 100, 1));
+            Whil_Sq_Lbl_8.Text = Convert.ToString(Math.Round(Sq8_Text / 6, 2));
+            
+
+        }
+        private void Sq10_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Sq10_TB.Text, out Sq10_Text);
+            Count_Sq10Lbl.Text = Convert.ToString(Math.Round(Sq10_Text * Convert.ToDouble(label155.Text), 2));
+            Sum_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Sq10_Text * Convert.ToDouble(label145.Text), 2));
+            Perc_Sq_Lbl_10.Text = Convert.ToString(Math.Round(Sq10_Text * 20 / 100, 1));
+            Whil_Sq_Lbl_10.Text = Convert.ToString(Math.Round(Sq10_Text / 6, 2));
+            
+
+        }
+        private void Sq12_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Sq12_TB.Text, out Sq12_Text);
+            Count_Sq12Lbl.Text = Convert.ToString(Math.Round(Sq12_Text * Convert.ToDouble(label154.Text), 2));
+            Sum_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Sq12_Text * Convert.ToDouble(label144.Text), 2));
+            Perc_Sq_Lbl_12.Text = Convert.ToString(Math.Round(Sq12_Text * 20 / 100, 1));
+            Whil_Sq_Lbl_12.Text = Convert.ToString(Math.Round(Sq12_Text / 6, 2));
+            
+        }
+        private void Sq14_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Sq14_TB.Text, out Sq14_Text);
+            Count_Sq14Lbl.Text = Convert.ToString(Math.Round(Sq14_Text * Convert.ToDouble(label153.Text), 2));
+            Sum_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Sq14_Text * Convert.ToDouble(label143.Text), 2));
+            Perc_Sq_Lbl_14.Text = Convert.ToString(Math.Round(Sq14_Text * 20 / 100, 1));
+            Whil_Sq_Lbl_14.Text = Convert.ToString(Math.Round(Sq14_Text / 6, 2));
+        }
+        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// <summary>
+
+        private void Corner1_TB_TextChanged(object sender, EventArgs e)
+        { 
+            double.TryParse(Corner1_TB.Text, out Corner1_Text);
+
+            Count_Corner32x4Lbl.Text = Convert.ToString(Math.Round(Corner1_Text * Convert.ToDouble(label168.Text), 2));
+            Sum_Corner_Lbl_1.Text = Convert.ToString(Math.Round(Corner1_Text * Convert.ToDouble(label127.Text), 2));
+            Perc_Corner_Lbl_1.Text = Convert.ToString(Math.Round(Corner1_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_1.Text = Convert.ToString(Math.Round(Corner1_Text / 6, 2));
+           
 
         }
 
-        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Corner2_TB_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Проставьте значения");
+            double.TryParse(Corner2_TB.Text, out Corner2_Text);
+            Count_Corner25x4Lbl.Text = Convert.ToString(Math.Round(Corner2_Text * Convert.ToDouble(label162.Text), 2));
+            Sum_Corner_Lbl_2.Text = Convert.ToString(Math.Round(Corner2_Text * Convert.ToDouble(label126.Text), 2));
+            Perc_Corner_Lbl_2.Text = Convert.ToString(Math.Round(Corner2_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_2.Text = Convert.ToString(Math.Round(Corner2_Text / 6, 2));
+            
+
         }
-        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Corner3_TB_TextChanged(object sender, EventArgs e)
         {
-            Application.Exit();
+            double.TryParse(Corner3_TB.Text, out Corner3_Text);
+            Count_Corner32x2Lbl.Text = Convert.ToString(Math.Round(Corner3_Text * Convert.ToDouble(label157.Text), 2));
+            Sum_Corner_Lbl_3.Text = Convert.ToString(Math.Round(Corner3_Text * Convert.ToDouble(label125.Text), 2));
+            Perc_Corner_Lbl_3.Text = Convert.ToString(Math.Round(Corner3_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_3.Text = Convert.ToString(Math.Round(Corner3_Text / 6, 2));
+            
         }
+        private void Corner4_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner4_TB.Text, out Corner4_Text);
+            Count_Corner40x4Lbl.Text = Convert.ToString(Math.Round(Corner4_Text * Convert.ToDouble(label152.Text), 2));
+            Sum_Corner_Lbl_4.Text = Convert.ToString(Math.Round(Corner4_Text * Convert.ToDouble(label124.Text), 2));
+            Perc_Corner_Lbl_4.Text = Convert.ToString(Math.Round(Corner4_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_4.Text = Convert.ToString(Math.Round(Corner4_Text / 6, 2));
+            
+        }
+        private void Corner5_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner5_TB.Text, out Corner5_Text);
+            Count_Corner45x4Lbl.Text = Convert.ToString(Math.Round(Corner5_Text * Convert.ToDouble(label201.Text), 2));
+            Sum_Corner_Lbl_5.Text = Convert.ToString(Math.Round(Corner5_Text * Convert.ToDouble(label193.Text), 2));
+            Perc_Corner_Lbl_5.Text = Convert.ToString(Math.Round(Corner5_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_5.Text = Convert.ToString(Math.Round(Corner5_Text / 6, 2));
+            
+        }
+        private void Corner6_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner6_TB.Text, out Corner6_Text);
+            Count_Corner50x3Lbl.Text = Convert.ToString(Math.Round(Corner6_Text * Convert.ToDouble(label200.Text), 2));
+            Sum_Corner_Lbl_6.Text = Convert.ToString(Math.Round(Corner6_Text * Convert.ToDouble(label192.Text), 2));
+            Perc_Corner_Lbl_6.Text = Convert.ToString(Math.Round(Corner6_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_6.Text = Convert.ToString(Math.Round(Corner6_Text / 6, 2));
+            
+        }
+        private void Corner7_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner7_TB.Text, out Corner7_Text);
+
+            Count_Corner50x4Lbl.Text = Convert.ToString(Math.Round(Corner7_Text * Convert.ToDouble(label199.Text), 2));
+            Sum_Corner_Lbl_7.Text = Convert.ToString(Math.Round(Corner7_Text * Convert.ToDouble(label191.Text), 2));
+            Perc_Corner_Lbl_7.Text = Convert.ToString(Math.Round(Corner7_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_7.Text = Convert.ToString(Math.Round(Corner7_Text / 6, 2));
+            
+        }
+        private void Corner8_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner8_TB.Text, out Corner8_Text);
+            Count_Corner50x5Lbl.Text = Convert.ToString(Math.Round(Corner8_Text * Convert.ToDouble(label221.Text), 2));
+            Sum_Corner_Lbl_8.Text = Convert.ToString(Math.Round(Corner8_Text * Convert.ToDouble(label217.Text), 2));
+            Perc_Corner_Lbl_8.Text = Convert.ToString(Math.Round(Corner8_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_8.Text = Convert.ToString(Math.Round(Corner8_Text / 6, 2));
+            
+        }
+        private void Corner9_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner9_TB.Text, out Corner9_Text);
+            Count_Corner63x3Lbl.Text = Convert.ToString(Math.Round(Corner9_Text * Convert.ToDouble(label220.Text), 2));
+            Sum_Corner_Lbl_9.Text = Convert.ToString(Math.Round(Corner9_Text * Convert.ToDouble(label216.Text), 2));
+            Perc_Corner_Lbl_9.Text = Convert.ToString(Math.Round(Corner9_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_9.Text = Convert.ToString(Math.Round(Corner9_Text / 6, 2));
+            
+        }
+        private void Corner10_TB_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Corner10_TB.Text, out Corner10_Text);
+            
+            Count_Corner63x5Lbl.Text = Convert.ToString(Math.Round(Corner10_Text * Convert.ToDouble(label297.Text), 2));
+            Sum_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text * Convert.ToDouble(label289.Text), 2));
+            Perc_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text * 20 / 100, 1));
+            Whil_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text / 6, 2));
+        }
+        
+
+        private void Shv_TB_10_TextChanged(object sender, EventArgs e)
+        { 
+            double.TryParse(Shv_TB_10.Text, out Shv_Text_10);
+            Count_Shv_10Lbl.Text = Convert.ToString(Math.Round(Shv_Text_10 * Convert.ToDouble(label296.Text), 2));
+            Sum_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Shv_Text_10 * Convert.ToDouble(label288.Text), 2));
+            Perc_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Shv_Text_10 / 6, 2));
+            Whil_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Shv_Text_10 / 6, 2));
+
+        }
+        private void Shv_TB_12_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shv_TB_12.Text, out Shv_Text_12);
+            Count_Shv_12Lbl.Text = Convert.ToString(Math.Round(Shv_Text_12 * Convert.ToDouble(label295.Text), 2));
+            Sum_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 * Convert.ToDouble(label287.Text), 2));
+            Perc_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 / 6, 2));
+            Whil_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 / 6, 2));
+
+        }
+        private void Shv_TB_14_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shv_TB_14.Text, out Shv_Text_14);
+            Count_Shv_14Lbl.Text = Convert.ToString(Math.Round(Shv_Text_14 * Convert.ToDouble(label294.Text), 2));
+            Sum_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Shv_Text_14 * Convert.ToDouble(label286.Text), 2));
+            Perc_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Shv_Text_14 / 6, 2));
+            Whil_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Shv_Text_14 / 6, 2));
+
+        }
+        private void Shv_TB_16_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shv_TB_16.Text, out Shv_Text_16);
+            Count_Shv_16Lbl.Text = Convert.ToString(Math.Round(Shv_Text_16 * Convert.ToDouble(label265.Text), 2));
+            Sum_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 * Convert.ToDouble(label257.Text), 2));
+            Perc_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 / 6, 2));
+            Whil_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 / 6, 2));
+
+        }
+        private void Shv_TB_18_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shv_TB_18.Text, out Shv_Text_18);
+            Count_Shv_18Lbl.Text = Convert.ToString(Math.Round(Shv_Text_18 * Convert.ToDouble(label264.Text), 2));
+            Sum_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18 * Convert.ToDouble(label256.Text), 2));
+            Whil_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18 / 6, 2));
+            Perc_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18 / 6, 2));
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void RezultButton_Click(object sender, EventArgs e)
         {
 
-
-            double.TryParse(Arm10TB.Text, out Arm10Text);
-            double.TryParse(Arm12TB.Text, out Arm12Text);
-            double.TryParse(Arm14TB.Text, out Arm14Text);
-            double.TryParse(Arm16TB.Text, out Arm16Text);
-            double.TryParse(Arm18TB.Text, out Arm18Text);
-
-            double.TryParse(SteelCircle8TB.Text, out SteelCircle8Text);
-            double.TryParse(SteelCircle10TB.Text, out SteelCircle10Text);
-            double.TryParse(SteelCircle12TB.Text, out SteelCircle12Text);
-            double.TryParse(SteelCircle14TB.Text, out SteelCircle14Text);
-            double.TryParse(SteelCircle16TB.Text, out SteelCircle16Text);
-            double.TryParse(SteelCircle18TB.Text, out SteelCircle18Text);
-            double.TryParse(SteelCircle20TB.Text, out SteelCircle20Text);
-
-            double.TryParse(Sq8_TB.Text, out Sq8_Text);
-            double.TryParse(Sq10_TB.Text, out Sq10_Text);
-            double.TryParse(Sq12_TB.Text, out Sq12_Text);
-            double.TryParse(Sq14_TB.Text, out Sq14_Text);
-
-            double.TryParse(Corner1_TB.Text, out Corner1_Text);
-            double.TryParse(Corner1_TB.Text, out Corner2_Text);
-            double.TryParse(Corner1_TB.Text, out Corner3_Text);
-            double.TryParse(Corner1_TB.Text, out Corner4_Text);
-            double.TryParse(Corner1_TB.Text, out Corner5_Text);
-            double.TryParse(Corner1_TB.Text, out Corner6_Text);
-            double.TryParse(Corner1_TB.Text, out Corner7_Text);
-            double.TryParse(Corner1_TB.Text, out Corner8_Text);
-            double.TryParse(Corner1_TB.Text, out Corner9_Text);
-            double.TryParse(Corner1_TB.Text, out Corner10_Text);
-
-            double.TryParse(Shv_TB_10.Text, out Shv_Text_10);
-            double.TryParse(Shv_TB_12.Text, out Shv_Text_12);
-            double.TryParse(Shv_TB_14.Text, out Shv_Text_14);
-            double.TryParse(Shv_TB_16.Text, out Shv_Text_16);
-            double.TryParse(Shv_TB_18.Text, out Shv_Text_18);
 
             double.TryParse(Stripe_TB_1.Text, out Stripe_Text_1);
             double.TryParse(Stripe_TB_2.Text, out Stripe_Text_2);
@@ -204,42 +539,7 @@ namespace ModernCalculator
         void Count_And_Sum_Rezult()
         {
             //подсчет Количества(Общий вес)
-            TotalCount_Arm10Label.Text = Convert.ToString(Math.Round((Arm10Text * Convert.ToDouble(label13.Text)),2));
-            TotalCount_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * Convert.ToDouble(label12.Text),2));
-            TotalCount_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * Convert.ToDouble(label11.Text),2));
-            TotalCount_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * Convert.ToDouble(label10.Text),2));
-            TotalCount_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * Convert.ToDouble(label9.Text),2));
-
-            Count_StCl8Lbl.Text = Convert.ToString(Math.Round(SteelCircle8Text * Convert.ToDouble(label81.Text), 2));
-            Count_StCl10Lbl.Text = Convert.ToString(Math.Round(SteelCircle10Text * Convert.ToDouble(label80.Text), 2));
-            Count_StCl12Lbl.Text = Convert.ToString(Math.Round(SteelCircle12Text * Convert.ToDouble(label79.Text), 2));
-            Count_StCl14Lbl.Text = Convert.ToString(Math.Round(SteelCircle14Text * Convert.ToDouble(label81.Text), 2));
-            Count_StCl16Lbl.Text = Convert.ToString(Math.Round(SteelCircle16Text * Convert.ToDouble(label81.Text), 2));
-            Count_StCl18Lbl.Text = Convert.ToString(Math.Round(SteelCircle18Text * Convert.ToDouble(label81.Text), 2));
-            Count_StC20Lbl.Text = Convert.ToString(Math.Round(SteelCircle20Text * Convert.ToDouble(label103.Text), 2));
-
-            Count_Sq8Lbl.Text = Convert.ToString(Math.Round(Sq8_Text * Convert.ToDouble(label156.Text), 2));
-            Count_Sq10Lbl.Text = Convert.ToString(Math.Round(Sq10_Text * Convert.ToDouble(label155.Text), 2));
-            Count_Sq12Lbl.Text = Convert.ToString(Math.Round(Sq12_Text * Convert.ToDouble(label154.Text), 2));
-            Count_Sq14Lbl.Text = Convert.ToString(Math.Round(Sq14_Text * Convert.ToDouble(label153.Text), 2));
-
-            Count_Corner32x4Lbl.Text = Convert.ToString(Math.Round(Corner1_Text * Convert.ToDouble(label168.Text), 2));
-            Count_Corner25x4Lbl.Text = Convert.ToString(Math.Round(Corner2_Text * Convert.ToDouble(label162.Text), 2));
-            Count_Corner32x2Lbl.Text = Convert.ToString(Math.Round(Corner3_Text * Convert.ToDouble(label157.Text), 2));
-            Count_Corner40x4Lbl.Text = Convert.ToString(Math.Round(Corner4_Text * Convert.ToDouble(label152.Text), 2));
-            Count_Corner45x4Lbl.Text = Convert.ToString(Math.Round(Corner5_Text * Convert.ToDouble(label201.Text), 2));
-            Count_Corner50x3Lbl.Text = Convert.ToString(Math.Round(Corner6_Text * Convert.ToDouble(label200.Text), 2));
-            Count_Corner50x4Lbl.Text = Convert.ToString(Math.Round(Corner7_Text * Convert.ToDouble(label199.Text), 2));
-            Count_Corner50x5Lbl.Text = Convert.ToString(Math.Round(Corner8_Text * Convert.ToDouble(label221.Text), 2));
-            Count_Corner63x3Lbl.Text = Convert.ToString(Math.Round(Corner9_Text * Convert.ToDouble(label220.Text), 2));
-            Count_Corner63x5Lbl.Text = Convert.ToString(Math.Round(Corner10_Text * Convert.ToDouble(label297.Text), 2));
-
-            Count_Shv_10Lbl.Text = Convert.ToString(Math.Round(Shv_Text_10 * Convert.ToDouble(label296.Text), 2));
-            Count_Shv_12Lbl.Text = Convert.ToString(Math.Round(Shv_Text_12 * Convert.ToDouble(label295.Text), 2));
-            Count_Shv_14Lbl.Text = Convert.ToString(Math.Round(Shv_Text_14 * Convert.ToDouble(label294.Text), 2));
-            Count_Shv_16Lbl.Text = Convert.ToString(Math.Round(Shv_Text_16 * Convert.ToDouble(label265.Text), 2));
-            Count_Shv_18Lbl.Text = Convert.ToString(Math.Round(Shv_Text_18 * Convert.ToDouble(label264.Text), 2));
-
+   
             Count_Stripe1Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_1 * Convert.ToDouble(label266.Text), 2));
             Count_Stripe2Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label263.Text), 2));
             Count_Stripe3Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label262.Text), 2));
@@ -294,12 +594,6 @@ namespace ModernCalculator
             Count_El_Weld_Pipe_2Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label685.Text), 2));
             Count_El_Weld_Pipe_3Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label702.Text), 2));
 
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-
             Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label841.Text), 2));
             Count_Rect_Pipe_2Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label840.Text), 2));
             Count_Rect_Pipe_3Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label839.Text), 2));
@@ -324,53 +618,90 @@ namespace ModernCalculator
 
 
             //подсчет Суммы////////////////////////////////////////////////////////////////////////////////////////
-            TotalSum_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text * Convert.ToDouble((label43.Text))));
-            TotalSum_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * Convert.ToDouble((label42.Text))));
-            TotalSum_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * Convert.ToDouble((label41.Text))));
-            TotalSum_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * Convert.ToDouble((label40.Text))));
-            TotalSum_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * Convert.ToDouble((label39.Text))));
 
+
+            Sum_Stripe_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 * Convert.ToDouble(label254.Text), 2));
+            Sum_Stripe_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label251.Text), 2));
+            Sum_Stripe_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label250.Text), 2));
+            Sum_Stripe_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 * Convert.ToDouble(label232.Text), 2));
+
+            Sum_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 * Convert.ToDouble(label382.Text), 2));
+            Sum_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 * Convert.ToDouble(label381.Text), 2));
+            Sum_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 * Convert.ToDouble(label380.Text), 2));
+            Sum_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 * Convert.ToDouble(label379.Text), 2));
+            Sum_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 * Convert.ToDouble(label350.Text), 2));
+            Sum_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 * Convert.ToDouble(label349.Text), 2));
+            Sum_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 * Convert.ToDouble(label348.Text), 2));
+            Sum_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 * Convert.ToDouble(label326.Text), 2));
+            Sum_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 * Convert.ToDouble(label325.Text), 2));
+            Sum_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 * Convert.ToDouble(label314.Text), 2));
+            Sum_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 * Convert.ToDouble(label436.Text), 2));
+            Sum_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 * Convert.ToDouble(label435.Text), 2));
+            Sum_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 * Convert.ToDouble(label416.Text), 2));
+            Sum_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 * Convert.ToDouble(label415.Text), 2));
+            Sum_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 * Convert.ToDouble(label404.Text), 2));
+
+            Sum_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 * Convert.ToDouble(label485.Text), 2));
+            Sum_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 * Convert.ToDouble(label484.Text), 2));
+            Sum_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 * Convert.ToDouble(label483.Text), 2));
+            Sum_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 * Convert.ToDouble(label482.Text), 2));
+            Sum_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 * Convert.ToDouble(label481.Text), 2));
+            Sum_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 * Convert.ToDouble(label457.Text), 2));
+            Sum_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 * Convert.ToDouble(label456.Text), 2));
+            Sum_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 * Convert.ToDouble(label510.Text), 2));
+
+            Sum_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 * Convert.ToDouble(label527.Text), 2));
+            Sum_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 * Convert.ToDouble(label519.Text), 2));
+
+            Sum_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 * Convert.ToDouble(label661.Text), 2));
+            Sum_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 * Convert.ToDouble(label652.Text), 2));
+            Sum_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 * Convert.ToDouble(label651.Text), 2));
+            Sum_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 * Convert.ToDouble(label650.Text), 2));
+            Sum_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 * Convert.ToDouble(label621.Text), 2));
+            Sum_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 * Convert.ToDouble(label620.Text), 2));
+            Sum_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 * Convert.ToDouble(label619.Text), 2));
+            Sum_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 * Convert.ToDouble(label597.Text), 2));
+            Sum_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 * Convert.ToDouble(label596.Text), 2));
+            Sum_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 * Convert.ToDouble(label585.Text), 2));
+            Sum_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 * Convert.ToDouble(label569.Text), 2));
+            Sum_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 * Convert.ToDouble(label568.Text), 2));
+            Sum_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 * Convert.ToDouble(label549.Text), 2));
+            Sum_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 * Convert.ToDouble(label548.Text), 2));
+            Sum_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 * Convert.ToDouble(label537.Text), 2));
+            Sum_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label674.Text), 2));
+
+            Sum_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 * Convert.ToDouble(label691.Text), 2));
+            Sum_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label683.Text), 2));
+            Sum_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label700.Text), 2));
+
+            Sum_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label833.Text), 2));
+            Sum_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label832.Text), 2));
+            Sum_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label831.Text), 2));
+            Sum_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 * Convert.ToDouble(label830.Text), 2));
+            Sum_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 * Convert.ToDouble(label801.Text), 2));
+            Sum_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 * Convert.ToDouble(label800.Text), 2));
+            Sum_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 * Convert.ToDouble(label799.Text), 2));
+            Sum_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 * Convert.ToDouble(label777.Text), 2));
+            Sum_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 * Convert.ToDouble(label776.Text), 2));
+            Sum_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 * Convert.ToDouble(label765.Text), 2));
+            Sum_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 * Convert.ToDouble(label749.Text), 2));
+            Sum_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 * Convert.ToDouble(label748.Text), 2));
+            Sum_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 * Convert.ToDouble(label729.Text), 2));
+            Sum_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 * Convert.ToDouble(label728.Text), 2));
+            Sum_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 * Convert.ToDouble(label717.Text), 2));
+            Sum_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 * Convert.ToDouble(label709.Text), 2));
+            Sum_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 * Convert.ToDouble(label890.Text), 2));
+            Sum_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 * Convert.ToDouble(label874.Text), 2));
+            Sum_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 * Convert.ToDouble(label873.Text), 2));
+            Sum_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 * Convert.ToDouble(label862.Text), 2));
+            Sum_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 * Convert.ToDouble(label854.Text), 2));
 
         }
 
         void Percent_and_Whils_Rezult()
         {
             //подсчет процентов(20%)
-            Perc20_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text * 20 / 100,1));
-            Perc20_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text * 20 / 100,1));
-            Perc20_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text * 20 / 100,1));
-            Perc20_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text * 20 / 100,1));
-            Perc20_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text * 20 / 100,1));
 
-            Perc_SteelCircle_Lbl_8.Text = Convert.ToString(Math.Round(SteelCircle8Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_10.Text = Convert.ToString(Math.Round(SteelCircle10Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_12.Text = Convert.ToString(Math.Round(SteelCircle12Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_14.Text = Convert.ToString(Math.Round(SteelCircle14Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_16.Text = Convert.ToString(Math.Round(SteelCircle16Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_18.Text = Convert.ToString(Math.Round(SteelCircle18Text * 20 / 100, 1));
-            Perc_SteelCircle_Lbl_20.Text = Convert.ToString(Math.Round(SteelCircle20Text * 20 / 100, 1));
-
-            Perc_Sq_Lbl_8.Text = Convert.ToString(Math.Round(Sq8_Text * 20 / 100, 1));
-            Perc_Sq_Lbl_10.Text = Convert.ToString(Math.Round(Sq10_Text * 20 / 100, 1));
-            Perc_Sq_Lbl_12.Text = Convert.ToString(Math.Round(Sq12_Text * 20 / 100, 1));
-            Perc_Sq_Lbl_14.Text = Convert.ToString(Math.Round(Sq14_Text * 20 / 100, 1));
-
-            Perc_Corner_Lbl_1.Text = Convert.ToString(Math.Round(Corner1_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_2.Text = Convert.ToString(Math.Round(Corner2_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_3.Text = Convert.ToString(Math.Round(Corner3_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_4.Text = Convert.ToString(Math.Round(Corner4_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_5.Text = Convert.ToString(Math.Round(Corner5_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_6.Text = Convert.ToString(Math.Round(Corner6_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_7.Text = Convert.ToString(Math.Round(Corner7_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_8.Text = Convert.ToString(Math.Round(Corner8_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_9.Text = Convert.ToString(Math.Round(Corner9_Text * 20 / 100, 1));
-            Perc_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text * 20 / 100, 1));
-
-            Perc_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Shv_Text_10 / 6, 2));
-            Perc_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 / 6, 2));
-            Perc_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Shv_Text_14 / 6, 2));
-            Perc_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 / 6, 2));
-            Perc_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18 / 6, 2));
 
             Perc_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 / 6, 2));
             Perc_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 / 6, 2));
@@ -449,41 +780,7 @@ namespace ModernCalculator
             Perc_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 / 6, 2));
 
             //подсчет Хлыстов
-            Whip_Arm10Label.Text = Convert.ToString(Math.Round(Arm10Text / 6,2));
-            Whip_Arm12Label.Text = Convert.ToString(Math.Round(Arm12Text / 6,2));
-            Whip_Arm14Label.Text = Convert.ToString(Math.Round(Arm14Text / 6,2));
-            Whip_Arm16Label.Text = Convert.ToString(Math.Round(Arm16Text / 6,2));
-            Whip_Arm18Label.Text = Convert.ToString(Math.Round(Arm18Text / 6,2));
 
-            Whil_SteelCircle_Lbl_8.Text = Convert.ToString(Math.Round(SteelCircle8Text / 6, 2));
-            Whil_SteelCircle_Lbl_10.Text = Convert.ToString(Math.Round(SteelCircle10Text / 6, 2));
-            Whil_SteelCircle_Lbl_12.Text = Convert.ToString(Math.Round(SteelCircle12Text / 6, 2));
-            Whil_SteelCircle_Lbl_14.Text = Convert.ToString(Math.Round(SteelCircle14Text / 6, 2));
-            Whil_SteelCircle_Lbl_16.Text = Convert.ToString(Math.Round(SteelCircle16Text / 6, 2));
-            Whil_SteelCircle_Lbl_18.Text = Convert.ToString(Math.Round(SteelCircle18Text / 6, 2));
-            Whil_SteelCircle_Lbl_20.Text = Convert.ToString(Math.Round(SteelCircle20Text / 6, 2));
-
-            Whil_Sq_Lbl_8.Text = Convert.ToString(Math.Round(Sq8_Text / 6, 2));
-            Whil_Sq_Lbl_10.Text = Convert.ToString(Math.Round(Sq10_Text / 6, 2));
-            Whil_Sq_Lbl_12.Text = Convert.ToString(Math.Round(Sq12_Text / 6, 2));
-            Whil_Sq_Lbl_14.Text = Convert.ToString(Math.Round(Sq14_Text / 6, 2));
-
-            Whil_Corner_Lbl_1.Text = Convert.ToString(Math.Round(Corner1_Text / 6, 2));
-            Whil_Corner_Lbl_2.Text = Convert.ToString(Math.Round(Corner2_Text / 6, 2));
-            Whil_Corner_Lbl_3.Text = Convert.ToString(Math.Round(Corner3_Text / 6, 2));
-            Whil_Corner_Lbl_4.Text = Convert.ToString(Math.Round(Corner4_Text / 6, 2));
-            Whil_Corner_Lbl_5.Text = Convert.ToString(Math.Round(Corner5_Text / 6, 2));
-            Whil_Corner_Lbl_6.Text = Convert.ToString(Math.Round(Corner6_Text / 6, 2));
-            Whil_Corner_Lbl_7.Text = Convert.ToString(Math.Round(Corner7_Text / 6, 2));
-            Whil_Corner_Lbl_8.Text = Convert.ToString(Math.Round(Corner8_Text / 6, 2));
-            Whil_Corner_Lbl_9.Text = Convert.ToString(Math.Round(Corner9_Text / 6, 2));
-            Whil_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text / 6, 2));
-
-            Whil_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Shv_Text_10 / 6, 2));
-            Whil_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 / 6, 2));
-            Whil_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Shv_Text_14/ 6, 2));
-            Whil_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 / 6, 2));
-            Whil_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18/ 6, 2));
 
             Whil_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 / 6, 2));
             Whil_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 / 6, 2));
@@ -566,10 +863,82 @@ namespace ModernCalculator
 
         void TotalWeightSum()
         {
-            totalWeightSumResult = double.Parse(TotalCount_Arm10Label.Text) + double.Parse(TotalCount_Arm12Label.Text) + double.Parse(TotalCount_Arm14Label.Text) + double.Parse(TotalCount_Arm16Label.Text) + double.Parse(TotalCount_Arm18Label.Text);
+            totalWeightSumResult = double.Parse(TotalCount_Arm10Label.Text) + double.Parse(TotalCount_Arm12Label.Text) + double.Parse(TotalCount_Arm14Label.Text) + double.Parse(TotalCount_Arm16Label.Text) + double.Parse(TotalCount_Arm18Label.Text)+ double.Parse(Count_StCl8Lbl.Text) + double.Parse(Count_StCl10Lbl.Text) + double.Parse(Count_StCl12Lbl.Text)+ double.Parse(Count_StCl14Lbl.Text)+ double.Parse(Count_StCl16Lbl.Text)+ double.Parse(Count_StCl18Lbl.Text)+ double.Parse(Count_StC20Lbl.Text) + double.Parse(Count_Sq8Lbl.Text) + double.Parse(Count_Sq10Lbl.Text) + double.Parse(Count_Sq12Lbl.Text) + double.Parse(Count_Sq14Lbl.Text) +
+              double.Parse(Count_Corner32x4Lbl.Text)+ double.Parse(Count_Corner25x4Lbl.Text)+ double.Parse(Count_Corner40x4Lbl.Text)+ double.Parse(Count_Corner45x4Lbl.Text)+ double.Parse(Count_Corner50x3Lbl.Text)+ double.Parse(Count_Corner50x4Lbl.Text)+ double.Parse(Count_Corner50x5Lbl.Text)+ double.Parse(Count_Corner63x3Lbl.Text) + double.Parse(Count_Corner63x5Lbl.Text)  ;
+
+
+
+
             totalWeightLlabel.Text = totalWeightSumResult.ToString();
         }
 
-        
+        private void азияТемирЦентрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AsiaTemirForm t = new AsiaTemirForm();
+            t.ShowDialog();
+        }
+
+        private void металлСервисToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MetallServiseForm ms = new MetallServiseForm();
+            ms.ShowDialog();
+        }
+        private void выходToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void KaztemirContractForm_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToChooseButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            // MainCalculationChooseForm s = new MainCalculationChooseForm();
+            this.Hide();
+            StartForm s = new StartForm();
+            s.ShowDialog();
+        }
+        private void label167_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label145_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label229_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Проставьте значения");
+        }
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

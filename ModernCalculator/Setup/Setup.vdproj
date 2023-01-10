@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3BCAC9D29C0A427F92825E683FF0B78D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F33FE23614954866B072BA55C16EC844"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -100,6 +94,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -159,26 +161,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3BCAC9D29C0A427F92825E683FF0B78D"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\Desktop\\MC\\Калькуляция Modern\\icon\\icon.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_15A80C8CC5C44AE0B3000880433D2FA8"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -249,7 +231,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup"
         "ProductCode" = "8:{B40AFA2E-B158-4601-B664-9AED34EA319F}"
-        "PackageCode" = "8:{9F1F00DF-9659-4148-8089-2123B0ECD11C}"
+        "PackageCode" = "8:{444945A1-823A-4BA4-8280-DA80D62527EA}"
         "UpgradeCode" = "8:{869321C2-5015-49A4-8983-8B5A6C0A5C67}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -380,7 +362,7 @@
             "Target" = "8:_F33FE23614954866B072BA55C16EC844"
             "Folder" = "8:_15A80C8CC5C44AE0B3000880433D2FA8"
             "WorkingFolder" = "8:_74569692F49541B1992D6112842284FE"
-            "Icon" = "8:_3BCAC9D29C0A427F92825E683FF0B78D"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CABFE58B0C364951BD05CF015285799D"
@@ -394,7 +376,7 @@
             "Target" = "8:_F33FE23614954866B072BA55C16EC844"
             "Folder" = "8:_036FE145491A4C4E8E6FFC14C2168EB0"
             "WorkingFolder" = "8:_74569692F49541B1992D6112842284FE"
-            "Icon" = "8:_3BCAC9D29C0A427F92825E683FF0B78D"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }

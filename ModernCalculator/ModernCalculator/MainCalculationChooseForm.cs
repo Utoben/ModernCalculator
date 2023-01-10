@@ -24,9 +24,9 @@ namespace ModernCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            KaztemirContractForm k = new KaztemirContractForm();
-            k.ShowDialog();
+            //this.Hide();
+            //KaztemirContractForm k = new KaztemirContractForm();
+            //k.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)

@@ -40,8 +40,9 @@ namespace ModernCalculator
         private void MainCalculationButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainCalculationChooseForm m = new MainCalculationChooseForm();
-            m.ShowDialog();
+            //MainCalculationChooseForm m = new MainCalculationChooseForm();
+            KaztemirContractForm k = new KaztemirContractForm();
+            k.ShowDialog();
         }
     }
 }
