@@ -37,6 +37,115 @@ namespace ModernCalculator
             
             Arm10TB.KeyDown += Arm10TB_KeyDown;
             Arm12TB.KeyDown += Arm12TB_KeyDown;
+            Arm14TB.KeyDown += Arm14TB_KeyDown;
+            Arm16TB.KeyDown += Arm16TB_KeyDown;
+            Arm18TB.KeyDown += Arm18TB_KeyDown;
+
+            SteelCircle8TB.KeyDown += SteelCircle8TB_KeyDown;
+            SteelCircle10TB.KeyDown +=SteelCircle10TB_KeyDown;
+            SteelCircle12TB.KeyDown +=SteelCircle12TB_KeyDown;
+            SteelCircle14TB.KeyDown +=SteelCircle14TB_KeyDown;
+            SteelCircle16TB.KeyDown +=SteelCircle16TB_KeyDown;
+            SteelCircle18TB.KeyDown +=SteelCircle18TB_KeyDown;
+            SteelCircle20TB.KeyDown +=SteelCircle20TB_KeyDown;
+
+            Sq8_TB.KeyDown +=Sq8_TB_KeyDown;
+            Sq10_TB.KeyDown +=Sq10_TB_KeyDown;
+            Sq12_TB.KeyDown +=Sq12_TB_KeyDown;
+            Sq14_TB.KeyDown +=Sq14_TB_KeyDown;
+            
+            Corner1_TB.KeyDown +=Corner1_TB_KeyDown;
+            Corner2_TB.KeyDown +=Corner2_TB_KeyDown;
+            Corner3_TB.KeyDown +=Corner3_TB_KeyDown;
+            Corner4_TB.KeyDown +=Corner4_TB_KeyDown;
+            Corner5_TB.KeyDown +=Corner5_TB_KeyDown;
+            Corner6_TB.KeyDown +=Corner6_TB_KeyDown;
+            Corner7_TB.KeyDown +=Corner7_TB_KeyDown;
+            Corner8_TB.KeyDown +=Corner8_TB_KeyDown;
+            Corner9_TB.KeyDown +=Corner9_TB_KeyDown;
+            Corner10_TB.KeyDown +=Corner10_TB_KeyDown;
+
+            Shv_TB_10.KeyDown +=Shv_TB_10_KeyDown;
+            Shv_TB_12.KeyDown +=Shv_TB_12_KeyDown;
+            Shv_TB_14.KeyDown +=Shv_TB_14_KeyDown;
+            Shv_TB_16.KeyDown +=Shv_TB_16_KeyDown;
+            Shv_TB_18.KeyDown +=Shv_TB_18_KeyDown;
+
+            Stripe_TB_1.KeyDown +=Stripe_TB_1_KeyDown;
+            Stripe_TB_2.KeyDown +=Stripe_TB_2_KeyDown;
+            Stripe_TB_3.KeyDown +=Stripe_TB_3_KeyDown;
+            Stripe_TB_4.KeyDown +=Stripe_TB_4_KeyDown;
+
+            Pipe_Rect_TB_1.KeyDown +=Pipe_Rect_TB_1_KeyDown;
+            Pipe_Rect_TB_2.KeyDown +=Pipe_Rect_TB_2_KeyDown;
+            Pipe_Rect_TB_3.KeyDown +=Pipe_Rect_TB_3_KeyDown;
+            Pipe_Rect_TB_4.KeyDown +=Pipe_Rect_TB_4_KeyDown;
+            Pipe_Rect_TB_5.KeyDown +=Pipe_Rect_TB_5_KeyDown;
+            Pipe_Rect_TB_6.KeyDown +=Pipe_Rect_TB_6_KeyDown;
+            Pipe_Rect_TB_7.KeyDown +=Pipe_Rect_TB_7_KeyDown;
+            Pipe_Rect_TB_8.KeyDown +=Pipe_Rect_TB_8_KeyDown;
+            Pipe_Rect_TB_9.KeyDown +=Pipe_Rect_TB_9_KeyDown;
+            Pipe_Rect_TB_10.KeyDown +=Pipe_Rect_TB_10_KeyDown;
+            Pipe_Rect_TB_11.KeyDown +=Pipe_Rect_TB_11_KeyDown;
+            Pipe_Rect_TB_12.KeyDown +=Pipe_Rect_TB_12_KeyDown;
+            Pipe_Rect_TB_13.KeyDown +=Pipe_Rect_TB_13_KeyDown;
+            Pipe_Rect_TB_14.KeyDown +=Pipe_Rect_TB_14_KeyDown;
+            Pipe_Rect_TB_15.KeyDown +=Pipe_Rect_TB_15_KeyDown;
+
+            Shet_TB_1.KeyDown +=Shet_TB_1_KeyDown;
+            Shet_TB_2.KeyDown +=Shet_TB_2_KeyDown;
+            Shet_TB_3.KeyDown +=Shet_TB_3_KeyDown;
+            Shet_TB_4.KeyDown +=Shet_TB_4_KeyDown;
+            Shet_TB_5.KeyDown +=Shet_TB_5_KeyDown;
+            Shet_TB_6.KeyDown +=Shet_TB_6_KeyDown;
+            Shet_TB_7.KeyDown +=Shet_TB_7_KeyDown;
+            Shet_TB_8.KeyDown +=Shet_TB_8_KeyDown;
+
+            Seamless_Pipe_TB_1.KeyDown +=Seamless_Pipe_TB_1_KeyDown;
+            Seamless_Pipe_TB_2.KeyDown +=Seamless_Pipe_TB_2_KeyDown;
+
+            VGP_Pipe_TB_1.KeyDown +=VGP_Pipe_TB_1_KeyDown;
+            VGP_Pipe_TB_2.KeyDown +=VGP_Pipe_TB_2_KeyDown;
+            VGP_Pipe_TB_3.KeyDown +=VGP_Pipe_TB_3_KeyDown;
+            VGP_Pipe_TB_4.KeyDown +=VGP_Pipe_TB_4_KeyDown;
+            VGP_Pipe_TB_5.KeyDown +=VGP_Pipe_TB_5_KeyDown;
+            VGP_Pipe_TB_6.KeyDown +=VGP_Pipe_TB_6_KeyDown;
+            VGP_Pipe_TB_7.KeyDown +=VGP_Pipe_TB_7_KeyDown;
+            VGP_Pipe_TB_8.KeyDown +=VGP_Pipe_TB_8_KeyDown;
+            VGP_Pipe_TB_9.KeyDown +=VGP_Pipe_TB_9_KeyDown;
+            VGP_Pipe_TB_10.KeyDown +=VGP_Pipe_TB_10_KeyDown;
+            VGP_Pipe_TB_11.KeyDown +=VGP_Pipe_TB_11_KeyDown;
+            VGP_Pipe_TB_12.KeyDown +=VGP_Pipe_TB_12_KeyDown;
+            VGP_Pipe_TB_13.KeyDown +=VGP_Pipe_TB_13_KeyDown;
+            VGP_Pipe_TB_14.KeyDown +=VGP_Pipe_TB_14_KeyDown;
+            VGP_Pipe_TB_15.KeyDown +=VGP_Pipe_TB_15_KeyDown;
+            VGP_Pipe_TB_16.KeyDown +=VGP_Pipe_TB_16_KeyDown;
+
+            El_Weld_Pipe_TB_1.KeyDown +=El_Weld_Pipe_TB_1_KeyDown;
+            El_Weld_Pipe_TB_2.KeyDown +=El_Weld_Pipe_TB_2_KeyDown;
+            El_Weld_Pipe_TB_3.KeyDown +=El_Weld_Pipe_TB_3_KeyDown;
+
+            Rect_Steel_Pipe_TB_1.KeyDown +=Rect_Steel_Pipe_TB_1_KeyDown;
+            Rect_Steel_Pipe_TB_2.KeyDown +=Rect_Steel_Pipe_TB_2_KeyDown;
+            Rect_Steel_Pipe_TB_3.KeyDown +=Rect_Steel_Pipe_TB_3_KeyDown;
+            Rect_Steel_Pipe_TB_4.KeyDown +=Rect_Steel_Pipe_TB_4_KeyDown;
+            Rect_Steel_Pipe_TB_5.KeyDown +=Rect_Steel_Pipe_TB_5_KeyDown;
+            Rect_Steel_Pipe_TB_6.KeyDown +=Rect_Steel_Pipe_TB_6_KeyDown;
+            Rect_Steel_Pipe_TB_7.KeyDown +=Rect_Steel_Pipe_TB_7_KeyDown;
+            Rect_Steel_Pipe_TB_8.KeyDown +=Rect_Steel_Pipe_TB_8_KeyDown;
+            Rect_Steel_Pipe_TB_9.KeyDown +=Rect_Steel_Pipe_TB_9_KeyDown;
+            Rect_Steel_Pipe_TB_10.KeyDown +=Rect_Steel_Pipe_TB_10_KeyDown;
+            Rect_Steel_Pipe_TB_11.KeyDown +=Rect_Steel_Pipe_TB_11_KeyDown;
+            Rect_Steel_Pipe_TB_12.KeyDown +=Rect_Steel_Pipe_TB_12_KeyDown;
+            Rect_Steel_Pipe_TB_13.KeyDown +=Rect_Steel_Pipe_TB_13_KeyDown;
+            Rect_Steel_Pipe_TB_14.KeyDown +=Rect_Steel_Pipe_TB_14_KeyDown;
+            Rect_Steel_Pipe_TB_15.KeyDown +=Rect_Steel_Pipe_TB_15_KeyDown;
+            Rect_Steel_Pipe_TB_16.KeyDown +=Rect_Steel_Pipe_TB_16_KeyDown;
+            Rect_Steel_Pipe_TB_17.KeyDown +=Rect_Steel_Pipe_TB_17_KeyDown;
+            Rect_Steel_Pipe_TB_18.KeyDown +=Rect_Steel_Pipe_TB_18_KeyDown;
+            Rect_Steel_Pipe_TB_19.KeyDown +=Rect_Steel_Pipe_TB_19_KeyDown;
+            Rect_Steel_Pipe_TB_20.KeyDown +=Rect_Steel_Pipe_TB_20_KeyDown;
+            Rect_Steel_Pipe_TB_21.KeyDown +=Rect_Steel_Pipe_TB_21_KeyDown;
 
             ///////////////////////////////////////////////////////////////
 
@@ -162,32 +271,719 @@ namespace ModernCalculator
 
         private void Arm10TB_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F1)
+            if (e.KeyCode == Keys.F2)
                 Arm12TB.Focus();
         }
         private void Arm12TB_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F1)
+            if (e.KeyCode == Keys.F2)
                 Arm14TB.Focus();
-            else if (e.KeyCode == Keys.F2)
+            else if (e.KeyCode == Keys.F1)
                 Arm10TB.Focus();
         }
 
-        /*protected override bool ProcessCmdKey(ref Text msg, Keys keyData)
+        private void Arm14TB_KeyDown(object sender, KeyEventArgs e)
         {
-            if (keyData == (Keys.Down))//Меняй кнопки на что хочешь
-                string x = Arm12TB.Focus();
-
-            return base.ProcessCmdKey(ref msg, keyData);
-        }*/
-        protected override void OnClick(EventArgs e) {
-            //this.SelectAll();
-            base.OnClick(e);
+            if (e.KeyCode == Keys.F2)
+                Arm16TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Arm12TB.Focus();
         }
-        /*protected void InvokeOnClick(System.Windows.Forms.Control toInvoke, EventArgs e)
+        private void Arm16TB_KeyDown(object sender, KeyEventArgs e)
         {
-            //toInvoke = Arm12TB;
-        }*/
+            if (e.KeyCode == Keys.F2)
+                Arm18TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Arm14TB.Focus();
+        }
+        private void Arm18TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle8TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Arm16TB.Focus();
+        }
+        //-------------------------------------------------------------------------
+        private void SteelCircle8TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle10TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Arm18TB.Focus();
+        }
+        private void SteelCircle10TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle12TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle8TB.Focus();
+        }
+        private void SteelCircle12TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle14TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle10TB.Focus();
+        }
+        private void SteelCircle14TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle16TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle12TB.Focus();
+        }
+        private void SteelCircle16TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle18TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle14TB.Focus();
+        }
+        private void SteelCircle18TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                SteelCircle20TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle16TB.Focus();
+        }
+        private void SteelCircle20TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Sq8_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle18TB.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Sq8_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Sq10_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                SteelCircle20TB.Focus();
+        }
+        private void Sq10_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Sq12_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Sq8_TB.Focus();
+        }
+        private void Sq12_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Sq14_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Sq10_TB.Focus();
+        }
+        private void Sq14_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner1_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Sq12_TB.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Corner1_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner2_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Sq14_TB.Focus();
+        }
+        private void Corner2_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner3_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner1_TB.Focus();
+        }
+        private void Corner3_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner4_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner2_TB.Focus();
+        }
+        private void Corner4_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner5_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner3_TB.Focus();
+        }
+        private void Corner5_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner6_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner4_TB.Focus();
+        }
+        private void Corner6_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner7_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner5_TB.Focus();
+        }
+        private void Corner7_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner8_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner6_TB.Focus();
+        }
+        private void Corner8_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner9_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner7_TB.Focus();
+        }
+        private void Corner9_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Corner10_TB.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner8_TB.Focus();
+        }
+        private void Corner10_TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shv_TB_10.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner9_TB.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Shv_TB_10_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shv_TB_12.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Corner10_TB.Focus();
+        }
+        private void Shv_TB_12_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shv_TB_14.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shv_TB_10.Focus();
+        }
+        private void Shv_TB_14_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shv_TB_16.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shv_TB_12.Focus();
+        }
+        private void Shv_TB_16_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shv_TB_18.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shv_TB_14.Focus();
+        }
+        private void Shv_TB_18_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Stripe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shv_TB_16.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Stripe_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Stripe_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shv_TB_18.Focus();
+        }
+        private void Stripe_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Stripe_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Stripe_TB_1.Focus();
+        }
+        private void Stripe_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Stripe_TB_4.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Stripe_TB_2.Focus();
+        }
+        private void Stripe_TB_4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Stripe_TB_3.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Pipe_Rect_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Stripe_TB_4.Focus();
+        }
+        private void Pipe_Rect_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_1.Focus();
+        }
+        private void Pipe_Rect_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_4.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_2.Focus();
+        }
+        private void Pipe_Rect_TB_4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_5.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_3.Focus();
+        }
+        private void Pipe_Rect_TB_5_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_6.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_4.Focus();
+        }
+        private void Pipe_Rect_TB_6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_7.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_5.Focus();
+        }
+        private void Pipe_Rect_TB_7_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_8.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_6.Focus();
+        }
+        private void Pipe_Rect_TB_8_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_9.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_7.Focus();
+        }
+        private void Pipe_Rect_TB_9_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_10.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_8.Focus();
+        }
+        private void Pipe_Rect_TB_10_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_11.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_9.Focus();
+        }
+        private void Pipe_Rect_TB_11_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_12.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_10.Focus();
+        }
+        private void Pipe_Rect_TB_12_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_13.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_11.Focus();
+        }
+        private void Pipe_Rect_TB_13_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_14.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_12.Focus();
+        }
+        private void Pipe_Rect_TB_14_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Pipe_Rect_TB_15.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_13.Focus();
+        }
+        private void Pipe_Rect_TB_15_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_14.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Shet_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Pipe_Rect_TB_14.Focus();
+        }
+        private void Shet_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_1.Focus();
+        }
+        private void Shet_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_4.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_2.Focus();
+        }
+        private void Shet_TB_4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_5.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_3.Focus();
+        }
+        private void Shet_TB_5_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_6.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_4.Focus();
+        }
+        private void Shet_TB_6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_7.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_5.Focus();
+        }
+        private void Shet_TB_7_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Shet_TB_8.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_6.Focus();
+        }
+        private void Shet_TB_8_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Seamless_Pipe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_7.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Seamless_Pipe_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Seamless_Pipe_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Shet_TB_8.Focus();
+        }
+        private void Seamless_Pipe_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Seamless_Pipe_TB_1.Focus();
+        }
+
+        //-----------------------------------------------------------------------------------------------------------
+        private void VGP_Pipe_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Seamless_Pipe_TB_2.Focus();
+        }
+        private void VGP_Pipe_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_1.Focus();
+        }
+        private void VGP_Pipe_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_4.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_2.Focus();
+        }
+        private void VGP_Pipe_TB_4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_5.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_3.Focus();
+        }
+        private void VGP_Pipe_TB_5_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_6.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_4.Focus();
+        }
+        private void VGP_Pipe_TB_6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_7.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_5.Focus();
+        }
+        private void VGP_Pipe_TB_7_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_8.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_6.Focus();
+        }
+        private void VGP_Pipe_TB_8_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_9.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_7.Focus();
+        }
+        private void VGP_Pipe_TB_9_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_10.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_8.Focus();
+        }
+        private void VGP_Pipe_TB_10_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_11.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_9.Focus();
+        }
+        private void VGP_Pipe_TB_11_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_12.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_10.Focus();
+        }
+        private void VGP_Pipe_TB_12_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_13.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_11.Focus();
+        }
+        private void VGP_Pipe_TB_13_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_14.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_12.Focus();
+        }
+        private void VGP_Pipe_TB_14_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                VGP_Pipe_TB_15.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_13.Focus();
+        }
+        private void VGP_Pipe_TB_15_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                El_Weld_Pipe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_14.Focus();
+        }
+        private void VGP_Pipe_TB_16_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                El_Weld_Pipe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_15.Focus();
+        }
+
+        //-----------------------------------------------------------------------------------------------------------
+        private void El_Weld_Pipe_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                El_Weld_Pipe_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                VGP_Pipe_TB_16.Focus();
+        }
+        private void El_Weld_Pipe_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                El_Weld_Pipe_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                El_Weld_Pipe_TB_1.Focus();
+        }
+        private void El_Weld_Pipe_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_1.Focus();
+            else if (e.KeyCode == Keys.F1)
+                El_Weld_Pipe_TB_2.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+        private void Rect_Steel_Pipe_TB_1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_2.Focus();
+            else if (e.KeyCode == Keys.F1)
+                El_Weld_Pipe_TB_3.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_3.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_1.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_4.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_2.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_4_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_5.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_3.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_5_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_6.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_4.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_7.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_5.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_7_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_8.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_6.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_8_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_9.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_7.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_9_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_10.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_8.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_10_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_11.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_9.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_11_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_12.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_10.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_12_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_13.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_11.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_13_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_14.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_12.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_14_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_15.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_13.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_15_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_16.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_14.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_16_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_17.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_15.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_17_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_18.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_16.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_18_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_19.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_17.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_19_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_20.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_18.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_20_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_21.Focus();
+            else if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_19.Focus();
+        }
+        private void Rect_Steel_Pipe_TB_21_KeyDown(object sender, KeyEventArgs e)
+        {
+            /*if (e.KeyCode == Keys.F2)
+                Rect_Steel_Pipe_TB_1.Focus(); */
+            if (e.KeyCode == Keys.F1)
+                Rect_Steel_Pipe_TB_20.Focus();
+        }
+        //-----------------------------------------------------------------------------------------------------------
+
+
         private void Arm10TB_TextChanged(object sender, EventArgs e)
         {
             double.TryParse(Arm10TB.Text, out Arm10Text);
@@ -1248,11 +2044,9 @@ namespace ModernCalculator
 
         private void ToChooseButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            /*this.Hide();
             // MainCalculationChooseForm s = new MainCalculationChooseForm();
-            this.Hide();
-            StartForm s = new StartForm();
-            s.ShowDialog();
+            */
         }
         private void label167_Click(object sender, EventArgs e)
         {
@@ -1309,6 +2103,23 @@ namespace ModernCalculator
 
             //подсчет Хлыстов
 
+        }
+
+        protected override bool ProcessCmdKey(ref Text msg, Keys keyData)
+        {
+            if (keyData == (Keys.Down))//Меняй кнопки на что хочешь
+                string x = Arm12TB.Focus();
+
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+        protected override void OnClick(EventArgs e)
+        {
+            //this.SelectAll();
+            base.OnClick(e);
+        }
+        /*protected void InvokeOnClick(System.Windows.Forms.Control toInvoke, EventArgs e)
+        {
+            //toInvoke = Arm12TB;
         }*/
     }
 }

@@ -31,8 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KaztemirContractForm));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поставщикиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.азияТемирЦентрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.металлСервисToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.стальнойДворToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.металпрНаСмагуловаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -78,7 +83,6 @@
             this.Perc20_Arm14Label = new System.Windows.Forms.Label();
             this.Perc20_Arm12Label = new System.Windows.Forms.Label();
             this.Perc20_Arm10Label = new System.Windows.Forms.Label();
-            this.ToChooseButton = new System.Windows.Forms.Button();
             this.Perc_SteelCircle_Lbl_16 = new System.Windows.Forms.Label();
             this.Perc_SteelCircle_Lbl_14 = new System.Windows.Forms.Label();
             this.Perc_SteelCircle_Lbl_12 = new System.Windows.Forms.Label();
@@ -927,11 +931,6 @@
             this.Rect_Steel_Pipe_TB_18 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_17 = new System.Windows.Forms.TextBox();
             this.Rect_Steel_Pipe_TB_21 = new System.Windows.Forms.TextBox();
-            this.поставщикиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.азияТемирЦентрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.металлСервисToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.стальнойДворToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.металпрНаСмагуловаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.OrderTB = new System.Windows.Forms.TextBox();
             this.OrderLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -959,9 +958,53 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(923, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(940, 25);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // поставщикиToolStripMenuItem
+            // 
+            this.поставщикиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.азияТемирЦентрToolStripMenuItem,
+            this.металлСервисToolStripMenuItem,
+            this.стальнойДворToolStripMenuItem,
+            this.металпрНаСмагуловаToolStripMenuItem});
+            this.поставщикиToolStripMenuItem.Name = "поставщикиToolStripMenuItem";
+            this.поставщикиToolStripMenuItem.Size = new System.Drawing.Size(89, 19);
+            this.поставщикиToolStripMenuItem.Text = "Поставщики";
+            // 
+            // азияТемирЦентрToolStripMenuItem
+            // 
+            this.азияТемирЦентрToolStripMenuItem.Name = "азияТемирЦентрToolStripMenuItem";
+            this.азияТемирЦентрToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.азияТемирЦентрToolStripMenuItem.Text = "Азия Темир Центр";
+            this.азияТемирЦентрToolStripMenuItem.Click += new System.EventHandler(this.азияТемирЦентрToolStripMenuItem_Click_1);
+            // 
+            // металлСервисToolStripMenuItem
+            // 
+            this.металлСервисToolStripMenuItem.Name = "металлСервисToolStripMenuItem";
+            this.металлСервисToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.металлСервисToolStripMenuItem.Text = "МеталлСервис";
+            this.металлСервисToolStripMenuItem.Click += new System.EventHandler(this.металлСервисToolStripMenuItem_Click_1);
+            // 
+            // стальнойДворToolStripMenuItem
+            // 
+            this.стальнойДворToolStripMenuItem.Name = "стальнойДворToolStripMenuItem";
+            this.стальнойДворToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.стальнойДворToolStripMenuItem.Text = "Стальной двор";
+            this.стальнойДворToolStripMenuItem.Click += new System.EventHandler(this.стальнойДворToolStripMenuItem_Click);
+            // 
+            // металпрНаСмагуловаToolStripMenuItem
+            // 
+            this.металпрНаСмагуловаToolStripMenuItem.Name = "металпрНаСмагуловаToolStripMenuItem";
+            this.металпрНаСмагуловаToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.металпрНаСмагуловаToolStripMenuItem.Text = "Метал-пр. На Смагулова";
+            // 
+            // справкаToolStripMenuItem
+            // 
+            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 19);
+            this.справкаToolStripMenuItem.Text = "Справка";
             // 
             // выходToolStripMenuItem
             // 
@@ -969,12 +1012,6 @@
             this.выходToolStripMenuItem.Size = new System.Drawing.Size(54, 19);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click_1);
-            // 
-            // справкаToolStripMenuItem
-            // 
-            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 19);
-            this.справкаToolStripMenuItem.Text = "Справка";
             // 
             // label35
             // 
@@ -1552,18 +1589,6 @@
             this.Perc20_Arm10Label.TabIndex = 137;
             this.Perc20_Arm10Label.Text = "0";
             this.Perc20_Arm10Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ToChooseButton
-            // 
-            this.ToChooseButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ToChooseButton.Location = new System.Drawing.Point(792, 47);
-            this.ToChooseButton.Name = "ToChooseButton";
-            this.ToChooseButton.Size = new System.Drawing.Size(85, 38);
-            this.ToChooseButton.TabIndex = 142;
-            this.ToChooseButton.TabStop = false;
-            this.ToChooseButton.Text = "Назад";
-            this.ToChooseButton.UseVisualStyleBackColor = true;
-            this.ToChooseButton.Click += new System.EventHandler(this.ToChooseButton_Click);
             // 
             // Perc_SteelCircle_Lbl_16
             // 
@@ -12420,44 +12445,6 @@
             this.Rect_Steel_Pipe_TB_21.TabIndex = 1135;
             this.Rect_Steel_Pipe_TB_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // поставщикиToolStripMenuItem
-            // 
-            this.поставщикиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.азияТемирЦентрToolStripMenuItem,
-            this.металлСервисToolStripMenuItem,
-            this.стальнойДворToolStripMenuItem,
-            this.металпрНаСмагуловаToolStripMenuItem});
-            this.поставщикиToolStripMenuItem.Name = "поставщикиToolStripMenuItem";
-            this.поставщикиToolStripMenuItem.Size = new System.Drawing.Size(89, 19);
-            this.поставщикиToolStripMenuItem.Text = "Поставщики";
-            // 
-            // азияТемирЦентрToolStripMenuItem
-            // 
-            this.азияТемирЦентрToolStripMenuItem.Name = "азияТемирЦентрToolStripMenuItem";
-            this.азияТемирЦентрToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.азияТемирЦентрToolStripMenuItem.Text = "Азия Темир Центр";
-            this.азияТемирЦентрToolStripMenuItem.Click += new System.EventHandler(this.азияТемирЦентрToolStripMenuItem_Click_1);
-            // 
-            // металлСервисToolStripMenuItem
-            // 
-            this.металлСервисToolStripMenuItem.Name = "металлСервисToolStripMenuItem";
-            this.металлСервисToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.металлСервисToolStripMenuItem.Text = "МеталлСервис";
-            this.металлСервисToolStripMenuItem.Click += new System.EventHandler(this.металлСервисToolStripMenuItem_Click_1);
-            // 
-            // стальнойДворToolStripMenuItem
-            // 
-            this.стальнойДворToolStripMenuItem.Name = "стальнойДворToolStripMenuItem";
-            this.стальнойДворToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.стальнойДворToolStripMenuItem.Text = "Стальной двор";
-            this.стальнойДворToolStripMenuItem.Click += new System.EventHandler(this.стальнойДворToolStripMenuItem_Click);
-            // 
-            // металпрНаСмагуловаToolStripMenuItem
-            // 
-            this.металпрНаСмагуловаToolStripMenuItem.Name = "металпрНаСмагуловаToolStripMenuItem";
-            this.металпрНаСмагуловаToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
-            this.металпрНаСмагуловаToolStripMenuItem.Text = "Метал-пр. На Смагулова";
-            // 
             // OrderTB
             // 
             this.OrderTB.BackColor = System.Drawing.SystemColors.Menu;
@@ -12487,7 +12474,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(940, 749);
+            this.ClientSize = new System.Drawing.Size(957, 749);
             this.Controls.Add(this.OrderLbl);
             this.Controls.Add(this.OrderTB);
             this.Controls.Add(this.Rect_Steel_Pipe_TB_21);
@@ -13338,7 +13325,6 @@
             this.Controls.Add(this.label90);
             this.Controls.Add(this.label91);
             this.Controls.Add(this.label92);
-            this.Controls.Add(this.ToChooseButton);
             this.Controls.Add(this.Perc20_Arm18Label);
             this.Controls.Add(this.Perc20_Arm16Label);
             this.Controls.Add(this.Perc20_Arm14Label);
@@ -13450,7 +13436,6 @@
         private System.Windows.Forms.Label Perc20_Arm14Label;
         private System.Windows.Forms.Label Perc20_Arm12Label;
         private System.Windows.Forms.Label Perc20_Arm10Label;
-        private System.Windows.Forms.Button ToChooseButton;
         private System.Windows.Forms.Label Perc_SteelCircle_Lbl_16;
         private System.Windows.Forms.Label Perc_SteelCircle_Lbl_14;
         private System.Windows.Forms.Label Perc_SteelCircle_Lbl_12;
