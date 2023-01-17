@@ -351,20 +351,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0A226D4E30D14D01954518878E4B91A7"
-            {
-            "Name" = "8:ModernCalculator"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_F33FE23614954866B072BA55C16EC844"
-            "Folder" = "8:_15A80C8CC5C44AE0B3000880433D2FA8"
-            "WorkingFolder" = "8:_74569692F49541B1992D6112842284FE"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CABFE58B0C364951BD05CF015285799D"
             {
             "Name" = "8:ModernCalculator_Installer"

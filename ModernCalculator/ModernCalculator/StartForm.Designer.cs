@@ -143,7 +143,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.MaximumSize = new System.Drawing.Size(580, 320);
             this.Name = "StartForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modern Calculation";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

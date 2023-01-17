@@ -8,6 +8,8 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 
 namespace ModernCalculator
 {
@@ -31,7 +33,14 @@ namespace ModernCalculator
         public KaztemirContractForm()
         {
             InitializeComponent();
-            Arm10TB.TextChanged += Arm10TB_TextChanged;
+            //Arm10TB.PreviewKeyDown += Arm10TB_PreviewKeyDown;
+            
+            Arm10TB.KeyDown += Arm10TB_KeyDown;
+            Arm12TB.KeyDown += Arm12TB_KeyDown;
+
+            ///////////////////////////////////////////////////////////////
+
+            Arm10TB.TextChanged += Arm10TB_TextChanged; // К текстовому полю добавляется в разделе События событие = метод textBox_TextChanged, оно меняет поля связанные рассчетом калькуляции
             Arm12TB.TextChanged += Arm12TB_TextChanged;
             Arm14TB.TextChanged += Arm14TB_TextChanged;
             Arm16TB.TextChanged += Arm16TB_TextChanged;
@@ -67,7 +76,7 @@ namespace ModernCalculator
             Shv_TB_16.TextChanged +=Shv_TB_16_TextChanged;
             Shv_TB_18.TextChanged +=Shv_TB_18_TextChanged;
 
-            /*Stripe_TB_1.TextChanged +=Stripe_TB_1_TextChanged;
+            Stripe_TB_1.TextChanged +=Stripe_TB_1_TextChanged;
             Stripe_TB_2.TextChanged +=Stripe_TB_2_TextChanged;
             Stripe_TB_3.TextChanged +=Stripe_TB_3_TextChanged;
             Stripe_TB_4.TextChanged +=Stripe_TB_4_TextChanged;
@@ -120,7 +129,7 @@ namespace ModernCalculator
             El_Weld_Pipe_TB_1.TextChanged +=El_Weld_Pipe_TB_1_TextChanged;
             El_Weld_Pipe_TB_2.TextChanged +=El_Weld_Pipe_TB_2_TextChanged;
             El_Weld_Pipe_TB_3.TextChanged +=El_Weld_Pipe_TB_3_TextChanged;
-            
+
             Rect_Steel_Pipe_TB_1.TextChanged +=Rect_Steel_Pipe_TB_1_TextChanged;
             Rect_Steel_Pipe_TB_2.TextChanged +=Rect_Steel_Pipe_TB_2_TextChanged;
             Rect_Steel_Pipe_TB_3.TextChanged +=Rect_Steel_Pipe_TB_3_TextChanged;
@@ -141,10 +150,44 @@ namespace ModernCalculator
             Rect_Steel_Pipe_TB_18.TextChanged +=Rect_Steel_Pipe_TB_18_TextChanged;
             Rect_Steel_Pipe_TB_19.TextChanged +=Rect_Steel_Pipe_TB_19_TextChanged;
             Rect_Steel_Pipe_TB_20.TextChanged +=Rect_Steel_Pipe_TB_20_TextChanged;
-            Rect_Steel_Pipe_TB_21.TextChanged +=Rect_Steel_Pipe_TB_21_TextChanged;*/
+            Rect_Steel_Pipe_TB_21.TextChanged +=Rect_Steel_Pipe_TB_21_TextChanged;
 
         }
+        private void Arm10TB_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down) 
+                e.IsInputKey = true; // теперь стрелка будет вызывать KeyDown
+        }
+        /// ///////////////////////////////////////////////
 
+        private void Arm10TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+                Arm12TB.Focus();
+        }
+        private void Arm12TB_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+                Arm14TB.Focus();
+            else if (e.KeyCode == Keys.F2)
+                Arm10TB.Focus();
+        }
+
+        /*protected override bool ProcessCmdKey(ref Text msg, Keys keyData)
+        {
+            if (keyData == (Keys.Down))//Меняй кнопки на что хочешь
+                string x = Arm12TB.Focus();
+
+            return base.ProcessCmdKey(ref msg, keyData);
+        }*/
+        protected override void OnClick(EventArgs e) {
+            //this.SelectAll();
+            base.OnClick(e);
+        }
+        /*protected void InvokeOnClick(System.Windows.Forms.Control toInvoke, EventArgs e)
+        {
+            //toInvoke = Arm12TB;
+        }*/
         private void Arm10TB_TextChanged(object sender, EventArgs e)
         {
             double.TryParse(Arm10TB.Text, out Arm10Text);
@@ -399,7 +442,14 @@ namespace ModernCalculator
             Perc_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text * 20 / 100, 1));
             Whil_Corner_Lbl_10.Text = Convert.ToString(Math.Round(Corner10_Text / 6, 2));
         }
+
         
+
+
+
+
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void Shv_TB_10_TextChanged(object sender, EventArgs e)
         { 
@@ -446,419 +496,695 @@ namespace ModernCalculator
             Perc_Shv_Lbl_5.Text = Convert.ToString(Math.Round(Shv_Text_18 / 6, 2));
         }
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        private void RezultButton_Click(object sender, EventArgs e)
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void Stripe_TB_1_TextChanged(object sender, EventArgs e)
         {
-
-
             double.TryParse(Stripe_TB_1.Text, out Stripe_Text_1);
-            double.TryParse(Stripe_TB_2.Text, out Stripe_Text_2);
-            double.TryParse(Stripe_TB_3.Text, out Stripe_Text_3);
-            double.TryParse(Stripe_TB_4.Text, out Stripe_Text_4);
-
-            double.TryParse(Pipe_Rect_TB_1.Text, out Pipe_Rect_Text_1);
-            double.TryParse(Pipe_Rect_TB_2.Text, out Pipe_Rect_Text_2);
-            double.TryParse(Pipe_Rect_TB_3.Text, out Pipe_Rect_Text_3);
-            double.TryParse(Pipe_Rect_TB_4.Text, out Pipe_Rect_Text_4);
-            double.TryParse(Pipe_Rect_TB_5.Text, out Pipe_Rect_Text_5);
-            double.TryParse(Pipe_Rect_TB_6.Text, out Pipe_Rect_Text_6);
-            double.TryParse(Pipe_Rect_TB_7.Text, out Pipe_Rect_Text_7);
-            double.TryParse(Pipe_Rect_TB_8.Text, out Pipe_Rect_Text_8);
-            double.TryParse(Pipe_Rect_TB_9.Text, out Pipe_Rect_Text_9);
-            double.TryParse(Pipe_Rect_TB_10.Text, out Pipe_Rect_Text_10);
-            double.TryParse(Pipe_Rect_TB_11.Text, out Pipe_Rect_Text_11);
-            double.TryParse(Pipe_Rect_TB_12.Text, out Pipe_Rect_Text_12);
-            double.TryParse(Pipe_Rect_TB_13.Text, out Pipe_Rect_Text_13);
-            double.TryParse(Pipe_Rect_TB_14.Text, out Pipe_Rect_Text_14);
-            double.TryParse(Pipe_Rect_TB_15.Text, out Pipe_Rect_Text_15);
-
-            double.TryParse(Shet_TB_1.Text, out Shet_Text_1);
-            double.TryParse(Shet_TB_2.Text, out Shet_Text_2);
-            double.TryParse(Shet_TB_3.Text, out Shet_Text_3);
-            double.TryParse(Shet_TB_4.Text, out Shet_Text_4);
-            double.TryParse(Shet_TB_5.Text, out Shet_Text_5);
-            double.TryParse(Shet_TB_6.Text, out Shet_Text_6);
-            double.TryParse(Shet_TB_7.Text, out Shet_Text_7);
-            double.TryParse(Shet_TB_8.Text, out Shet_Text_8);
-
-            double.TryParse(Seamless_Pipe_TB_1.Text, out Seamless_Pipe_Text_1);
-            double.TryParse(Seamless_Pipe_TB_2.Text, out Seamless_Pipe_Text_2);
-
-            double.TryParse(VGP_Pipe_TB_1.Text, out VGP_Pipe_Text_1);
-            double.TryParse(VGP_Pipe_TB_2.Text, out VGP_Pipe_Text_2);
-            double.TryParse(VGP_Pipe_TB_3.Text, out VGP_Pipe_Text_3);
-            double.TryParse(VGP_Pipe_TB_4.Text, out VGP_Pipe_Text_4);
-            double.TryParse(VGP_Pipe_TB_5.Text, out VGP_Pipe_Text_5);
-            double.TryParse(VGP_Pipe_TB_6.Text, out VGP_Pipe_Text_6);
-            double.TryParse(VGP_Pipe_TB_7.Text, out VGP_Pipe_Text_7);
-            double.TryParse(VGP_Pipe_TB_8.Text, out VGP_Pipe_Text_8);
-            double.TryParse(VGP_Pipe_TB_9.Text, out VGP_Pipe_Text_9);
-            double.TryParse(VGP_Pipe_TB_10.Text, out VGP_Pipe_Text_10);
-            double.TryParse(VGP_Pipe_TB_11.Text, out VGP_Pipe_Text_11);
-            double.TryParse(VGP_Pipe_TB_12.Text, out VGP_Pipe_Text_12);
-            double.TryParse(VGP_Pipe_TB_13.Text, out VGP_Pipe_Text_13);
-            double.TryParse(VGP_Pipe_TB_14.Text, out VGP_Pipe_Text_14);
-            double.TryParse(VGP_Pipe_TB_15.Text, out VGP_Pipe_Text_15);
-            double.TryParse(VGP_Pipe_TB_16.Text, out VGP_Pipe_Text_16);
-
-            double.TryParse(El_Weld_Pipe_TB_1.Text, out El_Weld_Pipe_Text_1);
-            double.TryParse(El_Weld_Pipe_TB_2.Text, out El_Weld_Pipe_Text_2);
-            double.TryParse(El_Weld_Pipe_TB_3.Text, out El_Weld_Pipe_Text_3);
-
-            double.TryParse(Rect_Steel_Pipe_TB_1.Text, out Rect_Steel_Pipe_Text_1);
-            double.TryParse(Rect_Steel_Pipe_TB_2.Text, out Rect_Steel_Pipe_Text_2);
-            double.TryParse(Rect_Steel_Pipe_TB_3.Text, out Rect_Steel_Pipe_Text_3);
-            double.TryParse(Rect_Steel_Pipe_TB_4.Text, out Rect_Steel_Pipe_Text_4);
-            double.TryParse(Rect_Steel_Pipe_TB_5.Text, out Rect_Steel_Pipe_Text_5);
-            double.TryParse(Rect_Steel_Pipe_TB_6.Text, out Rect_Steel_Pipe_Text_6);
-            double.TryParse(Rect_Steel_Pipe_TB_7.Text, out Rect_Steel_Pipe_Text_7);
-            double.TryParse(Rect_Steel_Pipe_TB_8.Text, out Rect_Steel_Pipe_Text_8);
-            double.TryParse(Rect_Steel_Pipe_TB_9.Text, out Rect_Steel_Pipe_Text_9);
-            double.TryParse(Rect_Steel_Pipe_TB_10.Text, out Rect_Steel_Pipe_Text_10);
-            double.TryParse(Rect_Steel_Pipe_TB_11.Text, out Rect_Steel_Pipe_Text_11);
-            double.TryParse(Rect_Steel_Pipe_TB_12.Text, out Rect_Steel_Pipe_Text_12);
-            double.TryParse(Rect_Steel_Pipe_TB_13.Text, out Rect_Steel_Pipe_Text_13);
-            double.TryParse(Rect_Steel_Pipe_TB_14.Text, out Rect_Steel_Pipe_Text_14);
-            double.TryParse(Rect_Steel_Pipe_TB_15.Text, out Rect_Steel_Pipe_Text_15);
-            double.TryParse(Rect_Steel_Pipe_TB_16.Text, out Rect_Steel_Pipe_Text_16);
-            double.TryParse(Rect_Steel_Pipe_TB_17.Text, out Rect_Steel_Pipe_Text_17);
-            double.TryParse(Rect_Steel_Pipe_TB_18.Text, out Rect_Steel_Pipe_Text_18);
-            double.TryParse(Rect_Steel_Pipe_TB_19.Text, out Rect_Steel_Pipe_Text_19);
-            double.TryParse(Rect_Steel_Pipe_TB_20.Text, out Rect_Steel_Pipe_Text_20);
-            double.TryParse(Rect_Steel_Pipe_TB_21.Text, out Rect_Steel_Pipe_Text_21);
-
-
-            Count_And_Sum_Rezult();
-            Percent_and_Whils_Rezult();
-            TotalWeightSum();
-
-
-        }
-
-        void Count_And_Sum_Rezult()
-        {
-            //подсчет Количества(Общий вес)
-   
             Count_Stripe1Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_1 * Convert.ToDouble(label266.Text), 2));
-            Count_Stripe2Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label263.Text), 2));
-            Count_Stripe3Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label262.Text), 2));
-            Count_Stripe4Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_4 * Convert.ToDouble(label234.Text), 2));
-
-            Count_Pipe_Rect1Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 * Convert.ToDouble(label390.Text), 2));
-            Count_Pipe_Rect2Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 * Convert.ToDouble(label389.Text), 2));
-            Count_Pipe_Rect3Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 * Convert.ToDouble(label388.Text), 2));
-            Count_Pipe_Rect4Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 * Convert.ToDouble(label387.Text), 2));
-            Count_Pipe_Rect5Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 * Convert.ToDouble(label358.Text), 2));
-            Count_Pipe_Rect6Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 * Convert.ToDouble(label357.Text), 2));
-            Count_Pipe_Rect7Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 * Convert.ToDouble(label356.Text), 2));
-            Count_Pipe_Rect8Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 * Convert.ToDouble(label330.Text), 2));
-            Count_Pipe_Rect9Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 * Convert.ToDouble(label329.Text), 2));
-            Count_Pipe_Rect10Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 * Convert.ToDouble(label316.Text), 2));
-            Count_Pipe_Rect11Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 * Convert.ToDouble(label442.Text), 2));
-            Count_Pipe_Rect12Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 * Convert.ToDouble(label441.Text), 2));
-            Count_Pipe_Rect13Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 * Convert.ToDouble(label420.Text), 2));
-            Count_Pipe_Rect14Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 * Convert.ToDouble(label419.Text), 2));
-            Count_Pipe_Rect15Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 * Convert.ToDouble(label406.Text), 2));
-
-            Count_Shet_1Lbl.Text = Convert.ToString(Math.Round(Shet_Text_1 * Convert.ToDouble(label495.Text), 2));
-            Count_Shet_2Lbl.Text = Convert.ToString(Math.Round(Shet_Text_2 * Convert.ToDouble(label494.Text), 2));
-            Count_Shet_3Lbl.Text = Convert.ToString(Math.Round(Shet_Text_3 * Convert.ToDouble(label493.Text), 2));
-            Count_Shet_4Lbl.Text = Convert.ToString(Math.Round(Shet_Text_4 * Convert.ToDouble(label492.Text), 2));
-            Count_Shet_5Lbl.Text = Convert.ToString(Math.Round(Shet_Text_5 * Convert.ToDouble(label491.Text), 2));
-            Count_Shet_6Lbl.Text = Convert.ToString(Math.Round(Shet_Text_6 * Convert.ToDouble(label461.Text), 2));
-            Count_Shet_7Lbl.Text = Convert.ToString(Math.Round(Shet_Text_7 * Convert.ToDouble(label460.Text), 2));
-            Count_Shet_8Lbl.Text = Convert.ToString(Math.Round(Shet_Text_8 * Convert.ToDouble(label512.Text), 2));
-
-            Count_Seamless_Pipe_1Lbl.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 * Convert.ToDouble(label529.Text), 2));
-            Count_Seamless_Pipe_2Lbl.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 * Convert.ToDouble(label521.Text), 2));
-
-            Count_VGP_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 * Convert.ToDouble(label661.Text), 2));
-            Count_VGP_Pipe_2Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 * Convert.ToDouble(label660.Text), 2));
-            Count_VGP_Pipe_3Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 * Convert.ToDouble(label659.Text), 2));
-            Count_VGP_Pipe_4Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 * Convert.ToDouble(label658.Text), 2));
-            Count_VGP_Pipe_5Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 * Convert.ToDouble(label629.Text), 2));
-            Count_VGP_Pipe_6Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 * Convert.ToDouble(label628.Text), 2));
-            Count_VGP_Pipe_7Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 * Convert.ToDouble(label627.Text), 2));
-            Count_VGP_Pipe_8Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 * Convert.ToDouble(label601.Text), 2));
-            Count_VGP_Pipe_9Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 * Convert.ToDouble(label600.Text), 2));
-            Count_VGP_Pipe_10Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 * Convert.ToDouble(label587.Text), 2));
-            Count_VGP_Pipe_11Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 * Convert.ToDouble(label575.Text), 2));
-            Count_VGP_Pipe_12Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 * Convert.ToDouble(label574.Text), 2));
-            Count_VGP_Pipe_13Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 * Convert.ToDouble(label553.Text), 2));
-            Count_VGP_Pipe_14Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 * Convert.ToDouble(label552.Text), 2));
-            Count_VGP_Pipe_15Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 * Convert.ToDouble(label539.Text), 2));
-            Count_VGP_Pipe_16Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
-
-            Count_El_Weld_Pipe_1Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 * Convert.ToDouble(label693.Text), 2));
-            Count_El_Weld_Pipe_2Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label685.Text), 2));
-            Count_El_Weld_Pipe_3Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label702.Text), 2));
-
-            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label841.Text), 2));
-            Count_Rect_Pipe_2Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label840.Text), 2));
-            Count_Rect_Pipe_3Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label839.Text), 2));
-            Count_Rect_Pipe_4Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 * Convert.ToDouble(label838.Text), 2));
-            Count_Rect_Pipe_5Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 * Convert.ToDouble(label809.Text), 2));
-            Count_Rect_Pipe_6Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 * Convert.ToDouble(label808.Text), 2));
-            Count_Rect_Pipe_7Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 * Convert.ToDouble(label807.Text), 2));
-            Count_Rect_Pipe_8Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 * Convert.ToDouble(label781.Text), 2));
-            Count_Rect_Pipe_9Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 * Convert.ToDouble(label780.Text), 2));
-            Count_Rect_Pipe_10Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 * Convert.ToDouble(label767.Text), 2));
-            Count_Rect_Pipe_11Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 * Convert.ToDouble(label755.Text), 2));
-            Count_Rect_Pipe_12Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 * Convert.ToDouble(label754.Text), 2));
-            Count_Rect_Pipe_13Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 * Convert.ToDouble(label733.Text), 2));
-            Count_Rect_Pipe_14Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 * Convert.ToDouble(label732.Text), 2));
-            Count_Rect_Pipe_15Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 * Convert.ToDouble(label719.Text), 2));
-            Count_Rect_Pipe_16Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 * Convert.ToDouble(label711.Text), 2));
-            Count_Rect_Pipe_17Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 * Convert.ToDouble(label894.Text), 2));
-            Count_Rect_Pipe_18Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 * Convert.ToDouble(label878.Text), 2));
-            Count_Rect_Pipe_19Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 * Convert.ToDouble(label877.Text), 2));
-            Count_Rect_Pipe_20Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 * Convert.ToDouble(label864.Text), 2));
-            Count_Rect_Pipe_21Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 * Convert.ToDouble(label864.Text), 2));
-
-
-            //подсчет Суммы////////////////////////////////////////////////////////////////////////////////////////
-
-
             Sum_Stripe_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 * Convert.ToDouble(label254.Text), 2));
-            Sum_Stripe_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label251.Text), 2));
-            Sum_Stripe_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label250.Text), 2));
-            Sum_Stripe_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 * Convert.ToDouble(label232.Text), 2));
-
-            Sum_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 * Convert.ToDouble(label382.Text), 2));
-            Sum_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 * Convert.ToDouble(label381.Text), 2));
-            Sum_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 * Convert.ToDouble(label380.Text), 2));
-            Sum_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 * Convert.ToDouble(label379.Text), 2));
-            Sum_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 * Convert.ToDouble(label350.Text), 2));
-            Sum_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 * Convert.ToDouble(label349.Text), 2));
-            Sum_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 * Convert.ToDouble(label348.Text), 2));
-            Sum_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 * Convert.ToDouble(label326.Text), 2));
-            Sum_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 * Convert.ToDouble(label325.Text), 2));
-            Sum_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 * Convert.ToDouble(label314.Text), 2));
-            Sum_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 * Convert.ToDouble(label436.Text), 2));
-            Sum_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 * Convert.ToDouble(label435.Text), 2));
-            Sum_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 * Convert.ToDouble(label416.Text), 2));
-            Sum_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 * Convert.ToDouble(label415.Text), 2));
-            Sum_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 * Convert.ToDouble(label404.Text), 2));
-
-            Sum_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 * Convert.ToDouble(label485.Text), 2));
-            Sum_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 * Convert.ToDouble(label484.Text), 2));
-            Sum_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 * Convert.ToDouble(label483.Text), 2));
-            Sum_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 * Convert.ToDouble(label482.Text), 2));
-            Sum_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 * Convert.ToDouble(label481.Text), 2));
-            Sum_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 * Convert.ToDouble(label457.Text), 2));
-            Sum_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 * Convert.ToDouble(label456.Text), 2));
-            Sum_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 * Convert.ToDouble(label510.Text), 2));
-
-            Sum_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 * Convert.ToDouble(label527.Text), 2));
-            Sum_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 * Convert.ToDouble(label519.Text), 2));
-
-            Sum_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 * Convert.ToDouble(label661.Text), 2));
-            Sum_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 * Convert.ToDouble(label652.Text), 2));
-            Sum_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 * Convert.ToDouble(label651.Text), 2));
-            Sum_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 * Convert.ToDouble(label650.Text), 2));
-            Sum_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 * Convert.ToDouble(label621.Text), 2));
-            Sum_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 * Convert.ToDouble(label620.Text), 2));
-            Sum_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 * Convert.ToDouble(label619.Text), 2));
-            Sum_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 * Convert.ToDouble(label597.Text), 2));
-            Sum_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 * Convert.ToDouble(label596.Text), 2));
-            Sum_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 * Convert.ToDouble(label585.Text), 2));
-            Sum_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 * Convert.ToDouble(label569.Text), 2));
-            Sum_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 * Convert.ToDouble(label568.Text), 2));
-            Sum_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 * Convert.ToDouble(label549.Text), 2));
-            Sum_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 * Convert.ToDouble(label548.Text), 2));
-            Sum_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 * Convert.ToDouble(label537.Text), 2));
-            Sum_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label674.Text), 2));
-
-            Sum_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 * Convert.ToDouble(label691.Text), 2));
-            Sum_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label683.Text), 2));
-            Sum_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label700.Text), 2));
-
-            Sum_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label833.Text), 2));
-            Sum_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label832.Text), 2));
-            Sum_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label831.Text), 2));
-            Sum_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 * Convert.ToDouble(label830.Text), 2));
-            Sum_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 * Convert.ToDouble(label801.Text), 2));
-            Sum_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 * Convert.ToDouble(label800.Text), 2));
-            Sum_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 * Convert.ToDouble(label799.Text), 2));
-            Sum_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 * Convert.ToDouble(label777.Text), 2));
-            Sum_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 * Convert.ToDouble(label776.Text), 2));
-            Sum_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 * Convert.ToDouble(label765.Text), 2));
-            Sum_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 * Convert.ToDouble(label749.Text), 2));
-            Sum_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 * Convert.ToDouble(label748.Text), 2));
-            Sum_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 * Convert.ToDouble(label729.Text), 2));
-            Sum_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 * Convert.ToDouble(label728.Text), 2));
-            Sum_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 * Convert.ToDouble(label717.Text), 2));
-            Sum_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 * Convert.ToDouble(label709.Text), 2));
-            Sum_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 * Convert.ToDouble(label890.Text), 2));
-            Sum_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 * Convert.ToDouble(label874.Text), 2));
-            Sum_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 * Convert.ToDouble(label873.Text), 2));
-            Sum_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 * Convert.ToDouble(label862.Text), 2));
-            Sum_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 * Convert.ToDouble(label854.Text), 2));
-
-        }
-
-        void Percent_and_Whils_Rezult()
-        {
-            //подсчет процентов(20%)
-
-
             Perc_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 / 6, 2));
-            Perc_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 / 6, 2));
-            Perc_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 / 6, 2));
-            Perc_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 / 6, 2));
-
-            Perc_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 / 6, 2));
-            Perc_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 / 6, 2));
-            Perc_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 / 6, 2));
-            Perc_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 / 6, 2));
-            Perc_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 / 6, 2));
-            Perc_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 / 6, 2));
-            Perc_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 / 6, 2));
-            Perc_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 / 6, 2));
-            Perc_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 / 6, 2));
-            Perc_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 / 6, 2));
-            Perc_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 / 6, 2));
-            Perc_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 / 6, 2));
-            Perc_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 / 6, 2));
-            Perc_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 / 6, 2));
-            Perc_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 / 6, 2));
-
-            Perc_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 / 6, 2));
-            Perc_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 / 6, 2));
-            Perc_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 / 6, 2));
-            Perc_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 / 6, 2));
-            Perc_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 / 6, 2));
-            Perc_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 / 6, 2));
-            Perc_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 / 6, 2));
-            Perc_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 / 6, 2));
-
-            Perc_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 / 6, 2));
-            Perc_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 / 6, 2));
-
-            Perc_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 / 6, 2));
-            Perc_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 / 6, 2));
-            Perc_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 / 6, 2));
-            Perc_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 / 6, 2));
-            Perc_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 / 6, 2));
-            Perc_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 / 6, 2));
-            Perc_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 / 6, 2));
-            Perc_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 / 6, 2));
-            Perc_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 / 6, 2));
-            Perc_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 / 6, 2));
-            Perc_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 / 6, 2));
-            Perc_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 / 6, 2));
-            Perc_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 / 6, 2));
-            Perc_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 / 6, 2));
-            Perc_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 / 6, 2));
-            Perc_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 / 6, 2));
-
-            Perc_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 / 6, 2));
-            Perc_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 / 6, 2));
-            Perc_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 / 6, 2));
-
-            Perc_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 / 6, 2));
-            Perc_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 / 6, 2));
-            Perc_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 / 6, 2));
-            Perc_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 / 6, 2));
-            Perc_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 / 6, 2));
-            Perc_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 / 6, 2));
-            Perc_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 / 6, 2));
-            Perc_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 / 6, 2));
-            Perc_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 / 6, 2));
-            Perc_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 / 6, 2));
-            Perc_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 / 6, 2));
-            Perc_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 / 6, 2));
-            Perc_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 / 6, 2));
-            Perc_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 / 6, 2));
-            Perc_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 / 6, 2));
-            Perc_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 / 6, 2));
-            Perc_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 / 6, 2));
-            Perc_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 / 6, 2));
-            Perc_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 / 6, 2));
-            Perc_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 / 6, 2));
-            Perc_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 / 6, 2));
-
-            //подсчет Хлыстов
-
 
             Whil_Shv_Lbl_1.Text = Convert.ToString(Math.Round(Stripe_Text_1 / 6, 2));
+            
+
+        }
+
+        private void Stripe_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Stripe_TB_2.Text, out Stripe_Text_2);
+            Count_Stripe2Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label263.Text), 2));
+            Sum_Stripe_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 * Convert.ToDouble(label251.Text), 2));
+            Perc_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 / 6, 2));
             Whil_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Stripe_Text_2 / 6, 2));
+            
+
+        }
+
+        private void Stripe_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Stripe_TB_3.Text, out Stripe_Text_3);
+            Count_Stripe3Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label262.Text), 2));
+            Sum_Stripe_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 * Convert.ToDouble(label250.Text), 2));
+            Perc_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 / 6, 2));
             Whil_Shv_Lbl_3.Text = Convert.ToString(Math.Round(Stripe_Text_3 / 6, 2));
+            
+        }
+
+        private void Stripe_TB_4_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Stripe_TB_4.Text, out Stripe_Text_4);
+            Count_Stripe4Lbl.Text = Convert.ToString(Math.Round(Stripe_Text_4 * Convert.ToDouble(label234.Text), 2));
+            Sum_Stripe_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 * Convert.ToDouble(label232.Text), 2));
+            Perc_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 / 6, 2));
             Whil_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Stripe_Text_4 / 6, 2));
+        }
 
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void Pipe_Rect_TB_1_TextChanged(object sender, EventArgs e)
+        {
+
+
+            double.TryParse(Pipe_Rect_TB_1.Text, out Pipe_Rect_Text_1);
+
+
+            Count_Pipe_Rect1Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 * Convert.ToDouble(label390.Text), 2));
+            Sum_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 * Convert.ToDouble(label382.Text), 2));
+            Perc_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 / 6, 2));
             Whil_Pipe_Rect_Lbl_1.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_1 / 6, 2));
-            Whil_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 / 6, 2));
-            Whil_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 / 6, 2));
-            Whil_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 / 6, 2));
-            Whil_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 / 6, 2));
-            Whil_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 / 6, 2));
-            Whil_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 / 6, 2));
-            Whil_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 / 6, 2));
-            Whil_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 / 6, 2));
-            Whil_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 / 6, 2));
-            Whil_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 / 6, 2));
-            Whil_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12/ 6, 2));
-            Whil_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13/ 6, 2));
-            Whil_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14/ 6, 2));
-            Whil_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15/ 6, 2));
-
-            Whil_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 / 6, 2));
-            Whil_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 / 6, 2));
-            Whil_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 / 6, 2));
-            Whil_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 / 6, 2));
-            Whil_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 / 6, 2));
-            Whil_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 / 6, 2));
-            Whil_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 / 6, 2));
-            Whil_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 / 6, 2));
-
-            Whil_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 / 6, 2));
-            Whil_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 / 6, 2));
-
-            Whil_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 / 6, 2));
-            Whil_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 / 6, 2));
-            Whil_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 / 6, 2));
-            Whil_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 / 6, 2));
-            Whil_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 / 6, 2));
-            Whil_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 / 6, 2));
-            Whil_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 / 6, 2));
-            Whil_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 / 6, 2));
-            Whil_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 / 6, 2));
-            Whil_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 / 6, 2));
-            Whil_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 / 6, 2));
-            Whil_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 / 6, 2));
-            Whil_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 / 6, 2));
-            Whil_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 / 6, 2));
-            Whil_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 / 6, 2));
-            Whil_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 / 6, 2));
-
-            Whil_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 / 6, 2));
-            Whil_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 / 6, 2));
-            Whil_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 / 6, 2));
-
-            Whil_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 / 6, 2));
-            Whil_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 / 6, 2));
-            Whil_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 / 6, 2));
-            Whil_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 / 6, 2));
-            Whil_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 / 6, 2));
-            Whil_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 / 6, 2));
-            Whil_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 / 6, 2));
-            Whil_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 / 6, 2));
-            Whil_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 / 6, 2));
-            Whil_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 / 6, 2));
-            Whil_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 / 6, 2));
-            Whil_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 / 6, 2));
-            Whil_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 / 6, 2));
-            Whil_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 / 6, 2));
-            Whil_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 / 6, 2));
-            Whil_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 / 6, 2));
-            Whil_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 / 6, 2));
-            Whil_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 / 6, 2));
-            Whil_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 / 6, 2));
-            Whil_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 / 6, 2));
-            Whil_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 / 6, 2));
            
 
+        }
+
+        private void Pipe_Rect_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_2.Text, out Pipe_Rect_Text_2);
+            Count_Pipe_Rect2Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 * Convert.ToDouble(label389.Text), 2));
+            Sum_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 * Convert.ToDouble(label381.Text), 2));
+            Perc_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 / 6, 2));
+            Whil_Pipe_Rect_Lbl_2.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_2 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_3.Text, out Pipe_Rect_Text_3);
+            Count_Pipe_Rect3Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 * Convert.ToDouble(label388.Text), 2));
+            Sum_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 * Convert.ToDouble(label380.Text), 2));
+            Perc_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 / 6, 2));
+            Whil_Pipe_Rect_Lbl_3.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_3 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_4_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_4.Text, out Pipe_Rect_Text_4);
+            Count_Pipe_Rect4Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 * Convert.ToDouble(label387.Text), 2));
+            Sum_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 * Convert.ToDouble(label379.Text), 2));
+            Perc_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 / 6, 2));
+            Whil_Pipe_Rect_Lbl_4.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_4 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_5_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_5.Text, out Pipe_Rect_Text_5);
+            Count_Pipe_Rect5Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 * Convert.ToDouble(label358.Text), 2));
+            Sum_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 * Convert.ToDouble(label350.Text), 2));
+            Perc_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 / 6, 2));
+            Whil_Pipe_Rect_Lbl_5.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_5 / 6, 2));
+           
+        }
+
+        private void Pipe_Rect_TB_6_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_6.Text, out Pipe_Rect_Text_6);
+            Count_Pipe_Rect6Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 * Convert.ToDouble(label357.Text), 2));
+            Sum_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 * Convert.ToDouble(label349.Text), 2));
+            Perc_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 / 6, 2));
+            Whil_Pipe_Rect_Lbl_6.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_6 / 6, 2));
+           
+        }
+
+        private void Pipe_Rect_TB_7_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_7.Text, out Pipe_Rect_Text_7);
+            Count_Pipe_Rect7Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 * Convert.ToDouble(label356.Text), 2));
+            Sum_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 * Convert.ToDouble(label348.Text), 2));
+            Perc_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 / 6, 2));
+            Whil_Pipe_Rect_Lbl_7.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_7 / 6, 2));
+           
+        }
+
+        private void Pipe_Rect_TB_8_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_8.Text, out Pipe_Rect_Text_8);
+            Count_Pipe_Rect8Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 * Convert.ToDouble(label330.Text), 2));
+            Sum_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 * Convert.ToDouble(label326.Text), 2));
+            Perc_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 / 6, 2));
+            Whil_Pipe_Rect_Lbl_8.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_8 / 6, 2));
+           
+        }
+
+        private void Pipe_Rect_TB_9_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_9.Text, out Pipe_Rect_Text_9);
+            Count_Pipe_Rect9Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 * Convert.ToDouble(label329.Text), 2));
+            Sum_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 * Convert.ToDouble(label325.Text), 2));
+            Perc_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 / 6, 2));
+            Whil_Pipe_Rect_Lbl_9.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_9 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_10_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_10.Text, out Pipe_Rect_Text_10);
+            Count_Pipe_Rect10Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 * Convert.ToDouble(label316.Text), 2));
+            Sum_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 * Convert.ToDouble(label314.Text), 2));
+            Perc_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 / 6, 2));
+            Whil_Pipe_Rect_Lbl_10.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_10 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_11_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_11.Text, out Pipe_Rect_Text_11);
+            Count_Pipe_Rect11Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 * Convert.ToDouble(label442.Text), 2));
+            Sum_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 * Convert.ToDouble(label436.Text), 2));
+            Perc_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 / 6, 2));
+            Whil_Pipe_Rect_Lbl_11.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_11 / 6, 2));
+           
+        }
+
+        private void Pipe_Rect_TB_12_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_12.Text, out Pipe_Rect_Text_12);
+            Count_Pipe_Rect12Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 * Convert.ToDouble(label441.Text), 2));
+            Sum_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 * Convert.ToDouble(label435.Text), 2));
+            Perc_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 / 6, 2));
+            Whil_Pipe_Rect_Lbl_12.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_12 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_13_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_13.Text, out Pipe_Rect_Text_13);
+            Count_Pipe_Rect13Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 * Convert.ToDouble(label420.Text), 2));
+            Sum_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 * Convert.ToDouble(label416.Text), 2));
+            Perc_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 / 6, 2));
+            Whil_Pipe_Rect_Lbl_13.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_13 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_14_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_14.Text, out Pipe_Rect_Text_14);
+            Count_Pipe_Rect14Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 * Convert.ToDouble(label419.Text), 2));
+            Sum_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 * Convert.ToDouble(label415.Text), 2));
+            Perc_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 / 6, 2));
+            Whil_Pipe_Rect_Lbl_14.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_14 / 6, 2));
+            
+        }
+
+        private void Pipe_Rect_TB_15_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Pipe_Rect_TB_15.Text, out Pipe_Rect_Text_15);
+            Count_Pipe_Rect15Lbl.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 * Convert.ToDouble(label406.Text), 2));
+            Sum_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 * Convert.ToDouble(label404.Text), 2));
+            Perc_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 / 6, 2));
+            Whil_Pipe_Rect_Lbl_15.Text = Convert.ToString(Math.Round(Pipe_Rect_Text_15 / 6, 2));
+
+        }
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void Shet_TB_1_TextChanged(object sender, EventArgs e)
+        {
+
+            double.TryParse(Shet_TB_1.Text, out Shet_Text_1);
+            Count_Shet_1Lbl.Text = Convert.ToString(Math.Round(Shet_Text_1 * Convert.ToDouble(label495.Text), 2));
+            Sum_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 * Convert.ToDouble(label485.Text), 2));
+            Perc_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 / 6, 2));
+            Whil_Shet_Lbl_1.Text = Convert.ToString(Math.Round(Shet_Text_1 / 6, 2));
+            
+        }
+
+        private void Shet_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_2.Text, out Shet_Text_2);
+            Count_Shet_2Lbl.Text = Convert.ToString(Math.Round(Shet_Text_2 * Convert.ToDouble(label494.Text), 2));
+            Sum_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 * Convert.ToDouble(label484.Text), 2));
+            Perc_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 / 6, 2));
+            Whil_Shet_Lbl_2.Text = Convert.ToString(Math.Round(Shet_Text_2 / 6, 2));
+            
+        }
+
+        private void Shet_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_3.Text, out Shet_Text_3);
+            Count_Shet_3Lbl.Text = Convert.ToString(Math.Round(Shet_Text_3 * Convert.ToDouble(label493.Text), 2));
+            Sum_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 * Convert.ToDouble(label483.Text), 2));
+            Perc_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 / 6, 2));
+            Whil_Shet_Lbl_3.Text = Convert.ToString(Math.Round(Shet_Text_3 / 6, 2));
+            
+        }
+
+        private void Shet_TB_4_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_4.Text, out Shet_Text_4);
+            Count_Shet_4Lbl.Text = Convert.ToString(Math.Round(Shet_Text_4 * Convert.ToDouble(label492.Text), 2));
+            Sum_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 * Convert.ToDouble(label482.Text), 2));
+            Perc_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 / 6, 2));
+            Whil_Shet_Lbl_4.Text = Convert.ToString(Math.Round(Shet_Text_4 / 6, 2));
+            
+        }
+
+        private void Shet_TB_5_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_5.Text, out Shet_Text_5);
+            Count_Shet_5Lbl.Text = Convert.ToString(Math.Round(Shet_Text_5 * Convert.ToDouble(label491.Text), 2));
+            Sum_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 * Convert.ToDouble(label481.Text), 2));
+            Perc_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 / 6, 2));
+            Whil_Shet_Lbl_5.Text = Convert.ToString(Math.Round(Shet_Text_5 / 6, 2));
+           
+        }
+
+        private void Shet_TB_6_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_6.Text, out Shet_Text_6);
+            Count_Shet_6Lbl.Text = Convert.ToString(Math.Round(Shet_Text_6 * Convert.ToDouble(label461.Text), 2));
+            Sum_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 * Convert.ToDouble(label457.Text), 2));
+            Perc_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 / 6, 2));
+            Whil_Shet_Lbl_6.Text = Convert.ToString(Math.Round(Shet_Text_6 / 6, 2));
+            
+        }
+
+        private void Shet_TB_7_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_7.Text, out Shet_Text_7);
+            Count_Shet_7Lbl.Text = Convert.ToString(Math.Round(Shet_Text_7 * Convert.ToDouble(label460.Text), 2));
+            Sum_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 * Convert.ToDouble(label456.Text), 2));
+            Perc_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 / 6, 2));
+            Whil_Shet_Lbl_7.Text = Convert.ToString(Math.Round(Shet_Text_7 / 6, 2));
+            
+        }
+
+        private void Shet_TB_8_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Shet_TB_8.Text, out Shet_Text_8);
+            Count_Shet_8Lbl.Text = Convert.ToString(Math.Round(Shet_Text_8 * Convert.ToDouble(label512.Text), 2));
+            Sum_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 * Convert.ToDouble(label510.Text), 2));
+            Perc_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 / 6, 2));
+            Whil_Shet_Lbl_8.Text = Convert.ToString(Math.Round(Shet_Text_8 / 6, 2));
+        }
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void Seamless_Pipe_TB_1_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Seamless_Pipe_TB_1.Text, out Seamless_Pipe_Text_1);
+            Count_Seamless_Pipe_1Lbl.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 * Convert.ToDouble(label529.Text), 2));
+            Sum_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 * Convert.ToDouble(label527.Text), 2));
+            Perc_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 / 6, 2));
+            Whil_Seamless_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_1 / 6, 2));
+            
+        }
+
+        private void Seamless_Pipe_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Seamless_Pipe_TB_2.Text, out Seamless_Pipe_Text_2);
+            Count_Seamless_Pipe_2Lbl.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 * Convert.ToDouble(label521.Text), 2));
+            Sum_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 * Convert.ToDouble(label519.Text), 2));
+            Perc_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 / 6, 2));
+            Whil_Seamless_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(Seamless_Pipe_Text_2 / 6, 2));
+        }
+
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void VGP_Pipe_TB_1_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_1.Text, out VGP_Pipe_Text_1);
+            Count_VGP_Pipe_1Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 * Convert.ToDouble(label661.Text), 2));
+            Sum_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 * Convert.ToDouble(label661.Text), 2));
+            Perc_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 / 6, 2));
+            Whil_VGP_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_1 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_2.Text, out VGP_Pipe_Text_2);
+            Count_VGP_Pipe_2Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 * Convert.ToDouble(label660.Text), 2));
+            Sum_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 * Convert.ToDouble(label652.Text), 2));
+            Perc_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 / 6, 2));
+            Whil_VGP_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_2 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_3.Text, out VGP_Pipe_Text_3);
+            Count_VGP_Pipe_3Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 * Convert.ToDouble(label659.Text), 2));
+            Sum_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 * Convert.ToDouble(label651.Text), 2));
+            Perc_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 / 6, 2));
+            Whil_VGP_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_3 / 6, 2));
+           
+        }
+        private void VGP_Pipe_TB_4_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_4.Text, out VGP_Pipe_Text_4);
+            Count_VGP_Pipe_4Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 * Convert.ToDouble(label658.Text), 2));
+            Sum_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 * Convert.ToDouble(label650.Text), 2));
+            Perc_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 / 6, 2));
+            Whil_VGP_Pipe_Lbl_4.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_4 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_5_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_5.Text, out VGP_Pipe_Text_5);
+            Count_VGP_Pipe_5Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 * Convert.ToDouble(label629.Text), 2));
+            Sum_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 * Convert.ToDouble(label621.Text), 2));
+            Perc_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 / 6, 2));
+            Whil_VGP_Pipe_Lbl_5.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_5 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_6_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_6.Text, out VGP_Pipe_Text_6);
+            Count_VGP_Pipe_6Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 * Convert.ToDouble(label628.Text), 2));
+            Sum_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 * Convert.ToDouble(label620.Text), 2));
+            Perc_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 / 6, 2));
+            Whil_VGP_Pipe_Lbl_6.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_6 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_7_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_7.Text, out VGP_Pipe_Text_7);
+            Count_VGP_Pipe_7Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 * Convert.ToDouble(label627.Text), 2));
+            Sum_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 * Convert.ToDouble(label619.Text), 2));
+            Perc_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 / 6, 2));
+            Whil_VGP_Pipe_Lbl_7.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_7 / 6, 2));
+           
+        }
+        private void VGP_Pipe_TB_8_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_8.Text, out VGP_Pipe_Text_8);
+            Count_VGP_Pipe_8Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 * Convert.ToDouble(label601.Text), 2));
+            Sum_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 * Convert.ToDouble(label597.Text), 2));
+            Perc_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 / 6, 2));
+            Whil_VGP_Pipe_Lbl_8.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_8 / 6, 2));
+           
+        }
+        private void VGP_Pipe_TB_9_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_9.Text, out VGP_Pipe_Text_9);
+            Count_VGP_Pipe_9Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 * Convert.ToDouble(label600.Text), 2));
+            Sum_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 * Convert.ToDouble(label596.Text), 2));
+            Perc_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 / 6, 2));
+            Whil_VGP_Pipe_Lbl_9.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_9 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_10_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_10.Text, out VGP_Pipe_Text_10);
+            Count_VGP_Pipe_10Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 * Convert.ToDouble(label587.Text), 2));
+            Sum_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 * Convert.ToDouble(label585.Text), 2));
+            Perc_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 / 6, 2));
+            Whil_VGP_Pipe_Lbl_10.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_10 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_11_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_11.Text, out VGP_Pipe_Text_11);
+            Count_VGP_Pipe_11Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 * Convert.ToDouble(label575.Text), 2));
+            Sum_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 * Convert.ToDouble(label569.Text), 2));
+            Perc_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 / 6, 2));
+            Whil_VGP_Pipe_Lbl_11.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_11 / 6, 2));
+            
+        }
+
+        private void VGP_Pipe_TB_12_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_12.Text, out VGP_Pipe_Text_12);
+            Count_VGP_Pipe_12Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 * Convert.ToDouble(label574.Text), 2));
+            Sum_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 * Convert.ToDouble(label568.Text), 2));
+            Perc_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 / 6, 2));
+            Whil_VGP_Pipe_Lbl_12.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_12 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_13_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_13.Text, out VGP_Pipe_Text_13);
+            Count_VGP_Pipe_13Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 * Convert.ToDouble(label553.Text), 2));
+            Sum_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 * Convert.ToDouble(label549.Text), 2));
+            Perc_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 / 6, 2));
+            Whil_VGP_Pipe_Lbl_13.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_13 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_14_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_14.Text, out VGP_Pipe_Text_14);
+            Count_VGP_Pipe_14Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 * Convert.ToDouble(label552.Text), 2));
+            Sum_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 * Convert.ToDouble(label548.Text), 2));
+            Perc_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 / 6, 2));
+            Whil_VGP_Pipe_Lbl_14.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_14 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_15_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_15.Text, out VGP_Pipe_Text_15);
+            Count_VGP_Pipe_15Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 * Convert.ToDouble(label539.Text), 2));
+            
+            Sum_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 * Convert.ToDouble(label537.Text), 2));
+            Perc_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 / 6, 2));
+            Whil_VGP_Pipe_Lbl_15.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_15 / 6, 2));
+            
+        }
+        private void VGP_Pipe_TB_16_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(VGP_Pipe_TB_16.Text, out VGP_Pipe_Text_16);
+            Count_VGP_Pipe_16Lbl.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label676.Text), 2));
+            Sum_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 * Convert.ToDouble(label674.Text), 2));
+            Perc_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 / 6, 2));
+            Whil_VGP_Pipe_Lbl_16.Text = Convert.ToString(Math.Round(VGP_Pipe_Text_16 / 6, 2));
+        }
+
+
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void El_Weld_Pipe_TB_1_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(El_Weld_Pipe_TB_1.Text, out El_Weld_Pipe_Text_1);
+            Count_El_Weld_Pipe_1Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 * Convert.ToDouble(label693.Text), 2));
+            Sum_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 * Convert.ToDouble(label691.Text), 2));
+            Perc_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 / 6, 2));
+            Whil_El_Weld_Pipe_Lbl_1.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_1 / 6, 2));
+            
+
+        }
+        private void El_Weld_Pipe_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(El_Weld_Pipe_TB_2.Text, out El_Weld_Pipe_Text_2);
+            Count_El_Weld_Pipe_2Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label685.Text), 2));
+            Sum_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 * Convert.ToDouble(label683.Text), 2));
+            Perc_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 / 6, 2));
+            Whil_El_Weld_Pipe_Lbl_2.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_2 / 6, 2));
+            
+        }
+        private void El_Weld_Pipe_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(El_Weld_Pipe_TB_3.Text, out El_Weld_Pipe_Text_3);
+            Count_El_Weld_Pipe_3Lbl.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label702.Text), 2));
+            Sum_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 * Convert.ToDouble(label700.Text), 2));
+            Perc_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 / 6, 2));
+            Whil_El_Weld_Pipe_Lbl_3.Text = Convert.ToString(Math.Round(El_Weld_Pipe_Text_3 / 6, 2));
+
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void Rect_Steel_Pipe_TB_1_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_1.Text, out Rect_Steel_Pipe_Text_1);
+            Count_Rect_Pipe_1Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label841.Text), 2));
+            Sum_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 * Convert.ToDouble(label833.Text), 2));
+
+            Perc_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 / 6, 2));
+            Whil_Rect_Steel_Pipe_1.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_1 / 6, 2));
+            
+
+        }
+
+        private void Rect_Steel_Pipe_TB_2_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_2.Text, out Rect_Steel_Pipe_Text_2);
+            Count_Rect_Pipe_2Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label840.Text), 2));
+            Sum_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 * Convert.ToDouble(label832.Text), 2));
+            Perc_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 / 6, 2));
+            Whil_Rect_Steel_Pipe_2.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_2 / 6, 2));
+           
+
+        }
+        private void Rect_Steel_Pipe_TB_3_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_3.Text, out Rect_Steel_Pipe_Text_3);
+            Count_Rect_Pipe_3Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label839.Text), 2));
+            Sum_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 * Convert.ToDouble(label831.Text), 2));
+            Perc_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 / 6, 2));
+            Whil_Rect_Steel_Pipe_3.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_3 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_4_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_4.Text, out Rect_Steel_Pipe_Text_4);
+            Count_Rect_Pipe_4Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 * Convert.ToDouble(label838.Text), 2));
+            Sum_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 * Convert.ToDouble(label830.Text), 2));
+            Perc_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 / 6, 2));
+            Whil_Rect_Steel_Pipe_4.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_4 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_5_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_5.Text, out Rect_Steel_Pipe_Text_5);
+            Count_Rect_Pipe_5Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 * Convert.ToDouble(label809.Text), 2));
+            Sum_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 * Convert.ToDouble(label801.Text), 2));
+            Perc_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 / 6, 2));
+            Whil_Rect_Steel_Pipe_5.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_5 / 6, 2));
+            
+        }
+        private void Rect_Steel_Pipe_TB_6_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_6.Text, out Rect_Steel_Pipe_Text_6);
+            Count_Rect_Pipe_6Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 * Convert.ToDouble(label808.Text), 2));
+            Sum_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 * Convert.ToDouble(label800.Text), 2));
+            Perc_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 / 6, 2));
+            Whil_Rect_Steel_Pipe_6.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_6 / 6, 2));
+            
+
+
+        }
+        private void Rect_Steel_Pipe_TB_7_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_7.Text, out Rect_Steel_Pipe_Text_7);
+            Count_Rect_Pipe_7Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 * Convert.ToDouble(label807.Text), 2));
+            Sum_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 * Convert.ToDouble(label799.Text), 2));
+            Perc_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 / 6, 2));
+            Whil_Rect_Steel_Pipe_7.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_7 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_8_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_8.Text, out Rect_Steel_Pipe_Text_8);
+            Count_Rect_Pipe_8Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 * Convert.ToDouble(label781.Text), 2));
+            Sum_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 * Convert.ToDouble(label777.Text), 2));
+            Perc_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 / 6, 2));
+            Whil_Rect_Steel_Pipe_8.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_8 / 6, 2));
+           
+
+        }
+        private void Rect_Steel_Pipe_TB_9_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_9.Text, out Rect_Steel_Pipe_Text_9);
+            Count_Rect_Pipe_9Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 * Convert.ToDouble(label780.Text), 2));
+            Sum_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 * Convert.ToDouble(label776.Text), 2));
+            Perc_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 / 6, 2));
+            Whil_Rect_Steel_Pipe_9.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_9 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_10_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_10.Text, out Rect_Steel_Pipe_Text_10);
+            Count_Rect_Pipe_10Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 * Convert.ToDouble(label767.Text), 2));
+            Sum_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 * Convert.ToDouble(label765.Text), 2));
+            Perc_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 / 6, 2));
+            Whil_Rect_Steel_Pipe_10.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_10 / 6, 2));
+           
+
+        }
+        private void Rect_Steel_Pipe_TB_11_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_11.Text, out Rect_Steel_Pipe_Text_11);
+            Count_Rect_Pipe_11Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 * Convert.ToDouble(label755.Text), 2));
+            Sum_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 * Convert.ToDouble(label749.Text), 2));
+            Perc_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 / 6, 2));
+            Whil_Rect_Steel_Pipe_11.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_11 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_12_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_12.Text, out Rect_Steel_Pipe_Text_12);
+            Count_Rect_Pipe_12Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 * Convert.ToDouble(label754.Text), 2));
+            Sum_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 * Convert.ToDouble(label748.Text), 2));
+            Perc_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 / 6, 2));
+            Whil_Rect_Steel_Pipe_12.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_12 / 6, 2));
+            
+        }
+        private void Rect_Steel_Pipe_TB_13_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_13.Text, out Rect_Steel_Pipe_Text_13);
+            Count_Rect_Pipe_13Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 * Convert.ToDouble(label733.Text), 2));
+            Sum_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 * Convert.ToDouble(label729.Text), 2));
+            Perc_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 / 6, 2));
+            Whil_Rect_Steel_Pipe_13.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_13 / 6, 2));
+            
+
+
+        }
+        private void Rect_Steel_Pipe_TB_14_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_14.Text, out Rect_Steel_Pipe_Text_14);
+            Count_Rect_Pipe_14Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 * Convert.ToDouble(label732.Text), 2));
+            Sum_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 * Convert.ToDouble(label728.Text), 2));
+            Perc_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 / 6, 2));
+            Whil_Rect_Steel_Pipe_14.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_14 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_15_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_15.Text, out Rect_Steel_Pipe_Text_15);
+            Count_Rect_Pipe_15Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 * Convert.ToDouble(label719.Text), 2));
+            Sum_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 * Convert.ToDouble(label717.Text), 2));
+            Perc_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 / 6, 2));
+            Whil_Rect_Steel_Pipe_15.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_15 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_16_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_16.Text, out Rect_Steel_Pipe_Text_16);
+            Count_Rect_Pipe_16Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 * Convert.ToDouble(label711.Text), 2));
+            Sum_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 * Convert.ToDouble(label709.Text), 2));
+            Perc_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 / 6, 2));
+            Whil_Rect_Steel_Pipe_16.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_16 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_17_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_17.Text, out Rect_Steel_Pipe_Text_17);
+            Count_Rect_Pipe_17Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 * Convert.ToDouble(label894.Text), 2));
+            Sum_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 * Convert.ToDouble(label890.Text), 2));
+            Perc_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 / 6, 2));
+            Whil_Rect_Steel_Pipe_17.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_17 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_18_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_18.Text, out Rect_Steel_Pipe_Text_18);
+            Count_Rect_Pipe_18Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 * Convert.ToDouble(label878.Text), 2));
+            Sum_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 * Convert.ToDouble(label874.Text), 2));
+            Perc_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 / 6, 2));
+            Whil_Rect_Steel_Pipe_18.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_18 / 6, 2));
+            
+        }
+        private void Rect_Steel_Pipe_TB_19_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_19.Text, out Rect_Steel_Pipe_Text_19);
+            Count_Rect_Pipe_19Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 * Convert.ToDouble(label877.Text), 2));
+            Sum_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 * Convert.ToDouble(label873.Text), 2));
+            Perc_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 / 6, 2));
+            Whil_Rect_Steel_Pipe_19.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_19 / 6, 2));
+            
+
+
+        }
+        private void Rect_Steel_Pipe_TB_20_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_20.Text, out Rect_Steel_Pipe_Text_20);
+            Count_Rect_Pipe_20Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 * Convert.ToDouble(label864.Text), 2));
+            Sum_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 * Convert.ToDouble(label862.Text), 2));
+            Perc_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 / 6, 2));
+            Whil_Rect_Steel_Pipe_20.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_20 / 6, 2));
+            
+
+        }
+        private void Rect_Steel_Pipe_TB_21_TextChanged(object sender, EventArgs e)
+        {
+            double.TryParse(Rect_Steel_Pipe_TB_21.Text, out Rect_Steel_Pipe_Text_21);
+            Count_Rect_Pipe_21Lbl.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 * Convert.ToDouble(label864.Text), 2));
+            Sum_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 * Convert.ToDouble(label854.Text), 2));
+            Perc_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 / 6, 2));
+            Whil_Rect_Steel_Pipe_21.Text = Convert.ToString(Math.Round(Rect_Steel_Pipe_Text_21 / 6, 2));
         }
 
         void TotalWeightSum()
@@ -872,24 +1198,45 @@ namespace ModernCalculator
             totalWeightLlabel.Text = totalWeightSumResult.ToString();
         }
 
-        private void азияТемирЦентрToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            AsiaTemirForm t = new AsiaTemirForm();
-            t.ShowDialog();
-        }
 
-        private void металлСервисToolStripMenuItem_Click(object sender, EventArgs e)
+        public void ControlSetFocus(Control control)
+        {
+            control = Arm10TB;
+            // Set focus to the control, if it can receive focus.
+            if (control.CanFocus)
+            {
+                control.Focus();
+            }
+        }
+        /*private void азияТемирЦентрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }*/
+        private void стальнойДворToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void металлСервисToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             MetallServiseForm ms = new MetallServiseForm();
             ms.ShowDialog();
         }
+        /*private void металлСервисToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }*/
         private void выходToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        private void азияТемирЦентрToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            AsiaTemirForm t = new AsiaTemirForm();
+            t.ShowDialog();
+        }
         private void KaztemirContractForm_Load(object sender, EventArgs e)
         {
 
@@ -940,5 +1287,28 @@ namespace ModernCalculator
         {
             Application.Exit();
         }
+
+        /* private void RezultButton_Click(object sender, EventArgs e)
+         { 
+             Count_And_Sum_Rezult();
+             Percent_and_Whils_Rezult();
+             TotalWeightSum();
+         }
+
+         void Count_And_Sum_Rezult()
+         {
+             //подсчет Количества(Общий вес)
+
+             //подсчет Суммы////////////////////////////////////////////////////////////////////////////////////////
+
+         }
+
+        void Percent_and_Whils_Rezult()
+        {
+            //подсчет процентов(20%)
+
+            //подсчет Хлыстов
+
+        }*/
     }
 }
