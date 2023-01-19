@@ -933,6 +933,8 @@
             this.Rect_Steel_Pipe_TB_21 = new System.Windows.Forms.TextBox();
             this.OrderTB = new System.Windows.Forms.TextBox();
             this.OrderLbl = new System.Windows.Forms.Label();
+            this.назадToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.дополнительныеМатериалыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -952,8 +954,10 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.дополнительныеМатериалыToolStripMenuItem,
             this.поставщикиToolStripMenuItem,
             this.справкаToolStripMenuItem,
+            this.назадToolStripMenuItem,
             this.выходToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -1005,6 +1009,7 @@
             this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
             this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 19);
             this.справкаToolStripMenuItem.Text = "Справка";
+            this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click_1);
             // 
             // выходToolStripMenuItem
             // 
@@ -12467,6 +12472,20 @@
             this.OrderLbl.Text = "Название заказа:";
             this.OrderLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // назадToolStripMenuItem
+            // 
+            this.назадToolStripMenuItem.Name = "назадToolStripMenuItem";
+            this.назадToolStripMenuItem.Size = new System.Drawing.Size(51, 19);
+            this.назадToolStripMenuItem.Text = "Назад";
+            this.назадToolStripMenuItem.Click += new System.EventHandler(this.назадToolStripMenuItem_Click);
+            // 
+            // дополнительныеМатериалыToolStripMenuItem
+            // 
+            this.дополнительныеМатериалыToolStripMenuItem.Name = "дополнительныеМатериалыToolStripMenuItem";
+            this.дополнительныеМатериалыToolStripMenuItem.Size = new System.Drawing.Size(180, 19);
+            this.дополнительныеМатериалыToolStripMenuItem.Text = "Дополнительные материалы";
+            this.дополнительныеМатериалыToolStripMenuItem.Click += new System.EventHandler(this.дополнительныеМатериалыToolStripMenuItem_Click);
+            // 
             // KaztemirContractForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
@@ -14293,5 +14312,7 @@
         private System.Windows.Forms.ToolStripMenuItem металпрНаСмагуловаToolStripMenuItem;
         private System.Windows.Forms.TextBox OrderTB;
         private System.Windows.Forms.Label OrderLbl;
+        private System.Windows.Forms.ToolStripMenuItem назадToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem дополнительныеМатериалыToolStripMenuItem;
     }
 }

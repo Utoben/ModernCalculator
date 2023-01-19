@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalMaterialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdditionalMaterialsForm.Designer.cs">
+      <DependentUpon>AdditionalMaterialsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsiaTemirForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdditionalMaterialsForm.resx">
+      <DependentUpon>AdditionalMaterialsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AsiaTemirForm.resx">
       <DependentUpon>AsiaTemirForm.cs</DependentUpon>
     </EmbeddedResource>

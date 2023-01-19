@@ -1265,6 +1265,9 @@ namespace ModernCalculator
             Whil_Shv_Lbl_2.Text = Convert.ToString(Math.Round(Shv_Text_12 / 6, 2));
 
         }
+
+        
+
         private void Shv_TB_14_TextChanged(object sender, EventArgs e)
         {
             double.TryParse(Shv_TB_14.Text, out Shv_Text_14);
@@ -1283,6 +1286,8 @@ namespace ModernCalculator
             Whil_Shv_Lbl_4.Text = Convert.ToString(Math.Round(Shv_Text_16 / 6, 2));
 
         }
+
+        
         private void Shv_TB_18_TextChanged(object sender, EventArgs e)
         {
             double.TryParse(Shv_TB_18.Text, out Shv_Text_18);
@@ -2072,7 +2077,17 @@ namespace ModernCalculator
         {
 
         }
+        private void назадToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StartForm st = new StartForm();
+            st.ShowDialog();
+        }
 
+        private void справкаToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
         private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Проставьте значения");
@@ -2081,6 +2096,13 @@ namespace ModernCalculator
         {
             Application.Exit();
         }
+        private void дополнительныеМатериалыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdditionalMaterialsForm ad = new AdditionalMaterialsForm();
+            ad.ShowDialog();
+        }
+
 
         /* private void RezultButton_Click(object sender, EventArgs e)
          { 
