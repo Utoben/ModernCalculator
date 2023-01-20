@@ -269,7 +269,6 @@
             this.label182 = new System.Windows.Forms.Label();
             this.Sum_Lbl_Total = new System.Windows.Forms.Label();
             this.EOF_Lbl = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -285,7 +284,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(728, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(704, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -329,7 +328,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(16, 29);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(7, 4, 7, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(214, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(197, 100);
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
@@ -338,9 +337,9 @@
             this.label23.BackColor = System.Drawing.Color.DarkGray;
             this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label23.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label23.Location = new System.Drawing.Point(240, 29);
+            this.label23.Location = new System.Drawing.Point(233, 29);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(446, 24);
+            this.label23.Size = new System.Drawing.Size(453, 24);
             this.label23.TabIndex = 68;
             this.label23.Text = "Сопутствующие материалы";
             this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -3305,32 +3304,20 @@
             this.EOF_Lbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.EOF_Lbl.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EOF_Lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.EOF_Lbl.Location = new System.Drawing.Point(36, 1311);
+            this.EOF_Lbl.Location = new System.Drawing.Point(16, 1207);
             this.EOF_Lbl.Name = "EOF_Lbl";
             this.EOF_Lbl.Size = new System.Drawing.Size(96, 128);
             this.EOF_Lbl.TabIndex = 1271;
             this.EOF_Lbl.Text = "EOF";
             this.EOF_Lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(444, 1202);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 33);
-            this.button1.TabIndex = 1272;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // AdditionalMaterialsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(745, 749);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(721, 755);
             this.Controls.Add(this.EOF_Lbl);
             this.Controls.Add(this.Sum_Lbl_Total);
             this.Controls.Add(this.TB_42);
@@ -3822,6 +3809,5 @@
         private System.Windows.Forms.Label label182;
         private System.Windows.Forms.Label Sum_Lbl_Total;
         private System.Windows.Forms.Label EOF_Lbl;
-        private System.Windows.Forms.Button button1;
     }
 }

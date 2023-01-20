@@ -8,6 +8,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace ModernCalculator
 {
@@ -119,9 +120,11 @@ namespace ModernCalculator
             TB_44.TextChanged += TB_44_TextChanged;
             TB_45.TextChanged += TB_45_TextChanged;
 
-            //Sum_Lbl_Total.TextChanged += Sum_Lbl_Total_TextChanged;
+            //checkBox1.CheckedChanged+= checkBox_CheckedChanged;
+            
+            
 
-            double[] counts = { Count_1, Count_2, Count_3, Count_4, Count_5, Count_6, Count_7, Count_8, Count_9, Count_10, Count_11, Count_12,
+            /*double[] counts = { Count_1, Count_2, Count_3, Count_4, Count_5, Count_6, Count_7, Count_8, Count_9, Count_10, Count_11, Count_12,
             Count_13, Count_14, Count_15, Count_16, Count_17, Count_18, Count_19, Count_20,
             Count_21, Count_22, Count_23, Count_24, Count_25, Count_26, Count_27, Count_28, Count_29, Count_30,
             Count_31, Count_32, Count_33, Count_34, Count_35, Count_36, Count_37, Count_38, Count_39, Count_40, Count_41,
@@ -134,9 +137,10 @@ namespace ModernCalculator
                 {
                     Sum_Lbls_Total();
                 }
-            }
-            //Sum_Lbls_Total();
+            }*/
+            
         }
+
         private void TB_1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.F2)
@@ -461,6 +465,7 @@ namespace ModernCalculator
             {
                 double.TryParse(TB_1.Text, out Count_1);
                 Sum_Lbl_1.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_1.Text), 2));
+                Sum_Lbls_Total();
             }
         }
 
@@ -470,6 +475,7 @@ namespace ModernCalculator
             {
                 double.TryParse(TB_2.Text, out Count_2);
                 Sum_Lbl_2.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_2.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_3_TextChanged(object sender, EventArgs e)
@@ -478,6 +484,7 @@ namespace ModernCalculator
             {
                 double.TryParse(TB_3.Text, out Count_3);
                 Sum_Lbl_3.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_3.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_4_TextChanged(object sender, EventArgs e)
@@ -486,6 +493,7 @@ namespace ModernCalculator
             {
                 double.TryParse(TB_4.Text, out Count_4);
                 Sum_Lbl_4.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_4.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_5_TextChanged(object sender, EventArgs e)
@@ -494,6 +502,7 @@ namespace ModernCalculator
             {
                 double.TryParse(TB_5.Text, out Count_5);
                 Sum_Lbl_5.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_5.Text), 2));
+                Sum_Lbls_Total();
             }
         }
 
@@ -501,250 +510,423 @@ namespace ModernCalculator
 
         private void TB_6_TextChanged(object sender, EventArgs e)
         {
-            if (TB_5.Text != " ")
+            if (TB_6.Text != " ")
             {
                 double.TryParse(TB_6.Text, out Count_6);
                 Sum_Lbl_6.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_6.Text), 2));
+                Sum_Lbls_Total();
             }
         }
+
         
+
         private void TB_7_TextChanged(object sender, EventArgs e)
         {
-            if (TB_5.Text != " ")
+            if (TB_7.Text != " ")
             {
                 double.TryParse(TB_7.Text, out Count_7);
                 Sum_Lbl_7.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_7.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_8_TextChanged(object sender, EventArgs e)
         {
-            if (TB_5.Text != " ")
+            if (TB_8.Text != " ")
             {
                 double.TryParse(TB_8.Text, out Count_8);
                 Sum_Lbl_8.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_8.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_9_TextChanged(object sender, EventArgs e)
         {
-            if (TB_5.Text != " ")
+            if (TB_9.Text != " ")
             {
                 double.TryParse(TB_9.Text, out Count_9);
                 Sum_Lbl_9.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_9.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_10_TextChanged(object sender, EventArgs e)
         {
-            if (TB_5.Text != " ")
+            if (TB_10.Text != " ")
             {
                 double.TryParse(TB_10.Text, out Count_10);
                 Sum_Lbl_10.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_10.Text), 2));
+                Sum_Lbls_Total();
             }
         }
         private void TB_11_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_11.Text, out Count_11);
-            Sum_Lbl_11.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_11.Text), 2));
+            if (TB_11.Text != " ")
+            {
+                double.TryParse(TB_11.Text, out Count_11);
+                Sum_Lbl_11.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_11.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_12_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_12.Text, out Count_12);
-            Sum_Lbl_12.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_12.Text), 2));
+            if (TB_12.Text != " ")
+            {
+                double.TryParse(TB_12.Text, out Count_12);
+                Sum_Lbl_12.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_12.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_13_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_13.Text, out Count_13);
-            Sum_Lbl_13.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_13.Text), 2));
+            if (TB_13.Text != " ")
+            {
+                double.TryParse(TB_13.Text, out Count_13);
+                Sum_Lbl_13.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_13.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_14_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_14.Text, out Count_14);
-            Sum_Lbl_14.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_14.Text), 2));
+            if (TB_14.Text != " ")
+            {
+                double.TryParse(TB_14.Text, out Count_14);
+                Sum_Lbl_14.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_14.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_15_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_15.Text, out Count_15);
-            Sum_Lbl_15.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_15.Text), 2));
+            if (TB_15.Text != " ")
+            {
+                double.TryParse(TB_15.Text, out Count_15);
+                Sum_Lbl_15.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_15.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_16_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_16.Text, out Count_16);
-            Sum_Lbl_16.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_16.Text), 2));
+            if (TB_16.Text != " ")
+            {
+                double.TryParse(TB_16.Text, out Count_16);
+                Sum_Lbl_16.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_16.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_17_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_17.Text, out Count_17);
-            Sum_Lbl_17.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_17.Text), 2));
+            if (TB_17.Text != " ")
+            {
+                double.TryParse(TB_17.Text, out Count_17);
+                Sum_Lbl_17.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_17.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_18_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_18.Text, out Count_18);
-            Sum_Lbl_18.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_18.Text), 2));
+            if (TB_18.Text != " ")
+            { 
+                double.TryParse(TB_18.Text, out Count_18);
+                Sum_Lbl_18.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_18.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_19_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_19.Text, out Count_19);
-            Sum_Lbl_19.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_19.Text), 2));
+            if (TB_19.Text != " ")
+            {
+                double.TryParse(TB_19.Text, out Count_19);
+                Sum_Lbl_19.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_19.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_20_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_20.Text, out Count_20);
-            Sum_Lbl_20.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_20.Text), 2));
+            if (TB_20.Text != " ")
+            {
+                double.TryParse(TB_20.Text, out Count_20);
+                Sum_Lbl_20.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_20.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
+        
         private void TB_21_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_21.Text, out Count_21);
-            Sum_Lbl_21.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_21.Text), 2));
+            if (TB_21.Text != " ")
+            {
+                double.TryParse(TB_21.Text, out Count_21);
+                Sum_Lbl_21.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_21.Text), 2));
+                Sum_Lbls_Total();
+            }
+            
+    
         }
         private void TB_22_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_22.Text, out Count_22);
-            Sum_Lbl_22.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_22.Text), 2));
+            if (TB_22.Text != " ")
+            {
+                double.TryParse(TB_22.Text, out Count_22);
+                Sum_Lbl_22.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_22.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_23_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_23.Text, out Count_23);
-            Sum_Lbl_23.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_23.Text), 2));
+            if (TB_23.Text != " ")
+            {
+                double.TryParse(TB_23.Text, out Count_23);
+                Sum_Lbl_23.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_23.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_24_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_24.Text, out Count_24);
-            Sum_Lbl_24.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_24.Text), 2));
+            if (TB_24.Text != " ")
+            {
+                double.TryParse(TB_24.Text, out Count_24);
+                Sum_Lbl_24.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_24.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_25_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_25.Text, out Count_25);
-            Sum_Lbl_25.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_25.Text), 2));
+            if (TB_25.Text != " ")
+            {
+                double.TryParse(TB_25.Text, out Count_25);
+                Sum_Lbl_25.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_25.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_26_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_26.Text, out Count_26);
-            Sum_Lbl_26.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_26.Text), 2));
+            if (TB_26.Text != " ")
+            {
+                double.TryParse(TB_26.Text, out Count_26);
+                Sum_Lbl_26.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_26.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_27_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_27.Text, out Count_27);
-            Sum_Lbl_27.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_27.Text), 2));
+            if (TB_27.Text != " ")
+            {
+                double.TryParse(TB_27.Text, out Count_27);
+                Sum_Lbl_27.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_27.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_28_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_28.Text, out Count_28);
-            Sum_Lbl_28.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_28.Text), 2));
+            if (TB_28.Text != " ")
+            {
+                double.TryParse(TB_28.Text, out Count_28);
+                Sum_Lbl_28.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_28.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_29_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_29.Text, out Count_29);
-            Sum_Lbl_29.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_29.Text), 2));
+            if (TB_29.Text != " ")
+            {
+                double.TryParse(TB_29.Text, out Count_29);
+                Sum_Lbl_29.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_29.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_30_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_30.Text, out Count_30);
-            Sum_Lbl_30.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_30.Text), 2));
+            if (TB_30.Text != " ")
+            {
+                double.TryParse(TB_30.Text, out Count_30);
+                Sum_Lbl_30.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_30.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_31_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_31.Text, out Count_31);
-            Sum_Lbl_31.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_31.Text), 2));
+            if (TB_31.Text != " ")
+            {
+                double.TryParse(TB_31.Text, out Count_31);
+                Sum_Lbl_31.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_31.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_32_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_32.Text, out Count_32);
-            Sum_Lbl_32.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_32.Text), 2));
+            if (TB_32.Text != " ")
+            {
+                double.TryParse(TB_32.Text, out Count_32);
+                Sum_Lbl_32.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_32.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_33_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_33.Text, out Count_33);
-            Sum_Lbl_33.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_33.Text), 2));
+            if (TB_33.Text != " ")
+            {
+                double.TryParse(TB_33.Text, out Count_33);
+                Sum_Lbl_33.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_33.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_34_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_34.Text, out Count_34);
-            Sum_Lbl_34.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_34.Text), 2));
+            if (TB_34.Text != " ")
+            {
+                double.TryParse(TB_34.Text, out Count_34);
+                Sum_Lbl_34.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_34.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_35_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_35.Text, out Count_35);
-            Sum_Lbl_35.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_35.Text), 2));
+            if (TB_35.Text != " ")
+            {
+                double.TryParse(TB_35.Text, out Count_35);
+                Sum_Lbl_35.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_35.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_36_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_36.Text, out Count_36);
-            Sum_Lbl_36.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_36.Text), 2));
+            if (TB_36.Text != " ")
+            {
+                double.TryParse(TB_36.Text, out Count_36);
+                Sum_Lbl_36.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_36.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_37_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_37.Text, out Count_37);
-            Sum_Lbl_37.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_37.Text), 2));
+            if (TB_37.Text != " ")
+            {
+                double.TryParse(TB_37.Text, out Count_37);
+                Sum_Lbl_37.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_37.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_38_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_38.Text, out Count_38);
-            Sum_Lbl_38.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_38.Text), 2));
+            if (TB_38.Text != " ")
+            {
+                double.TryParse(TB_38.Text, out Count_38);
+                Sum_Lbl_38.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_38.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_39_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_39.Text, out Count_39);
-            Sum_Lbl_39.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_39.Text), 2));
+            if (TB_39.Text != " ")
+            {
+                double.TryParse(TB_39.Text, out Count_39);
+                Sum_Lbl_39.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_39.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_40_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_40.Text, out Count_40);
-            Sum_Lbl_40.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_40.Text), 2));
+            if (TB_40.Text != " ")
+            {
+                double.TryParse(TB_40.Text, out Count_40);
+                Sum_Lbl_40.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_40.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_41_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_41.Text, out Count_41);
-            Sum_Lbl_41.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_41.Text), 2));
+            if (TB_41.Text != " ")
+            {
+                double.TryParse(TB_41.Text, out Count_41);
+                Sum_Lbl_41.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_41.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_42_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_42.Text, out Count_42);
-            Sum_Lbl_42.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_42.Text), 2));
+            if (TB_42.Text != " ")
+            {
+                double.TryParse(TB_42.Text, out Count_42);
+                Sum_Lbl_42.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_42.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_43_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_43.Text, out Count_43);
-            Sum_Lbl_43.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_43.Text), 2));
+            if (TB_43.Text != " ")
+            {
+                double.TryParse(TB_43.Text, out Count_43);
+                Sum_Lbl_43.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_43.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_44_TextChanged(object sender, EventArgs e)
-        { 
-            double.TryParse(TB_44.Text, out Count_44);
-            Sum_Lbl_44.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_44.Text), 2));
+        {
+            if (TB_44.Text != " ")
+            {
+                double.TryParse(TB_44.Text, out Count_44);
+                Sum_Lbl_44.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_44.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
         private void TB_45_TextChanged(object sender, EventArgs e)
         {
-            double.TryParse(TB_45.Text, out Count_45);
-            Sum_Lbl_45.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_45.Text), 2));
+            if (TB_45.Text != " ")
+            {
+                double.TryParse(TB_45.Text, out Count_45);
+                Sum_Lbl_45.Text = Convert.ToString(Math.Round(Count_1 * Convert.ToDouble(Price_Lbl_45.Text), 2));
+                Sum_Lbls_Total();
+            }
         }
 
         //---------------------------------------------------------------------------------------------------------
         private void Sum_Lbls_Total()
         {
-            double.TryParse(Sum_Lbl_Total.Text, out Count_Total);
+            
+                double.TryParse(Sum_Lbl_Total.Text, out Count_Total);
 
-            Count_Total = (Math.Round(Convert.ToDouble(Sum_Lbl_1.Text) + Convert.ToDouble(Sum_Lbl_1.Text) 
-                + Convert.ToDouble(Sum_Lbl_1.Text) + Convert.ToDouble(Sum_Lbl_2.Text) + Convert.ToDouble(Sum_Lbl_3.Text)
-                + Convert.ToDouble(Sum_Lbl_4.Text) + Convert.ToDouble(Sum_Lbl_5.Text) + Convert.ToDouble(Sum_Lbl_6.Text) 
-                + Convert.ToDouble(Sum_Lbl_7.Text) + Convert.ToDouble(Sum_Lbl_8.Text) + Convert.ToDouble(Sum_Lbl_9.Text) 
-                + Convert.ToDouble(Sum_Lbl_10.Text) + Convert.ToDouble(Sum_Lbl_11.Text) + Convert.ToDouble(Sum_Lbl_12.Text) 
-                + Convert.ToDouble(Sum_Lbl_13.Text) + Convert.ToDouble(Sum_Lbl_14.Text) + Convert.ToDouble(Sum_Lbl_15.Text) 
-                + Convert.ToDouble(Sum_Lbl_16.Text) + Convert.ToDouble(Sum_Lbl_17.Text) + Convert.ToDouble(Sum_Lbl_18.Text) 
-                + Convert.ToDouble(Sum_Lbl_19.Text) + Convert.ToDouble(Sum_Lbl_20.Text) + Convert.ToDouble(Sum_Lbl_21.Text) 
-                + Convert.ToDouble(Sum_Lbl_22.Text) + Convert.ToDouble(Sum_Lbl_23.Text) + Convert.ToDouble(Sum_Lbl_24.Text) 
-                + Convert.ToDouble(Sum_Lbl_25.Text) + Convert.ToDouble(Sum_Lbl_26.Text) + Convert.ToDouble(Sum_Lbl_27.Text) 
-                + Convert.ToDouble(Sum_Lbl_28.Text) + Convert.ToDouble(Sum_Lbl_29.Text) + Convert.ToDouble(Sum_Lbl_30.Text) 
-                + Convert.ToDouble(Sum_Lbl_31.Text) + Convert.ToDouble(Sum_Lbl_32.Text) + Convert.ToDouble(Sum_Lbl_33.Text) 
-                + Convert.ToDouble(Sum_Lbl_34.Text) + Convert.ToDouble(Sum_Lbl_35.Text) + Convert.ToDouble(Sum_Lbl_36.Text)
-                + Convert.ToDouble(Sum_Lbl_37.Text) + Convert.ToDouble(Sum_Lbl_38.Text) + Convert.ToDouble(Sum_Lbl_39.Text)
-                + Convert.ToDouble(Sum_Lbl_40.Text) + Convert.ToDouble(Sum_Lbl_41.Text) + Convert.ToDouble(Sum_Lbl_42.Text)
-                + Convert.ToDouble(Sum_Lbl_43.Text) + Convert.ToDouble(Sum_Lbl_44.Text) + Convert.ToDouble(Sum_Lbl_45.Text), 2));
+                Count_Total = (Math.Round(Convert.ToDouble(Sum_Lbl_1.Text) + Convert.ToDouble(Sum_Lbl_1.Text)
+                    + Convert.ToDouble(Sum_Lbl_1.Text) + Convert.ToDouble(Sum_Lbl_2.Text) + Convert.ToDouble(Sum_Lbl_3.Text)
+                    + Convert.ToDouble(Sum_Lbl_4.Text) + Convert.ToDouble(Sum_Lbl_5.Text) + Convert.ToDouble(Sum_Lbl_6.Text)
+                    + Convert.ToDouble(Sum_Lbl_7.Text) + Convert.ToDouble(Sum_Lbl_8.Text) + Convert.ToDouble(Sum_Lbl_9.Text)
+                    + Convert.ToDouble(Sum_Lbl_10.Text) + Convert.ToDouble(Sum_Lbl_11.Text) + Convert.ToDouble(Sum_Lbl_12.Text)
+                    + Convert.ToDouble(Sum_Lbl_13.Text) + Convert.ToDouble(Sum_Lbl_14.Text) + Convert.ToDouble(Sum_Lbl_15.Text)
+                    + Convert.ToDouble(Sum_Lbl_16.Text) + Convert.ToDouble(Sum_Lbl_17.Text) + Convert.ToDouble(Sum_Lbl_18.Text)
+                    + Convert.ToDouble(Sum_Lbl_19.Text) + Convert.ToDouble(Sum_Lbl_20.Text) + Convert.ToDouble(Sum_Lbl_21.Text)
+                    + Convert.ToDouble(Sum_Lbl_22.Text) + Convert.ToDouble(Sum_Lbl_23.Text) + Convert.ToDouble(Sum_Lbl_24.Text)
+                    + Convert.ToDouble(Sum_Lbl_25.Text) + Convert.ToDouble(Sum_Lbl_26.Text) + Convert.ToDouble(Sum_Lbl_27.Text)
+                    + Convert.ToDouble(Sum_Lbl_28.Text) + Convert.ToDouble(Sum_Lbl_29.Text) + Convert.ToDouble(Sum_Lbl_30.Text)
+                    + Convert.ToDouble(Sum_Lbl_31.Text) + Convert.ToDouble(Sum_Lbl_32.Text) + Convert.ToDouble(Sum_Lbl_33.Text)
+                    + Convert.ToDouble(Sum_Lbl_34.Text) + Convert.ToDouble(Sum_Lbl_35.Text) + Convert.ToDouble(Sum_Lbl_36.Text)
+                    + Convert.ToDouble(Sum_Lbl_37.Text) + Convert.ToDouble(Sum_Lbl_38.Text) + Convert.ToDouble(Sum_Lbl_39.Text)
+                    + Convert.ToDouble(Sum_Lbl_40.Text) + Convert.ToDouble(Sum_Lbl_41.Text) + Convert.ToDouble(Sum_Lbl_42.Text)
+                    + Convert.ToDouble(Sum_Lbl_43.Text) + Convert.ToDouble(Sum_Lbl_44.Text) + Convert.ToDouble(Sum_Lbl_45.Text), 2));
 
-            Sum_Lbl_Total.Text = Convert.ToString(Count_Total);
-
+                Sum_Lbl_Total.Text = Convert.ToString(Count_Total);
+            
         }
-        private void button1_Click(object sender, EventArgs e)
+        //--------------------------------------------------------------------------------------------------------------
+        /*private void radioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            // приводим отправителя к элементу типа RadioButton
+            RadioButton radioButton = (RadioButton)sender;
+            if (radioButton.Checked)
+            {
+                Sum_Lbls_Total();
+            }
+        }
+        private void checkBox_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox checkBox = (CheckBox)sender; // приводим отправителя к элементу типа CheckBox
+            while (checkBox.Checked == true)
+            {
+                Sum_Lbls_Total();
+            }
+        }
+        private void TotalSumButton_CheckedChanged(object sender, EventArgs e)
         {
             Sum_Lbls_Total();
         }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Sum_Lbls_Total();
+        }*/
         //------------------------------------------------------------------------------------------------------------
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
