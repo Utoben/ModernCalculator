@@ -30,7 +30,7 @@ namespace ModernCalculator
         double El_Weld_Pipe_Text_1, El_Weld_Pipe_Text_2, El_Weld_Pipe_Text_3;
         double Rect_Steel_Pipe_Text_1, Rect_Steel_Pipe_Text_2, Rect_Steel_Pipe_Text_3, Rect_Steel_Pipe_Text_4, Rect_Steel_Pipe_Text_5, Rect_Steel_Pipe_Text_6, Rect_Steel_Pipe_Text_7, Rect_Steel_Pipe_Text_8, Rect_Steel_Pipe_Text_9, Rect_Steel_Pipe_Text_10, Rect_Steel_Pipe_Text_11, Rect_Steel_Pipe_Text_12, Rect_Steel_Pipe_Text_13, Rect_Steel_Pipe_Text_14, Rect_Steel_Pipe_Text_15, Rect_Steel_Pipe_Text_16, Rect_Steel_Pipe_Text_17, Rect_Steel_Pipe_Text_18, Rect_Steel_Pipe_Text_19, Rect_Steel_Pipe_Text_20, Rect_Steel_Pipe_Text_21;
         double totalWeightSumResult;
-
+        string connectionString = "Data Source=test_db.db;Version=3;";
 
         public KaztemirContractForm()
         {
@@ -264,6 +264,8 @@ namespace ModernCalculator
             Rect_Steel_Pipe_TB_21.TextChanged +=Rect_Steel_Pipe_TB_21_TextChanged;
 
         }
+        
+
         private void Arm10TB_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
             if (e.KeyCode == Keys.Up || e.KeyCode == Keys.Down) 
@@ -2489,11 +2491,35 @@ namespace ModernCalculator
             ad.ShowDialog();
             
         }
-
-        private void KaztemirContract_FormClosing(object sender, FormClosingEventArgs e)
+        private void KaztemirContract_FormClosing(object sender, EventArgs e)
         {
-            GlobalData.CaptionFromKaztemirForm = OrderTB.Text;
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+
+                string insertQuery = "INSERT INTO Casting_Totals (kaztemir_customer) VALUES (@kaztemir_customer)";
+                using (var command = new SQLiteCommand(insertQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@kaztemir_customer", OrderTB.Text);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+
+                string updateQuery = "UPDATE Casting_Totals SET kaztemir_customer = @kaztemir_customer WHERE Id = 1";
+                using (var command = new SQLiteCommand(updateQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@kaztemir_customer", OrderTB.Text);
+                    command.ExecuteNonQuery();
+                }
+            }
+            //GlobalData.CaptionFromKaztemirForm = OrderTB.Text;
         }
+       
 
         /* private void RezultButton_Click(object sender, EventArgs e)
          { 

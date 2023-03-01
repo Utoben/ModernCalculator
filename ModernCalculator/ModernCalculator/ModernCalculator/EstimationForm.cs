@@ -29,27 +29,54 @@ namespace ModernCalculator
             {
                 connection.Open();
 
-                string selectQuery = "SELECT Casting_Summ_Total FROM Casting_Totals";
+                string selectQuery = "SELECT summ_total, kaztemir_customer FROM Casting_Totals";
                 using (var command = new SQLiteCommand(selectQuery, connection))
                 {
                     using (var reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
+                            
                             Casting_TB.Text = reader.GetString(0);
+                            Customer_TB.Text = reader.GetString(1);
                         }
                         else
                         {
-                            Casting_TB.Text = "999";
+                            Casting_TB.Text = "0";
+                            Customer_TB.Text = "";
                         }
                     }
                 }
+                /*string selectQuery2 = "SELECT  kaztemir_customer FROM Casting_Totals";
+                using (var command = new SQLiteCommand(selectQuery2, connection))
+                {
+                    using (var reader = command.ExecuteReader())
+                    {
+                        object value = reader.GetValue(0);
+
+                        if (reader.Read())
+                        {
+                            if (value != null && value != DBNull.Value)
+                            {
+                                Customer_TB.Text = value.ToString();
+                            }
+                            else
+                            {
+                                Customer_TB.Text = "";
+                            }
+                        }
+                        else
+                        {
+                            Customer_TB.Text = "";
+                        }
+                    }
+                }*/
             }
             ToolTip t = new ToolTip();
             t.SetToolTip(Customer_TB, "Заказчик из Казтемир");
             var cst = new CastingForm();
             //cst.TotalSumText += Casting_TB.Text;
-            Customer_TB.Text = GlobalData.CaptionFromKaztemirForm;
+            //Customer_TB.Text = GlobalData.CaptionFromKaztemirForm;
             //Casting_TB.Text = GlobalData.SummFromCastingForm;
             Additional_materials_TB.Text = GlobalData.SummFromAdditionalMaterialsForm;
 
@@ -59,18 +86,18 @@ namespace ModernCalculator
         {
             InitializeComponent();
 
-            Customer_TB.TextChanged += Customer_TB_TextChanged;
+            Overheads_Expences_TotalWeight_TB.TextChanged += Overheads_Expences_TotalWeight_TB_TextChanged;
             Transaction_Salary_TB.TextChanged += Transaction_Salary_TB_TextChanged;
             Banner_Printing_Count_TB.TextChanged += Banner_Printing_Count_TB_TextChanged;
             //Transaction_Salary_TB.TextChanged += Transaction_Salary_TB_TextChanged;
             
         }
-        private void Customer_TB_TextChanged(object sender, EventArgs e)
+        private void Overheads_Expences_TotalWeight_TB_TextChanged(object sender, EventArgs e)
         {
-            if (Customer_TB.Text != " ")
+            if (Overheads_Expences_TotalWeight_TB.Text != " ")
             {
-                double.TryParse(Customer_TB.Text, out Customer);
-                Overheads_Expences_Total_TB.Text = Convert.ToString(Math.Round(Customer * Convert.ToDouble(Overheads_Expences_Const_Lbl.Text), 2));
+                double.TryParse(Overheads_Expences_TotalWeight_TB.Text, out Overheads_Expences_TotalWeight);
+                Overheads_Expences_Total_TB.Text = Convert.ToString(Math.Round(Overheads_Expences_TotalWeight * Convert.ToDouble(Overheads_Expences_Const_Lbl.Text), 2));
                 
             }
         }

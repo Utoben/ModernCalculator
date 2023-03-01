@@ -745,6 +745,7 @@ namespace ModernCalculator
             est.TotalCastingText += Sum_Lbl_Total.Text;
 
             //EstimationForm.Casting_TB.Text += Sum_Lbl_Total.Text;
+           
 
 
 
@@ -813,6 +814,32 @@ namespace ModernCalculator
         }
         private void Casting_FormClosing(object sender, FormClosingEventArgs e)
         {
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+
+                string insertQuery = "INSERT INTO Casting_Totals (summ_total) VALUES (@summ_total)";
+                using (var command = new SQLiteCommand(insertQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@summ_total", Sum_Lbl_Total.Text);
+                    //command.Parameters.AddWithValue("@age", 30);
+                    command.ExecuteNonQuery();
+                }
+            }
+
+            using (var connection = new SQLiteConnection(connectionString))
+            {
+                connection.Open();
+
+                string updateQuery = "UPDATE Casting_Totals SET summ_total = @summ_total WHERE Id = 1";
+                using (var command = new SQLiteCommand(updateQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@summ_total", Sum_Lbl_Total.Text);
+                    command.Parameters.AddWithValue("@id", 1);
+                    command.ExecuteNonQuery();
+                }
+            }
+
             /*using (SqlConnection connection = new SqlConnection("Data Source=serverName;Initial Catalog=databaseName;Integrated Security=True"))
             {
                 string sql = "INSERT INTO FormValues (TextValue) VALUES (@TextValue)";
@@ -836,7 +863,7 @@ namespace ModernCalculator
                {
                    command.ExecuteNonQuery();
                }
-           }*/
+           }
 
             using (var connection = new SQLiteConnection(connectionString))
             {
@@ -849,8 +876,8 @@ namespace ModernCalculator
                     //command.Parameters.AddWithValue("@age", 30);
                     command.ExecuteNonQuery();
                 }
-            }
-            
+            }*/
+
         }
         private void Casting_FormLoad(object sender, EventArgs e)
         {
@@ -865,6 +892,7 @@ namespace ModernCalculator
                     Sum_Lbl_Total.Text = reader.GetString(0);
                 }
             }*/
+            
             using (var connection = new SQLiteConnection(connectionString))
             {
                 connection.Open();
